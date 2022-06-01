@@ -70,15 +70,15 @@ app.listen(8000, function () {
 */
 
 // GZIP WITH HTTP2
-const spdy = require("spdy");
 var path = require("path");
 const express = require("express");
-const fs = require("fs");
 const compression = require("compression");
-const { promisify } = require("util");
-const readFile = promisify(fs.readFile);
 const app = express();
 app.use(compression());
+// const spdy = require("spdy");
+// const fs = require("fs");
+// const { promisify } = require("util");
+// const readFile = promisify(fs.readFile);
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/", function (req, res) {
   res.send("pong");
@@ -87,18 +87,17 @@ app.get("/", function (req, res) {
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
-spdy
-  .createServer(
-    {
-      key: fs.readFileSync("./server.key"),
-      cert: fs.readFileSync("./server.crt"),
-    },
-    app
-  )
-  .listen(8000, function (err) {
-    if (err) {
-      throw new Error(err);
-    }
-    console.log("Listening on port https://localhost:8000");
-  });
-  
+// spdy
+//   .createServer(
+//     {
+//       key: fs.readFileSync("./server.key"),
+//       cert: fs.readFileSync("./server.crt"),
+//     },
+//     app
+//   )
+app.listen(8000, function (err) {
+  if (err) {
+    throw new Error(err);
+  }
+  console.log("Listening on port http://localhost:8000");
+});
