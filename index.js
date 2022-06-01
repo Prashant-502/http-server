@@ -75,6 +75,7 @@ const express = require("express");
 const compression = require("compression");
 const app = express();
 app.use(compression());
+const port = process.env.PORT || 3000;
 // const spdy = require("spdy");
 // const fs = require("fs");
 // const { promisify } = require("util");
@@ -95,7 +96,7 @@ app.get("/*", function (req, res) {
 //     },
 //     app
 //   )
-app.listen(8000, function (err) {
+app.listen(port, function (err) {
   if (err) {
     throw new Error(err);
   }
