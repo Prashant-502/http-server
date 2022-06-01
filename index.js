@@ -100,5 +100,5 @@ app.listen(port, function (err) {
   if (err) {
     throw new Error(err);
   }
-  console.log("Listening on port http://localhost:8000");
+  console.log("Listening on port http://localhost:" + port);
 });
