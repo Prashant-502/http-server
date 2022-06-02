@@ -72,9 +72,9 @@ app.listen(8000, function () {
 // GZIP WITH HTTP
 var path = require("path");
 const express = require("express");
-const compression = require("compression");
+// const compression = require("compression");
 const app = express();
-app.use(compression());
+// app.use(compression());
 const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/", function (req, res) {
