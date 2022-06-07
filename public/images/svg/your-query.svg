@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="444px" viewBox="0 0 33 444" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 53</title>
+    <defs>
+        <linearGradient x1="32.0911159%" y1="102.321703%" x2="32.0911159%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C4777D" offset="0%"></stop>
+            <stop stop-color="#9D1D27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customer-Care--Expanded" transform="translate(-80.000000, -746.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-53" transform="translate(96.500000, 968.000000) scale(-1, 1) translate(-96.500000, -968.000000) translate(80.000000, 746.000000)">
+                <polygon id="Rectangle-Copy-6" points="0 0 33 0 33 444 0 444"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

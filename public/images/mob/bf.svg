@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="33px" viewBox="0 0 32 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Quick-Link-Single-Card-Copy-4" transform="translate(-63.000000, -37.000000)">
+            <g id="Group" transform="translate(15.000000, 27.000000)">
+                <g id="Group-2" transform="translate(49.000000, 11.000000)">
+                    <g id="avatar-copy-7" stroke="#787878" stroke-width="2">
+                        <ellipse id="Path-2" cx="15" cy="15.5" rx="15" ry="15.5"></ellipse>
+                    </g>
+                    <path d="M12,9 L12,22 L21,14.8573797 L12,9 Z M14.0971878,12.7809976 L17.5280279,15.0141619 L14.0971878,17.7368277 L14.0971878,12.7809976 Z" id="Stroke-11" fill="#FFCB05"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

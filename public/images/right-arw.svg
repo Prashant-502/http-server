@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons /right</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Expanded-Footer" transform="translate(-1173.000000, -2230.000000)" stroke="#787878" stroke-width="2">
+            <g id="Calculators" transform="translate(0.000000, 2021.000000)">
+                <g id="Group-41" transform="translate(957.000000, 180.000000)">
+                    <g id="icons-/right" transform="translate(212.000000, 27.000000)">
+                        <polyline id="Path" transform="translate(8.000000, 8.000000) scale(-1, 1) rotate(90.000000) translate(-8.000000, -8.000000) " points="13.3333333 5.33333333 8 10.6666667 2.66666667 5.33333333"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

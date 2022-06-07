@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 50</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-/close" fill-rule="nonzero">
+            <g id="Group-50" transform="translate(0.646447, 0.878680)">
+                <path d="M14,2.97487373 L8,2.97487373 L8,23.0114645 L11,26.5114645 L14,23.0114645 L14,2.97487373 Z M11.9995534,4.97432034 L11.9995534,22.2713203 L10.9995534,23.4383203 L9.99955339,22.2713203 L9.99955339,4.97432034 L11.9995534,4.97432034 Z" id="Path-2" fill="#787878" transform="translate(11.000000, 14.743169) rotate(-315.000000) translate(-11.000000, -14.743169) "></path>
+                <polygon id="Rectangle" fill="#FFCB05" transform="translate(21.646447, 4.000000) rotate(45.000000) translate(-21.646447, -4.000000) " points="24.6464466 2 18.6464466 2 18.6464466 6 24.6464466 6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

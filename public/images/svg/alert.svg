@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / alert</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Error---Result" transform="translate(-281.000000, -94.000000)">
+            <g id="icons-/-alert" transform="translate(279.000000, 92.000000)">
+                <circle id="Oval" fill="#D10000" cx="12" cy="12" r="10"></circle>
+                <path d="M11.4802632,16 L11,8.47794118 L11,5 L13,5 L13,8.47794118 L12.5263158,16 L11.4802632,16 Z M11,19 L11,17 L13,17 L13,19 L11,19 Z" id="!" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

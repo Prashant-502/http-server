@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons /close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Signature" transform="translate(-131.000000, -850.000000)" stroke="#787878" stroke-width="2">
+            <g id="Feature-Point" transform="translate(113.000000, 830.000000)">
+                <g id="icons-/close" transform="translate(18.000000, 18.000000)">
+                    <path d="M17,6 L24,6 M20.5,2.5 L20.5,9.5" id="Line-3"></path>
+                    <path d="M19,21 L18.1818182,16.1428571 L12.4545455,13.7142857 L12.4545455,12.0952381 L14.0909091,10.4761905 L14.0909091,8.04761905 C14.0909091,6.0795758 12.4545455,4 9.97476232,4 C7.49497918,4 5.90909091,5.96293716 5.90909091,7.93098041 L5.90909091,10.4761905 L7.54545455,12.0952381 L7.54545455,13.7142857 L1.81818182,16.1428571 L1,21" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

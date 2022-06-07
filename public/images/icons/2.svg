@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="29px" viewBox="0 0 30 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / ATM</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-DOC-Menu" transform="translate(-576.000000, -283.000000)" stroke-width="2">
+            <g id="Quick-Link-Card-with-Description-Copy-8" transform="translate(552.000000, 251.000000)">
+                <g id="Group-2" transform="translate(23.000000, 18.000000)">
+                    <g id="icons-/-ATM" transform="translate(0.000000, 12.000000)">
+                        <polyline id="Stroke-2" stroke="#787878" points="26.6666022 3.54544728 2.66660224 3.54544728 2.66660224 7.54544728"></polyline>
+                        <polygon id="Path" stroke="#787878" points="27.7284103 7.6969697 27.1649719 7.6969697 26.6015336 7.6969697 24.5971623 7.6969697 9.69910071 7.6969697 9.14748654 7.6969697 8.59605152 7.6969697 4.41263398 7.6969697 2.66660224 7.6969697 2.66660224 29.030303 29.3332689 29.030303 29.3332689 7.6969697"></polygon>
+                        <path d="M24,18.6666667 C23.2888889,18.6666667 22.6666667,18.0444444 22.6666667,17.3333333 C22.6666667,16.6222222 23.2888889,16 24,16 C24.7111111,16 25.3333333,16.6222222 25.3333333,17.3333333 C25.3333333,18.0444444 24.7111111,18.6666667 24,18.6666667 Z" id="Path" stroke="#FFCB05"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

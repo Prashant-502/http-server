@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <defs>
+        <linearGradient x1="0.532670455%" y1="26.2648553%" x2="132.022738%" y2="92.9963526%" id="linearGradient-1">
+            <stop stop-color="#FFDF66" offset="0%"></stop>
+            <stop stop-color="#BA5B03" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.532670455%" y1="26.2648553%" x2="132.022738%" y2="92.9963526%" id="linearGradient-2">
+            <stop stop-color="#9D1D27" offset="0%"></stop>
+            <stop stop-color="#9D1D27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="light-version" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen-size_-1366" transform="translate(-1027.000000, -170.000000)" fill="url(#linearGradient-2)">
+            <g id="Group-9" transform="translate(1008.000000, 147.000000)">
+                <g id="Icons/24/Add-Copy-50" transform="translate(19.000000, 23.000000)">
+                    <path d="M21,11.6666667 L21,2.33333333 C21,1.05 19.95,0 18.6666667,0 L2.33333333,0 C1.05,0 0,1.05 0,2.33333333 L0,11.6666667 C0,12.95 1.05,14 2.33333333,14 L18.6666667,14 C19.95,14 21,12.95 21,11.6666667 Z M19,12 L2,12 L2,2 L19,2 L19,12 Z M10.5,3 C8.56333333,3 7,4.56333333 7,6.5 C7,8.43666667 8.56333333,10 10.5,10 C12.4366667,10 14,8.43666667 14,6.5 C14,4.56333333 12.4366667,3 10.5,3 Z M26,3 L26,15.6923077 C26,16.9615385 24.9105263,18 23.5789474,18 L3,18 C3,16.8461538 3,16.9615385 3,15.6923077 L23.5789474,15.6923077 L23.5789474,3 C24.9105263,3 24.7894737,3 26,3 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="62px" viewBox="0 0 86 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / ATM</title>
+    <g id="News-&amp;-Media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="news&amp;media_desktop_04_01-copy-3" transform="translate(-930.000000, -1017.000000)" stroke-width="2">
+            <g id="icons-/-ATM" transform="translate(928.000000, 1003.000000)">
+                <path d="M6.75,15 L63.9592645,15 C65.6161188,15 66.9592645,16.3431458 66.9592645,18 L66.9592645,33.0968958 L66.9592645,33.0968958 L86.25,24.3749381 L86.25,65.0765422 L66.9592645,55.6564126 L66.9592645,72 C66.9592645,73.6568542 65.6161188,75 63.9592645,75 L6.75,75 C5.09314575,75 3.75,73.6568542 3.75,72 L3.75,18 C3.75,16.3431458 5.09314575,15 6.75,15 Z" id="Rectangle-2" stroke="#787878"></path>
+                <line x1="12.2661051" y1="61.8284435" x2="58.4035218" y2="61.8284435" id="Line-5" stroke="#FFCB05"></line>
+            </g>
+        </g>
+    </g>
+</svg>

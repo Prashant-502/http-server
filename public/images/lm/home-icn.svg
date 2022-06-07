@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Home</title>
+    <g id="Jan-Drop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Scenario-1A" transform="translate(-51.000000, -1100.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(0.000000, 1086.000000)">
+                <g id="Home" transform="translate(49.000000, 10.000000)">
+                    <path d="M9.00019251,21 C9.55237094,21 10,20.5490248 10,20.009222 L10,15 L14,15 L14,20.009222 C14,20.5564136 14.4437166,21 14.9998075,21 L18.0001925,21 C18.5523709,21 19,20.5469637 19,20.0029699 L19,13 L21.0010434,13 C21.5527519,13 21.6672821,12.7005539 21.2565445,12.33089 L12.7434555,4.66910998 C12.3328564,4.29957074 11.6672821,4.29944611 11.2565445,4.66910998 L2.74345553,12.33089 C2.33285638,12.7004293 2.44266033,13 2.99895656,13 L5,13 L5,20.0029699 C5,20.5536144 5.44371665,21 5.99980749,21 L9.00019251,21 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

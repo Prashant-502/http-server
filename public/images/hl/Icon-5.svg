@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / 5</title>
+    <g id="icons-/-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#787878" fill-rule="nonzero" transform="translate(42.250000, 16.368718) scale(-1, 1) rotate(90.000000) translate(-42.250000, -16.368718) " points="46.4016152 12.1187184 48.8812816 14.6039998 42.3812816 21.1187184 35.8812816 14.6039998 38.360948 12.1187184 42.3812816 16.1467736"></polygon>
+        <polygon id="Path-Copy-2" fill="#787878" fill-rule="nonzero" transform="translate(42.250000, 40.868718) scale(-1, 1) rotate(90.000000) translate(-42.250000, -40.868718) " points="45.9016152 36.6187184 48.3812816 39.1039998 41.8812816 45.6187184 35.3812816 39.1039998 37.860948 36.6187184 41.8812816 40.6467736"></polygon>
+        <polygon id="Path-Copy" fill="#9C1D26" fill-rule="nonzero" transform="translate(33.500000, 28.618718) scale(-1, 1) rotate(90.000000) translate(-33.500000, -28.618718) " points="37.4016152 24.1187184 39.8812816 26.6039998 33.3812816 33.1187184 26.8812816 26.6039998 29.360948 24.1187184 33.3812816 28.1467736"></polygon>
+        <path d="M23.0292779,13.9707221 C34.4488272,13.9707221 43.7394652,23.0666526 44.0226282,34.3943047 L44.0292779,34.9268968 L44.0292779,41.9697136 L40.5292779,41.9707221 L40.5292779,34.9268968 C40.5292779,25.2820837 32.6942611,17.4634179 23.0292779,17.4634179 C13.5281081,17.4634179 5.79539743,25.0192903 5.53600108,34.4380856 L5.52927793,34.9268968 L5.52927793,40.1659405 L2.02927793,40.1659405 L2.02927793,34.9268968 C2.02927793,23.3531211 11.4312982,13.9707221 23.0292779,13.9707221 Z" id="Oval" fill="#787878" fill-rule="nonzero" transform="translate(23.029278, 28.000000) rotate(-90.000000) translate(-23.029278, -28.000000) "></path>
+        <polygon id="Line-4-Copy" fill="#9C1D26" fill-rule="nonzero" points="35 26 35 30 16 30 16 26"></polygon>
+        <polygon id="Line-4-Copy-2" fill="#787878" fill-rule="nonzero" points="44 38 44 42 25 42 25 38"></polygon>
+        <polygon id="Line-4" fill="#787878" fill-rule="nonzero" points="44 14 44 18 25 18 25 14"></polygon>
+    </g>
+</svg>

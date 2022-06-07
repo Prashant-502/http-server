@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="238px" height="268px" viewBox="0 0 238 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>“</title>
+    <defs>
+        <linearGradient x1="50%" y1="28.9710319%" x2="50%" y2="84.0692166%" id="linearGradient-1">
+            <stop stop-color="#D6D6D6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="CC-Application" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sequence-2-(Card-Option)" transform="translate(-94.000000, -679.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(94.000000, 678.000000)">
+                <g id="Group-7" transform="translate(0.000000, 1.000000)">
+                    <path d="M227,318.206468 L227,88.778607 L141,88.778607 C141,37.9054726 173,7.9800995 238,1.13686838e-13 C238,1.13686838e-13 64,1.21930327 63.4520448,1.21930327 C62,1.21930327 0,51.3103229 0,135.661692 L0,318.206468 L227,318.206468 Z" id="“"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

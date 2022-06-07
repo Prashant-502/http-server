@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 59</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.627451 0 0 0 0 0.141176 0 0 0 0 0.180392 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-59" transform="translate(-295.000000, -1233.000000)" filter="url(#filter-1)">
+            <g transform="translate(306.500000, 1245.253048) rotate(-45.000000) translate(-306.500000, -1245.253048) translate(299.000000, 1238.253048)">
+                <line x1="0.0198365518" y1="6.90380592" x2="12.6177309" y2="6.90380592" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+                <polyline id="Path-4" stroke="#979797" stroke-width="2" points="7.98528137 0.964466094 9.05635598 1.92893489 14.9852814 7.26774463 8.95338198 13.9446338"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / alert</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="19" transform="translate(-743.000000, -759.000000)">
+            <g id="Group-7" transform="translate(521.000000, 758.000000)">
+                <g id="icons-/-alert" transform="translate(222.000000, 1.000000)">
+                    <circle id="Oval" stroke="#787878" stroke-width="2" cx="8" cy="8" r="6.66666667"></circle>
+                    <path d="M7.33333333,5.33333333 L7.33333333,4 L8.66666667,4 L8.66666667,5.33333333 L7.33333333,5.33333333 Z M7.33333333,12 L7.33333333,6.66666667 L8.66666667,6.66666667 L8.66666667,12 L7.33333333,12 Z" id="i" fill="#787878" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

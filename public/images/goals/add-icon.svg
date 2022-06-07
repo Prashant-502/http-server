@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Bitmap</title>
+    <defs>
+        <path d="M5,0 L90,0 L90,0 L90,90 L5,90 C2.23857625,90 3.38176876e-16,87.7614237 0,85 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.0_Goals_Desktop" transform="translate(-241.000000, -1074.000000)">
+            <g id="Group-15" transform="translate(241.000000, 821.000000)">
+                <g id="Bitmap" transform="translate(0.000000, 253.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F3F2F2" xlink:href="#path-1"></use>
+                    <text id="+" mask="url(#mask-2)" font-family="Roboto-Light, Roboto" font-size="36" font-weight="300" letter-spacing="-0.3375" fill="#54565B">
+                        <tspan x="33" y="55">+</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

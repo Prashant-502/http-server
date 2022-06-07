@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / alert</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Default" transform="translate(-891.000000, -1604.000000)" stroke="#787878" stroke-width="2">
+            <g id="Group-52" transform="translate(871.000000, 1584.000000)">
+                <g id="icons-/-play" transform="translate(21.000000, 21.000000)">
+                    <path d="M17,1.38614075e-14 C26.3888407,1.38614075e-14 34,7.58453732 34,16.9405383 C34,26.2965392 26.3888407,33.8810765 17,33.8810765 C7.61115925,33.8810765 0,26.2965392 0,16.9405383 C0,7.58453732 7.61115925,1.38614075e-14 17,1.38614075e-14 Z M15.1111111,11.2936922 L15.1111111,22.5873843 L22.6666667,16.3822647 L15.1111111,11.2936922 Z" id="Path-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

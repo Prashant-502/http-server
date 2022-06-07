@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_546" data-name="Rectangle 546" width="56" height="56" transform="translate(718 308)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c9ff3"/>
+      <stop offset="1" stop-color="#25499b"/>
+    </linearGradient>
+  </defs>
+  <g id="Personal_loan" data-name="Personal loan" transform="translate(-718 -308)" clip-path="url(#clip-path)">
+    <g id="Group_1317" data-name="Group 1317" transform="translate(-138.992 -2744.016)">
+      <g id="noun_Home_1560059" transform="translate(853 3044.004)">
+        <g id="Group_1308" data-name="Group 1308" transform="translate(10.992 19.012)">
+          <path id="Path_665" data-name="Path 665" d="M32.08,971.378a.653.653,0,0,0-.271.085L11.2,987.734a.549.549,0,1,0,.678.865l20.272-16,20.272,16a.58.58,0,0,0,.78-.085.572.572,0,0,0-.1-.78L32.486,971.463A.654.654,0,0,0,32.08,971.378ZM18.045,984.971l-1.085.847v18.628a.542.542,0,0,0,.542.542h9.221a.542.542,0,0,0,.542-.542V994.141h9.763v10.305a.542.542,0,0,0,.542.542h9.221a.542.542,0,0,0,.542-.542V985.819l-1.085-.847V1003.9H38.114V993.6a.542.542,0,0,0-.542-.542H26.723a.542.542,0,0,0-.542.542V1003.9H18.045Z" transform="translate(-10.992 -971.374)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

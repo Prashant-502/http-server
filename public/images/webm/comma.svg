@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="284px" viewBox="0 0 168 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>“</title>
+    <defs>
+        <linearGradient x1="50%" y1="6.89645687%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B85B62" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.217959449">
+        <g id="Website-Migration_Desktop" transform="translate(-64.000000, -2956.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(64.000000, 2956.000000)">
+                <path d="M160.235294,284 L160.235294,121.512438 L99.5294118,121.512438 C99.5294118,85.4825871 122.117647,64.2885572 168,58.6368159 L155.294118,0 C63.5294118,4.23880597 0,42.3880597 0,154.716418 L0,284 L160.235294,284 Z" id="“"></path>
+            </g>
+        </g>
+    </g>
+</svg>

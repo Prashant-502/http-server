@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="55px" viewBox="0 0 42 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / ATM</title>
+    <g id="News-&amp;-Media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="news&amp;media_desktop_01-copy-3" transform="translate(-750.000000, -957.000000)" stroke-width="2">
+            <g id="Group-22" transform="translate(115.000000, 874.000000)">
+                <g id="Group-5" transform="translate(353.000000, 44.000000)">
+                    <g id="Group" transform="translate(1.000000, 0.000000)">
+                        <g id="Quick-Link-Single-Card-Copy" transform="translate(211.243678, 0.000000)">
+                            <g id="Group" transform="translate(30.175632, 37.562973)">
+                                <g transform="translate(31.621517, 0.000000)" id="icons-/-ATM">
+                                    <path d="M14.5405058,33.9278469 C11.3092823,29.6955413 9.69367053,25.656512 9.69367053,21.8107587 C9.69367053,11.1034259 18.3736788,2.42341763 29.0810116,2.42341763 C39.7883444,2.42341763 48.4683527,11.1034259 48.4683527,21.8107587 C48.4683527,25.656512 46.8527409,29.6955413 43.6215174,33.9278469 L29.0810116,54.6634544 L14.5405058,33.9278469 Z" id="Path" stroke="#787878"></path>
+                                    <rect id="Rectangle" stroke="#FFCB05" x="26.657594" y="19.3873411" width="4.84683527" height="4.84683527"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

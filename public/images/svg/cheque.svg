@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.776518, 0.774059)" fill-rule="nonzero">
+            <path d="M23.6841935,12.0962431 L20.4566715,0 L0,5.50226962 L3.22752205,17.5985128 L23.6841935,12.0962431 Z M19.0404821,2.45094084 L21.2374821,10.6829408 L4.6434821,15.1459408 L2.4464821,6.91494084 L19.0404821,2.45094084 Z" id="Path-2" fill="#787878"></path>
+            <polygon id="Path" fill="#FFCB05" transform="translate(17.723482, 8.475941) rotate(-15.000000) translate(-17.723482, -8.475941) " points="19.2215887 9.67917591 19.2248175 7.20208899 16.2253755 7.27270576 16.2221467 9.74979269"></polygon>
+            <polygon id="Path-Copy" fill="#FFCB05" transform="translate(9.392563, 7.808280) rotate(-15.000000) translate(-9.392563, -7.808280) " points="14.3772514 9.03184353 14.4030763 6.55530217 4.40787474 6.58471718 4.38204983 9.06125854"></polygon>
+            <polygon id="Path-Copy-2" fill="#FFCB05" transform="translate(8.223482, 11.475941) rotate(-15.000000) translate(-8.223482, -11.475941) " points="11.2158279 12.6965741 11.2287405 10.2200067 5.23113625 10.2553076 5.21822366 12.7318749"></polygon>
+        </g>
+    </g>
+</svg>

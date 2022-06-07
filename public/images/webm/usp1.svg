@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="43px" viewBox="0 0 28 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website-Migration_Desktop" transform="translate(-235.000000, -1374.000000)">
+            <g id="Group-48" transform="translate(113.000000, 1249.000000)">
+                <g id="Group-39" transform="translate(122.000000, 122.000000)">
+                    <g id="Group-19" transform="translate(0.000000, 3.000000)">
+                        <path d="M22.75,0 L5.25,0 C2.35050506,0 0,2.40646947 0,5.375 L0,37.625 C0,40.5935305 2.35050506,43 5.25,43 L22.75,43 C25.6494949,43 28,40.5935305 28,37.625 L28,5.375 C28,2.40646947 25.6494949,0 22.75,0 Z M4.03846154,2.24717514 L23.7820513,2.24717514 C24.8724596,2.24717514 25.7564103,3.11187265 25.7564103,4.17853107 L25.7564103,38.9429379 C25.7564103,40.0095963 24.8724596,40.8742938 23.7820513,40.8742938 L4.03846154,40.8742938 C2.94805319,40.8742938 2.06410256,40.0095963 2.06410256,38.9429379 L2.06410256,4.17853107 C2.06410256,3.11187265 2.94805319,2.24717514 4.03846154,2.24717514 Z" id="Rectangle" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <line x1="13" y1="37" x2="16" y2="37" id="Line-5" stroke="#FFFFFF" stroke-width="2"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

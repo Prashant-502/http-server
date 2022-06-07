@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="36px" viewBox="0 0 158 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 46</title>
+    <defs>
+        <linearGradient x1="12.2286261%" y1="48.2592198%" x2="77.057701%" y2="51.6108786%" id="linearGradient-1">
+            <stop stop-color="#C4777D" offset="0%"></stop>
+            <stop stop-color="#9D1D27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="17" transform="translate(-473.000000, -257.000000)">
+            <g id="Group-46" transform="translate(473.000000, 257.000000)">
+                <g id="Group-5">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="158" height="36" rx="18"></rect>
+                    <g id="Group-41" transform="translate(45.000000, 3.000000)" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-weight="bold" line-spacing="20">
+                        <text id="FIRSTSafe" font-size="16">
+                            <tspan x="0" y="21">FIRSTSafe</tspan>
+                        </text>
+                        <text id="TM" font-size="8">
+                            <tspan x="79" y="7">TM</tspan>
+                        </text>
+                    </g>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="18" cy="18" r="16"></circle>
+                <path d="M18,28.9706622 C17.2073853,28.6364431 16.6140524,28.3461925 16.2200011,28.0999105 C15.2398841,27.4873374 14.25994,26.7768779 13.3414954,25.9732389 C10.6457597,23.6144701 9,20.9401106 9,17.9706622 L9,9.97066216 C15.0555304,7.96402716 18.1363756,6.97397966 18.2425356,7.00051966 L27,9.97066216 L27,17.9706622 C27,20.9401106 25.3542403,23.6144701 22.6585046,25.9732389 C21.74006,26.7768779 20.7601159,27.4873374 19.7799989,28.0999105 C19.3859476,28.3461925 18.7926147,28.6364431 18,28.9706622 Z" id="Path" fill="#FFCB05"></path>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2" points="23.6666667 14 15.8888889 21 12 17.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

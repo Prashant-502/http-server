@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / help</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="17" transform="translate(-503.000000, -437.000000)">
+            <g id="Group-34" transform="translate(473.000000, 337.000000)">
+                <g id="icons-/-help" transform="translate(29.000000, 99.000000)">
+                    <circle id="Oval" stroke="#787878" stroke-width="1.33333333" cx="10.5" cy="10.5" r="8.75"></circle>
+                    <path d="M9.625,7 L9.625,5.25 L11.375,5.25 L11.375,7 L9.625,7 Z M9.625,15.75 L9.625,8.75 L11.375,8.75 L11.375,15.75 L9.625,15.75 Z" id="i" fill="#787878" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="318px" viewBox="0 0 88 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>!</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.344243881%" x2="50%" y2="110.164598%" id="linearGradient-1">
+            <stop stop-color="#FFDF03" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.188237544" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wealth" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.144304142">
+        <g id="Wealth-Homepage" transform="translate(-244.000000, -1512.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M321.837662,1706 L331,1512 L248,1512 L257.162338,1706 L321.837662,1706 Z M287.863777,1830 C301.122807,1830 311.793602,1826.14645 319.876161,1818.43934 C327.95872,1810.73224 332,1800.96393 332,1789.13443 C332,1777.12568 327.95872,1767.26776 319.876161,1759.56066 C311.793602,1751.85355 301.122807,1748 287.863777,1748 C274.786378,1748 264.206398,1751.89836 256.123839,1759.69508 C248.04128,1767.4918 244,1777.30492 244,1789.13443 C244,1800.96393 248.04128,1810.73224 256.123839,1818.43934 C264.206398,1826.14645 274.786378,1830 287.863777,1830 Z" id="!"></path>
+        </g>
+    </g>
+</svg>

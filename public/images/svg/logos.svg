@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Annoucements-2-Expanded01" transform="translate(-1282.000000, -83.000000)">
+            <g id="Group-53" transform="translate(1035.000000, 83.000000)">
+                <g id="Logo" transform="translate(247.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#9D1D27" x="0" y="0" width="32" height="32"></rect>
+                    <g id="znak" transform="translate(5.189189, 5.189189)" fill="#FEFEFE">
+                        <path d="M1.55366795,1.55278544 L19.9920574,1.55278544 L19.9920574,19.9938224 L1.55278544,19.9938224 L1.55366795,1.55278544 Z M21.5444015,0.000441257584 L0.000441257584,9.21785171e-15 L9.21785171e-15,21.5466078 L21.5444015,21.5466078 L21.5444015,0.000441257584 Z" id="Fill-2"></path>
+                        <polygon id="Fill-3" points="3.59073359 7.18204082 17.953668 7.18204082 17.953668 3.5910866 3.59073359 3.5910866"></polygon>
+                        <polygon id="Fill-4" points="3.59073359 17.9553447 7.18124655 17.9553447 7.18124655 14.3643905 3.59073359 14.3643905"></polygon>
+                        <polygon id="Fill-5" points="3.59073359 12.5684721 12.5544402 12.5684721 12.5544402 8.96648649 3.59073359 8.96648649"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

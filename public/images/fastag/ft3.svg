@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="27px" viewBox="0 0 31 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / alert copy 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FASTag-Landing" transform="translate(-1123.000000, -1413.000000)" stroke="#787878">
+            <g id="Group-48" transform="translate(83.000000, 1266.000000)">
+                <g id="icons-/-alert-copy-3" transform="translate(1040.000000, 145.000000)">
+                    <polygon id="Path-2" stroke-width="2" points="26.406504 6.78830588 25.8829508 6.78880532 25.3593975 6.78930476 23.4969131 6.79108147 9.65346655 6.8042874 9.14090045 6.80477636 8.62850082 6.80526516 4.74122214 6.80897342 3.11878978 6.81052114 3.10224329 24.2131167 27.8812102 24.1894789 27.8977567 6.7868833"></polygon>
+                    <path d="M6.4363271,14.7469971 L12.8946604,14.6270283 L6.4363271,14.7469971 Z" id="Path-Copy" stroke-width="1.5" transform="translate(9.665494, 14.687013) rotate(-15.000000) translate(-9.665494, -14.687013) "></path>
+                    <path d="M7.77200624,18.956305 L11.6470062,18.8363363 L7.77200624,18.956305 Z" id="Path-Copy-2" stroke-width="1.5" transform="translate(9.709506, 18.896321) rotate(-15.000000) translate(-9.709506, -18.896321) "></path>
+                    <path d="M23.6805556,19.375 L23.25,16.7916667 L20.2361111,15.5 L20.2361111,14.6388889 L21.0972222,13.7777778 L21.0972222,12.4861111 C21.0972222,11.4393822 20.2361111,10.3333333 18.9311635,10.3333333 C17.6262159,10.3333333 16.7916667,11.3773465 16.7916667,12.4240754 L16.7916667,13.7777778 L17.6527778,14.6388889 L17.6527778,15.5 L14.6388889,16.7916667 L14.2083333,19.375" id="Shape" stroke-width="1.25" transform="translate(18.944444, 14.854167) rotate(-16.000000) translate(-18.944444, -14.854167) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="48px" viewBox="0 0 31 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 27</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website-Migration_Desktop" transform="translate(-559.000000, -826.000000)" stroke-width="2">
+            <g id="Group-2" transform="translate(115.000000, 746.000000)">
+                <g id="Group-50" transform="translate(395.702529, 81.000000)">
+                    <g id="Group-27" transform="translate(49.297471, 0.000000)">
+                        <path d="M4.14285714,0 L24.8571429,0 C27.1451797,0 29,1.87226377 29,4.18181818 L29,41.8181818 C29,44.1277362 27.1451797,46 24.8571429,46 L4.14285714,46 C1.85482032,46 0,44.1277362 0,41.8181818 L0,4.18181818 C0,1.87226377 1.85482032,0 4.14285714,0 Z" id="Rectangle" stroke="#9D1D27"></path>
+                        <g id="Group-3" transform="translate(6.000000, 12.000000)" stroke="#9D1D27">
+                            <path d="M9,0.705889466 L9,15.2010873 M0,17.5813953 L18,17.5813953" id="Path-2"></path>
+                            <polyline id="Path" points="14 10 9 15 4 10"></polyline>
+                        </g>
+                        <line x1="13" y1="41" x2="17" y2="41" id="Line-5" stroke="#9C1D26"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

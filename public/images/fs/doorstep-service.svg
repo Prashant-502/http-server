@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_544" data-name="Rectangle 544" width="56" height="56" transform="translate(718 308)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c9ff3"/>
+      <stop offset="1" stop-color="#25499b"/>
+    </linearGradient>
+  </defs>
+  <g id="Doorstep_service" data-name="Doorstep service" transform="translate(-718 -308)" clip-path="url(#clip-path)">
+    <g id="Group_1478" data-name="Group 1478" transform="translate(13780 2005.721)">
+      <path id="Path_805" data-name="Path 805" d="M51.843,13.63H34.284a.574.574,0,0,0-.574.574V45.493a.574.574,0,0,0,.574.574H51.843a.574.574,0,0,0,.574-.574V14.2A.574.574,0,0,0,51.843,13.63Zm-.574,31.289H34.858V14.778H51.269Z" transform="translate(-13077.695 -1704.434)" fill="url(#linear-gradient)"/>
+      <path id="Path_806" data-name="Path 806" d="M54.082,52.85a.648.648,0,0,0-.092-.149l-1.86-2.148V48.3h0a.5.5,0,0,0-.034-.184h0a.689.689,0,0,0-.086-.138L50.43,46.08V9.124a.574.574,0,0,0-.574-.574H26.641a.574.574,0,0,0-.574.574v36.91l-1.579,1.895a.689.689,0,0,0-.086.138h0a.5.5,0,0,0-.034.184h0v2.228l-1.86,2.148a.649.649,0,0,0-.092.149.419.419,0,0,0-.034.172h0v2.3a.574.574,0,0,0,.574.574H53.548a.574.574,0,0,0,.574-.574V53.023h0A.419.419,0,0,0,54.082,52.85ZM27.215,9.7h22.05V45.673H27.215Zm-.3,37.123H49.569l.729.9H26.181ZM25.5,48.871H50.975V50.2H25.5Zm-.345,2.475H51.32l.97,1.148h-28.1Zm27.815,3.4H23.505V53.6H52.974Z" transform="translate(-13072.38 -1702.271)" fill="url(#linear-gradient)"/>
+      <path id="Path_807" data-name="Path 807" d="M40.926,40.62c1.028,0,1.832-1.057,1.832-2.4s-.8-2.4-1.832-2.4S39.1,36.877,39.1,38.22,39.9,40.62,40.926,40.62Zm0-3.652c.322,0,.683.534.683,1.252s-.362,1.252-.683,1.252-.678-.534-.678-1.252S40.6,36.968,40.926,36.968Z" transform="translate(-13079.99 -1720.882)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

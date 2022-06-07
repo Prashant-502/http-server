@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="26px" viewBox="0 0 20 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/24/notification@3x</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Homepage_Default-MVP" transform="translate(-1331.000000, -80.000000)">
+            <g id="Group-7" transform="translate(0.000000, 67.000000)">
+                <g id="Icons/24/notification" transform="translate(1331.166667, 13.500000)">
+                    <path d="M9.33333333,25.25 C10.6166667,25.25 11.6666667,24.2 11.6666667,22.9166667 L7,22.9166667 C7,24.2 8.03833333,25.25 9.33333333,25.25 L9.33333333,25.25 Z M16.3333333,18.25 L16.3333333,12.4166667 C16.3333333,8.835 14.42,5.83666667 11.0833333,5.04333333 L11.0833333,4.25 C11.0833333,3.28166667 10.3016667,2.5 9.33333333,2.5 C8.365,2.5 7.58333333,3.28166667 7.58333333,4.25 L7.58333333,5.04333333 C4.235,5.83666667 2.33333333,8.82333333 2.33333333,12.4166667 L2.33333333,18.25 L1.13686838e-13,20.5833333 L1.13686838e-13,21.75 L18.6666667,21.75 L18.6666667,20.5833333 L16.3333333,18.25 L16.3333333,18.25 Z" id="Mask" fill="#9B1E26"></path>
+                    <circle id="Oval" fill="#FFDF66" cx="14.3333333" cy="5" r="5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

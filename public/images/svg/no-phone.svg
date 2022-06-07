@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="34px" viewBox="0 0 30 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-Request_NDNC" transform="translate(-945.000000, -496.000000)" stroke="#787878" stroke-width="2">
+            <g id="Group-4" transform="translate(113.000000, 443.000000)">
+                <g id="Group-8" transform="translate(780.000000, 0.000000)">
+                    <g id="Group-10" transform="translate(24.000000, 25.000000)">
+                        <g id="Group-2" transform="translate(28.000000, 29.000000)">
+                            <line x1="28.9669161" y1="0" x2="1.2277857" y2="28" id="Path-4"></line>
+                            <path d="M8.85714286,0 L23.1428571,0 C24.7208136,0 26,1.30244436 26,2.90909091 L26,29.0909091 C26,30.6975556 24.7208136,32 23.1428571,32 L8.85714286,32 C7.27918643,32 6,30.6975556 6,29.0909091 L6,2.90909091 C6,1.30244436 7.27918643,0 8.85714286,0 Z" id="Rectangle"></path>
+                            <line x1="14" y1="28.5" x2="17" y2="28.5" id="Line-5"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

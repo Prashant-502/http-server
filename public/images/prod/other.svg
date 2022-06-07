@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 20</title>
+    <defs>
+        <linearGradient x1="12.2286261%" y1="16.4684893%" x2="77.057701%" y2="81.0293007%" id="linearGradient-1">
+            <stop stop-color="#C4777D" offset="0%"></stop>
+            <stop stop-color="#9D1D27" offset="100%"></stop>
+        </linearGradient>
+        <path d="M33.3333333,16.6666667 C35.1111111,16.6666667 36.6666667,18.2222222 36.6666667,20 C36.6666667,21.7777778 35.1111111,23.3333333 33.3333333,23.3333333 C31.5555556,23.3333333 30,21.7777778 30,20 C30,18.2222222 31.5555556,16.6666667 33.3333333,16.6666667 Z M20,16.6666667 C21.7777778,16.6666667 23.3333333,18.2222222 23.3333333,20 C23.3333333,21.7777778 21.7777778,23.3333333 20,23.3333333 C18.2222222,23.3333333 16.6666667,21.7777778 16.6666667,20 C16.6666667,18.2222222 18.2222222,16.6666667 20,16.6666667 Z M6.66666667,16.6666667 C8.44444444,16.6666667 10,18.2222222 10,20 C10,21.7777778 8.44444444,23.3333333 6.66666667,23.3333333 C4.88888889,23.3333333 3.33333333,21.7777778 3.33333333,20 C3.33333333,18.2222222 4.88888889,16.6666667 6.66666667,16.6666667 Z" id="path-2"></path>
+        <filter x="-10.5%" y="-37.5%" width="121.0%" height="205.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.22 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Cosumer-Durable-Loan-Application" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CDL1" transform="translate(-1050.000000, -476.000000)">
+            <g id="Group-20" transform="translate(1050.000000, 476.000000)">
+                <circle id="Oval-Copy-10" fill="url(#linearGradient-1)" cx="50" cy="50" r="50"></circle>
+                <g id="Mask" transform="translate(30.000000, 30.000000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

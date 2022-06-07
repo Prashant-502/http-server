@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_18/Purchase Limit Copy 2@1.5x</title>
+    <defs>
+        <linearGradient x1="16.8855067%" y1="0.478525153%" x2="83.4710744%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFDF66" offset="0%"></stop>
+            <stop stop-color="#BA5B03" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mobile-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-602.000000, -422.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-4" transform="translate(185.000000, 137.000000)">
+                <g id="Group-10" transform="translate(383.000000, 96.000000)">
+                    <g id="Group-19-Copy" transform="translate(22.000000, 179.500000)">
+                        <g id="ic_18/Purchase-Limit-Copy-2" transform="translate(8.000000, 7.500000)">
+                            <path d="M12,2.66666667 L4.36363636,6.06060606 L4.36363636,11.1515152 C4.36363636,15.8606061 7.62181818,20.2642424 12,21.3333333 C16.3781818,20.2642424 19.6363636,15.8606061 19.6363636,11.1515152 L19.6363636,6.06060606 L12,2.66666667 Z M17.9393939,11.1515152 C17.9393939,14.9866667 15.4109091,18.5248485 12,19.5769697 C8.58909091,18.5248485 6.06060606,14.9866667 6.06060606,11.1515152 L6.06060606,7.16363636 L12,4.52484848 L17.9393939,7.16363636 L17.9393939,11.1515152 Z M8.10545455,11.6521212 L6.90909091,12.8484848 L10.3030303,16.2424242 L17.0909091,9.45454545 L15.8945455,8.24969697 L10.3030303,13.8412121 L8.10545455,11.6521212 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

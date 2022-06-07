@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.343" height="45.154" viewBox="0 0 55.343 45.154">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: rgba(0,0,0,0);
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.335" x2="1.071" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6ae0a"/>
+      <stop offset="1" stop-color="#876500"/>
+    </linearGradient>
+  </defs>
+  <g id="noun_loan_1324793" transform="translate(0.5 -5.5)">
+    <path id="Path_362" data-name="Path 362" class="cls-1" d="M50.946,36.246c-1,0-3.334,1.143-11.239,5.095h-.768a3.41,3.41,0,0,0,.12-.849,3.4,3.4,0,0,0-3.4-3.4H26.485l-8.491-3.4H11.887a1.7,1.7,0,0,0-1.7-1.7H0v1.7H10.189v18.68H5.095V35.4H3.4V52.379H0v1.7H10.189a1.7,1.7,0,0,0,1.7-1.7v-3.4h3.259L30.43,54.077H34.21l.208-.131C50.558,43.752,50.558,43.752,53.095,42.07a2.768,2.768,0,0,0,1.248-2.428A3.215,3.215,0,0,0,50.946,36.246Zm1.211,4.409c-2.51,1.664-2.523,1.672-18.438,11.724H30.705L15.421,47.284H11.887V35.4h5.781l8.491,3.4h9.5a1.7,1.7,0,0,1,0,3.4h-9.34a3.4,3.4,0,0,0-3.4,3.4h1.7a1.7,1.7,0,0,1,1.7-1.7h9.34a3.357,3.357,0,0,0,2.224-.849h2.222l.179-.089c5.759-2.88,9.922-4.961,10.659-5.005a1.557,1.557,0,0,1,1.7,1.7A1.09,1.09,0,0,1,52.157,40.654Z" transform="translate(0 -3.923)"/>
+    <rect id="Rectangle_222" data-name="Rectangle 222" class="cls-1" width="1.698" height="1.698" transform="translate(6.793 43.361)"/>
+    <rect id="Rectangle_223" data-name="Rectangle 223" class="cls-1" width="1.698" height="1.698" transform="translate(6.793 39.964)"/>
+    <path id="Path_363" data-name="Path 363" class="cls-1" d="M36.793,33.586A6.793,6.793,0,1,0,30,26.793,6.8,6.8,0,0,0,36.793,33.586Zm0-11.887A5.095,5.095,0,1,1,31.7,26.793,5.1,5.1,0,0,1,36.793,21.7Z" transform="translate(-4.527 -2.113)"/>
+    <path id="Path_364" data-name="Path 364" class="cls-1" d="M37.4,30.793A3.4,3.4,0,1,0,34,27.4,3.4,3.4,0,0,0,37.4,30.793Zm0-5.095a1.7,1.7,0,1,1-1.7,1.7A1.7,1.7,0,0,1,37.4,25.7Z" transform="translate(-5.13 -2.716)"/>
+    <rect id="Rectangle_224" data-name="Rectangle 224" class="cls-1" width="1.698" height="5.095" transform="translate(31.417 6)"/>
+    <rect id="Rectangle_225" data-name="Rectangle 225" class="cls-1" width="1.698" height="5.095" transform="translate(34.813 8.547)"/>
+    <rect id="Rectangle_226" data-name="Rectangle 226" class="cls-1" width="1.698" height="3.396" transform="translate(28.02 12.793)"/>
+    <rect id="Rectangle_227" data-name="Rectangle 227" class="cls-1" width="1.698" height="1.698" transform="translate(28.02 9.396)"/>
+  </g>
+</svg>

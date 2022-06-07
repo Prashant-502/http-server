@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wealth-VKYC_Desktop" transform="translate(-926.000000, -382.000000)" stroke-width="2">
+            <g id="Group" transform="translate(0.000000, 144.000000)">
+                <g id="Group-3" transform="translate(896.000000, 205.000000)">
+                    <g id="Group-6" transform="translate(31.000000, 34.000000)">
+                        <path d="M9,21.9706622 C8.20738534,21.6364431 7.61405236,21.3461925 7.22000106,21.0999105 C6.2398841,20.4873374 5.25994003,19.7768779 4.34149539,18.9732389 C1.64575967,16.6144701 0,13.9401106 0,10.9706622 L0,2.97066216 C6.05553042,0.964027159 9.13637563,-0.026020341 9.24253563,0.000519658854 L18,2.97066216 L18,10.9706622 C18,13.9401106 16.3542403,16.6144701 13.6585046,18.9732389 C12.74006,19.7768779 11.7601159,20.4873374 10.7799989,21.0999105 C10.3859476,21.3461925 9.79261466,21.6364431 9,21.9706622 Z" id="Path" stroke="#787878"></path>
+                        <polyline id="Path" stroke="#FFCB05" points="14 6.97066216 7.33333333 12.9706622 4 9.97066216"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="25px" viewBox="0 0 22 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons /close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="whatsapp_Banking_desktop" transform="translate(-130.000000, -436.000000)" stroke="#787878" stroke-width="2">
+            <g id="Group-18" transform="translate(106.000000, 414.000000)">
+                <g id="icons-/close" transform="translate(23.000000, 23.000000)">
+                    <path d="M10.0370276,2.19511821 C5.4541116,3.11925725 2,7.21651773 2,12.1311062 C2,17.7263617 6.4771525,22.2622124 12,22.2622124 L12,22.2622124 C17.5228475,22.2622124 22,17.7263617 22,12.1311062 C22,7.20181433 18.5251896,3.09474831 13.9218089,2.186909" id="Path-2"></path>
+                    <polyline id="Line" points="12 -0.156854249 12 12.1795942 17.9498496 7.92613491"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

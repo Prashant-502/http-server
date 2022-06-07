@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.123" height="28.7" viewBox="0 0 38.123 28.7">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #d6ae0a;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #d5d5d5;
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: square;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="snack" transform="translate(0.75 0.6)">
+    <path id="Path_114" data-name="Path 114" class="cls-1" d="M2,22l2.784-1.445a5.669,5.669,0,0,1,4.908,0l1.641.851a5.669,5.669,0,0,0,4.908,0l1.639-.851a5.669,5.669,0,0,1,4.908,0l1.639.851a5.669,5.669,0,0,0,4.908,0l1.639-.851a5.669,5.669,0,0,1,4.908,0L38.667,22" transform="translate(-2 -9.801)"/>
+    <path id="Path_115" data-name="Path 115" class="cls-2" d="M3,35H38.331v1.335c0,1.475-1.507,2.671-3.365,2.671H6.365C4.507,39.006,3,37.81,3,36.335Z" transform="translate(-2.332 -11.506)"/>
+    <path id="Path_116" data-name="Path 116" class="cls-2" d="M6.365,8h28.6c1.858,0,3.365,1.2,3.365,2.671v1.335H3V10.671C3,9.2,4.507,8,6.365,8Z" transform="translate(-2.332 -8)"/>
+    <line id="Line_36" data-name="Line 36" class="cls-3" x2="36.623" transform="translate(0 17.162)"/>
+  </g>
+</svg>
