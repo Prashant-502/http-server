@@ -156,10 +156,10 @@ $(document).ready(function() {
         dots: true,
         loop: true,
         margin: 15,
-        lazyLoad:true,
-        autoplay:true,
-        autoplayTimeout:2000,
-        autoplayHoverPause:true,
+        // lazyLoad:true,
+        // autoplay:true,
+        // autoplayTimeout:2000,
+        // autoplayHoverPause:true,
         navText: ["<span class='icon-Left'></span>", "<span class='icon-Right'></span>"],
         responsive: {
             0: {
