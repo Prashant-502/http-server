@@ -143,7 +143,7 @@ $(document).ready(function () {
 
     var expires = "expires=" + d.toUTCString();
 
-    document.cookie = cname + "=" + cvalue + ";" + expires;
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.example.com;path=/";
 
     console.log(document.cookie);
   }
