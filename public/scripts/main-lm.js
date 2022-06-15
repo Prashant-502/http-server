@@ -2,6 +2,14 @@
 // Polyfill for IE 11
 //////////////////////////////////////////
 
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-1FFPTQVPPY");
+
 if (typeof Object.assign != "function") {
   Object.assign = function (target) {
     "use strict";
