@@ -8,7 +8,7 @@ function gtag() {
 }
 gtag("js", new Date());
 
-gtag("config", "G-KD2F9D810C");
+gtag("config", "G-J2N3T2EQVY");
 
 if (typeof Object.assign != "function") {
   Object.assign = function (target) {
