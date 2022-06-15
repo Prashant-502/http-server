@@ -2,6 +2,7 @@
 // Polyfill for IE 11
 //////////////////////////////////////////
 
+// google tag manager start
 window.dataLayer = window.dataLayer || [];
 function gtag() {
   dataLayer.push(arguments);
@@ -9,6 +10,7 @@ function gtag() {
 gtag("js", new Date());
 
 gtag("config", "G-J2N3T2EQVY");
+// google tag manager end
 
 if (typeof Object.assign != "function") {
   Object.assign = function (target) {
