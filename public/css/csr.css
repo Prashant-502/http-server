@@ -1,0 +1,1747 @@
+.product-banner.csr figure {
+  background: url("../images/karma-hero-bg.jpg") repeat-x;
+  margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .product-banner.csr figure {
+    padding-top: 0px;
+    min-height: inherit;
+  }
+}
+
+.product-banner.csr .banner-ctnt.text-grey {
+  color: #616161;
+}
+
+.product-banner.csr .banner-ctnt.text-grey .hd1 {
+  color: #616161;
+}
+
+.product-banner.csr .banner-ctnt.text-grey .desc {
+  color: #616161;
+}
+
+.product-banner.csr .banner-form {
+  padding: 43px 50px 30px;
+  position: absolute;
+  bottom: 2%;
+  right: 20%;
+  width: 380px;
+}
+
+@media (max-width: 1440px) {
+  .product-banner.csr .banner-form {
+    right: 13%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .product-banner.csr .banner-form {
+    right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-banner.csr .banner-form {
+    position: static;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-banner.csr .banner-form {
+    position: static;
+  }
+}
+
+.product-banner.csr .banner-form .hd2 {
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .product-banner.csr .banner-form .hd2 {
+    font-size: 20px;
+  }
+}
+
+.product-banner.csr .banner-form .hd2~p {
+  margin-bottom: 0px;
+}
+
+.product-banner.csr .banner-form a {
+  color: #9D1D27;
+  font-weight: 600;
+}
+
+.product-banner.csr .banner-form .form-list {
+  margin-top: 0px;
+}
+
+@media (max-width: 1024px) {
+  .product-banner.csr .banner-form .form-list li {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .product-banner.csr .banner-form .form-label-group {
+    margin: 15px 0;
+  }
+}
+
+.product-banner.csr .banner-form select.normal-select-box {
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 15px 5px;
+  background: #ffffff url("../images/down.svg") no-repeat right center;
+  background-position: 97% center;
+  padding: 0.85rem 0.75rem;
+  border: 0;
+  border: 2px solid #d8d8d8;
+  border-radius: 0.25rem;
+  color: #787878;
+}
+
+.product-banner.csr .banner-form select.normal-select-box::-ms-expand {
+  display: none;
+}
+
+.product-banner.csr .banner-form select.normal-select-box.is-invalid {
+  border-color: #d10000;
+}
+
+@media (max-width: 767px) {
+  .product-banner.csr .banner-ctnt .row {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-banner.csr .banner-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .product-banner.csr .banner-wrapper figure img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-banner.csr .banner-wrapper figure img {
+    width: auto;
+    height: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-banner.csr .banner-wrapper figure img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.csr.only-text {
+  padding: 80px 0 50px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.benefits-list {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.benefits-list li span.num {
+  font-size: 64px;
+}
+
+.sec-animedh {
+  padding: 100px 0;
+  background: #f3f3f3;
+}
+
+@media (max-width: 768px) {
+  .sec-animedh {
+    padding: 60px 0;
+  }
+}
+
+.sec-animedh .container>.row::before {
+  content: "";
+  background: #FFFFFF;
+  width: 1000px;
+  height: 760px;
+  position: absolute;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.0695476);
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .sec-animedh .container>.row::before {
+    display: none;
+  }
+}
+
+.animedh-list {
+  padding: 40px;
+  height: 755px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+  .animedh-list {
+    height: auto;
+    overflow: inherit;
+    padding: 0px;
+  }
+}
+
+.animedh-list li.media {
+  background: #FFFFFF;
+  border: 1px solid #ebebeb;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 2px;
+  margin-top: 25px;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .animedh-list li.media {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .animedh-list li.media .mr-3 {
+    margin-right: 0px !important;
+  }
+}
+
+.animedh-list li.media:first-child {
+  margin-top: 0;
+}
+
+.animedh-list li.media.active {
+  cursor: auto;
+}
+
+.animedh-list li.media.active,
+.animedh-list li.media:hover {
+  border-bottom: solid 2px #9D1D27;
+  box-shadow: 12px 27px 38px rgba(0, 0, 0, 0.0871941);
+}
+
+.animedh-list li.media figure {
+  width: 200px;
+  margin-bottom: 0px;
+  padding: 28px 16px;
+  text-align: center;
+}
+
+.animedh-list li.media .media-body {
+  padding: 28px 35px;
+  border-left: solid 1px #e4e4e4;
+}
+
+@media (max-width: 1024px) {
+  .animedh-list li.media .media-body {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .animedh-list li.media .media-body {
+    border-left: 0px;
+  }
+}
+
+.animedh-list li.media .media-body h5 {
+  font-size: 24px;
+  color: #54565B;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.animedh-list li.media .media-body .numYr {
+  font-size: 16px;
+}
+
+.animedh-list li.media .media-body .title {
+  color: #b8b8b8;
+}
+
+.animedh-list li.media .media-body .btn-box {
+  margin-top: 25px;
+}
+
+.animedh-list.withImg li.media figure {
+  padding: 0px;
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  .animedh-list.withImg li.media figure {
+    width: 100%;
+  }
+
+  .animedh-list.withImg li.media figure img {
+    width: 100%;
+  }
+}
+
+.animedh-list.withImg li.media .media-body {
+  padding: 22px 35px;
+}
+
+.animedh-rd-cnt {
+  height: 90%;
+  margin: 10% 0;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .animedh-rd-cnt {
+    margin: 0;
+  }
+}
+
+.animedh-rd-cnt.active {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.animedh-rd-box {
+  min-height: 20px;
+  background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+  border-radius: 1px;
+  margin-top: 0;
+  color: #FFFFFF;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.animedh-rd-box::after {
+  content: "";
+  background: url("../images/svg/comma-karma.svg") no-repeat;
+  height: 270px;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+
+.animedh-rd-box .list-box {
+  padding: 20px;
+  text-align: left;
+}
+
+.animedh-rd-box .list-box ul.with-circle.op1 li {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.animedh-rd-box .desc {
+  padding: 90px 90px 8px;
+}
+
+@media (max-width: 1024px) {
+  .animedh-rd-box .desc {
+    padding: 60px 50px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .animedh-rd-box .desc {
+    padding: 60px 30px 0;
+  }
+}
+
+.animedh-rd-box .nameTtile strong {
+  display: block;
+}
+
+.animedh-rd-box .test-img {
+  margin-top: 30px;
+  margin-bottom: -15px;
+  position: relative;
+}
+
+.animedh-rd-box .test-img img {
+  border-radius: 50%;
+}
+
+.animedh-rd-box hr {
+  border-color: rgba(255, 255, 255, 0.23);
+  margin: 30px 0;
+  margin-top: 0px;
+}
+
+.animedh-rd-box .title {
+  font-size: 20px;
+  padding: 10px 0 35px;
+}
+
+.modal.csrModal .modal-dialog {
+  max-width: 800px;
+}
+
+.modal.csrModal .modal-dialog .modal-body {
+  padding: 0px;
+}
+
+.modal.csrModal .modal-dialog .modal-body .popup-close {
+  z-index: 1;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc {
+  text-align: center;
+  width: 100%;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc figure {
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .modal.csrModal .modal-dialog .modal-body .brand-desc figure img {
+    width: 100px;
+  }
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc figure.round-img-shadow {
+  margin-top: 60px;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc .info {
+  text-align: left;
+  padding: 0 40px;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc .info h5 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #54565B;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc .info .numYr {
+  font-size: 16px;
+}
+
+.modal.csrModal .modal-dialog .modal-body .brand-desc .info .title {
+  color: #b8b8b8;
+}
+
+.modal.csrModal .modal-dialog .modal-body .desc {
+  padding: 60px 30px 60px 60px;
+  border-left: solid 1px #b8b8b8;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .modal.csrModal .modal-dialog .modal-body .desc {
+    padding: 30px;
+  }
+}
+
+.modal.csrModal .modal-dialog .modal-body .desc .scrl {
+  height: 300px;
+  padding-right: 30px;
+  overflow-y: scroll;
+}
+
+.modal.csrModal.ppt .modal-dialog .modal-body {
+  padding: 30px 60px;
+}
+
+@media (max-width: 767px) {
+  .modal.csrModal.ppt .modal-dialog .modal-body {
+    padding: 0;
+  }
+}
+
+.modal.csrModal.ppt .modal-dialog .modal-body h3 {
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .modal.csrModal.ppt .modal-dialog .modal-body h3 {
+    margin-top: 60px;
+    font-size: 16px;
+  }
+}
+
+.single-carousel-ppt {
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .single-carousel-ppt {
+    margin: 10px 0 30px 0;
+  }
+}
+
+.banner2.csr-lets-make {
+  background: linear-gradient(222.72deg, #ffecee 7.31%, #c2b5b5 87.13%);
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .banner2.csr-lets-make .MT30 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner2.csr-lets-make {
+    color: #54565B;
+  }
+}
+
+.banner2.csr-lets-make h2 {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .banner2.csr-lets-make h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner2.csr-lets-make h2 {
+    color: #54565B;
+  }
+}
+
+.banner2.csr-lets-make figure {
+  margin-top: 0;
+}
+
+.banner2.csr-lets-make figure img {
+  height: 410px;
+  max-width: inherit;
+  margin-left: 10px;
+}
+
+@media (max-width: 1024px) {
+  .banner2.csr-lets-make figure img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner2.csr-lets-make figure img {
+    margin-left: -60px;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner2.csr-lets-make figure img {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner2.csr-lets-make .banner-wrapper .banner-ctnt .list-item {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner2.csr-lets-make.with-btn .banner-wrapper .banner-ctnt {
+    top: 10px;
+  }
+}
+
+.banner2.csr-lets-make.with-btn figure img {
+  height: 480px;
+}
+
+@media (max-width: 1024px) {
+  .banner2.csr-lets-make.with-btn figure img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner2.csr-lets-make.with-btn figure img {
+    height: auto;
+  }
+}
+
+.list-item.opt2 {
+  border-top: 0px;
+  position: relative;
+}
+
+.list-item.opt2::before {
+  position: absolute;
+  content: "";
+  height: 72%;
+  width: 3px;
+  left: 13px;
+  top: 28px;
+  z-index: -1;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+.list-item.opt2 li {
+  color: #54565B;
+}
+
+.list-item.opt2 li span {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+  height: 30px;
+  width: 30px;
+  -ms-flex: inherit;
+  flex: inherit;
+}
+
+.hd3N {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+  .csr-program.mk-left {
+    margin-bottom: 50px;
+  }
+}
+
+.csr-program .row {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.csr-program .media-list {
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+@media (max-width: 768px) {
+  .csr-program .media-list {
+    margin-bottom: -80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .csr-program .media-list {
+    margin-bottom: -110px;
+  }
+}
+
+.csr-program .media-list .card-media {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .csr-program .media-list .card-media {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .csr-program .media-list .card-media h4 {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+}
+
+.csr-program p.clr-grey,
+.csr-program .hero-from .form-list p.notes,
+.hero-from .form-list .csr-program p.notes {
+  color: #54565B;
+}
+
+.upcoming-evt {
+  margin-top: 70px;
+}
+
+.date-desc {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .date-desc {
+    padding: 20px 0px;
+  }
+}
+
+.date-desc h5 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.date-desc h4 {
+  margin-bottom: 30px;
+}
+
+.date-desc p {
+  color: #b8b8b8;
+}
+
+.date {
+  background: #F5F5F5;
+  padding: 30px;
+  text-align: center;
+}
+
+.date .day {
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.date .month {
+  font-size: 47px;
+  text-transform: uppercase;
+  line-height: 31px;
+  letter-spacing: 23px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .benefits-list {
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+.our-vision.csr-tb {
+  background: #f3f3f3;
+}
+
+.our-vision.csr-tb .nav.nav-list1 .nav-item {
+  width: 33%;
+  margin: 0 0 10px 0;
+}
+
+@media (max-width: 767px) {
+  .our-vision.csr-tb .nav.nav-list1 .nav-item {
+    width: auto;
+    margin: 0 0 10px 0;
+  }
+}
+
+.our-vision.csr-tb .nav.nav-list1 .nav-item a {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .our-vision.csr-tb .nav.nav-list1 .nav-item a {
+    padding: 15px 30px;
+  }
+}
+
+.always-you.revert {
+  padding: 0 0 80px 0px;
+}
+
+@media (max-width: 767px) {
+  .always-you.revert {
+    padding: 40px 0px;
+  }
+}
+
+.always-you.revert .owl-dots {
+  bottom: -50px;
+}
+
+@media (max-width: 767px) {
+  .always-you.revert .owl-dots {
+    bottom: -35px;
+  }
+}
+
+.always-you.revert .white-box,
+.always-you.revert .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .always-you.revert .ad-card,
+.always-you.revert .accordian .trgr,
+.accordian .always-you.revert .trgr,
+.always-you.revert .accordian .tog_cont,
+.accordian .always-you.revert .tog_cont,
+.always-you.revert .card-look,
+.always-you.revert .media-card,
+.always-you.revert .pr-list>li .card-bx,
+.pr-list>li .always-you.revert .card-bx,
+.always-you.revert .trgr1,
+.always-you.revert .trgr2,
+.always-you.revert .trgr3,
+.always-you.revert .tog_cont1,
+.always-you.revert .tog_cont2,
+.always-you.revert .tog_cont3,
+.always-you.revert .mf-invest .start-box,
+.mf-invest .always-you.revert .start-box,
+.always-you.revert .media-kit .media-list .card-media,
+.media-kit .media-list .always-you.revert .card-media {
+  padding-left: 80px;
+}
+
+@media (max-width: 768px) {
+
+  .always-you.revert .white-box,
+  .always-you.revert .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .always-you.revert .ad-card,
+  .always-you.revert .accordian .trgr,
+  .accordian .always-you.revert .trgr,
+  .always-you.revert .accordian .tog_cont,
+  .accordian .always-you.revert .tog_cont,
+  .always-you.revert .card-look,
+  .always-you.revert .media-card,
+  .always-you.revert .pr-list>li .card-bx,
+  .pr-list>li .always-you.revert .card-bx,
+  .always-you.revert .trgr1,
+  .always-you.revert .trgr2,
+  .always-you.revert .trgr3,
+  .always-you.revert .tog_cont1,
+  .always-you.revert .tog_cont2,
+  .always-you.revert .tog_cont3,
+  .always-you.revert .mf-invest .start-box,
+  .mf-invest .always-you.revert .start-box,
+  .always-you.revert .media-kit .media-list .card-media,
+  .media-kit .media-list .always-you.revert .card-media {
+    padding: 50px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box,
+  .always-you.revert .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .always-you.revert .ad-card,
+  .always-you.revert .accordian .trgr,
+  .accordian .always-you.revert .trgr,
+  .always-you.revert .accordian .tog_cont,
+  .accordian .always-you.revert .tog_cont,
+  .always-you.revert .card-look,
+  .always-you.revert .media-card,
+  .always-you.revert .pr-list>li .card-bx,
+  .pr-list>li .always-you.revert .card-bx,
+  .always-you.revert .trgr1,
+  .always-you.revert .trgr2,
+  .always-you.revert .trgr3,
+  .always-you.revert .tog_cont1,
+  .always-you.revert .tog_cont2,
+  .always-you.revert .tog_cont3,
+  .always-you.revert .mf-invest .start-box,
+  .mf-invest .always-you.revert .start-box,
+  .always-you.revert .media-kit .media-list .card-media,
+  .media-kit .media-list .always-you.revert .card-media {
+    padding: 30px;
+    margin: 0px;
+  }
+
+  .always-you.revert .white-box .hd1l,
+  .always-you.revert .search-bxIn .search-ad .ad-card .hd1l,
+  .search-bxIn .search-ad .always-you.revert .ad-card .hd1l,
+  .always-you.revert .accordian .trgr .hd1l,
+  .accordian .always-you.revert .trgr .hd1l,
+  .always-you.revert .accordian .tog_cont .hd1l,
+  .accordian .always-you.revert .tog_cont .hd1l,
+  .always-you.revert .card-look .hd1l,
+  .always-you.revert .media-card .hd1l,
+  .always-you.revert .pr-list>li .card-bx .hd1l,
+  .pr-list>li .always-you.revert .card-bx .hd1l,
+  .always-you.revert .trgr1 .hd1l,
+  .always-you.revert .trgr2 .hd1l,
+  .always-you.revert .trgr3 .hd1l,
+  .always-you.revert .tog_cont1 .hd1l,
+  .always-you.revert .tog_cont2 .hd1l,
+  .always-you.revert .tog_cont3 .hd1l,
+  .always-you.revert .mf-invest .start-box .hd1l,
+  .mf-invest .always-you.revert .start-box .hd1l,
+  .always-you.revert .media-kit .media-list .card-media .hd1l,
+  .media-kit .media-list .always-you.revert .card-media .hd1l {
+    font-size: 48px;
+  }
+}
+
+.always-you.revert .white-box .benefits-list,
+.always-you.revert .search-bxIn .search-ad .ad-card .benefits-list,
+.search-bxIn .search-ad .always-you.revert .ad-card .benefits-list,
+.always-you.revert .accordian .trgr .benefits-list,
+.accordian .always-you.revert .trgr .benefits-list,
+.always-you.revert .accordian .tog_cont .benefits-list,
+.accordian .always-you.revert .tog_cont .benefits-list,
+.always-you.revert .card-look .benefits-list,
+.always-you.revert .media-card .benefits-list,
+.always-you.revert .pr-list>li .card-bx .benefits-list,
+.pr-list>li .always-you.revert .card-bx .benefits-list,
+.always-you.revert .trgr1 .benefits-list,
+.always-you.revert .trgr2 .benefits-list,
+.always-you.revert .trgr3 .benefits-list,
+.always-you.revert .tog_cont1 .benefits-list,
+.always-you.revert .tog_cont2 .benefits-list,
+.always-you.revert .tog_cont3 .benefits-list,
+.always-you.revert .mf-invest .start-box .benefits-list,
+.mf-invest .always-you.revert .start-box .benefits-list,
+.always-you.revert .media-kit .media-list .card-media .benefits-list,
+.media-kit .media-list .always-you.revert .card-media .benefits-list {
+  margin: 40px 0;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box .benefits-list,
+  .always-you.revert .search-bxIn .search-ad .ad-card .benefits-list,
+  .search-bxIn .search-ad .always-you.revert .ad-card .benefits-list,
+  .always-you.revert .accordian .trgr .benefits-list,
+  .accordian .always-you.revert .trgr .benefits-list,
+  .always-you.revert .accordian .tog_cont .benefits-list,
+  .accordian .always-you.revert .tog_cont .benefits-list,
+  .always-you.revert .card-look .benefits-list,
+  .always-you.revert .media-card .benefits-list,
+  .always-you.revert .pr-list>li .card-bx .benefits-list,
+  .pr-list>li .always-you.revert .card-bx .benefits-list,
+  .always-you.revert .trgr1 .benefits-list,
+  .always-you.revert .trgr2 .benefits-list,
+  .always-you.revert .trgr3 .benefits-list,
+  .always-you.revert .tog_cont1 .benefits-list,
+  .always-you.revert .tog_cont2 .benefits-list,
+  .always-you.revert .tog_cont3 .benefits-list,
+  .always-you.revert .mf-invest .start-box .benefits-list,
+  .mf-invest .always-you.revert .start-box .benefits-list,
+  .always-you.revert .media-kit .media-list .card-media .benefits-list,
+  .media-kit .media-list .always-you.revert .card-media .benefits-list {
+    margin: 30px 0 0;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.always-you.revert .white-box .benefits-list li,
+.always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li,
+.search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li,
+.always-you.revert .accordian .trgr .benefits-list li,
+.accordian .always-you.revert .trgr .benefits-list li,
+.always-you.revert .accordian .tog_cont .benefits-list li,
+.accordian .always-you.revert .tog_cont .benefits-list li,
+.always-you.revert .card-look .benefits-list li,
+.always-you.revert .media-card .benefits-list li,
+.always-you.revert .pr-list>li .card-bx .benefits-list li,
+.pr-list>li .always-you.revert .card-bx .benefits-list li,
+.always-you.revert .trgr1 .benefits-list li,
+.always-you.revert .trgr2 .benefits-list li,
+.always-you.revert .trgr3 .benefits-list li,
+.always-you.revert .tog_cont1 .benefits-list li,
+.always-you.revert .tog_cont2 .benefits-list li,
+.always-you.revert .tog_cont3 .benefits-list li,
+.always-you.revert .mf-invest .start-box .benefits-list li,
+.mf-invest .always-you.revert .start-box .benefits-list li,
+.always-you.revert .media-kit .media-list .card-media .benefits-list li,
+.media-kit .media-list .always-you.revert .card-media .benefits-list li {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box .benefits-list li,
+  .always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li,
+  .search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li,
+  .always-you.revert .accordian .trgr .benefits-list li,
+  .accordian .always-you.revert .trgr .benefits-list li,
+  .always-you.revert .accordian .tog_cont .benefits-list li,
+  .accordian .always-you.revert .tog_cont .benefits-list li,
+  .always-you.revert .card-look .benefits-list li,
+  .always-you.revert .media-card .benefits-list li,
+  .always-you.revert .pr-list>li .card-bx .benefits-list li,
+  .pr-list>li .always-you.revert .card-bx .benefits-list li,
+  .always-you.revert .trgr1 .benefits-list li,
+  .always-you.revert .trgr2 .benefits-list li,
+  .always-you.revert .trgr3 .benefits-list li,
+  .always-you.revert .tog_cont1 .benefits-list li,
+  .always-you.revert .tog_cont2 .benefits-list li,
+  .always-you.revert .tog_cont3 .benefits-list li,
+  .always-you.revert .mf-invest .start-box .benefits-list li,
+  .mf-invest .always-you.revert .start-box .benefits-list li,
+  .always-you.revert .media-kit .media-list .card-media .benefits-list li,
+  .media-kit .media-list .always-you.revert .card-media .benefits-list li {
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 33%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0px;
+  }
+}
+
+.always-you.revert .white-box .benefits-list li .hdr,
+.always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li .hdr,
+.search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li .hdr,
+.always-you.revert .accordian .trgr .benefits-list li .hdr,
+.accordian .always-you.revert .trgr .benefits-list li .hdr,
+.always-you.revert .accordian .tog_cont .benefits-list li .hdr,
+.accordian .always-you.revert .tog_cont .benefits-list li .hdr,
+.always-you.revert .card-look .benefits-list li .hdr,
+.always-you.revert .media-card .benefits-list li .hdr,
+.always-you.revert .pr-list>li .card-bx .benefits-list li .hdr,
+.pr-list>li .always-you.revert .card-bx .benefits-list li .hdr,
+.always-you.revert .trgr1 .benefits-list li .hdr,
+.always-you.revert .trgr2 .benefits-list li .hdr,
+.always-you.revert .trgr3 .benefits-list li .hdr,
+.always-you.revert .tog_cont1 .benefits-list li .hdr,
+.always-you.revert .tog_cont2 .benefits-list li .hdr,
+.always-you.revert .tog_cont3 .benefits-list li .hdr,
+.always-you.revert .mf-invest .start-box .benefits-list li .hdr,
+.mf-invest .always-you.revert .start-box .benefits-list li .hdr,
+.always-you.revert .media-kit .media-list .card-media .benefits-list li .hdr,
+.media-kit .media-list .always-you.revert .card-media .benefits-list li .hdr {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box .benefits-list li .hdr,
+  .always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li .hdr,
+  .search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li .hdr,
+  .always-you.revert .accordian .trgr .benefits-list li .hdr,
+  .accordian .always-you.revert .trgr .benefits-list li .hdr,
+  .always-you.revert .accordian .tog_cont .benefits-list li .hdr,
+  .accordian .always-you.revert .tog_cont .benefits-list li .hdr,
+  .always-you.revert .card-look .benefits-list li .hdr,
+  .always-you.revert .media-card .benefits-list li .hdr,
+  .always-you.revert .pr-list>li .card-bx .benefits-list li .hdr,
+  .pr-list>li .always-you.revert .card-bx .benefits-list li .hdr,
+  .always-you.revert .trgr1 .benefits-list li .hdr,
+  .always-you.revert .trgr2 .benefits-list li .hdr,
+  .always-you.revert .trgr3 .benefits-list li .hdr,
+  .always-you.revert .tog_cont1 .benefits-list li .hdr,
+  .always-you.revert .tog_cont2 .benefits-list li .hdr,
+  .always-you.revert .tog_cont3 .benefits-list li .hdr,
+  .always-you.revert .mf-invest .start-box .benefits-list li .hdr,
+  .mf-invest .always-you.revert .start-box .benefits-list li .hdr,
+  .always-you.revert .media-kit .media-list .card-media .benefits-list li .hdr,
+  .media-kit .media-list .always-you.revert .card-media .benefits-list li .hdr {
+    font-size: 32px;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box .benefits-list li:first-child,
+  .always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li:first-child,
+  .search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li:first-child,
+  .always-you.revert .accordian .trgr .benefits-list li:first-child,
+  .accordian .always-you.revert .trgr .benefits-list li:first-child,
+  .always-you.revert .accordian .tog_cont .benefits-list li:first-child,
+  .accordian .always-you.revert .tog_cont .benefits-list li:first-child,
+  .always-you.revert .card-look .benefits-list li:first-child,
+  .always-you.revert .media-card .benefits-list li:first-child,
+  .always-you.revert .pr-list>li .card-bx .benefits-list li:first-child,
+  .pr-list>li .always-you.revert .card-bx .benefits-list li:first-child,
+  .always-you.revert .trgr1 .benefits-list li:first-child,
+  .always-you.revert .trgr2 .benefits-list li:first-child,
+  .always-you.revert .trgr3 .benefits-list li:first-child,
+  .always-you.revert .tog_cont1 .benefits-list li:first-child,
+  .always-you.revert .tog_cont2 .benefits-list li:first-child,
+  .always-you.revert .tog_cont3 .benefits-list li:first-child,
+  .always-you.revert .mf-invest .start-box .benefits-list li:first-child,
+  .mf-invest .always-you.revert .start-box .benefits-list li:first-child,
+  .always-you.revert .media-kit .media-list .card-media .benefits-list li:first-child,
+  .media-kit .media-list .always-you.revert .card-media .benefits-list li:first-child {
+    padding: 0px;
+  }
+}
+
+.always-you.revert .white-box .benefits-list li:last-child,
+.always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li:last-child,
+.search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li:last-child,
+.always-you.revert .accordian .trgr .benefits-list li:last-child,
+.accordian .always-you.revert .trgr .benefits-list li:last-child,
+.always-you.revert .accordian .tog_cont .benefits-list li:last-child,
+.accordian .always-you.revert .tog_cont .benefits-list li:last-child,
+.always-you.revert .card-look .benefits-list li:last-child,
+.always-you.revert .media-card .benefits-list li:last-child,
+.always-you.revert .pr-list>li .card-bx .benefits-list li:last-child,
+.pr-list>li .always-you.revert .card-bx .benefits-list li:last-child,
+.always-you.revert .trgr1 .benefits-list li:last-child,
+.always-you.revert .trgr2 .benefits-list li:last-child,
+.always-you.revert .trgr3 .benefits-list li:last-child,
+.always-you.revert .tog_cont1 .benefits-list li:last-child,
+.always-you.revert .tog_cont2 .benefits-list li:last-child,
+.always-you.revert .tog_cont3 .benefits-list li:last-child,
+.always-you.revert .mf-invest .start-box .benefits-list li:last-child,
+.mf-invest .always-you.revert .start-box .benefits-list li:last-child,
+.always-you.revert .media-kit .media-list .card-media .benefits-list li:last-child,
+.media-kit .media-list .always-you.revert .card-media .benefits-list li:last-child {
+  display: block;
+  width: auto;
+}
+
+@media (max-width: 767px) {
+
+  .always-you.revert .white-box .benefits-list li:last-child p,
+  .always-you.revert .search-bxIn .search-ad .ad-card .benefits-list li:last-child p,
+  .search-bxIn .search-ad .always-you.revert .ad-card .benefits-list li:last-child p,
+  .always-you.revert .accordian .trgr .benefits-list li:last-child p,
+  .accordian .always-you.revert .trgr .benefits-list li:last-child p,
+  .always-you.revert .accordian .tog_cont .benefits-list li:last-child p,
+  .accordian .always-you.revert .tog_cont .benefits-list li:last-child p,
+  .always-you.revert .card-look .benefits-list li:last-child p,
+  .always-you.revert .media-card .benefits-list li:last-child p,
+  .always-you.revert .pr-list>li .card-bx .benefits-list li:last-child p,
+  .pr-list>li .always-you.revert .card-bx .benefits-list li:last-child p,
+  .always-you.revert .trgr1 .benefits-list li:last-child p,
+  .always-you.revert .trgr2 .benefits-list li:last-child p,
+  .always-you.revert .trgr3 .benefits-list li:last-child p,
+  .always-you.revert .tog_cont1 .benefits-list li:last-child p,
+  .always-you.revert .tog_cont2 .benefits-list li:last-child p,
+  .always-you.revert .tog_cont3 .benefits-list li:last-child p,
+  .always-you.revert .mf-invest .start-box .benefits-list li:last-child p,
+  .mf-invest .always-you.revert .start-box .benefits-list li:last-child p,
+  .always-you.revert .media-kit .media-list .card-media .benefits-list li:last-child p,
+  .media-kit .media-list .always-you.revert .card-media .benefits-list li:last-child p {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.always-you.revert .white-box figure,
+.always-you.revert .search-bxIn .search-ad .ad-card figure,
+.search-bxIn .search-ad .always-you.revert .ad-card figure,
+.always-you.revert .accordian .trgr figure,
+.accordian .always-you.revert .trgr figure,
+.always-you.revert .accordian .tog_cont figure,
+.accordian .always-you.revert .tog_cont figure,
+.always-you.revert .card-look figure,
+.always-you.revert .media-card figure,
+.always-you.revert .pr-list>li .card-bx figure,
+.pr-list>li .always-you.revert .card-bx figure,
+.always-you.revert .trgr1 figure,
+.always-you.revert .trgr2 figure,
+.always-you.revert .trgr3 figure,
+.always-you.revert .tog_cont1 figure,
+.always-you.revert .tog_cont2 figure,
+.always-you.revert .tog_cont3 figure,
+.always-you.revert .mf-invest .start-box figure,
+.mf-invest .always-you.revert .start-box figure,
+.always-you.revert .media-kit .media-list .card-media figure,
+.media-kit .media-list .always-you.revert .card-media figure {
+  margin-left: 0px;
+}
+
+.always-you.revert .white-box .annual-reports,
+.always-you.revert .search-bxIn .search-ad .ad-card .annual-reports,
+.search-bxIn .search-ad .always-you.revert .ad-card .annual-reports,
+.always-you.revert .accordian .trgr .annual-reports,
+.accordian .always-you.revert .trgr .annual-reports,
+.always-you.revert .accordian .tog_cont .annual-reports,
+.accordian .always-you.revert .tog_cont .annual-reports,
+.always-you.revert .card-look .annual-reports,
+.always-you.revert .media-card .annual-reports,
+.always-you.revert .pr-list>li .card-bx .annual-reports,
+.pr-list>li .always-you.revert .card-bx .annual-reports,
+.always-you.revert .trgr1 .annual-reports,
+.always-you.revert .trgr2 .annual-reports,
+.always-you.revert .trgr3 .annual-reports,
+.always-you.revert .tog_cont1 .annual-reports,
+.always-you.revert .tog_cont2 .annual-reports,
+.always-you.revert .tog_cont3 .annual-reports,
+.always-you.revert .mf-invest .start-box .annual-reports,
+.mf-invest .always-you.revert .start-box .annual-reports,
+.always-you.revert .media-kit .media-list .card-media .annual-reports,
+.media-kit .media-list .always-you.revert .card-media .annual-reports {
+  padding: 0px;
+  right: -20px;
+}
+
+@media (max-width: 768px) {
+
+  .always-you.revert .white-box .annual-reports,
+  .always-you.revert .search-bxIn .search-ad .ad-card .annual-reports,
+  .search-bxIn .search-ad .always-you.revert .ad-card .annual-reports,
+  .always-you.revert .accordian .trgr .annual-reports,
+  .accordian .always-you.revert .trgr .annual-reports,
+  .always-you.revert .accordian .tog_cont .annual-reports,
+  .accordian .always-you.revert .tog_cont .annual-reports,
+  .always-you.revert .card-look .annual-reports,
+  .always-you.revert .media-card .annual-reports,
+  .always-you.revert .pr-list>li .card-bx .annual-reports,
+  .pr-list>li .always-you.revert .card-bx .annual-reports,
+  .always-you.revert .trgr1 .annual-reports,
+  .always-you.revert .trgr2 .annual-reports,
+  .always-you.revert .trgr3 .annual-reports,
+  .always-you.revert .tog_cont1 .annual-reports,
+  .always-you.revert .tog_cont2 .annual-reports,
+  .always-you.revert .tog_cont3 .annual-reports,
+  .always-you.revert .mf-invest .start-box .annual-reports,
+  .mf-invest .always-you.revert .start-box .annual-reports,
+  .always-you.revert .media-kit .media-list .card-media .annual-reports,
+  .media-kit .media-list .always-you.revert .card-media .annual-reports {
+    padding: 30px 15px;
+    right: 0;
+  }
+}
+
+.stories-from {
+  background: #f3f3f3;
+  padding: 0 0 80px 0;
+}
+
+.stories-from .form-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .stories-from .form-list {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 40px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.stories-from .form-list li {
+  width: 32%;
+}
+
+@media (max-width: 768px) {
+  .stories-from .form-list li {
+    width: 47%;
+  }
+}
+
+@media (max-width: 767px) {
+  .stories-from .form-list li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.stories-from .list-looking {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.stories-from .card-look {
+  position: relative;
+}
+
+.stories-from .card-look figure img {
+  height: 66px;
+  width: 66px;
+}
+
+.stories-from .card-look div {
+  padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .stories-from .card-look div {
+    padding-right: 0px;
+  }
+
+  .stories-from .card-look div p {
+    display: block;
+  }
+}
+
+.stories-from .card-look span {
+  position: absolute;
+  font-size: 28px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .stories-from .card-look span {
+    right: 10px;
+  }
+}
+
+.explorer11 .form-label-group.grey .form-control:focus~label,
+.explorer11 .form-label-group.grey :valid.form-control~label,
+.explorer11 .form-label-group.grey .form-control~label {
+  background: #f3f3f3;
+}
+
+.form-label-group.grey select,
+.form-label-group.grey input {
+  background-color: #f3f3f3;
+}
+
+.form-label-group.grey .normal-select-box.selected:not(:placeholder-shown)~label {
+  background-color: #f3f3f3;
+}
+
+.form-label-group.grey input:not(:placeholder-shown)~label,
+.form-label-group.grey textarea:not(:placeholder-shown)~label {
+  background-color: #f3f3f3;
+}
+
+.form-label-group.search-bdy button {
+  background: none;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.form-label-group.search-bdy button span {
+  font-size: 22px;
+}
+
+.round-img-shadow img {
+  box-shadow: 0px -20px 0px #E8E8E8;
+}
+
+.snav-wraper.border .secondary-nav {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.csr-mission.media-kit .media-list {
+  margin: 0 -90px -110px 0;
+}
+
+@media (max-width: 1024px) {
+  .csr-mission.media-kit .media-list {
+    margin: 0 -65px -110px 0;
+  }
+
+  .csr-mission.media-kit .media-list .card-media {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .csr-mission.media-kit .media-list {
+    margin: 0 -50px -110px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .csr-mission.media-kit .media-list {
+    margin: 30px 0 -80px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .csr-mission.media-kit .mk-left {
+    padding: 24px 0 24px 20px;
+    margin-right: 60px;
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .csr-mission.media-kit .mk-left {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .csr-mission.media-kit .mk-left {
+    margin-right: 0px;
+    padding: 24px;
+  }
+}
+
+.play-box.white {
+  height: auto;
+  width: auto;
+  background: inherit;
+}
+
+.play-box.white .icon-play {
+  font-size: 64px;
+}
+
+.play-box.white .icon-play::before {
+  color: #FFFFFF;
+}
+
+.social-ent.always-you {
+  padding: 80px 0;
+}
+
+.social-ent.always-you .white-box .wrap,
+.social-ent.always-you .search-bxIn .search-ad .ad-card .wrap,
+.search-bxIn .search-ad .social-ent.always-you .ad-card .wrap,
+.social-ent.always-you .accordian .trgr .wrap,
+.accordian .social-ent.always-you .trgr .wrap,
+.social-ent.always-you .accordian .tog_cont .wrap,
+.accordian .social-ent.always-you .tog_cont .wrap,
+.social-ent.always-you .card-look .wrap,
+.social-ent.always-you .media-card .wrap,
+.social-ent.always-you .pr-list>li .card-bx .wrap,
+.pr-list>li .social-ent.always-you .card-bx .wrap,
+.social-ent.always-you .trgr1 .wrap,
+.social-ent.always-you .trgr2 .wrap,
+.social-ent.always-you .trgr3 .wrap,
+.social-ent.always-you .tog_cont1 .wrap,
+.social-ent.always-you .tog_cont2 .wrap,
+.social-ent.always-you .tog_cont3 .wrap,
+.social-ent.always-you .mf-invest .start-box .wrap,
+.mf-invest .social-ent.always-you .start-box .wrap,
+.social-ent.always-you .media-kit .media-list .card-media .wrap,
+.media-kit .media-list .social-ent.always-you .card-media .wrap {
+  padding-left: 25px;
+}
+
+@media (max-width: 768px) {
+
+  .social-ent.always-you .white-box .wrap,
+  .social-ent.always-you .search-bxIn .search-ad .ad-card .wrap,
+  .search-bxIn .search-ad .social-ent.always-you .ad-card .wrap,
+  .social-ent.always-you .accordian .trgr .wrap,
+  .accordian .social-ent.always-you .trgr .wrap,
+  .social-ent.always-you .accordian .tog_cont .wrap,
+  .accordian .social-ent.always-you .tog_cont .wrap,
+  .social-ent.always-you .card-look .wrap,
+  .social-ent.always-you .media-card .wrap,
+  .social-ent.always-you .pr-list>li .card-bx .wrap,
+  .pr-list>li .social-ent.always-you .card-bx .wrap,
+  .social-ent.always-you .trgr1 .wrap,
+  .social-ent.always-you .trgr2 .wrap,
+  .social-ent.always-you .trgr3 .wrap,
+  .social-ent.always-you .tog_cont1 .wrap,
+  .social-ent.always-you .tog_cont2 .wrap,
+  .social-ent.always-you .tog_cont3 .wrap,
+  .social-ent.always-you .mf-invest .start-box .wrap,
+  .mf-invest .social-ent.always-you .start-box .wrap,
+  .social-ent.always-you .media-kit .media-list .card-media .wrap,
+  .media-kit .media-list .social-ent.always-you .card-media .wrap {
+    padding-top: 30px;
+  }
+}
+
+.social-ent.always-you .white-box .wrap p.clr-grey,
+.social-ent.always-you .search-bxIn .search-ad .ad-card .wrap p.clr-grey,
+.search-bxIn .search-ad .social-ent.always-you .ad-card .wrap p.clr-grey,
+.social-ent.always-you .accordian .trgr .wrap p.clr-grey,
+.accordian .social-ent.always-you .trgr .wrap p.clr-grey,
+.social-ent.always-you .accordian .tog_cont .wrap p.clr-grey,
+.accordian .social-ent.always-you .tog_cont .wrap p.clr-grey,
+.social-ent.always-you .card-look .wrap p.clr-grey,
+.social-ent.always-you .media-card .wrap p.clr-grey,
+.social-ent.always-you .pr-list>li .card-bx .wrap p.clr-grey,
+.pr-list>li .social-ent.always-you .card-bx .wrap p.clr-grey,
+.social-ent.always-you .trgr1 .wrap p.clr-grey,
+.social-ent.always-you .trgr2 .wrap p.clr-grey,
+.social-ent.always-you .trgr3 .wrap p.clr-grey,
+.social-ent.always-you .tog_cont1 .wrap p.clr-grey,
+.social-ent.always-you .tog_cont2 .wrap p.clr-grey,
+.social-ent.always-you .tog_cont3 .wrap p.clr-grey,
+.social-ent.always-you .mf-invest .start-box .wrap p.clr-grey,
+.mf-invest .social-ent.always-you .start-box .wrap p.clr-grey,
+.social-ent.always-you .media-kit .media-list .card-media .wrap p.clr-grey,
+.media-kit .media-list .social-ent.always-you .card-media .wrap p.clr-grey,
+.social-ent.always-you .white-box .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .white-box .wrap p.notes,
+.social-ent.always-you .search-bxIn .search-ad .ad-card .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .search-bxIn .search-ad .ad-card .wrap p.notes,
+.search-bxIn .search-ad .social-ent.always-you .ad-card .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .search-bxIn .search-ad .social-ent.always-you .ad-card .wrap p.notes,
+.social-ent.always-you .accordian .trgr .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .accordian .trgr .wrap p.notes,
+.accordian .social-ent.always-you .trgr .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .accordian .social-ent.always-you .trgr .wrap p.notes,
+.social-ent.always-you .accordian .tog_cont .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .accordian .tog_cont .wrap p.notes,
+.accordian .social-ent.always-you .tog_cont .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .accordian .social-ent.always-you .tog_cont .wrap p.notes,
+.social-ent.always-you .card-look .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .card-look .wrap p.notes,
+.social-ent.always-you .media-card .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .media-card .wrap p.notes,
+.social-ent.always-you .pr-list>li .card-bx .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .pr-list>li .card-bx .wrap p.notes,
+.pr-list>li .social-ent.always-you .card-bx .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .pr-list>li .social-ent.always-you .card-bx .wrap p.notes,
+.social-ent.always-you .trgr1 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .trgr1 .wrap p.notes,
+.social-ent.always-you .trgr2 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .trgr2 .wrap p.notes,
+.social-ent.always-you .trgr3 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .trgr3 .wrap p.notes,
+.social-ent.always-you .tog_cont1 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .tog_cont1 .wrap p.notes,
+.social-ent.always-you .tog_cont2 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .tog_cont2 .wrap p.notes,
+.social-ent.always-you .tog_cont3 .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .tog_cont3 .wrap p.notes,
+.social-ent.always-you .mf-invest .start-box .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .mf-invest .start-box .wrap p.notes,
+.mf-invest .social-ent.always-you .start-box .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .mf-invest .social-ent.always-you .start-box .wrap p.notes,
+.social-ent.always-you .media-kit .media-list .card-media .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .social-ent.always-you .media-kit .media-list .card-media .wrap p.notes,
+.media-kit .media-list .social-ent.always-you .card-media .wrap .hero-from .form-list p.notes,
+.hero-from .form-list .media-kit .media-list .social-ent.always-you .card-media .wrap p.notes {
+  margin-top: 25px;
+}
+
+.btn-box .btn-white.fill {
+  background: #FFFFFF;
+  border: 0px;
+}
+
+.media-card .mcard-body .hd3b.ht-auto {
+  min-height: auto;
+}
+
+.blog-home.white-bg {
+  background: #FFFFFF;
+}
+
+.testimonial-csr.benefits {
+  padding: 55px 0 0 0;
+}
+
+.testimonial-csr .desc {
+  font-size: 24px;
+  line-height: 31px;
+  margin: 30px 0;
+  font-weight: 300;
+}
+
+.testimonial-csr .nameTtile {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 40px;
+  line-height: 1.2;
+}
+
+.testimonial-csr .test-img {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  position: relative;
+}
+
+.testimonial-csr .test-img img {
+  border-radius: 50%;
+  padding: 5px;
+  background: #FFFFFF;
+}
+
+.white-bg.card-brk {
+  background: #FFFFFF;
+  padding: 100px 0 80px;
+}
+
+@media (max-width: 767px) {
+  .white-bg.card-brk {
+    padding: 80px 0 60px;
+  }
+
+  .white-bg.card-brk .card.page-breaker .card-body {
+    padding-bottom: 0px;
+  }
+
+  .white-bg.card-brk .card.page-breaker .btn-box a.f14br,
+  .white-bg.card-brk .card.page-breaker .btn-box .product-banner a.hero-know-more,
+  .product-banner .white-bg.card-brk .card.page-breaker .btn-box a.hero-know-more {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .white-bg.card-brk .card.page-breaker .btn-box {
+    padding-right: 15px;
+  }
+}
+
+.single-carousel-ppt .owl-nav span {
+  display: inline-block;
+  margin: 2px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+.single-carousel-ppt .owl-nav span::before {
+  color: #9D1D27;
+}
+
+.single-carousel-ppt .owl-nav .owl-prev {
+  left: 50%;
+  margin-left: -60px;
+  top: inherit;
+  bottom: 0px;
+}
+
+.single-carousel-ppt .owl-nav .owl-next {
+  right: 50%;
+  margin-right: -60px;
+  top: inherit;
+  bottom: 0px;
+}
+
+.download.yellow {
+  background: #FFCB05;
+  padding: 10px;
+  position: absolute;
+  right: 30px;
+  bottom: -13px;
+  height: 40px;
+  width: 40px;
+}
+
+.download.yellow img {
+  width: 20px;
+}
+
+#counter-ppt {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  font-size: 14px;
+  background: #FFFFFF;
+  padding: 5px 17px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  #counter-ppt {
+    bottom: -5px;
+    left: 15px;
+    background: #f3f3f3;
+  }
+}
+
+.csr-inner-ban .hero-banner .banner-ctnt {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .csr-inner-ban .hero-banner .banner-ctnt {
+    margin-top: -22px;
+  }
+
+  .csr-inner-ban .hero-banner .banner-ctnt h1 {
+    margin-bottom: -7px;
+    font-size: 32px;
+  }
+}
+
+blockquote.op1 {
+  font-size: 24px;
+  border-top: 2px solid #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  blockquote.op1 {
+    margin-right: 0;
+  }
+}
+
+blockquote.op1 p {
+  line-height: 1.55;
+}
+
+blockquote.op1 footer {
+  font-size: 18px;
+  color: #9D1D27;
+}
+
+blockquote.op1 footer cite {
+  margin-top: 15px;
+  color: #9D1D27;
+}
+
+.about-msg h4 {
+  margin-bottom: 30px;
+}
+
+.about-msg p {
+  line-height: 22px;
+}
+
+.about-msg .hd1.red {
+  color: #9D1D27;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+  .about-msg .hd1.red {
+    margin-bottom: 30px;
+  }
+}
+
+.about-msg .hd1.red small {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #54565B;
+  margin-top: 15px;
+}
+
+.about-msg.grey-bg .blockquote.op1::before,
+.banner2 .about-msg.banner-wrapper.grey-btm .blockquote.op1::before,
+.about-msg.code-pol .blockquote.op1::before,
+.about-msg.related-product .blockquote.op1::before,
+.about-msg.blog-tab.fastag .blockquote.op1::before,
+.about-msg.bod-page .blockquote.op1::before,
+.media-kit .about-msg.mk-left .blockquote.op1::before,
+.about-msg.trending .blockquote.op1::before,
+.about-msg.pr-page .blockquote.op1::before {
+  background-color: #f3f3f3;
+}
+
+.about-msg .blockquote.op1::before {
+  background-color: #FFFFFF;
+}
+
+.acrd-data.result.onlMob table th:first-child,
+.acrd-data.result.onlMob table td:first-child {
+  text-align: center;
+  border-right: 1px solid rgba(151, 151, 151, 0.4);
+}
+
+@media (max-width: 768px) {
+  .annual-report img {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-revers-mob {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}

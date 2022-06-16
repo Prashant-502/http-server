@@ -1,0 +1,185 @@
+.payment-card {
+    &.op2 {
+        @include breakpoint($mxw768) {
+            text-align: center;
+            .with-circle {
+                text-align: left;
+            }
+            .btn-box {
+                flex-direction: column;
+                align-items: center;
+                a {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .f24 {
+            @include breakpoint($mxw768) {
+                font-size: 20px;
+            }
+        }
+        .colR {
+            min-height: auto;
+            width: 75%;
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+        }
+        .colL {
+            width: 25%;
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+            figure {
+                img {
+                    width: 200px;
+                    @include breakpoint($mxw1000) {
+                        width: 100%;
+                    }
+                    @include breakpoint($mxw768) {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.startup-acctount {
+    &.op2 {
+        .new-comp .whiteBx .rtCol {
+            min-height: 400px;
+            padding: 60px 40px 60px 80px;
+            @include breakpoint($mxw768) {
+                min-height: auto;
+                padding: 0px;
+            }
+            .sec-ctnt {
+                .seclt {
+                    width: auto;
+                }
+            }
+            p {
+                line-height: 1.6;
+            }
+        }
+        &::before {
+            background: $grey-100;
+        }
+    }
+}
+
+.bg-grey-100 {
+    background: $grey-100;
+}
+
+.resposiveTabAcord {
+    &.new-comp {
+        @include breakpoint($mnw768) {
+            .card {
+                border: none;
+                .card-header {
+                    display: none;
+                }
+                .collapse {
+                    display: block;
+                }
+            }
+        }
+        @include breakpoint($mxw768) {
+            .tab-content>.tab-pane {
+                display: block !important;
+                opacity: 1;
+                margin-bottom: 10px;
+            }
+            .card-header h5 a {
+                display: block;
+            }
+        }
+        .nav-tabs {
+            display: none;
+            @include breakpoint($mnw768) {
+                display: flex;
+            }
+        }
+        .whiteBx {
+            .ltCol {
+                .nav-tabs a {
+                    border-bottom: solid 1px #eaeaea;
+                }
+                @include breakpoint($mxw768) {
+                    display: none;
+                }
+            }
+            .rtCol {
+                .card-body {
+                    padding: 0;
+                    border-bottom: 0px;
+                }
+                @include breakpoint($mxw768) {
+                    width: 100%;
+                    padding: 0px;
+                    .card {
+                        border: 0px;
+                        border-radius: 0px;
+                        margin-bottom: 0px;
+                        &.act,
+                        &.act .card-header,
+                        .card-body {
+                            background: $grey-50;
+                        }
+                        &.act {
+                            .card-header {
+                                &::before {
+                                    content: "\e905";
+                                }
+                            }
+                        }
+                    }
+                    .card-body {
+                        border-bottom: solid 3px $c-red;
+                        border-radius: 0 0 5px 5px;
+                        padding: 20px;
+                    }
+                    .card-header {
+                        border: 0px;
+                        border-radius: 0px;
+                        border-bottom: 1px solid #eaeaea;
+                        padding: 20px 50px 20px 20px;
+                        font-weight: 700;
+                        position: relative;
+                        transition: all .3s linear;
+                        background: $c-white;
+                        a {
+                            font-weight: 700;
+                        }
+                        &::before {
+                            position: absolute;
+                            font-family: icomoon;
+                            content: "\e906";
+                            right: 20px;
+                            top: 20px;
+                            color: $c-red;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .sec-ctnt {
+                    .seclt {
+                        @include breakpoint($mxw768) {
+                            width: 100%;
+                            .btn-box {
+                                a {
+                                    padding: 0 25px;
+                                }
+                            }
+                            p {
+                                line-height: 1.3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

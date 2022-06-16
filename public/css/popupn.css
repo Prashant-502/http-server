@@ -1,0 +1,210 @@
+.modal-dialog.loan-modal {
+    max-width: 730px;
+}
+
+.modal-dialog.loan-modal .modal-body {
+    padding: 32px 24px;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.loan-modal .modal-body {
+        padding: 20px 15px;
+    }
+}
+
+.modal-dialog.loan-modal .modal-body .heading {
+    padding: 0 40px;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.loan-modal .modal-body .heading {
+        padding: 0 25px 0 0;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .modal-dialog.loan-modal .modal-body .heading br {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.loan-modal .list-looking {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.modal-dialog.loan-modal .list-looking li {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.loan-modal .list-looking li {
+        margin-bottom: 14px;
+        width: 100%;
+    }
+}
+
+.modal-dialog.loan-modal .card-look {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(37, 36, 59, 0.1);
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #54565B;
+}
+
+@media (max-width: 991px) {
+    .modal-dialog.loan-modal .card-look {
+        height: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+.modal-dialog.loan-modal .card-look p {
+    color: #54565B;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 991px) {
+    .modal-dialog.loan-modal .card-look p {
+        display: block;
+    }
+}
+
+.modal-dialog.loan-modal .card-look .title {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.modal-dialog.loan-modal .btn-box .btn-red {
+    font-size: 14px;
+    height: 40px;
+    min-width: 140px;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+    .modal-dialog.loan-modal .btn-box .btn-red {
+        line-height: 3.1;
+    }
+}
+
+.modal-dialog.loan-modal .btn-box .btn-link {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.withtwoMobile .list-looking {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+
+    .modal-dialog.withtwoMobile .list-looking li {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 767px) and (max-width: 767px) {
+    .modal-dialog.withtwoMobile .list-looking li {
+        margin-bottom: 14px;
+        width: 46%;
+    }
+
+    .modal-dialog.withtwoMobile .list-looking li .card-look {
+        height: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .modal-dialog.withtwoMobile .list-looking li .card-look p {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .modal-dialog.withtwoMobile .list-looking li .card-look h3 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+}
+
+.modal-dialog.withfourTiles {
+    max-width: 1024px;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.withfourTiles .list-looking {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+.modal-dialog.withfourTiles .list-looking li {
+    width: 23%;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.withfourTiles .list-looking li {
+        margin-bottom: 14px;
+        width: 100%;
+    }
+}
+
+.modal-dialog.withfourTiles .list-looking li .card-look {
+    padding: 10px 12px;
+}
+
+@media (max-width: 991px) {
+    .modal-dialog.withfourTiles .list-looking li .card-look {
+        -ms-flex-pack: left;
+        justify-content: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .modal-dialog.withfourTiles .list-looking li .card-look {
+        padding: 0px;
+        box-shadow: none;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .modal-dialog.withfourTiles .list-looking li .card-look div {
+        display: -ms-flexbox;
+        display: flex;
+        text-align: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+    }
+
+    .modal-dialog.withfourTiles .list-looking li .card-look div p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+
+    .modal-dialog.withfourTiles .list-looking li .card-look div p:after {
+        content: ':';
+        padding-left: 5px;
+    }
+
+    .modal-dialog.withfourTiles .list-looking li .card-look div h3 {
+        font-size: 14px;
+    }
+}
+
+.modal-dialog.withfourTiles .list-looking li .card-look p {
+    font-size: 15px;
+}

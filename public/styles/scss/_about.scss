@@ -1,0 +1,452 @@
+/* About Intro start */
+.about-intro {
+    @extend .pad1;
+    @extend .CTR;
+
+    p {
+        margin: 16px 0 0;
+        line-height: 22px;
+    }
+}
+
+/* About Intro End  */
+
+/* About Vision section start  */
+.our-vision {
+    @extend .pad2;
+    @extend .CTR;
+    background: $grey-50;
+
+    .nav-list1 a {
+        letter-spacing: 1px;
+    }
+
+    .hd7 {
+        margin-bottom: 0;
+        line-height: 1.2;
+
+        strong {
+            font-weight: $font-normal;
+        }
+    }
+}
+
+/* About Vision section End  */
+
+/* Board of Directors Carousel start*/
+.our-bod {
+    @extend .pad2;
+    overflow: hidden;
+
+    .bod-carousel {
+        margin: 50px 0;
+
+        &.owl-carousel {
+            .owl-stage-outer {
+                overflow: inherit;
+            }
+
+            .owl-item {
+                opacity: .2;
+
+                &.active {
+                    opacity: 1;
+                }
+
+                img {
+                    width: auto;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .bod-carousel.owl-carousel .owl-item {
+            opacity: 1;
+        }
+    }
+}
+
+/* Board of Directors Carousel end*/
+
+/* BOD Card start*/
+.card-bx.bod {
+    text-align: center;
+
+    figure {
+        margin: 0 auto 30px;
+        position: relative;
+        width: 192px;
+
+        img {
+            width: 100%;
+        }
+
+        .arrow {
+            position: absolute;
+            @include center(xy);
+            margin: 50px 0 0 80px;
+        }
+    }
+
+    .clr-grey {
+        margin: 8px 0 0
+    }
+}
+
+/* BOD Card end*/
+
+/* Corporate Governance Start*/
+.corp-govns {
+    @extend .pad2;
+
+    .copgov-carousel {
+        margin: 30px 0;
+
+        &.owl-carousel {
+            .owl-item {
+                img {
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .card-bx {
+        text-align: center;
+        margin: 0 30px;
+
+        figure {
+            width: 70px;
+            height: 70px;
+            background: $c-grey-6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .clr-grey {
+            margin-top: 10px
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .col-xl-10 {
+            padding: 0;
+        }
+
+        .card-bx {
+            margin: 0 10px;
+        }
+    }
+}
+
+/* Corporate Governance End*/
+
+/* Our Values start */
+.corp-govns.op1 {
+    padding: 0;
+
+    .card-bx {
+        margin: 0;
+
+        figure {
+            background: $c-red;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Our Values end */
+
+/* ANNUAL REPORT  Start*/
+.annual-report {
+    @extend .pad2;
+    background: rgb(243, 243, 243);
+    background: linear-gradient(90deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 75%, rgba(196, 119, 125, 1) 75%, rgba(157, 29, 39, 1) 100%);
+
+    .row {
+        justify-content: space-between;
+    }
+
+    .hd1 {
+        color: $c-grey-5;
+        margin-bottom: 20px;
+    }
+
+    .list {
+        li {
+            border-bottom: 1px solid $grey-200;
+            text-align: center;
+            padding: 36px 0;
+
+            &.op1 {
+                padding: 24px 0 0;
+                border-bottom: 0;
+
+                .hd7 {
+                    margin-bottom: -20px;
+                }
+            }
+
+            &.last {
+                border-bottom: 0;
+
+                + li {
+                    padding: 0 0 30px;
+
+                    .btn-box {
+                        margin-top: -16px;
+                    }
+                }
+            }
+
+            &:last-child {
+                border-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+
+                &.hdr {
+                    margin-top: 4px;
+
+                    small {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: rgb(243, 243, 243);
+        background: linear-gradient(180deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 70%, rgba(196, 119, 125, 1) 70%, rgba(157, 29, 39, 1) 100%);
+
+        .list {
+            margin-top: 40px;
+
+            li {
+                padding: 26px 0;
+
+                .hdr {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}
+
+/* ANNUAL REPORT  End*/
+
+/* Always You First Start*/
+.always-you {
+    background: $grey-100;
+    padding: 80px 0 4px;
+
+    .hdr {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .white-box {
+        padding: 64px 0 96px;
+        margin: 4px;
+
+        figure {
+            margin-left: -92px;
+            margin-bottom: 0;
+        }
+
+        .col-xl-4 {
+            margin-left: 50px;
+        }
+
+        p {
+            margin-bottom: 0;
+
+            &.hd2v {
+                margin-bottom: 10px;
+                line-height: 1.3;
+            }
+
+            &.clr-grey {
+                margin-top: 30px;
+
+                strong {
+                    display: block;
+                    margin-bottom: 3px;
+                    color: $c-black;
+                }
+            }
+        }
+    }
+
+    .owl-dots {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 50px;
+    }
+
+    @include breakpoint($mxw1000) {
+        .white-box .col-xl-4 {
+            margin-left: 30px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding-top: 50px;
+
+        .white-box {
+            margin-top: 80px;
+            padding: 0 0 70px;
+
+            figure {
+                margin: -80px 3% 0;
+            }
+
+            .col-xl-4 {
+                margin-left: 0px;
+                padding: 30px 40px 0;
+            }
+        }
+
+        .owl-dots {
+            bottom: 30px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .container {
+            padding: 0 10px;
+        }
+    }
+}
+
+/* Always You First End*/
+
+/* BOD Listing & Detail page Start*/
+.bod-page {
+    @extend .grey-bg;
+    padding-bottom: 4px;
+
+    .hd {
+        padding: 50px 0;
+        margin-bottom: 0;
+    }
+
+    .bod-cntr {
+        display: flex;
+        flex-wrap: wrap;
+        //justify-content: space-around;
+
+        .bod {
+            width: 33%;
+            margin-bottom: 80px;
+        }
+    }
+
+    .back-btn {
+        padding: 44px 0 12px;
+
+        span {
+            vertical-align: middle;
+        }
+    }
+
+    .white-box {
+        display: flex;
+
+        .col-l {
+            width: 35%;
+            border-right: 1px solid $grey-200;
+            padding: 64px 20px 0;
+
+            figure {
+                width: 236px;
+            }
+
+            .social {
+                margin-top: 24px;
+            }
+        }
+
+        .col-r {
+            width: 65%;
+            padding: 64px 100px 64px 50px;
+
+            p {
+                line-height: 22px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .bod-cntr .bod {
+            width: 50%;
+        }
+
+        .white-box {
+            .col-l {
+                width: 40%;
+
+                figure {
+                    width: 192px;
+                }
+            }
+
+            .col-r {
+                width: 60%;
+                padding: 64px 36px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .bod-cntr .bod {
+            width: 100%;
+            margin-bottom: 48px;
+        }
+
+        .white-box {
+            flex-direction: column;
+
+            .col-l,
+            .col-r {
+                width: 100%
+            }
+
+            .col-l {
+                padding-bottom: 36px;
+                border-right: 0;
+                border-bottom: 1px solid $grey-200;
+            }
+        }
+    }
+}
+
+/* BOD Listing & Detail page End*/
+
+/* BOD page Social Icons Start*/
+.social.op1 {
+    display: flex;
+    justify-content: center;
+
+    li a {
+        width: 48px;
+        height: 48px;
+        background: $grey-200;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 12px;
+    }
+}
+
+/* BOD page Social Icons End*/

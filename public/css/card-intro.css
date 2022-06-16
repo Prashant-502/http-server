@@ -1,0 +1,266 @@
+/* product details page Savings Account With Visa Signature Debit Card*/
+.card-detail-intro {
+  padding: 60px 0;
+}
+
+.card-detail-intro figure {
+  position: relative;
+  min-height: 400px;
+  min-width: 454px;
+}
+
+@media (max-width: 1024px) {
+  .card-detail-intro figure {
+    min-width: 390px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-detail-intro figure {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-detail-intro figure {
+    min-height: 340px;
+    min-width: auto;
+  }
+}
+
+.card-detail-intro figure img {
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .card-detail-intro figure img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-detail-intro figure img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-detail-intro figure img {
+    width: 85%;
+  }
+}
+
+.card-detail-intro figure img:last-child {
+  top: 60px;
+  right: -10px;
+}
+
+@media (max-width: 1024px) {
+  .card-detail-intro figure img:last-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-detail-intro figure img:last-child {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-detail-intro figure img:last-child {
+    width: 100%;
+  }
+}
+
+.card-detail-intro #dc-card-1.active img.classic-debit {
+  opacity: 0.23;
+  z-index: 0;
+}
+
+.card-detail-intro #dc-card-2.active img.visa-sig {
+  opacity: 0.23;
+  z-index: 0;
+}
+
+.card-detail-intro #dc-card-2.active img.classic-debit {
+  opacity: 1;
+  z-index: 1;
+}
+
+.card-detail-intro>.row .col-lg-2 {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .card-detail-intro>.row figure {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-detail-intro>.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .card-detail-intro>.row figure {
+    margin-bottom: 30px;
+  }
+}
+
+.card-detail-intro .card-tab {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .card-detail-intro .card-tab {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
+.card-desc {
+  max-width: 100%;
+}
+
+.card-desc p {
+  margin-top: 10px;
+}
+
+.card-desc .btn-box a {
+  margin-right: 15px;
+}
+
+.card-type-list li {
+  padding-bottom: 60px;
+  background: url("../images/dotted-line-vert.png");
+  background-repeat: repeat-y;
+  background-position: 26px 0px;
+}
+
+@media (max-width: 768px) {
+  .card-type-list li {
+    background: url("../images/dotted-line-horiz.png");
+    background-repeat: repeat-x;
+    background-position: 26px 20px;
+    padding-right: 80px;
+  }
+}
+
+.card-type-list li:last-child {
+  background: none;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.card-type-list li a {
+  transition: all ease 0.5s;
+  font-size: 12px;
+  font-weight: 700;
+  color: #737373;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  line-height: 1.3;
+  position: relative;
+  z-index: 1;
+}
+
+.card-type-list li a:after {
+  content: "";
+  height: 0px;
+}
+
+.card-type-list li a img {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .card-type-list li a {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+  }
+}
+
+.card-type-list li a:hover img {
+  opacity: 1;
+}
+
+.card-type-list li a:hover:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  z-index: -1;
+  left: 29px;
+  width: 23px;
+  height: 46px;
+  background-color: transparent;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border: 2px solid #FFCB05;
+  border-left: 0;
+}
+
+.card-type-list li a.active img {
+  opacity: 1;
+}
+
+.card-type-list li a.active:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  z-index: -1;
+  left: 29px;
+  width: 23px;
+  height: 46px;
+  background-color: transparent;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border: 2px solid #FFCB05;
+  border-left: 0;
+}
+
+.card-type-list li a span {
+  padding-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .card-type-list li a span {
+    padding-top: 15px;
+  }
+}
+
+.card-type-list li a span.circle {
+  padding-left: 0px;
+  height: 40px;
+  width: 40px;
+  background: #d8d8d8;
+  border-radius: 50%;
+  margin: 0 6px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card-type-list li a span.circle {
+    padding-top: 0px;
+  }
+}
+
+.card-type-list li a span.circle img {
+  margin-left: -4px;
+  margin-top: 2px;
+}
+
+/* product details page Savings Account With Visa Signature Debit Card End*/

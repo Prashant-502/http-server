@@ -1,0 +1,523 @@
+.our-sol {
+    padding: 60px 0 100px;
+
+    .hd2v {
+        padding-left: 30px;
+    }
+}
+
+.insurance-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include breakpoint($mxw768) {
+        justify-content: center;
+    }
+
+    li {
+        padding: 45px 25px 0;
+        text-align: center;
+        width: 235px;
+
+        @include breakpoint($mxw1000) {
+            width: 232px;
+        }
+
+        @include breakpoint($mxw769) {
+            width: 230px;
+        }
+    }
+}
+
+.insurance-benefits {
+    .banner2 figure img {
+        margin-left: -60px;
+
+        @include breakpoint($mxw992) {
+            width: 60%;
+            margin-left: -20px;
+        }
+    }
+
+    &.terms-benefits {
+        .list-item {
+            border-top: 0px;
+        }
+
+        .banner2 {
+            @include breakpoint($mxw769) {
+                background: radial-gradient(39.45% 39.45% at 31.8% 40.47%, #f2f2f2 0%, #d5d7d9 100%);
+            }
+
+            figure {
+                margin-top: 0;
+                background: radial-gradient(39.45% 39.45% at 31.8% 40.47%, #f2f2f2 0%, #d5d7d9 100%);
+
+                img {
+                    margin-top: -60px;
+
+                    @include breakpoint($mxw768) {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.insurance-didyou {
+    &.customer-speak {
+        background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+
+        @include breakpoint($mxw768) {}
+
+        .container {
+            &.shape {
+                background: url("../images/svg/qst-icon.svg") no-repeat 80px -2px;
+                padding: 120px 15px 120px 15px;
+
+                @include breakpoint($mxw768) {
+                    padding: 80px 15px 0 15px;
+                    background: url("../images/svg/qst-icon.svg") no-repeat center -2px;
+                }
+            }
+        }
+
+        .hd2 {
+            color: $c-black;
+        }
+
+        .hd {
+            color: $c-white;
+
+            @include breakpoint($mxw1000) {
+                font-size: 34px;
+            }
+
+            @include breakpoint($mxw769) {
+                font-size: 30px;
+            }
+        }
+
+        .customer-speak-carousel .owl-nav {
+            left: -285px;
+            top: 140px;
+
+            @include breakpoint($mxw1000) {
+                left: -235px;
+            }
+
+            @include breakpoint($mxw992) {
+                left: -190px;
+            }
+
+            @include breakpoint($mxw768) {
+                position: static;
+                text-align: center;
+                padding: 30px 0;
+            }
+
+            button {
+                background: $c-white;
+            }
+        }
+    }
+}
+
+.invs-faqs {
+    padding-top: 30px;
+    background: $grey-100;
+
+    .page-breaker {
+        .hd2 {
+            color: $c-black;
+        }
+
+        .form-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+
+            @include breakpoint($mxw768) {
+                flex-direction: column;
+            }
+
+            li {
+                width: 34%;
+                margin-bottom: 0px;
+
+                @include breakpoint($mxw768) {
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                    .btn-box {
+                        padding: 0px;
+                        padding-top: 9px;
+                    }
+                }
+
+                &:last-child {
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+.product-banner.csr {
+    &.term-insurane-ban {
+        .banner-form {
+            @include center(y);
+
+            @include breakpoint($mxw769) {
+                transform: translate(0);
+                margin-bottom: 0;
+                border-radius: 0px;
+            }
+        }
+
+        figure img {
+            width: 100%;
+
+            @include breakpoint($mxw769) {
+                height: auto;
+            }
+        }
+    }
+}
+
+.five-reason {
+    margin-top: 60px;
+
+    &.customer-speak {
+        .cs-title-box {
+            padding-top: 0px;
+        }
+
+        .container.shape {
+            background: url("../images/svg/exm-icon.svg") no-repeat 170px 0;
+        }
+
+        .hd2 {
+            font-size: 16px;
+            font-weight: $font-bold;
+            margin-bottom: 10px;
+        }
+
+        .white-box {
+            font-size: 14px;
+            min-height: 160px;
+
+            @include breakpoint($mxw1000) {
+                min-height: 215px;
+            }
+        }
+
+        .customer-speak-carousel .owl-nav {
+            left: -278px;
+            top: 135px;
+
+            @include breakpoint($mxw1000) {
+                left: -235px;
+            }
+
+            @include breakpoint($mxw992) {
+                left: -190px;
+            }
+
+            @include breakpoint($mxw768) {
+                position: static;
+                text-align: center;
+                padding: 30px 0;
+            }
+
+            button {
+                background: $c-white;
+            }
+        }
+    }
+}
+
+.plans-policy {
+    padding: 60px 0;
+
+    .card.op2 .card-body .hd3b {
+        line-height: 1.2;
+    }
+}
+
+.card.withlist {
+    ul.check-list {
+        margin: 20px 0 0;
+
+        li {
+            margin: 6px 0 0;
+        }
+    }
+}
+
+.blog-card .card-right {
+    @include breakpoint($mxw769) {
+        flex-wrap: wrap;
+    }
+}
+
+.form-plan-policy {
+    &.stories-from {
+        background: $c-white;
+        padding-bottom: 0;
+
+        .hd2 {
+            color: $c-black;
+        }
+
+        .form-details select {
+            padding: 0.85rem 1.75rem;
+        }
+
+        .form-list {
+            @include breakpoint($mxw769) {
+                justify-content: end;
+            }
+
+            li {
+                margin-right: 20px;
+
+                @include breakpoint($mxw1000) {
+                    margin-right: 4px;
+                }
+
+                @include breakpoint($mxw769) {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+.plan-policy {
+    &.prod-feature {
+        background: $c-white;
+    }
+}
+
+.plan-term-brk {
+    &.invs-faqs {
+        padding: 80px 0 0;
+    }
+}
+
+.card-look {
+    &.grey {
+        background: $grey-100;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+
+        div {
+            width: 100%;
+        }
+    }
+}
+
+.exp-suggest {
+    padding: 70px 0 40px;
+}
+
+.plan-detail-faq {
+    background: $grey-100;
+
+    .faq-section {
+        padding-bottom: 5px;
+    }
+}
+
+.pl-banner {
+    //background: #ffecee;
+    //background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 64%, white 64%, white 100%);
+
+    &.term-calculator {
+        background: url("../images/term-cal-bg.jpg") no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+
+        @include breakpoint($mxw1366) {
+            background: url("../images/term-cal-bg.jpg") no-repeat;
+            background-size: 100% 100%;
+        }
+
+        @include breakpoint($mxw1000) {
+            background: url("../images/term-cal-bg-1024.jpg") no-repeat;
+            background-size: 60% 100%;
+            padding: 20px 0;
+
+            figure img {
+                width: auto;
+            }
+
+            .sa-left {
+                padding-left: 100px;
+            }
+        }
+
+        @include breakpoint($mxw769) {
+            background: inherit;
+
+            .sa-left {
+                padding-left: 15px;
+            }
+        }
+
+        .sa-right {
+            .radio-option {
+                margin-top: 15px;
+            }
+        }
+
+        .hero-from {
+            padding-left: 130px;
+
+            @include breakpoint($mxw769) {
+                padding-left: 0;
+            }
+        }
+
+        .hd {
+            color: $c-black;
+            font-size: 64px;
+
+            @include breakpoint($mxw1000) {
+                font-size: 48px;
+            }
+
+            @include breakpoint($mxw1000) {
+                font-size: 42px;
+            }
+        }
+
+        p.desc {
+            margin-top: 18px;
+        }
+
+        .media {
+            align-items: center;
+            margin-top: 36px;
+
+            figure {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+.pl-banner.insurance-calc {
+    background: url("../images/insurance-calc-bg.jpg") no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+
+    @include breakpoint($mxw1366) {
+        background-size: 100% 100%;
+    }
+
+    @include breakpoint($mxw992) {
+        background: none;
+
+        .sa-left {
+            margin-bottom: 40px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: url(../images/insurance-calc-mbg.jpg) no-repeat;
+        background-size: 100% 350px;
+
+        .sa-left {
+            padding-left: 15px;
+        }
+
+        .custom-control {
+            min-height: 2rem;
+        }
+    }
+
+    .sa-right {
+        .radio-option {
+            margin-top: 15px;
+        }
+    }
+
+    .hero-from {
+        padding-left: 130px;
+
+        @include breakpoint($mxw1000) {
+            padding-left: 50px;
+        }
+
+        @include breakpoint($mxw769) {
+            padding-left: 0;
+        }
+    }
+
+    .hd {
+        color: $c-black;
+        font-size: 64px;
+
+        @include breakpoint($mxw1000) {
+            font-size: 48px;
+        }
+
+        @include breakpoint($mxw1000) {
+            font-size: 42px;
+        }
+    }
+
+    p.desc {
+        margin-top: 18px;
+    }
+
+    .media {
+        align-items: center;
+        margin-top: 36px;
+
+        figure {
+            padding-right: 15px;
+        }
+    }
+}
+
+.list-hp {
+    li {
+        margin-top: 12px;
+
+        span {
+            display: inline-block;
+            margin-right: 20px;
+            width: 46px;
+            height: 46px;
+            background: $c-white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 44px;
+        }
+    }
+
+    &.f24 {
+        font-size: 20px;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            span {
+                flex: 0 0 46px;
+            }
+        }
+    }
+}
+
+.insuCal {
+    display: none;
+
+    &.act {
+        display: block;
+    }
+}

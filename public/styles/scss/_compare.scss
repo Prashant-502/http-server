@@ -1,0 +1,194 @@
+.compare-grid {
+    margin: 36px 0 80px;
+    table {
+        width: 100%;
+        td {
+            width: 27%;
+            padding: 48px 25px;
+            vertical-align: top;
+            border: 1px solid $grey-200;
+            position: relative;
+            &:first-child {
+                text-align: right;
+                border-left: 0;
+                width: 19%;
+            }
+            &:last-child {
+                border-right: 0;
+                //width: 26%;
+            }
+            p {
+                margin-bottom: 24px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .btn-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .btn-red {
+                    font-size: 14px;
+                }
+            }
+            @include breakpoint($mxw1000) {
+                .btn-box .btn-red {
+                    min-width: inherit;
+                    margin-right: 16px;
+                }
+            }
+            @include breakpoint($mxw992) {
+                padding: 24px 15px;
+                text-align: center;
+                &:first-child,
+                &:last-child {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    border-left: 0;
+                }
+                &:nth-child(3) {
+                    border-right: 0;
+                }
+                p.d-lg-none {
+                    margin-bottom: 16px;
+                }
+                .btn-box {
+                    flex-direction: column;
+                    .btn-red {
+                        padding: 0 20px;
+                        min-width: auto;
+                        height: 40px;
+                        line-height: 36px;
+                        margin: 0 0 12px;
+                    }
+                }
+            }
+        }
+        @include breakpoint($mxw992) {
+            td {
+                width: 50%;
+            }
+            thead tr {
+                &:first-child td {
+                    border-top: 0;
+                }
+            }
+            tbody tr {
+                &:last-child td {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+    .collapsed-tr {
+        display: none;
+    }
+    .btn-box.show-collapsed-tr {
+        padding: 15px 20px;
+        border-bottom: 1px solid $grey-200;
+        &.minus {
+            @include breakpoint($mxw992) {
+                border-top: 1px solid $grey-200;
+            }
+        }
+    }
+}
+
+.compare-box {
+    figure {
+        text-align: center;
+        img {
+            height: 136px;
+            width: auto;
+        }
+    }
+    .hd3b {
+        min-height: 60px;
+        margin-bottom: 20px;
+    }
+    .icon-close {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 25px;
+        top: -25px;
+        background: $c-yellow;
+        &:before {
+            color: $c-red;
+        }
+    }
+    @include breakpoint($mxw992) {
+        figure img {
+            height: 112px;
+        }
+        .hd3b {
+            font-size: 16px;
+            min-height: 40px;
+        }
+        .icon-close {
+            width: 32px;
+            height: 32px;
+            font-size: 12px;
+            top: 25px;
+            right: 115px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .icon-close {
+            right: 25px;
+        }
+    }
+}
+
+.compare-add {
+    padding: 75px 0;
+    &.hide {
+        display: none
+    }
+    .hd2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    @include breakpoint($mxw768) {
+        .form-label-group label.form-control-placeholder {
+            font-size: 13px;
+        }
+        .dropdown .dropdown-menu {
+            min-width: 100%;
+        }
+        .bootstrap-select>.dropdown-toggle {
+            white-space: inherit;
+        }
+    }
+}
+
+.show-collapsed-tr {
+    a {
+        color: $c-red;
+        font-weight: $font-bold;
+        &:hover,
+        &:focus {
+            color: $c-red;
+        }
+        &:after {
+            content: "\e906";
+            font-family: 'icomoon' !important;
+            color: $c-red;
+            font-weight: bold;
+            vertical-align: bottom;
+            padding-left: 7px;
+        }
+    }
+    &.minus {
+        a {
+            &:after {
+                content: "\e905";
+            }
+        }
+    }
+}

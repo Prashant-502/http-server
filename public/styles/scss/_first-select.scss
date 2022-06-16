@@ -1,0 +1,1106 @@
+$c-blus: #0059B1;
+
+strong.mdw {
+    font-weight: 600;
+}
+
+.full-wid {
+    width: 100%;
+    height: auto;
+}
+
+@include breakpoint($mxw768) {
+
+    .main-ctnr[class^='fs'],
+    .main-ctnr[class*=' fs'] {
+        &::after {
+            background: linear-gradient(82deg, #6C9FF3 0%, #25499B 100%);
+        }
+    }
+}
+
+.fpsub-nav.fs {
+    background: linear-gradient(180deg, #6C9FF3 0%, #25499B 100%);
+
+    ul li {
+        margin-right: 25px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        a::after {
+            background: linear-gradient(82deg, #6C9FF3 0%, #25499B 100%);
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        ul li a {
+            font-size: 14px;
+            letter-spacing: 1px;
+
+            &.active {
+                letter-spacing: .8px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        ul li a {
+            font-size: 12px;
+
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.sep-bx1.fs .sep {
+    background: linear-gradient(90deg, rgba($c-blus, .7) 0%, transparent 100%);
+}
+
+.acc-data.fsl p {
+    font-size: 16px;
+    letter-spacing: 0;
+    position: relative;
+    margin-bottom: 40px;
+
+    &:last-child::after {
+        content: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 200px;
+        background: rgba($c-blus, .8);
+        left: 65px;
+        bottom: -20px;
+    }
+
+    @include breakpoint($mxw768) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+.fpscn8 .accordion ul.acrd-list,
+.acrd-list {
+    display: block;
+
+    li {
+        padding: 16px 0;
+        border-bottom: 1px solid #C6CCD9;
+        width: 100%;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        p {
+            color: $c-blk;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+}
+
+.select-list {
+    display: flex;
+    margin-top: 20px;
+    color: rgba($c-white, .75);
+
+    li {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding-right: 60px;
+        width: 150px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            height: 2px;
+            width: 70px;
+            background: #6A8BCB;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            width: 80px;
+
+            &::after {
+                content: none;
+            }
+        }
+
+        img {
+            width: 56px;
+            height: 56px;
+            margin-bottom: 8px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        li {
+            width: 25%;
+            padding-right: 0;
+            text-align: center;
+            font-size: 13px;
+
+            img {
+                margin: 0 auto;
+            }
+
+            &::after {
+                content: none;
+            }
+        }
+    }
+}
+
+.fsscn1 {
+    background: url(../images/fs/sec1-img.png) no-repeat 85% 80% / 50%, linear-gradient(180deg, #6C9FF3 0%, #25499B 100%);
+    position: relative;
+    padding: 100px 0 60px;
+
+    .fphd1 {
+        color: $c-white;
+        letter-spacing: -0.1px;
+        line-height: 64px;
+        font-weight: 400;
+        margin: 30px 0 15px;
+    }
+
+    .desc {
+        color: $c-white;
+        margin-bottom: 40px;
+    }
+
+    .btn-box .btn-white {
+        border-width: 1px;
+        font-weight: 300;
+        color: $c-white;
+    }
+
+    @include breakpoint($mxw1366) {
+        .fphd1 {
+            margin-top: 10px;
+        }
+
+        .desc {
+            margin-bottom: 20px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 60%;
+        background-position: 95% 60%;
+
+        .fphd1 {
+            line-height: 1.1;
+            font-size: 42px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background: linear-gradient(136deg, #6C9FF3 0%, #25499B 50%);
+        align-items: center;
+        padding-top: 70px;
+
+        .logo {
+            margin-top: 15px;
+            text-align: right;
+        }
+
+        .rtImg1 img {
+            width: auto;
+            height: 30vh;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        align-items: flex-start;
+
+        .fphd1 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        .btn-box .btn-white {
+            height: 40px;
+            line-height: 40px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}
+
+.fsscn2 {
+    background: #f2f3f5; //url(../images/fs/section9bg.png) no-repeat 0 0 / cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0px;
+        font-size: 45px;
+    }
+
+    .acc-data1 li {
+        align-items: flex-start;
+        color: $c-blk;
+        position: relative;
+
+        &:last-child::after {
+            content: none;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 200px;
+            background: rgba($c-blus, .8);
+            left: 68px;
+            bottom: -18px;
+        }
+
+        .f24 {
+            font-size: 21px;
+            line-height: 1;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 300;
+            margin-bottom: 8px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1366) {
+        .row.MT30 {
+            margin-top: 10px;
+        }
+
+        .fphd1 {
+            font-size: 40px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .fphd1 {
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        .acc-data1 li {
+            margin-bottom: 30px;
+
+            &::after {
+                bottom: -12px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .fphd1 {
+            font-size: 26px;
+            line-height: 1.2;
+        }
+
+        .row.MT30 {
+            margin-top: 0;
+        }
+
+        .full-wid {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .acc-data1 {
+            margin-top: -20px;
+
+            li {
+                margin-bottom: 20px;
+
+                &::after {
+                    bottom: -8px;
+                }
+
+                .f24 {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 1.1;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+
+.fsscn3 {
+    //background: url(../images/fs/section3bg.png) no-repeat 0 0 / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+        line-height: 1;
+
+        strong {
+            margin-bottom: 0px;
+            display: block;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .fphd1 {
+            font-size: 28px;
+            line-height: 1.2;
+        }
+
+        .acc-data.MT50 {
+            margin: 30px 0;
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                align-items: flex-start;
+
+                &::after {
+                    bottom: -10px;
+                }
+            }
+        }
+    }
+}
+
+.fsscn4,
+.fsscn5,
+.fsscn6 {
+    //background: #E6EFFF url(../images/fs/section5img.svg) no-repeat 85% 80% / 40%;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+        line-height: 1.3;
+    }
+
+    @include breakpoint($mxw1000) {
+        //background-size: 100% 85%;
+    }
+
+    @include breakpoint($mxw992) {
+        //background: #ecf1f6;
+        align-items: center;
+        background-image: none !important;
+
+        .fphd1 {
+            font-size: 42px;
+        }
+
+        .rtImg1 img {
+            width: 50%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .f21l.MT40 {
+            margin: 20px 0 0;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        .fphd1 {
+            font-size: 28px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.fsscn4 {
+    background: #E6EFFF; //url(../images/fs/section3img.svg) no-repeat 85% 80% / 40%;
+    background-repeat: no-repeat;
+    background-position: 85% 80%;
+    background-size: 40%;
+
+    @include breakpoint($mxw1366) {
+        .fphd1 {
+            line-height: 1;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        //background-image: none !important;
+
+        .wht-bx p br {
+            display: none;
+        }
+    }
+}
+
+.fsscn5 {
+    background: #E6EFFF; //url(../images/fs/section4img.svg) no-repeat 15% 80% / 40%;
+    background-repeat: no-repeat;
+    background-position: 15% 80%;
+    background-size: 40%;
+
+    .wht-bx {
+        text-align: left;
+        padding: 16px 14px;
+        position: relative;
+
+        .TAR a {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+    }
+
+
+    @include breakpoint($mxw1366) {
+        .fphd1 {
+            line-height: 1.1;
+            //font-size: 40px;
+        }
+
+        .wht-bx {
+            padding: 12px 20px 16px;
+
+            .hdg {
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            &.MT30 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 45%;
+        background-position: 5% 80%;
+    }
+
+    @include breakpoint($mxw992) {
+        //background-image: none !important;
+
+        .row.align-items-center {
+            flex-direction: column-reverse;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .fphd1 {
+            font-size: 28px;
+        }
+
+        .wht-bx {
+            padding: 8px 16px;
+
+            &.MT30 {
+                margin-top: 16px;
+            }
+        }
+    }
+
+}
+
+.fsscn6 {
+    background: #E6EFFF; //url(../images/fs/section5img.svg) no-repeat 85% 80% / 40%;
+    background-repeat: no-repeat;
+    background-position: 85% 80%;
+    background-size: 40%;
+
+    @include breakpoint($mxw1000) {
+        background-size: 50%;
+    }
+
+    @include breakpoint($mxw768) {
+        .rtImg1 img {
+            width: 80%;
+        }
+    }
+}
+
+.fsscn21 {
+    background: #FFF url(../images/fs/section2img.png) no-repeat 12% 90% / 25%;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+        line-height: 1.3;
+    }
+
+    .wht-bx {
+        background: #FAFCFF;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, .1);
+        text-align: left;
+        padding: 20px;
+        min-height: 200px;
+
+        .oimg {
+            float: right;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 28%;
+        background-position: 4% 90%;
+
+        .fphd1 {
+            font-size: 42px;
+
+            + .sep-bx1 {
+                margin-top: 0;
+            }
+        }
+
+        .list-circle li {
+            font-size: 14px;
+        }
+
+        .wht-bx .hdg {
+            font-size: 20px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background-image: none;
+        align-items: center;
+
+        .row.align-items-center {
+            flex-direction: column-reverse;
+        }
+
+        .rtImg1 img {
+            width: 20vh;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .list-circle {
+            display: none;
+        }
+
+        .fphd1 {
+            font-size: 28px;
+            margin: 12px 0 8px;
+        }
+
+        .wht-bx {
+            min-height: inherit;
+            padding: 8px 16px;
+
+            .oimg img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .hdg {
+                font-size: 18px;
+
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.list-circle {
+    margin-top: 20px;
+
+    li {
+        padding: 0 0 12px 15px;
+        position: relative;
+        font-weight: 300;
+
+        &::before {
+            content: "•";
+            font-size: 20px;
+            line-height: 1;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            color: #4E4E4E;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.wht-bx {
+    background: $c-white;
+    border-radius: 12px;
+    padding: 20px 20px 30px;
+    text-align: center;
+    color: $c-blk;
+
+    .hdg {
+        font: 600 21px $inter;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-weight: 300;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+
+    @include breakpoint($mxw1366) {
+        padding: 12px 20px 16px;
+
+        &.MT30 {
+            margin-top: 24px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+
+        &.MT30,
+        &.mt-m {
+            margin-top: 16px;
+        }
+
+        figure {
+            margin-bottom: 0 !important;
+            margin-right: 10px;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        .hdg {
+            font-size: 18px;
+            margin-bottom: 0;
+
+            + p {
+                display: none;
+            }
+        }
+    }
+}
+
+.fsscn7 {
+    background: #FFF; //url(../images/fs/section7bg.svg) no-repeat center bottom / contain; 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+
+    .fphd1 {
+        letter-spacing: -0.1px;
+        color: $c-blk;
+        margin-bottom: 20px;
+        line-height: 64px;
+    }
+
+    .fphd2 {
+        margin-bottom: 10px;
+
+        + .sep-bx1 {
+            margin: 0 0 40px;
+        }
+    }
+
+    .our-inv-bx .inv-bx {
+        background: rgba($c-white, .9);
+        box-shadow: 0px 0px 24px rgba($c-blus, .16);
+
+        .inv-hd {
+            color: $c-blk;
+            letter-spacing: -0.01px;
+
+            + p {
+                color: $c-blk;
+                letter-spacing: 0;
+            }
+        }
+
+        p.mb-0 img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    @include breakpoint($mxw1366) {
+        background-position: center 100px;
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 100% 88%;
+    }
+
+    @include breakpoint($mxw992) {
+        background-size: contain;
+
+        .our-inv-bx .inv-bx {
+            padding: 20px 16px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            .inv-hd {
+                min-height: 80px;
+
+                + p {
+                    min-height: 70px;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background-image: none !important;
+
+        .fphd1 {
+            line-height: 1.3;
+            font-size: 30px;
+        }
+
+        .fphd2 {
+            line-height: 1;
+        }
+
+        .our-inv-bx .inv-bx {
+            //background: rgba($c-redis, .6);
+
+            .inv-hd {
+                min-height: inherit;
+                //color: $c-white;
+            }
+        }
+    }
+}
+
+.fsscn8 {
+    background: #f2f3f5; // url(../images/fs/section8bg.png) no-repeat center center / cover;
+
+    .row {
+        height: calc(100vh - 130px);
+        align-items: center;
+
+        .col-lg-4.mid-img {
+            align-self: flex-end
+        }
+    }
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: -0.1px;
+        line-height: 1.34;
+    }
+
+    .f21 {
+        font: 300 21px/30px $inter;
+        letter-spacing: 0.01px;
+        color: $c-blk;
+
+        + .sep-bx1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .tab-img {
+        display: none;
+    }
+
+    .app-list {
+        display: flex;
+
+        li {
+            margin: 0 10px 0 0;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1366) {
+        .fphd1 + figure.MT50 {
+            margin: 30px 0 0;
+        }
+
+        .mid-img img {
+            width: 84%;
+            height: auto;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .fphd1 {
+            font-size: 42px;
+        }
+
+        .mid-img img {
+            width: 100%;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .mid-img {
+            display: none;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .row {
+            align-items: flex-end;
+        }
+
+        .fphd1 {
+            line-height: 1.3;
+            font-size: 28px;
+
+            strong {
+                display: block;
+            }
+
+            + figure {
+                display: none;
+            }
+        }
+
+        .f21 {
+            font-size: 15px;
+            line-height: 1.2;
+            margin-bottom: 5px;
+
+            + .sep-bx1 {
+                margin: 0 0 10px;
+            }
+        }
+
+        .tab-img {
+            display: flex;
+            align-items: center;
+
+            figure {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.fpscn8.fs {
+    .accordion {
+        .hd40 {
+            color: $c-blk;
+            letter-spacing: -0.08px;
+        }
+
+        ul li div a .btm-txt {
+            opacity: 1;
+
+            .f12m {
+                color: $c-blk;
+                font-size: 17px;
+            }
+
+            .brd {
+                background: $c-blk;
+                height: 2px;
+            }
+        }
+
+        .acrd-list {
+            margin-top: 30px;
+            transform: translateX(140%);
+            transition: all 600ms ease;
+        }
+
+        li:hover {
+            background: #E6EFFF !important;
+
+            a {
+                background: none;
+            }
+
+            .acrd-list {
+                transform: translateX(0);
+            }
+        }
+
+        @include breakpoint($mxw1366) {
+            ul li div a {
+                .ctnt {
+                    padding-top: 25px;
+                }
+
+                .btm-txt {
+                    padding-bottom: 25px;
+                }
+            }
+
+            .acrd-list {
+                margin-top: 10px;
+
+                li figure {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            .hd40 {
+                font-size: 32px;
+            }
+
+            ul.acrd-list li {
+                padding: 10px 0;
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            ul li div a {
+                .ctnt {
+                    padding-top: 0;
+                    padding-left: 20px;
+                }
+
+                .hd40 {
+                    font-size: 26px;
+                }
+
+                .btm-txt {
+                    padding-bottom: 8px;
+
+                    .f12m {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            ul.acrd-list {
+                li {
+                    padding: 5px 0;
+                }
+
+                &.mt0 {
+                    margin-top: 0;
+
+                    li {
+                        padding: 5px 0;
+
+                        figure {
+                            margin-bottom: 0;
+                        }
+
+                        p {
+                            font-size: 13px;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fpscn12.fs {
+    //background: url(../images/fs/section10bg.png) no-repeat center bottom / cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-white;
+        letter-spacing: -0.1px;
+
+        + .f18 {
+            color: $c-white;
+            letter-spacing: 0.5px;
+            font-size: 21px;
+
+            a {
+                color: $c-white;
+            }
+        }
+    }
+
+    .footer-btm {
+        background: linear-gradient(180deg, #6C9FF3 0%, #25499B 100%);
+    }
+
+    @include breakpoint($mxw768) {
+        .footer-btm {
+            background: none;
+        }
+    }
+}
+
+.register-bx.fs {
+    border-color: $c-blus;
+
+    .icon-close:before {
+        color: $c-blus;
+    }
+
+    .btn-box .btn-white {
+        background: linear-gradient(90deg, #6C9FF3 0%, #25499B 100%);
+    }
+}
+
+.our-busins.achieve {
+    background-size: 90%;
+    background-position: center;
+    background-color: #FFF;
+}
+
+@media (max-width: 992px) {
+    .our-busins.achieve {
+        background-image: url(https://bajaj-assets.s3.ap-south-1.amazonaws.com/live/bajajgroup/s3fs-public/images/m-diwali-message-031121-B.png) !important;
+    }
+}

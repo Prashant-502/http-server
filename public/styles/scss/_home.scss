@@ -1,0 +1,246 @@
+.looking-for {
+    padding: 50px 0;
+    background: $grey-100;
+    @include breakpoint($mxw768) {
+        padding: 40px 0;
+    }
+    &.hover-card{
+        .owl-carousel .owl-item img{
+            width: auto;
+            @include breakpoint($mxw768) {
+                height: 24px;
+            }
+        }
+        .owl-carousel .owl-stage{
+            @include breakpoint($mxw768) {
+                padding-left: 0 !important;
+            }
+        }
+        .owl-nav {
+            .owl-prev.disabled{
+                opacity: 0;
+            }
+            .owl-next.disabled{
+                opacity: 0;
+            }
+            
+            .owl-next,
+            .owl-prev {
+                position: absolute;
+                background: $c-red;
+                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.32);
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                margin-bottom: 12px;
+                span {
+                    font-size: 12px;
+                    color: $c-white;
+                    &::before{
+                        color: $c-white;
+                    }
+                }
+            }
+            .owl-next{
+                right: 15px;
+            }
+            .owl-prev{
+                left: -10px;
+            }
+            @include breakpoint($mxw768) {
+                &.disabled {
+                    display: none
+                }
+            }
+        }
+        .sub-title{
+            line-height: 1;
+        }
+        .list-looking{
+            justify-content: start;
+            flex-wrap: nowrap;
+            @include breakpoint($mxw768) {
+                justify-content: space-between;
+            }
+            li{
+                margin-bottom: 0;
+                margin-right: 20px;
+                width: 100%;
+                margin-bottom: 2px;
+                @include breakpoint($mxw768) {
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        .card-look{
+            transition: all 0.5s linear;
+            min-height: 100%;
+            @include breakpoint($mxw1000) {
+                min-height: 120px;
+            }
+            @include breakpoint($mxw992) {
+                min-height: 170px;
+            }
+            @include breakpoint($mxw768) {
+                min-height: 160px;
+            }
+            >a{
+                padding: 15px;
+            }
+            figure{
+                margin: 0 15px 0 0;
+                @include breakpoint($mxw992) {
+                    margin: 0 auto;
+                }
+            }
+            .title{
+                @include breakpoint($mxw992) {
+                    min-height: 41px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                @include breakpoint($mxw768) {
+                    font-size: 14px;
+                    line-height: 1;
+                }
+            }
+            p{
+                color: #525252;
+                @include breakpoint($mxw992) {
+                    display: block;
+                }
+            }
+            &:hover{
+                figure{
+                    display: none;
+                }
+                background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+                .title{
+                    color: $c-white;
+                }
+                p{
+                    color: $c-white;
+                }
+            }
+        }
+    }
+}
+
+.cross-arrow-link{
+    color: $c-black;
+    display: block;
+    background: url(../images/cross-arrow-grey.svg) no-repeat right center;
+    padding-right: 20px;
+    font-size: 22px;
+    font-weight: $font-normal;
+    &:hover{
+        background: url(../images/cross-arrow-red.svg) no-repeat right center;
+        font-weight: $font-bold;
+        color: $c-red;
+
+    }
+    @include breakpoint($mxw1000) {
+        font-size: 16px;
+    }
+    @include breakpoint($mxw992) {
+        font-weight: $font-bold;
+        color: $c-red;
+        background: url(../images/cross-arrow-red.svg) no-repeat right center;
+        margin-bottom: 15px;
+    }
+}
+
+.hero-know-more {
+    color: $c-white;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.play-box {
+    background: $marigold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon-play {
+        font-size: 35px;
+
+        &:before {
+            color: $c-black;
+        }
+    }
+}
+
+.nav {
+    &.opt1 {
+        justify-content: space-between;
+
+        li {
+            margin: 0 15px;
+
+            a {
+                padding: 14px 30px;
+                font-weight: $font-bold;
+                border: 2px solid transparent;
+                display: block;
+
+                &.active {
+                    border-color: $grey-200;
+                    border-radius: 26px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            justify-content: flex-start;
+
+            li {
+                margin: 0 8px;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            flex-direction: row;
+        }
+    }
+}
+
+.blog-home {
+    background: $grey-100;
+    padding: 50px 0 0;
+
+    .blog-card .card-right {
+        padding: 36px 30px 16px 48px;
+
+        .list-img {
+            li {
+                margin-bottom: 36px;
+
+                &:last-child {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        @include breakpoint($mxw992) {
+            padding: 30px 30px 16px 30px;
+        }
+    }
+}

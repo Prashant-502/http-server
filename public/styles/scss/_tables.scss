@@ -1,0 +1,119 @@
+.table-style {
+    margin-bottom: 30px;
+    width: 100%;
+
+    &.op1 {
+        td {
+            &:first-child {
+                width: 20%;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                width: 40%;
+            }
+        }
+    }
+
+    &.op3 {
+        td {
+            &:first-child {
+                width: 20%;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4) {
+                width: 26.66%;
+            }
+        }
+    }
+
+
+    &.op2 {
+        td {
+            &.sm {
+                width: 10%;
+            }
+
+            &.lg {
+                width: 30%;
+            }
+        }
+    }
+
+    .link {
+        background: $c-red;
+        color: $c-white;
+        display: inline-block;
+        padding: 2px 5px;
+    }
+
+    td {
+        padding: 20px;
+        color: #737373;
+        font-size: 14px;
+        vertical-align: top;
+        border-left: solid 2px #F3F3F3;
+        border-right: solid 2px #F3F3F3;
+        border-bottom: solid 2px #F3F3F3;
+
+        &:first-child {
+            border-left: solid 2px transparent;
+        }
+
+        &:last-child {
+            border-right: solid 2px transparent;
+        }
+    }
+
+    tr th {
+        background: #F3F3F3;
+        padding: 8px 20px;
+        height: 40px;
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle;
+        font-weight: bold;
+        color: $grey-400;
+    }
+
+    thead{
+        th{
+            border: solid 2px #F3F3F3;
+            vertical-align: middle;
+            background: none;
+            font-weight: $font-normal;
+            padding: 20px;
+            color: $grey-400;
+        }
+    }
+    ul {
+        margin-left: 20px;
+
+        li {
+            list-style-type: disc;
+            padding-bottom: 5px;
+        }
+    }
+
+    ol {
+        padding-left: 20px;
+    }
+
+    @include breakpoint($mxw768) {
+        width: 800px;
+
+        td {
+            padding: 12px;
+        }
+    }
+
+}
+.acrd-data{
+    .table-style{
+        td{
+            padding: 20px;
+        }
+    }
+}

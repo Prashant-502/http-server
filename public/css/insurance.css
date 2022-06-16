@@ -1,0 +1,623 @@
+.our-sol {
+  padding: 60px 0 100px;
+}
+
+.our-sol .hd2v {
+  padding-left: 30px;
+}
+
+.insurance-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .insurance-list {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.insurance-list li {
+  padding: 45px 25px 0;
+  text-align: center;
+  width: 235px;
+}
+
+@media (max-width: 1024px) {
+  .insurance-list li {
+    width: 232px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insurance-list li {
+    width: 230px;
+  }
+}
+
+.insurance-benefits .banner2 figure img {
+  margin-left: -60px;
+}
+
+@media (max-width: 991px) {
+  .insurance-benefits .banner2 figure img {
+    width: 60%;
+    margin-left: -20px;
+  }
+}
+
+.insurance-benefits.terms-benefits .list-item {
+  border-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .insurance-benefits.terms-benefits .banner2 {
+    background: radial-gradient(39.45% 39.45% at 31.8% 40.47%, #f2f2f2 0%, #d5d7d9 100%);
+  }
+}
+
+.insurance-benefits.terms-benefits .banner2 figure {
+  margin-top: 0;
+  background: radial-gradient(39.45% 39.45% at 31.8% 40.47%, #f2f2f2 0%, #d5d7d9 100%);
+}
+
+.insurance-benefits.terms-benefits .banner2 figure img {
+  margin-top: -60px;
+}
+
+@media (max-width: 767px) {
+  .insurance-benefits.terms-benefits .banner2 figure img {
+    margin-top: 40px;
+  }
+}
+
+.insurance-didyou.customer-speak {
+  background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+}
+
+.insurance-didyou.customer-speak .container.shape {
+  background: url("../images/svg/qst-icon.svg") no-repeat 80px -2px;
+  padding: 120px 15px 120px 15px;
+}
+
+@media (max-width: 767px) {
+  .insurance-didyou.customer-speak .container.shape {
+    padding: 80px 15px 0 15px;
+    background: url("../images/svg/qst-icon.svg") no-repeat center -2px;
+  }
+}
+
+.insurance-didyou.customer-speak .hd2 {
+  color: #54565B;
+}
+
+.insurance-didyou.customer-speak .hd {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .insurance-didyou.customer-speak .hd {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insurance-didyou.customer-speak .hd {
+    font-size: 30px;
+  }
+}
+
+.insurance-didyou.customer-speak .customer-speak-carousel .owl-nav {
+  left: -285px;
+  top: 140px;
+}
+
+@media (max-width: 1024px) {
+  .insurance-didyou.customer-speak .customer-speak-carousel .owl-nav {
+    left: -235px;
+  }
+}
+
+@media (max-width: 991px) {
+  .insurance-didyou.customer-speak .customer-speak-carousel .owl-nav {
+    left: -190px;
+  }
+}
+
+@media (max-width: 767px) {
+  .insurance-didyou.customer-speak .customer-speak-carousel .owl-nav {
+    position: static;
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+.insurance-didyou.customer-speak .customer-speak-carousel .owl-nav button {
+  background: #FFFFFF;
+}
+
+.invs-faqs {
+  padding-top: 30px;
+  background: #f3f3f3;
+}
+
+.invs-faqs .page-breaker .hd2 {
+  color: #54565B;
+}
+
+.invs-faqs .page-breaker .form-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .invs-faqs .page-breaker .form-list {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.invs-faqs .page-breaker .form-list li {
+  width: 34%;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .invs-faqs .page-breaker .form-list li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .invs-faqs .page-breaker .form-list li .btn-box {
+    padding: 0px;
+    padding-top: 9px;
+  }
+}
+
+.invs-faqs .page-breaker .form-list li:last-child {
+  width: auto;
+}
+
+.product-banner.csr.term-insurane-ban .banner-form {
+  top: 50%;
+  bottom: auto;
+  -khtml-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .product-banner.csr.term-insurane-ban .banner-form {
+    transform: translate(0);
+    margin-bottom: 0;
+    border-radius: 0px;
+  }
+}
+
+.product-banner.csr.term-insurane-ban figure img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .product-banner.csr.term-insurane-ban figure img {
+    height: auto;
+  }
+}
+
+.five-reason {
+  margin-top: 60px;
+}
+
+.five-reason.customer-speak .cs-title-box {
+  padding-top: 0px;
+}
+
+.five-reason.customer-speak .container.shape {
+  background: url("../images/svg/exm-icon.svg") no-repeat 170px 0;
+}
+
+.five-reason.customer-speak .hd2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.five-reason.customer-speak .white-box,
+.five-reason.customer-speak .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .five-reason.customer-speak .ad-card,
+.five-reason.customer-speak .accordian .trgr,
+.accordian .five-reason.customer-speak .trgr,
+.five-reason.customer-speak .accordian .tog_cont,
+.accordian .five-reason.customer-speak .tog_cont,
+.five-reason.customer-speak .card-look,
+.five-reason.customer-speak .media-card,
+.five-reason.customer-speak .pr-list>li .card-bx,
+.pr-list>li .five-reason.customer-speak .card-bx,
+.five-reason.customer-speak .trgr1,
+.five-reason.customer-speak .trgr2,
+.five-reason.customer-speak .trgr3,
+.five-reason.customer-speak .tog_cont1,
+.five-reason.customer-speak .tog_cont2,
+.five-reason.customer-speak .tog_cont3,
+.five-reason.customer-speak .mf-invest .start-box,
+.mf-invest .five-reason.customer-speak .start-box,
+.five-reason.customer-speak .more-box,
+.five-reason.customer-speak .media-kit .media-list .card-media,
+.media-kit .media-list .five-reason.customer-speak .card-media,
+.five-reason.customer-speak .ebc-loan-banner .lawbx,
+.ebc-loan-banner .five-reason.customer-speak .lawbx {
+  font-size: 14px;
+  min-height: 160px;
+}
+
+@media (max-width: 1024px) {
+
+  .five-reason.customer-speak .white-box,
+  .five-reason.customer-speak .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .five-reason.customer-speak .ad-card,
+  .five-reason.customer-speak .accordian .trgr,
+  .accordian .five-reason.customer-speak .trgr,
+  .five-reason.customer-speak .accordian .tog_cont,
+  .accordian .five-reason.customer-speak .tog_cont,
+  .five-reason.customer-speak .card-look,
+  .five-reason.customer-speak .media-card,
+  .five-reason.customer-speak .pr-list>li .card-bx,
+  .pr-list>li .five-reason.customer-speak .card-bx,
+  .five-reason.customer-speak .trgr1,
+  .five-reason.customer-speak .trgr2,
+  .five-reason.customer-speak .trgr3,
+  .five-reason.customer-speak .tog_cont1,
+  .five-reason.customer-speak .tog_cont2,
+  .five-reason.customer-speak .tog_cont3,
+  .five-reason.customer-speak .mf-invest .start-box,
+  .mf-invest .five-reason.customer-speak .start-box,
+  .five-reason.customer-speak .more-box,
+  .five-reason.customer-speak .media-kit .media-list .card-media,
+  .media-kit .media-list .five-reason.customer-speak .card-media,
+  .five-reason.customer-speak .ebc-loan-banner .lawbx,
+  .ebc-loan-banner .five-reason.customer-speak .lawbx {
+    min-height: 215px;
+  }
+}
+
+.five-reason.customer-speak .customer-speak-carousel .owl-nav {
+  left: -278px;
+  top: 135px;
+}
+
+@media (max-width: 1024px) {
+  .five-reason.customer-speak .customer-speak-carousel .owl-nav {
+    left: -235px;
+  }
+}
+
+@media (max-width: 991px) {
+  .five-reason.customer-speak .customer-speak-carousel .owl-nav {
+    left: -190px;
+  }
+}
+
+@media (max-width: 767px) {
+  .five-reason.customer-speak .customer-speak-carousel .owl-nav {
+    position: static;
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+.five-reason.customer-speak .customer-speak-carousel .owl-nav button {
+  background: #FFFFFF;
+}
+
+.plans-policy {
+  padding: 60px 0;
+}
+
+.plans-policy .card.op2 .card-body .hd3b {
+  line-height: 1.2;
+}
+
+.card.withlist ul.check-list {
+  margin: 20px 0 0;
+}
+
+.card.withlist ul.check-list li {
+  margin: 6px 0 0;
+}
+
+@media (max-width: 768px) {
+  .blog-card .card-right {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+.form-plan-policy.stories-from {
+  background: #FFFFFF;
+  padding-bottom: 0;
+}
+
+.form-plan-policy.stories-from .hd2 {
+  color: #54565B;
+}
+
+.form-plan-policy.stories-from .form-details select {
+  padding: 0.85rem 1.75rem;
+}
+
+@media (max-width: 768px) {
+  .form-plan-policy.stories-from .form-list {
+    -ms-flex-pack: end;
+    justify-content: end;
+  }
+}
+
+.form-plan-policy.stories-from .form-list li {
+  margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .form-plan-policy.stories-from .form-list li {
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-plan-policy.stories-from .form-list li {
+    margin-right: 20px;
+  }
+}
+
+.plan-policy.prod-feature {
+  background: #FFFFFF;
+}
+
+.plan-term-brk.invs-faqs {
+  padding: 80px 0 0;
+}
+
+.card-look.grey {
+  background: #f3f3f3;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+}
+
+.card-look.grey div {
+  width: 100%;
+}
+
+.exp-suggest {
+  padding: 70px 0 40px;
+}
+
+.plan-detail-faq {
+  background: #f3f3f3;
+}
+
+.plan-detail-faq .faq-section {
+  padding-bottom: 5px;
+}
+
+.pl-banner {
+  background: #ffecee;
+  background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 64%, white 64%, white 100%);
+}
+
+.pl-banner.term-calculator {
+  background: url("../images/term-cal-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+@media (max-width: 1366px) {
+  .pl-banner.term-calculator {
+    background: url("../images/term-cal-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.term-calculator {
+    background: url("../images/term-cal-bg-1024.jpg") no-repeat;
+    background-size: 60% 100%;
+    padding: 20px 0;
+  }
+
+  .pl-banner.term-calculator figure img {
+    width: auto;
+  }
+
+  .pl-banner.term-calculator .sa-left {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pl-banner.term-calculator {
+    background: inherit;
+  }
+
+  .pl-banner.term-calculator .sa-left {
+    padding-left: 15px;
+  }
+}
+
+.pl-banner.term-calculator .sa-right .radio-option {
+  margin-top: 15px;
+}
+
+.pl-banner.term-calculator .hero-from {
+  padding-left: 130px;
+}
+
+@media (max-width: 768px) {
+  .pl-banner.term-calculator .hero-from {
+    padding-left: 0;
+  }
+}
+
+.pl-banner.term-calculator .hd {
+  color: #54565B;
+  font-size: 64px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.term-calculator .hd {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.term-calculator .hd {
+    font-size: 42px;
+  }
+}
+
+.pl-banner.term-calculator p.desc {
+  margin-top: 18px;
+}
+
+.pl-banner.term-calculator .media {
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.pl-banner.term-calculator .media figure {
+  padding-right: 15px;
+}
+
+.pl-banner.insurance-calc {
+  background: url("../images/insurance-calc-bg.jpg") no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+@media (max-width: 1366px) {
+  .pl-banner.insurance-calc {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner.insurance-calc {
+    background: none;
+  }
+
+  .pl-banner.insurance-calc .sa-left {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-banner.insurance-calc {
+    background: url(../images/insurance-calc-mbg.jpg) no-repeat;
+    background-size: 100% 350px;
+  }
+
+  .pl-banner.insurance-calc .sa-left {
+    padding-left: 15px;
+  }
+
+  .pl-banner.insurance-calc .custom-control {
+    min-height: 2rem;
+  }
+}
+
+.pl-banner.insurance-calc .sa-right .radio-option {
+  margin-top: 15px;
+}
+
+.pl-banner.insurance-calc .hero-from {
+  padding-left: 130px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.insurance-calc .hero-from {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pl-banner.insurance-calc .hero-from {
+    padding-left: 0;
+  }
+}
+
+.pl-banner.insurance-calc .hd {
+  color: #54565B;
+  font-size: 64px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.insurance-calc .hd {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.insurance-calc .hd {
+    font-size: 42px;
+  }
+}
+
+.pl-banner.insurance-calc p.desc {
+  margin-top: 18px;
+}
+
+.pl-banner.insurance-calc .media {
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.pl-banner.insurance-calc .media figure {
+  padding-right: 15px;
+}
+
+.list-hp li {
+  margin-top: 12px;
+}
+
+.list-hp li span {
+  display: inline-block;
+  margin-right: 20px;
+  width: 46px;
+  height: 46px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+}
+
+.list-hp.f24,
+.page-breaker-1 .list-hp.card-text {
+  font-size: 20px;
+}
+
+.list-hp.f24 li,
+.page-breaker-1 .list-hp.card-text li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.list-hp.f24 li span,
+.page-breaker-1 .list-hp.card-text li span {
+  -ms-flex: 0 0 46px;
+  flex: 0 0 46px;
+}
+
+.insuCal {
+  display: none;
+}
+
+.insuCal.act {
+  display: block;
+}

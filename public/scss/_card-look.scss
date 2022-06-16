@@ -1,0 +1,471 @@
+/* homepage How can we help you today? */
+.list-looking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &.service-request {
+        .card-look {
+            height: 100%;
+        }
+
+        li {
+            @include breakpoint($mxw992) {
+                width: 46%;
+            }
+
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+
+            @include breakpoint($mxw992) {
+                .card-look {
+                    > a {
+                        min-height: 100px;
+                        flex-direction: row;
+                        justify-content: flex-start;
+
+                        &.see-more,
+                        &.see-less {
+                            figure img {
+                                height: auto;
+                            }
+                        }
+                    }
+
+                    p {
+                        display: block;
+                    }
+
+                    figure {
+                        margin: 0 15px 0 0;
+                    }
+
+                    figcaption,
+                    div {
+                        text-align: left;
+
+                        .title {
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    li {
+        width: 30%;
+        margin-bottom: 30px;
+
+        &.full {
+            width: 96%;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        li {
+            margin-bottom: 20px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        &.for-mob {
+            li:nth-child(n+7) {
+                display: none;
+            }
+        }
+
+        li {
+            width: 46%;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.card-look {
+    @extend .white-box;
+
+    &.full {
+        display: flex;
+        align-items: center;
+        width: 97%;
+        margin: 0 auto;
+
+        figure {
+            margin: 0 36px;
+
+            img {
+                width: 146px;
+                height: auto;
+            }
+        }
+
+        figcaption,
+        div {
+            width: 35%;
+        }
+
+        .btn-box {
+            width: 35%;
+            margin-left: auto;
+        }
+
+        /* product details page fees components  */
+        &.opt1 {
+            width: 100%;
+            border: 2px solid $maroon;
+
+            figure {
+                img {
+                    width: 432px;
+                }
+
+                @include breakpoint($mxw768) {
+                    img {
+                        width: 100%;
+                    }
+
+                    margin: 0 -30px;
+                }
+            }
+
+            figcaption,
+            div {
+                padding: 50px;
+                width: 65%;
+
+                @include breakpoint($mxw1000) {
+                    padding: 30px;
+
+                    .hd {
+                        font-size: 30px;
+                    }
+                }
+
+                @include breakpoint($mxw992) {
+                    width: 100%;
+                }
+
+                @include breakpoint($mxw768) {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+
+        /* product details page fees components end */
+    }
+
+    > a {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    figure {
+        margin: 0 20px 0 0;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .title {
+        color: $c-black;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 16px;
+        color: #A6A6A6;
+        margin-bottom: 0;
+    }
+
+
+
+    @include breakpoint($mxw992) {
+        &.full {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 36px 30px 0;
+
+            figure {
+                order: 1;
+                margin: -80px 0 auto auto;
+
+                img {
+                    width: 175px;
+                }
+            }
+
+            figcaption,
+            div {
+                width: 100%;
+                text-align: left;
+
+                p {
+                    display: block;
+                    margin: 8px 0 20px;
+                }
+            }
+
+            .btn-box {
+                width: 100%;
+            }
+        }
+
+        > a {
+            min-height: 100px;
+            flex-direction: column;
+            justify-content: center;
+
+            &.see-more,
+            &.see-less {
+                figure img {
+                    height: auto;
+                }
+            }
+        }
+
+        p {
+            display: none;
+        }
+
+        figure {
+            margin: 0 0 16px;
+        }
+
+        figcaption,
+        div {
+            text-align: center;
+
+            .title {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        &.full figure {
+            margin-top: 10px;
+        }
+
+        > a {
+            min-height: 150px;
+        }
+    }
+}
+
+/* homepage How can we help you today? end*/
+
+/* About page Awards start*/
+.award-breaker {
+    background: rgb(196, 119, 125);
+    background: linear-gradient(135deg, rgba(196, 119, 125, 1) 0%, rgba(157, 29, 39, 1) 80%);
+    overflow: hidden;
+
+    .card-look.full {
+        background: none;
+        width: 100%;
+        border: 0;
+        box-shadow: none;
+        justify-content: space-between;
+
+        figure {
+            margin: 0;
+
+            img {
+                height: 220px;
+                width: auto;
+                margin-left: -80px
+            }
+        }
+
+        .hd {
+            margin: 16px 0
+        }
+
+        .hd,
+        .link-txt,
+        p {
+            color: $c-white;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .card-look.full {
+            padding: 36px 10px 0;
+
+            p:first-child {
+                font-size: 16px;
+            }
+
+            .hd {
+                font-size: 36px;
+                line-height: 1.2;
+            }
+
+            figure {
+                margin-top: -40px;
+                text-align: right;
+            }
+
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .card-look.full {
+            figure {
+                margin-top: 0;
+
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+/* About page Awards end*/
+
+/* About page RATINGS Banner Start*/
+.fees-section {
+    &.ratings {
+        @extend .pad2;
+
+        .card-look.full.opt1 {
+            overflow: hidden;
+
+            > div {
+                padding: 40px 0 40px 50px;
+
+                .hd {
+                    margin-top: 12px
+                }
+            }
+
+            figure {
+                margin-left: 0;
+                align-self: flex-end;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .card-look.full.opt1 {
+                > div {
+                    padding: 0;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            .card-look.full.opt1 {
+                > div {
+                    .hd {
+                        font-size: 24px;
+                        line-height: 1.2;
+                    }
+                }
+
+                figure {
+                    margin: 0 -30px;
+                }
+            }
+        }
+    }
+}
+
+
+/* About page RATINGS Banner end*/
+
+/*Financial Documents component*/
+.looking-for {
+    &.op1 {
+        background: #f7f7f7;
+
+        .list-looking {
+            justify-content: flex-start;
+
+            @include breakpoint($mxw992) {
+                justify-content: flex-start;
+            }
+
+            @include breakpoint($mxw768) {
+                justify-content: space-around;
+            }
+
+            li {
+                margin: 0 15px 30px 15px;
+
+                @include breakpoint($mxw992) {
+                    margin: 0 15px 30px 0;
+                }
+
+                @include breakpoint($mxw768) {
+                    margin: 0 0 15px 0;
+                }
+            }
+        }
+    }
+}
+
+.card-look.full.opt1 div.PA0 {
+    padding: 0;
+    width: 100%;
+}
+
+.subscribe {
+    background: $grey-100;
+    padding: 90px 0 0 0;
+
+    .card-look {
+        background: none;
+
+        &.full figure {
+            @include breakpoint($mxw992) {
+                margin: auto;
+            }
+        }
+
+        .needs-validation.flex {
+            @include breakpoint($mxw768) {
+                display: block;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .form-control {
+        background: none;
+
+        @include breakpoint($mxw768) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .form-label-group input:not(:placeholder-shown) ~ label {
+        background: $grey-100;
+    }
+}
+
+.explorer11 .subscribe .form-label-group .form-control:focus ~ label,
+.explorer11 .subscribe .form-label-group :valid.form-control ~ label,
+.explorer11 .subscribe .form-label-group .form-control ~ label {
+    background: $grey-100;
+}
+
+/*Financial Documents component end*/
+
+.sub-categories {
+    display: none;
+
+}
+
+.back-btn {
+    display: flex;
+    justify-content: center;
+}

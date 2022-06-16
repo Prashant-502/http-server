@@ -1,0 +1,141 @@
+/*Sa joureny benifits*/
+.benefit-tabs {
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 40px;
+}
+
+.benefit-tabs .tabs {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefit-tabs .tabs li {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.benefit-tabs .tabs li a {
+  color: #54565B;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  height: 100%;
+}
+
+.benefit-tabs .tabs li a.active {
+  font-weight: 700;
+}
+
+.benefit-tabs .tabs li a.active::after {
+  border-bottom: 5px solid #9D1D27;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  margin: auto;
+  position: absolute;
+}
+
+.benefit-tabs .tabs li a.active small {
+  font-weight: 400;
+}
+
+.list-benefits {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.list-benefits li {
+  width: 30%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .list-benefits li {
+    width: 47%;
+  }
+
+  .list-benefits li:nth-child(odd) {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-benefits li {
+    width: 100%;
+  }
+
+  .list-benefits li:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+.list-benefits li figure {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+  background: #f3f3f3;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.list-benefits li .img-ctr {
+  width: 80%;
+}
+
+.list-benefits li .img-ctr strong {
+  display: block;
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+/*Sa joureny benifits end*/
+/* common notes */
+.notes {
+  margin-top: 35px;
+}
+
+.notes li {
+  margin: 3px 0 0 14px;
+  position: relative;
+}
+
+.notes li::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 7px;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: #54565B;
+}
+
+/* common notes end*/
+/* common terms and skip links */
+.terms {
+  margin: 25px 0 45px 0;
+}
+
+.skip {
+  font-size: 14px;
+  font-weight: 700;
+  color: #767676;
+}
+
+/* common terms and skip links */

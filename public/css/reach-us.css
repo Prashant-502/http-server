@@ -1,0 +1,622 @@
+.office-address.reach-us {
+  background: #c4777d;
+  background: linear-gradient(90deg, #9d1d27 20%, #c4777d 80%);
+  color: #FFFFFF;
+  padding: 44px 0;
+  line-height: 22px;
+}
+
+.office-address.reach-us .hd3b {
+  margin-bottom: 8px;
+}
+
+.office-address.reach-us .col-lg-5 {
+  padding: 8px 0;
+}
+
+.office-address.reach-us .rgt-brd {
+  border-right-color: rgba(255, 255, 255, 0.25);
+}
+
+.office-address.reach-us .rgt-brd::after {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .office-address.reach-us {
+    padding: 44px 24px;
+  }
+}
+
+.best-give.grey {
+  background: #fafafa;
+}
+
+.best-give .hdr+p {
+  margin-top: 12px;
+  line-height: 22px;
+}
+
+@media (max-width: 767px) {
+
+  .best-give .hdr.CTR,
+  .best-give .hdr.about-intro,
+  .best-give .hdr.our-vision {
+    text-align: left;
+  }
+}
+
+.table.escalation {
+  color: #54565B;
+}
+
+.table.escalation td {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 20px 0;
+}
+
+.table.escalation td p {
+  margin-bottom: 0;
+  line-height: 22px;
+}
+
+.table.escalation td .my-links {
+  float: right;
+}
+
+.table.escalation td .my-links .share-box {
+  margin-left: 20px;
+}
+
+.table.escalation td .my-links .share-box .share-bubble:after {
+  right: 20px;
+  left: auto;
+}
+
+.table.escalation td .my-links a span {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.table.escalation td .my-links .download {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .table.escalation .share-positon-box {
+    right: -4px;
+    left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .table.escalation {
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .table.escalation td {
+    display: block;
+    border: 0;
+  }
+
+  .table.escalation td:last-child {
+    border-bottom: 1px solid #d8d8d8;
+    padding-top: 10px;
+  }
+
+  .table.escalation td:first-child {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .list-looking li.full .card-look>a {
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .list-looking li.full .card-look figure {
+    margin-bottom: 10px;
+  }
+
+  .list-looking li.full .card-look div {
+    text-align: left;
+  }
+
+  .list-looking li.full .card-look p {
+    display: block;
+    margin-top: 8px;
+  }
+}
+
+.your-query {
+  background: #fafafa url("../images/svg/your-query.svg") repeat-x;
+  padding: 52px 0;
+  color: #FFFFFF;
+}
+
+.your-query .pers-supp {
+  margin: 50px 0 40px;
+  text-align: center;
+}
+
+.your-query .pers-supp a {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.your-query .accordian {
+  color: #54565B;
+}
+
+.your-query .accordian .trgr {
+  font-size: 24px;
+}
+
+.your-query .accordian .trgr::before {
+  color: #54565B;
+}
+
+.your-query .form-label-group select {
+  background: transparent url("../images/svg/down1.svg") no-repeat 94% center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  padding: 16px 20px;
+}
+
+.your-query .form-label-group select::-ms-expand {
+  display: none;
+}
+
+.your-query .form-label-group select:focus::-ms-value {
+  background: none;
+  color: #FFFFFF;
+}
+
+.your-query .form-label-group select option {
+  color: #54565B;
+}
+
+.your-query .form-label-group>label.form-control-placeholder {
+  top: 3px;
+  left: 10px;
+  color: #FFFFFF;
+}
+
+.your-query .form-label-group .normal-select-box.selected:not(:placeholder-shown)~label {
+  background: #9D1D27;
+  margin-top: -13px;
+}
+
+.explorer11 .your-query .form-label-group .form-control:focus~label,
+.explorer11 .your-query .form-label-group .form-control:valid~label,
+.explorer11 .your-query .form-label-group .form-control~label {
+  background: #9D1D27;
+  color: #FFFFFF;
+}
+
+.your-query .acrd-data table th:last-child {
+  width: 25%;
+}
+
+@media (max-width: 767px) {
+  .your-query {
+    background-image: url("../images/svg/your-query-mob.svg");
+  }
+
+  .your-query .pers-supp {
+    margin: 30px 0;
+  }
+
+  .your-query .accordian .trgr {
+    font-size: 16px;
+  }
+
+  .your-query .accordian .trgr::before {
+    font-size: 20px;
+  }
+
+  .your-query .hdr.CTR br,
+  .your-query .hdr.about-intro br,
+  .your-query .hdr.our-vision br {
+    display: none;
+  }
+
+  .your-query .form-label-group {
+    margin-bottom: 20px;
+  }
+
+  .your-query .acrd-data table th:last-child {
+    width: auto;
+  }
+}
+
+.query-result {
+  display: none;
+  color: #54565B;
+}
+
+.query-result .white-box,
+.query-result .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .query-result .ad-card,
+.query-result .accordian .trgr,
+.accordian .query-result .trgr,
+.query-result .accordian .tog_cont,
+.accordian .query-result .tog_cont,
+.query-result .card-look,
+.query-result .media-card,
+.query-result .pr-list>li .card-bx,
+.pr-list>li .query-result .card-bx,
+.query-result .trgr1,
+.query-result .trgr2,
+.query-result .trgr3,
+.query-result .tog_cont1,
+.query-result .tog_cont2,
+.query-result .tog_cont3,
+.query-result .mf-invest .start-box,
+.mf-invest .query-result .start-box,
+.query-result .media-kit .media-list .card-media,
+.media-kit .media-list .query-result .card-media {
+  padding: 50px 60px;
+  margin-bottom: 20px;
+}
+
+.query-result .white-box .d-flex,
+.query-result .search-bxIn .search-ad .ad-card .d-flex,
+.search-bxIn .search-ad .query-result .ad-card .d-flex,
+.query-result .accordian .trgr .d-flex,
+.accordian .query-result .trgr .d-flex,
+.query-result .accordian .tog_cont .d-flex,
+.accordian .query-result .tog_cont .d-flex,
+.query-result .card-look .d-flex,
+.query-result .media-card .d-flex,
+.query-result .pr-list>li .card-bx .d-flex,
+.pr-list>li .query-result .card-bx .d-flex,
+.query-result .trgr1 .d-flex,
+.query-result .trgr2 .d-flex,
+.query-result .trgr3 .d-flex,
+.query-result .tog_cont1 .d-flex,
+.query-result .tog_cont2 .d-flex,
+.query-result .tog_cont3 .d-flex,
+.query-result .mf-invest .start-box .d-flex,
+.mf-invest .query-result .start-box .d-flex,
+.query-result .media-kit .media-list .card-media .d-flex,
+.media-kit .media-list .query-result .card-media .d-flex {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.query-result .white-box .d-flex .btn-box,
+.query-result .search-bxIn .search-ad .ad-card .d-flex .btn-box,
+.search-bxIn .search-ad .query-result .ad-card .d-flex .btn-box,
+.query-result .accordian .trgr .d-flex .btn-box,
+.accordian .query-result .trgr .d-flex .btn-box,
+.query-result .accordian .tog_cont .d-flex .btn-box,
+.accordian .query-result .tog_cont .d-flex .btn-box,
+.query-result .card-look .d-flex .btn-box,
+.query-result .media-card .d-flex .btn-box,
+.query-result .pr-list>li .card-bx .d-flex .btn-box,
+.pr-list>li .query-result .card-bx .d-flex .btn-box,
+.query-result .trgr1 .d-flex .btn-box,
+.query-result .trgr2 .d-flex .btn-box,
+.query-result .trgr3 .d-flex .btn-box,
+.query-result .tog_cont1 .d-flex .btn-box,
+.query-result .tog_cont2 .d-flex .btn-box,
+.query-result .tog_cont3 .d-flex .btn-box,
+.query-result .mf-invest .start-box .d-flex .btn-box,
+.mf-invest .query-result .start-box .d-flex .btn-box,
+.query-result .media-kit .media-list .card-media .d-flex .btn-box,
+.media-kit .media-list .query-result .card-media .d-flex .btn-box {
+  margin-left: auto;
+}
+
+.query-result .white-box .nav.tag-list li,
+.query-result .search-bxIn .search-ad .ad-card .nav.tag-list li,
+.search-bxIn .search-ad .query-result .ad-card .nav.tag-list li,
+.query-result .accordian .trgr .nav.tag-list li,
+.accordian .query-result .trgr .nav.tag-list li,
+.query-result .accordian .tog_cont .nav.tag-list li,
+.accordian .query-result .tog_cont .nav.tag-list li,
+.query-result .card-look .nav.tag-list li,
+.query-result .media-card .nav.tag-list li,
+.query-result .pr-list>li .card-bx .nav.tag-list li,
+.pr-list>li .query-result .card-bx .nav.tag-list li,
+.query-result .trgr1 .nav.tag-list li,
+.query-result .trgr2 .nav.tag-list li,
+.query-result .trgr3 .nav.tag-list li,
+.query-result .tog_cont1 .nav.tag-list li,
+.query-result .tog_cont2 .nav.tag-list li,
+.query-result .tog_cont3 .nav.tag-list li,
+.query-result .mf-invest .start-box .nav.tag-list li,
+.mf-invest .query-result .start-box .nav.tag-list li,
+.query-result .media-kit .media-list .card-media .nav.tag-list li,
+.media-kit .media-list .query-result .card-media .nav.tag-list li {
+  margin-bottom: 0;
+}
+
+.query-result .white-box .nav.tag-list li a,
+.query-result .search-bxIn .search-ad .ad-card .nav.tag-list li a,
+.search-bxIn .search-ad .query-result .ad-card .nav.tag-list li a,
+.query-result .accordian .trgr .nav.tag-list li a,
+.accordian .query-result .trgr .nav.tag-list li a,
+.query-result .accordian .tog_cont .nav.tag-list li a,
+.accordian .query-result .tog_cont .nav.tag-list li a,
+.query-result .card-look .nav.tag-list li a,
+.query-result .media-card .nav.tag-list li a,
+.query-result .pr-list>li .card-bx .nav.tag-list li a,
+.pr-list>li .query-result .card-bx .nav.tag-list li a,
+.query-result .trgr1 .nav.tag-list li a,
+.query-result .trgr2 .nav.tag-list li a,
+.query-result .trgr3 .nav.tag-list li a,
+.query-result .tog_cont1 .nav.tag-list li a,
+.query-result .tog_cont2 .nav.tag-list li a,
+.query-result .tog_cont3 .nav.tag-list li a,
+.query-result .mf-invest .start-box .nav.tag-list li a,
+.mf-invest .query-result .start-box .nav.tag-list li a,
+.query-result .media-kit .media-list .card-media .nav.tag-list li a,
+.media-kit .media-list .query-result .card-media .nav.tag-list li a {
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+
+  .query-result .white-box,
+  .query-result .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .query-result .ad-card,
+  .query-result .accordian .trgr,
+  .accordian .query-result .trgr,
+  .query-result .accordian .tog_cont,
+  .accordian .query-result .tog_cont,
+  .query-result .card-look,
+  .query-result .media-card,
+  .query-result .pr-list>li .card-bx,
+  .pr-list>li .query-result .card-bx,
+  .query-result .trgr1,
+  .query-result .trgr2,
+  .query-result .trgr3,
+  .query-result .tog_cont1,
+  .query-result .tog_cont2,
+  .query-result .tog_cont3,
+  .query-result .mf-invest .start-box,
+  .mf-invest .query-result .start-box,
+  .query-result .media-kit .media-list .card-media,
+  .media-kit .media-list .query-result .card-media {
+    padding: 30px;
+  }
+
+  .query-result .white-box .d-flex,
+  .query-result .search-bxIn .search-ad .ad-card .d-flex,
+  .search-bxIn .search-ad .query-result .ad-card .d-flex,
+  .query-result .accordian .trgr .d-flex,
+  .accordian .query-result .trgr .d-flex,
+  .query-result .accordian .tog_cont .d-flex,
+  .accordian .query-result .tog_cont .d-flex,
+  .query-result .card-look .d-flex,
+  .query-result .media-card .d-flex,
+  .query-result .pr-list>li .card-bx .d-flex,
+  .pr-list>li .query-result .card-bx .d-flex,
+  .query-result .trgr1 .d-flex,
+  .query-result .trgr2 .d-flex,
+  .query-result .trgr3 .d-flex,
+  .query-result .tog_cont1 .d-flex,
+  .query-result .tog_cont2 .d-flex,
+  .query-result .tog_cont3 .d-flex,
+  .query-result .mf-invest .start-box .d-flex,
+  .mf-invest .query-result .start-box .d-flex,
+  .query-result .media-kit .media-list .card-media .d-flex,
+  .media-kit .media-list .query-result .card-media .d-flex {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .query-result .white-box .d-flex .btn-box,
+  .query-result .search-bxIn .search-ad .ad-card .d-flex .btn-box,
+  .search-bxIn .search-ad .query-result .ad-card .d-flex .btn-box,
+  .query-result .accordian .trgr .d-flex .btn-box,
+  .accordian .query-result .trgr .d-flex .btn-box,
+  .query-result .accordian .tog_cont .d-flex .btn-box,
+  .accordian .query-result .tog_cont .d-flex .btn-box,
+  .query-result .card-look .d-flex .btn-box,
+  .query-result .media-card .d-flex .btn-box,
+  .query-result .pr-list>li .card-bx .d-flex .btn-box,
+  .pr-list>li .query-result .card-bx .d-flex .btn-box,
+  .query-result .trgr1 .d-flex .btn-box,
+  .query-result .trgr2 .d-flex .btn-box,
+  .query-result .trgr3 .d-flex .btn-box,
+  .query-result .tog_cont1 .d-flex .btn-box,
+  .query-result .tog_cont2 .d-flex .btn-box,
+  .query-result .tog_cont3 .d-flex .btn-box,
+  .query-result .mf-invest .start-box .d-flex .btn-box,
+  .mf-invest .query-result .start-box .d-flex .btn-box,
+  .query-result .media-kit .media-list .card-media .d-flex .btn-box,
+  .media-kit .media-list .query-result .card-media .d-flex .btn-box {
+    margin: 20px 0 0;
+  }
+
+  .query-result .white-box .nav.tag-list li,
+  .query-result .search-bxIn .search-ad .ad-card .nav.tag-list li,
+  .search-bxIn .search-ad .query-result .ad-card .nav.tag-list li,
+  .query-result .accordian .trgr .nav.tag-list li,
+  .accordian .query-result .trgr .nav.tag-list li,
+  .query-result .accordian .tog_cont .nav.tag-list li,
+  .accordian .query-result .tog_cont .nav.tag-list li,
+  .query-result .card-look .nav.tag-list li,
+  .query-result .media-card .nav.tag-list li,
+  .query-result .pr-list>li .card-bx .nav.tag-list li,
+  .pr-list>li .query-result .card-bx .nav.tag-list li,
+  .query-result .trgr1 .nav.tag-list li,
+  .query-result .trgr2 .nav.tag-list li,
+  .query-result .trgr3 .nav.tag-list li,
+  .query-result .tog_cont1 .nav.tag-list li,
+  .query-result .tog_cont2 .nav.tag-list li,
+  .query-result .tog_cont3 .nav.tag-list li,
+  .query-result .mf-invest .start-box .nav.tag-list li,
+  .mf-invest .query-result .start-box .nav.tag-list li,
+  .query-result .media-kit .media-list .card-media .nav.tag-list li,
+  .media-kit .media-list .query-result .card-media .nav.tag-list li {
+    margin-bottom: 10px;
+  }
+
+  .query-result .white-box .nav.tag-list li:last-child,
+  .query-result .search-bxIn .search-ad .ad-card .nav.tag-list li:last-child,
+  .search-bxIn .search-ad .query-result .ad-card .nav.tag-list li:last-child,
+  .query-result .accordian .trgr .nav.tag-list li:last-child,
+  .accordian .query-result .trgr .nav.tag-list li:last-child,
+  .query-result .accordian .tog_cont .nav.tag-list li:last-child,
+  .accordian .query-result .tog_cont .nav.tag-list li:last-child,
+  .query-result .card-look .nav.tag-list li:last-child,
+  .query-result .media-card .nav.tag-list li:last-child,
+  .query-result .pr-list>li .card-bx .nav.tag-list li:last-child,
+  .pr-list>li .query-result .card-bx .nav.tag-list li:last-child,
+  .query-result .trgr1 .nav.tag-list li:last-child,
+  .query-result .trgr2 .nav.tag-list li:last-child,
+  .query-result .trgr3 .nav.tag-list li:last-child,
+  .query-result .tog_cont1 .nav.tag-list li:last-child,
+  .query-result .tog_cont2 .nav.tag-list li:last-child,
+  .query-result .tog_cont3 .nav.tag-list li:last-child,
+  .query-result .mf-invest .start-box .nav.tag-list li:last-child,
+  .mf-invest .query-result .start-box .nav.tag-list li:last-child,
+  .query-result .media-kit .media-list .card-media .nav.tag-list li:last-child,
+  .media-kit .media-list .query-result .card-media .nav.tag-list li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .query-result .white-box .nav.tag-list,
+  .query-result .search-bxIn .search-ad .ad-card .nav.tag-list,
+  .search-bxIn .search-ad .query-result .ad-card .nav.tag-list,
+  .query-result .accordian .trgr .nav.tag-list,
+  .accordian .query-result .trgr .nav.tag-list,
+  .query-result .accordian .tog_cont .nav.tag-list,
+  .accordian .query-result .tog_cont .nav.tag-list,
+  .query-result .card-look .nav.tag-list,
+  .query-result .media-card .nav.tag-list,
+  .query-result .pr-list>li .card-bx .nav.tag-list,
+  .pr-list>li .query-result .card-bx .nav.tag-list,
+  .query-result .trgr1 .nav.tag-list,
+  .query-result .trgr2 .nav.tag-list,
+  .query-result .trgr3 .nav.tag-list,
+  .query-result .tog_cont1 .nav.tag-list,
+  .query-result .tog_cont2 .nav.tag-list,
+  .query-result .tog_cont3 .nav.tag-list,
+  .query-result .mf-invest .start-box .nav.tag-list,
+  .mf-invest .query-result .start-box .nav.tag-list,
+  .query-result .media-kit .media-list .card-media .nav.tag-list,
+  .media-kit .media-list .query-result .card-media .nav.tag-list {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .query-result .white-box .nav.tag-list li,
+  .query-result .search-bxIn .search-ad .ad-card .nav.tag-list li,
+  .search-bxIn .search-ad .query-result .ad-card .nav.tag-list li,
+  .query-result .accordian .trgr .nav.tag-list li,
+  .accordian .query-result .trgr .nav.tag-list li,
+  .query-result .accordian .tog_cont .nav.tag-list li,
+  .accordian .query-result .tog_cont .nav.tag-list li,
+  .query-result .card-look .nav.tag-list li,
+  .query-result .media-card .nav.tag-list li,
+  .query-result .pr-list>li .card-bx .nav.tag-list li,
+  .pr-list>li .query-result .card-bx .nav.tag-list li,
+  .query-result .trgr1 .nav.tag-list li,
+  .query-result .trgr2 .nav.tag-list li,
+  .query-result .trgr3 .nav.tag-list li,
+  .query-result .tog_cont1 .nav.tag-list li,
+  .query-result .tog_cont2 .nav.tag-list li,
+  .query-result .tog_cont3 .nav.tag-list li,
+  .query-result .mf-invest .start-box .nav.tag-list li,
+  .mf-invest .query-result .start-box .nav.tag-list li,
+  .query-result .media-kit .media-list .card-media .nav.tag-list li,
+  .media-kit .media-list .query-result .card-media .nav.tag-list li {
+    margin: 0 0 16px;
+    text-align: center;
+  }
+
+  .query-result .white-box .nav.tag-list li a,
+  .query-result .search-bxIn .search-ad .ad-card .nav.tag-list li a,
+  .search-bxIn .search-ad .query-result .ad-card .nav.tag-list li a,
+  .query-result .accordian .trgr .nav.tag-list li a,
+  .accordian .query-result .trgr .nav.tag-list li a,
+  .query-result .accordian .tog_cont .nav.tag-list li a,
+  .accordian .query-result .tog_cont .nav.tag-list li a,
+  .query-result .card-look .nav.tag-list li a,
+  .query-result .media-card .nav.tag-list li a,
+  .query-result .pr-list>li .card-bx .nav.tag-list li a,
+  .pr-list>li .query-result .card-bx .nav.tag-list li a,
+  .query-result .trgr1 .nav.tag-list li a,
+  .query-result .trgr2 .nav.tag-list li a,
+  .query-result .trgr3 .nav.tag-list li a,
+  .query-result .tog_cont1 .nav.tag-list li a,
+  .query-result .tog_cont2 .nav.tag-list li a,
+  .query-result .tog_cont3 .nav.tag-list li a,
+  .query-result .mf-invest .start-box .nav.tag-list li a,
+  .mf-invest .query-result .start-box .nav.tag-list li a,
+  .query-result .media-kit .media-list .card-media .nav.tag-list li a,
+  .media-kit .media-list .query-result .card-media .nav.tag-list li a {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.get-callBack .hd3 {
+  color: #767676;
+  margin-bottom: 0;
+  line-height: 1.3;
+  padding-top: 3px;
+}
+
+@media (max-width: 991px) {
+  .get-callBack .jvalidation.PL50 {
+    padding: 30px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .get-callBack .mb20m {
+    margin-bottom: 20px;
+  }
+
+  .get-callBack .MT30 {
+    margin-top: 20px;
+  }
+
+  .get-callBack .btn-box.MT30 {
+    text-align: center;
+  }
+}
+
+.captcha-box {
+  border: 2px solid rgba(216, 216, 216, 0.7);
+  padding: 6px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: .25rem;
+}
+
+.back-link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.back-link span {
+  display: inline-block;
+  margin-right: 5px;
+}

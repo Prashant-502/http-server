@@ -1,0 +1,864 @@
+$c-redis: #9C1D26;
+$c-blk: #25243B;
+$c-fot: #821219;
+
+strong.mdw {
+    font-weight: 600;
+}
+
+.full-wid {
+    width: 100%;
+    height: auto;
+}
+
+@include breakpoint($mxw768) {
+
+    .main-ctnr[class^='fw'],
+    .main-ctnr[class*=' fw'] {
+        &::after {
+            background: linear-gradient(82deg, #700B11 0%, #911821 100%);
+        }
+    }
+}
+
+.fpsub-nav.fw {
+    background: linear-gradient(93deg, #9D1D27 0%, #54123C 100%);
+
+    ul li {
+        margin-right: 25px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        a::after {
+            background: linear-gradient(82deg, #700B11 0%, #911821 100%);
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        ul li a {
+            font-size: 14px;
+            letter-spacing: 1px;
+
+            &.active {
+                letter-spacing: .8px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        ul li a {
+            font-size: 12px;
+
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.sep-bx1.fw .sep {
+    background: linear-gradient(90deg, rgba($c-redis, .7) 0%, transparent 100%);
+}
+
+.acc-data.fwl p {
+    font-size: 16px;
+    letter-spacing: 0;
+    position: relative;
+    margin-bottom: 40px;
+
+    &:last-child::after {
+        content: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 200px;
+        background: rgba($c-redis, .8);
+        left: 65px;
+        bottom: -20px;
+    }
+
+    @include breakpoint($mxw768) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+.fpscn8 .accordion ul.acrd-list,
+.acrd-list {
+    display: block;
+
+    li {
+        padding: 16px 0;
+        border-bottom: 1px solid #DACFCE;
+        width: 100%;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        p {
+            color: $c-blk;
+            font-weight: 300;
+            line-height: 24px;
+        }
+    }
+}
+
+.fwscn1 {
+    background: url(../images/fw/extraordinary-customer.png) no-repeat 85% 80% / 50%, linear-gradient(136deg, #9D1D27 0%, #54123C 50%);
+    position: relative;
+    padding: 100px 0 60px;
+
+    .fphd1 {
+        color: $c-white;
+        letter-spacing: -0.1px;
+        line-height: 64px;
+        margin: 30px 0 15px;
+    }
+
+    .desc {
+        color: $c-white;
+        margin-bottom: 40px;
+    }
+
+    .btn-box .btn-white {
+        border-width: 1px;
+        font-weight: 300;
+        color: $c-white;
+    }
+
+    @include breakpoint($mxw1366) {
+        .fphd1 {
+            margin-top: 10px;
+        }
+
+        .desc {
+            margin-bottom: 20px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .fphd1 {
+            line-height: 1.1;
+            font-size: 42px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background: linear-gradient(136deg, #9D1D27 0%, #54123C 50%);
+        align-items: flex-end;
+
+        .logo {
+            text-align: right;
+        }
+
+        .rtImg1 img {
+            width: 70%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding-top: 70px;
+        align-items: flex-start;
+
+        .logo {
+            margin-top: 3vh;
+        }
+
+        .fphd1 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        .rtImg1 img {
+            width: 38vh;
+        }
+    }
+}
+
+.fwscn2 {
+    //background: #f2f3f5 url(../images/fw/section2bg.jpg) no-repeat 0 0 / cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0px;
+        font-size: 45px;
+    }
+
+    .acc-data1 li {
+        align-items: flex-start;
+        color: $c-blk;
+        position: relative;
+
+        &:last-child::after {
+            content: none;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 200px;
+            background: rgba($c-redis, .8);
+            left: 68px;
+            bottom: -18px;
+        }
+
+        .f24 {
+            font-size: 21px;
+            line-height: 1;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 300;
+            margin-bottom: 8px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1366) {
+        .row.MT30 {
+            margin-top: 10px;
+        }
+
+        .fphd1 {
+            font-size: 40px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .fphd1 {
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        .acc-data1 li {
+            margin-bottom: 30px;
+
+            &::after {
+                bottom: -12px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        align-items: flex-start;
+
+        .fphd1 {
+            font-size: 3.8vh;
+            line-height: 1.2;
+            margin-top: 10px;
+        }
+
+        .row.MT30 {
+            margin-top: 0;
+        }
+
+        .full-wid {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .acc-data1 {
+            margin-top: -20px;
+
+            li {
+                margin-bottom: 20px;
+
+                &::after {
+                    bottom: -8px;
+                }
+
+                .f24 {
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 1.1;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+
+.fwscn3,
+.fwscn4 {
+    //background: url(../images/fw/section3bg.png) no-repeat 0 0 / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+        line-height: 1;
+
+        strong {
+            margin-bottom: 4px;
+            display: block;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        align-items: flex-start;
+
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .fphd1 {
+            font-size: 4vh;
+            line-height: 1;
+            margin-top: 2vh;
+
+            strong {
+                margin-bottom: 4px;
+            }
+        }
+
+        .acc-data.MT50 {
+            margin: 30px 0;
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                align-items: flex-start;
+
+                &::after {
+                    bottom: -10px;
+                }
+            }
+        }
+    }
+}
+
+.fwscn4 {
+    background: #E6DBDB; //url(../images/fw/section4bg.jpg) no-repeat left bottom;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+
+    .acc-data.fwl p {
+        margin-bottom: 24px;
+
+        &::after {
+            left: 80px;
+            bottom: -12px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 100% 89%;
+    }
+
+    @include breakpoint($mxw768) {
+        background-image: none !important;
+    }
+}
+
+.fwscn5 {
+    //background: #F1F3F3 url(../images/fw/section5bg.jpg) no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+
+        strong {
+            display: block;
+        }
+    }
+
+    .our-inv-bx.op1 .inv-bx {
+        .inv-hd {
+            color: $c-blk;
+            font: 600 21px/30px $inter;
+            letter-spacing: 0.01px;
+            margin-bottom: 10px;
+            min-height: 60px;
+
+            + p {
+                color: $c-blk;
+                font: 300 17px/24px $inter;
+                letter-spacing: -0.01px;
+            }
+        }
+
+        p.mb-0 img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .our-inv-bx.op1 .inv-bx {
+            background: rgba($c-redis, .5) !important;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        align-items: flex-start;
+
+        .fphd1 {
+            margin-top: 2vh;
+        }
+
+        .our-inv-bx.op1 {
+            margin-top: 5vh;
+
+            .inv-bx {
+                background: rgba($c-redis, .6) !important;
+                margin-bottom: 2vh;
+
+                .inv-hd {
+                    margin-bottom: 0;
+                    min-height: inherit;
+                    color: $c-white;
+
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fwscn6 {
+    //background: #f2f3f5 url(../images/fw/section6bg.jpg) no-repeat center bottom / contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: 0;
+        line-height: 1.3;
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 100% 85%;
+    }
+
+    @include breakpoint($mxw992) {
+        background: #ecf1f6;
+        background-image: none !important;
+        align-items: flex-end;
+        background-image: none;
+
+        .fphd1 {
+            font-size: 42px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        align-items: flex-start;
+
+        .f21l.MT40 {
+            margin: 20px 0 0;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        .fphd1 {
+            font-size: 4vh;
+            margin-top: 2vh;
+        }
+
+        .rtImg1 img {
+            width: 50vh;
+        }
+    }
+}
+
+.fwscn7 {
+    background: #FDF9F9; //url(../images/fw/section7bg.jpg) no-repeat bottom center / contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+
+    .fphd1 {
+        letter-spacing: -0.1px;
+        color: $c-blk;
+        margin-bottom: 20px;
+        line-height: 1.32;
+    }
+
+    .fphd2 {
+        margin-bottom: 10px;
+
+        + .sep-bx1 {
+            margin: 0 0 40px;
+        }
+    }
+
+    .our-inv-bx .inv-bx {
+        background: rgba($c-white, .9);
+        box-shadow: 0px 0px 24px rgba(0, 0, 0, .16);
+
+        .inv-hd {
+            color: $c-blk;
+            letter-spacing: -0.01px;
+
+            + p {
+                color: $c-blk;
+                letter-spacing: 0;
+            }
+        }
+
+        p.mb-0 img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-size: 100% 88%;
+    }
+
+    @include breakpoint($mxw992) {
+        background: #fbf5f5 !important;
+
+        .our-inv-bx .inv-bx {
+            padding: 20px 16px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            .inv-hd {
+                min-height: 120px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background-image: none !important;
+        align-items: flex-start;
+
+        .fphd1 {
+            line-height: 1.3;
+            font-size: 4.5vh;
+            margin-top: 2vh;
+        }
+
+        .fphd2 {
+            line-height: 1;
+
+            + .sep-bx1 {
+                margin-bottom: 4vh;
+            }
+        }
+
+        .our-inv-bx .inv-bx {
+            background: rgba($c-redis, .6);
+            padding: 2vh 16px;
+
+            .inv-hd {
+                min-height: inherit;
+                color: $c-white;
+            }
+        }
+    }
+}
+
+.fwscn8 {
+    //background: #f2f3f5 url(../images/fw/section8bg.png) no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .row {
+        height: calc(100vh - 130px);
+        align-items: center;
+
+        .col-lg-4.mid-img {
+            align-self: flex-end
+        }
+    }
+
+    .fphd1 {
+        color: $c-blk;
+        letter-spacing: -0.1px;
+        line-height: 1.34;
+    }
+
+    .f21 {
+        font: 300 21px/30px $inter;
+        letter-spacing: 0.01px;
+        color: $c-blk;
+
+        + .sep-bx1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .tab-img {
+        display: none;
+    }
+
+    @include breakpoint($mxw1366) {
+        .fphd1 + figure.MT50 {
+            margin: 30px 0 0;
+        }
+
+        .mid-img img {
+            width: 84%;
+            height: auto;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .fphd1 {
+            font-size: 42px;
+        }
+
+        .mid-img img {
+            width: 100%;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .mid-img {
+            display: none;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .row {
+            align-items: flex-end;
+        }
+
+        .fphd1 {
+            line-height: 1.2;
+            font-size: 4vh;
+            margin-top: 2vh;
+
+            strong {
+                display: block;
+            }
+
+            + figure {
+                display: none;
+            }
+        }
+
+        .f21 {
+            font-size: 15px;
+            line-height: 1.2;
+            margin-bottom: 5px;
+
+            + .sep-bx1 {
+                margin: 0 0 10px;
+            }
+        }
+
+        .tab-img {
+            display: flex;
+            align-items: center;
+
+            figure {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.fpscn8.fw {
+    .accordion {
+        .hd40 {
+            color: $c-blk;
+            letter-spacing: -0.08px;
+        }
+
+        ul li div a .btm-txt {
+            opacity: 1;
+
+            .f12m {
+                color: $c-blk;
+                font-size: 17px;
+            }
+
+            .brd {
+                background: $c-blk;
+                height: 2px;
+            }
+        }
+
+        .acrd-list {
+            margin-top: 30px;
+            transform: translateX(140%);
+            transition: all 600ms ease;
+        }
+
+        li:hover {
+            background: #FFF2F1 !important;
+
+            a {
+                background: none;
+            }
+
+            .acrd-list {
+                transform: translateX(0);
+            }
+        }
+
+        @include breakpoint($mxw1366) {
+            ul li div a {
+                .ctnt {
+                    padding-top: 25px;
+                }
+
+                .btm-txt {
+                    padding-bottom: 25px;
+                }
+            }
+
+            .acrd-list {
+                margin-top: 10px;
+
+                li figure {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            .hd40 {
+                font-size: 36px;
+            }
+
+            ul.acrd-list li {
+                padding: 10px 0;
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            ul li div a {
+                .ctnt {
+                    padding-top: 0;
+                    padding-left: 20px;
+                }
+
+                .hd40 {
+                    font-size: 3vh;
+                    line-height: 1.1;
+                }
+
+                .btm-txt {
+                    padding-bottom: 8px;
+
+                    .f12m {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            ul.acrd-list {
+                li {
+                    padding: 5px 0;
+
+                    p {
+                        line-height: 1.4;
+                    }
+                }
+
+                &.mt0 {
+                    margin-top: 0;
+
+                    li {
+                        padding: 5px 0;
+
+                        figure {
+                            margin-bottom: 0;
+                        }
+
+                        p {
+                            font-size: 13px;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fpscn12.fw {
+    //background: url(../images/fw/section10bg.png) no-repeat center bottom / cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+
+    .fphd1 {
+        color: $c-white;
+        letter-spacing: -0.1px;
+
+        + .f18 {
+            color: $c-white;
+            letter-spacing: 0.5px;
+            font-size: 21px;
+
+            a {
+                color: $c-white;
+            }
+        }
+    }
+
+    .footer-btm {
+        background: rgba($c-fot, .2)
+    }
+
+    @include breakpoint($mxw768) {
+        .fphd1 {
+            font-size: 4.5vh;
+            line-height: 1.3;
+        }
+    }
+}
+
+.register-bx.fw {
+    border: 1px solid $c-fot;
+
+    .icon-close:before {
+        color: $c-fot;
+    }
+
+    .btn-box .btn-white {
+        background: linear-gradient(93deg, #9D1D27 0%, #54123C 100%);
+    }
+}
+
+.our-busins.achieve {
+    background-size: 90%;
+    background-position: center;
+    background-color: #FFF;
+}

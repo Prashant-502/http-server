@@ -1,0 +1,129 @@
+/* General css for page */
+.schedule-charges-banner {
+  .active {
+    .card-box {
+      border-bottom-color: $maroon;
+
+      .card-title {
+        font-weight: $font-normal;
+      }
+    }
+  }
+
+  .card-box {
+    border-radius: 5px;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid transparent;
+
+    .card-title {
+      font-weight: $font-light;
+      margin-top: 10px;
+      font-size: 24px;
+    }
+  }
+}
+
+.section-1 {
+  padding: 40px 0 100px 0;
+}
+
+.MT60 {
+  margin-top: 60px;
+}
+
+.grey-bg {
+  background: $grey-100;
+}
+
+.grey-bg2 {
+  background: $grey-50;
+}
+
+
+.link-txt {
+  font-size: 14px;
+  font-weight: 700;
+  color: $c-red;
+}
+
+hr.op1 {
+  margin: 50px 0;
+  border-top-color: $grey-200;
+}
+
+@include breakpoint($mxw992) {
+
+  .mt-15-sm {
+    margin-top: 15px;
+  }
+
+  .mt-30-sm {
+    margin-top: 30px;
+  }
+}
+
+@include breakpoint($mxw768) {
+
+  .mt-30-sm {
+    margin-top: 0;
+  }
+}
+
+/* General css for page end */
+
+/* Heading + apply button*/
+.heading-box {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  /* after animation added*/
+  position: relative;
+  z-index: 1;
+  /* after animation added end*/
+  /**/
+  .hd {
+    margin-bottom: 0;
+  }
+
+  @include breakpoint($mxw992) {
+    display: block;
+  }
+}
+
+/* Heading + apply button end*/
+
+/* Sticky botton at bottom for mobile start */
+.sticky-btm {
+  display: none;
+  transition: transform .3s linear;
+
+  &.hide {
+    transform: translate(0, 50px);
+  }
+
+  a {
+    display: block;
+    height: 50px;
+    background: $c-red;
+    color: $c-white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: $font-bold;
+  }
+
+  @include breakpoint($mxw768) {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+/* Sticky botton at bottom for mobile end */

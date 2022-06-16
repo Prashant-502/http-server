@@ -1,0 +1,634 @@
+/* Financial Documents upgraded from Media KIT comp news-media page start*/
+.media-kit.finance-doc {
+    background: rgb(243, 243, 243);
+    background: linear-gradient(90deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 60%, rgba(250, 250, 250, 1) 60%, rgba(250, 250, 250, 1) 100%);
+    padding: 0;
+    margin-bottom: 40px;
+
+    .mk-left {
+        padding: 44px 0 0;
+        margin-right: 0;
+        background: none;
+
+        .hd1l {
+            margin-top: 60px;
+        }
+    }
+
+    .media-list {
+        padding-left: 16px;
+        margin-bottom: -40px;
+
+        .card-media {
+            width: 204px;
+            height: 204px;
+            padding-top: 30px;
+
+            &:nth-child(3),
+            &:nth-child(4) {
+                margin-bottom: 0;
+            }
+
+            figure img {
+                height: 60px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .media-right .list-item {
+        padding-top: 0;
+
+        li {
+            margin-bottom: 16px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .media-list {
+            margin-right: -10px;
+
+            .card-media {
+                width: 180px;
+                height: 180px;
+                padding-top: 24px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background: linear-gradient(180deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 52%, rgba(250, 250, 250, 1) 52%, rgba(250, 250, 250, 1) 100%);
+
+        .media-right .list-item {
+            flex-wrap: wrap;
+
+            li {
+                width: 45%;
+            }
+        }
+
+        //        .mk-left .hd1l {
+        //            margin-top: 0;
+        //        }
+        //
+        //        .media-right {
+        //            margin: 280px 0 0 20px;
+        //
+        //            .list-item {
+        //                flex-direction: column;
+        //
+        //                li {
+        //                    width: 100%;
+        //                }
+        //            }
+        //        }
+    }
+
+    @include breakpoint($mxw768) {
+        margin-bottom: 0;
+
+        .mk-left {
+            padding-top: 0;
+
+            .hd1l {
+                font-size: 24px;
+                letter-spacing: 0;
+            }
+
+            p.clr-grey {
+                min-height: inherit;
+            }
+        }
+
+        .media-list {
+            margin: 0;
+            padding: 0;
+
+            .card-media {
+                width: 155px;
+                height: 155px;
+            }
+        }
+
+        .media-right {
+            margin: 0;
+
+            .hd2 {
+                margin-top: 10px;
+            }
+
+            .list-item li {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/* Financial Documents upgraded from Media KIT comp news-media page end*/
+
+/* ANNUAL REPORT start*/
+.annual-reports {
+    padding: 120px 0 90px;
+
+    .year-report {
+        display: flex;
+
+        .report-left {
+            width: 30%;
+            padding: 60px;
+            background: rgb(196, 119, 125);
+            background: linear-gradient(145deg, rgba(196, 119, 125, 1) 0%, rgba(157, 29, 39, 1) 100%);
+            color: $c-white;
+
+            .f100l span {
+                display: block;
+            }
+
+            p {
+                margin-bottom: 0;
+
+                .know-more {
+                    justify-content: center;
+                }
+            }
+
+            .btn-box .btn-white {
+                color: $c-white;
+                min-width: 200px;
+                border-color: $c-white;
+            }
+        }
+
+        .report-right {
+            width: 70%;
+            padding: 84px 36px;
+            border: 1px solid $grey-200;
+            border-left: 0;
+            position: relative;
+
+            .note {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+                color: rgba($brownish-grey-two, .45);
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .owl-nav {
+        span {
+            display: inline-block;
+            margin: 2px;
+            background: $c-white;
+            border-radius: 50%;
+            font-size: 20px;
+            padding: 14px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+
+            &::before {
+                color: $c-red;
+            }
+        }
+
+        .owl-prev {
+            left: -24px;
+        }
+
+        .owl-next {
+            right: -24px;
+        }
+    }
+
+    .owl-dots {
+        margin-top: 25px;
+    }
+
+    @include breakpoint($mxw1000) {
+        .year-report {
+            .report-left {
+                padding: 60px 40px;
+
+                .f100l {
+                    font-size: 88px;
+                }
+            }
+
+            .report-right {
+                padding: 54px 24px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding: 50px 0;
+
+        .year-report {
+            flex-direction: column;
+
+            .report-left {
+                width: 100%;
+                padding: 30px 24px;
+                text-align: center;
+
+                .f100l {
+                    font-size: 64px;
+                    letter-spacing: -3px;
+                    margin-top: 10px;
+
+                    span {
+                        display: inline-block;
+                    }
+                }
+            }
+
+            .report-right {
+                width: 100%;
+                border-left: 1px solid $grey-200;
+                border-top: 0;
+                padding: 0 0 60px;
+
+                .note {
+                    line-height: 1.2;
+                    bottom: 16px;
+                    padding: 0 12px;
+                }
+            }
+        }
+    }
+}
+
+.report-data {
+    display: flex;
+    flex-wrap: wrap;
+    
+    &.op1 .item{
+        border-bottom: 1px solid $grey-200;
+        
+        &:nth-last-child(-n+3) {
+            border-bottom: 0;
+        }
+        @include breakpoint($mxw768) {
+            &:nth-last-child(-n+3) {
+                border-bottom: 1px solid $grey-200;
+            }
+            
+            &:nth-child(9){
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .item {
+        width: 33.33%;
+        text-align: center;
+        border-right: 1px solid $grey-200;
+        padding: 42px 12px;
+
+        &:nth-child(-n+3) {
+            border-bottom: 1px solid $grey-200;
+        }
+
+        &:nth-child(3n) {
+            border-right: 0;
+        }
+
+        .hdr {
+            margin-bottom: 8px;
+        }
+
+        .clr-grey {
+            margin-bottom: 0;
+        }
+    }
+
+    &.col4 {
+        .item {
+            width: 25%;
+
+            &:nth-child(4) {
+                border-bottom: 1px solid $grey-200;
+            }
+
+            &:nth-child(3n) {
+                border-right: 1px solid $grey-200;
+            }
+
+            &:nth-child(4n) {
+                border-right: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+
+        &.col4 .item,
+        .item {
+            width: 50%;
+            border-right: 0;
+            border-bottom: 1px solid $grey-200;
+
+            &:nth-child(odd) {
+                border-right: 1px solid $grey-200;
+            }
+
+            &:last-child,
+            &:nth-last-child(2) {
+                border-bottom: 0;
+            }
+        }
+
+        &.col4 .item {
+            &:nth-child(6) {
+                border-right: 0;
+            }
+        }
+    }
+}
+
+.investor-presentation {
+    padding: 50px 0 75px;
+    background: $grey-100;
+
+    .hd-box {
+        margin-bottom: 28px;
+
+        .f12 {
+            margin: 5px 0 0 3px;
+        }
+
+        .btn-box {
+            margin-left: auto;
+
+            .icon-Right {
+                vertical-align: middle;
+
+                &::before {
+                    color: $c-red;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .hd-box {
+            flex-direction: column;
+
+            .btn-box {
+                display: flex;
+                flex-direction: column;
+                margin-left: 0;
+                align-items: flex-start;
+                margin-top: 20px;
+
+                .f14br.ML30 {
+                    margin: 20px 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+/* ANNUAL REPORT end*/
+
+
+/* News & Updates start*/
+
+.news-updates {
+    padding: 90px 0;
+    background: $c-grey-1;
+}
+
+@include breakpoint($mxw1000) {
+    .card-right.op1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* News & Updates end*/
+/* Stock Info Widget start*/
+
+.stoke-info {
+    .white-box {
+        padding: 36px;
+        text-align: center;
+
+        p {
+            margin-bottom: 0;
+
+            &.hd3b {
+                margin: 24px 0 8px;
+
+                span {
+                    color: $c-grey-3;
+                }
+            }
+        }
+
+        .icon-up,
+        .icon-down {
+            font-size: 28px;
+        }
+
+    }
+
+    @include breakpoint($mxw992) {
+        .col-lg-6:first-child {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Stock Info Widget end*/
+/* FAQ bg update start*/
+.faq-section.op1 {
+    background: $grey-100;
+    padding: 90px 0 0;
+
+    .TAR.MT30 {
+        margin-bottom: 0;
+    }
+}
+
+/* FAQ bg update end*/
+/* Investor Contact */
+.ic-section {
+    padding: 80px 0;
+}
+
+.ic-box {
+    padding: 35px;
+    border: 1px solid $grey-200;
+    border-radius: 4px;
+    height: 100%;
+
+    @include breakpoint($mxw992) {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .info-box {
+        min-height: 220px;
+
+        @include breakpoint($mxw1000) {
+            min-height: 270px;
+        }
+
+        @include breakpoint($mxw992) {
+            min-height: inherit;
+        }
+
+        .hd2 {
+            min-height: 46px;
+
+            @include breakpoint($mxw1000) {
+                min-height: 60px;
+            }
+
+            @include breakpoint($mxw992) {
+                min-height: inherit;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.c-grey-3 {
+    color: $c-grey-3;
+}
+
+/* Investor Contact end*/
+/* Codes & Policie start*/
+.code-pol {
+    @extend .grey-bg;
+    padding: 40px 0 100px;
+
+    .acrd-data.white-box {
+        padding: 10px 30px;
+
+        @include breakpoint($mxw768) {
+            padding: 0 20px;
+        }
+    }
+
+}
+
+/* Codes & Policie end*/
+
+/* Board & Committee Members */
+.board-committee {
+    background: rgb(243, 243, 243);
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1) 0%, rgba(250, 250, 250, 1) 75%, rgba(196, 119, 125, 1) 75%, rgba(157, 29, 39, 1) 100%);
+    padding: 75px 0;
+
+    .acrd-data.white-box ul.opt1 li {
+        padding: 40px 30px;
+        font-size: 20px;
+        line-height: 1.2;
+
+        .action-box {
+            margin-left: 10px;
+
+            .download-icon {
+                margin-left: 0;
+                background: $grey-100;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: linear-gradient(180deg, rgba(250, 250, 250, 1) 0%, rgba(250, 250, 250, 1) 70%, rgba(196, 119, 125, 1) 70%, rgba(157, 29, 39, 1) 100%);
+
+        .acrd-data.white-box {
+            margin-top: 40px;
+        }
+    }
+}
+
+/* Board & Committee Members  End*/
+
+/* Board Level Committee Composition start*/
+.board-lcc {
+    @extend .pad1;
+    text-align: center;
+
+    .nav.tag-list {
+        justify-content: center;
+
+        li {
+            margin: 0 12px 15px 0;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        a {
+            position: relative;
+            padding: 15px 52px 15px 35px;
+            font-size: 16px;
+            border-radius: 25px;
+
+            &::before {
+                position: absolute;
+                font-size: 15px;
+                font-family: icomoon;
+                content: "\e902";
+                right: 30px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            li {
+                width: 100%;
+
+                a {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+/* Board Level Committee Composition end*/
+
+/* Corporate Governance page Stock Information section start*/
+.stock-info {
+    padding: 75px 0 0;
+    background: $grey-50;
+
+    .media-kit.finance-doc {
+        margin: 75px 0 130px;
+        background: linear-gradient(90deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 60%, rgba($c-white, 1) 60%, rgba($c-white, 1) 100%);
+    }
+
+    + .service-box::before {
+        background: $grey-50;
+    }
+
+    @include breakpoint($mxw992) {
+        .media-kit.finance-doc {
+            background: linear-gradient(180deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 1) 52%, rgba($c-white, 1) 52%, rgba($c-white, 1) 100%);
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .media-kit.finance-doc {
+            margin-bottom: 50px;
+            padding-bottom: 40px;
+        }
+    }
+}
+
+/* Corporate Governance page Stock Information section end*/
+/* start*/
+/* end*/

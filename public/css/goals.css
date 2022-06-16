@@ -1,0 +1,1045 @@
+.pick-goals {
+    padding: 60px 0 30px;
+    background: #f9f9f9;
+}
+
+.pick-goals .sub-title {
+    margin-bottom: 30px;
+}
+
+.pick-goals .list-looking {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.pick-goals .list-looking li {
+    margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+    .pick-goals .list-looking li {
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .pick-goals .list-looking li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.goal-card {
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+.goal-card a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.goal-card a figure {
+    margin: 0 20px 0 0;
+}
+
+.goal-card a figure img {
+    border-radius: 5px 0 0 5px;
+}
+
+.goal-card a .title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.choose-product.op2 input:checked+.goal-card:before {
+    background: #00a07a url(../images/right.svg) no-repeat center center;
+    background-size: 18px;
+}
+
+.choose-product.op2 label {
+    width: 45%;
+    max-width: 420px;
+    text-align: left;
+    padding-left: 50px;
+    position: relative;
+    margin: 20px;
+}
+
+.choose-product.op2 label figure {
+    margin: 0 20px 0 0;
+}
+
+.choose-product.op2 label img {
+    margin: 0;
+    height: 82px;
+}
+
+.choose-product.op2 label .title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.choose-product.op2 label .title+p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.choose-product.op2 .goal-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.choose-product.op2 .goal-card::before {
+    content: '';
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    bottom: auto;
+    -khtml-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+    .choose-product.op2 label {
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .choose-product.op2 label {
+        width: 100%;
+    }
+
+    .choose-product.op2 label figure {
+        margin-right: 12px;
+    }
+
+    .choose-product.op2 label .title+p {
+        line-height: 1.1;
+        margin-top: 4px;
+    }
+}
+
+.goal-question .form-details .col-left {
+    width: 220px;
+    -ms-flex: 0 0 220px;
+    flex: 0 0 220px;
+    padding-top: 140px;
+}
+
+.goal-question .form-details .col-right {
+    padding: 80px 50px;
+}
+
+.goal-question .progress-list {
+    margin-left: 20px;
+}
+
+.goal-question .radio-option {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.goal-question .radio-option .custom-control {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .goal-question .form-details .col-left {
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    .goal-question .form-details .col-right {
+        padding: 30px 20px;
+    }
+}
+
+.f18m {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lh1 {
+    line-height: 1;
+}
+
+.f10 {
+    font-size: 10px;
+}
+
+.btn-red1.op1 {
+    border-color: #d8d8d8;
+}
+
+.form-list li.sub-hd {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.form-list li.sub-hd p.mb-0 strong {
+    font-size: 18px;
+}
+
+.form-list li.sub-hd1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #F2F2F2;
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+
+.form-list li.sub-hd1 .hd3b {
+    color: #9D1D27;
+}
+
+.btn-box.op1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.btn-box.op1 .btn-red {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .btn-box.op1 {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .btn-box.op1 .btn-red1 {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .first-crore.mob {
+        padding: 40px 0;
+    }
+}
+
+.invest-dtl {
+    position: relative;
+    padding: 25px 0;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.invest-dtl .title {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    padding: 0 10px;
+    background: #fafafa;
+}
+
+.invest-dtl .f24,
+.invest-dtl .page-breaker-1 .card-text,
+.page-breaker-1 .invest-dtl .card-text {
+    padding: 16px 36px;
+    margin-bottom: 0;
+    width: 16%;
+}
+
+.invest-dtl .f24.last,
+.invest-dtl .page-breaker-1 .last.card-text,
+.page-breaker-1 .invest-dtl .last.card-text {
+    border-left: 1px solid #979797;
+}
+
+.invest-dtl .f24.w20,
+.invest-dtl .page-breaker-1 .w20.card-text,
+.page-breaker-1 .invest-dtl .w20.card-text {
+    width: 20%;
+}
+
+.invest-dtl .f24 .f14,
+.invest-dtl .page-breaker-1 .card-text .f14,
+.page-breaker-1 .invest-dtl .card-text .f14 {
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1024px) {
+
+    .invest-dtl .f24,
+    .invest-dtl .page-breaker-1 .card-text,
+    .page-breaker-1 .invest-dtl .card-text {
+        font-size: 20px;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .invest-dtl {
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+
+    .invest-dtl .f24,
+    .invest-dtl .page-breaker-1 .card-text,
+    .page-breaker-1 .invest-dtl .card-text,
+    .invest-dtl .f24.w20,
+    .invest-dtl .page-breaker-1 .w20.card-text,
+    .page-breaker-1 .invest-dtl .w20.card-text {
+        width: 33%;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .invest-dtl .f24,
+    .invest-dtl .page-breaker-1 .card-text,
+    .page-breaker-1 .invest-dtl .card-text,
+    .invest-dtl .f24.w20,
+    .invest-dtl .page-breaker-1 .w20.card-text,
+    .page-breaker-1 .invest-dtl .w20.card-text {
+        width: 50%;
+        padding: 15px;
+    }
+}
+
+.goals-result {
+    padding: 10px 0 60px;
+    background: #fafafa;
+}
+
+.goals-result .white-box,
+.goals-result .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .goals-result .ad-card,
+.goals-result .accordian .trgr,
+.accordian .goals-result .trgr,
+.goals-result .accordian .tog_cont,
+.accordian .goals-result .tog_cont,
+.goals-result .card-look,
+.goals-result .media-card,
+.goals-result .pr-list>li .card-bx,
+.pr-list>li .goals-result .card-bx,
+.goals-result .trgr1,
+.goals-result .trgr2,
+.goals-result .trgr3,
+.goals-result .tog_cont1,
+.goals-result .tog_cont2,
+.goals-result .tog_cont3,
+.goals-result .mf-invest .start-box,
+.mf-invest .goals-result .start-box,
+.goals-result .more-box,
+.goals-result .media-kit .media-list .card-media,
+.media-kit .media-list .goals-result .card-media,
+.goals-result .ebc-loan-banner .lawbx,
+.ebc-loan-banner .goals-result .lawbx {
+    padding: 16px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.goals-result .white-box .comp-info,
+.goals-result .search-bxIn .search-ad .ad-card .comp-info,
+.search-bxIn .search-ad .goals-result .ad-card .comp-info,
+.goals-result .accordian .trgr .comp-info,
+.accordian .goals-result .trgr .comp-info,
+.goals-result .accordian .tog_cont .comp-info,
+.accordian .goals-result .tog_cont .comp-info,
+.goals-result .card-look .comp-info,
+.goals-result .media-card .comp-info,
+.goals-result .pr-list>li .card-bx .comp-info,
+.pr-list>li .goals-result .card-bx .comp-info,
+.goals-result .trgr1 .comp-info,
+.goals-result .trgr2 .comp-info,
+.goals-result .trgr3 .comp-info,
+.goals-result .tog_cont1 .comp-info,
+.goals-result .tog_cont2 .comp-info,
+.goals-result .tog_cont3 .comp-info,
+.goals-result .mf-invest .start-box .comp-info,
+.mf-invest .goals-result .start-box .comp-info,
+.goals-result .more-box .comp-info,
+.goals-result .media-kit .media-list .card-media .comp-info,
+.media-kit .media-list .goals-result .card-media .comp-info,
+.goals-result .ebc-loan-banner .lawbx .comp-info,
+.ebc-loan-banner .goals-result .lawbx .comp-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 30px 0 50px;
+    width: 34%;
+}
+
+.goals-result .white-box .comp-info img,
+.goals-result .search-bxIn .search-ad .ad-card .comp-info img,
+.search-bxIn .search-ad .goals-result .ad-card .comp-info img,
+.goals-result .accordian .trgr .comp-info img,
+.accordian .goals-result .trgr .comp-info img,
+.goals-result .accordian .tog_cont .comp-info img,
+.accordian .goals-result .tog_cont .comp-info img,
+.goals-result .card-look .comp-info img,
+.goals-result .media-card .comp-info img,
+.goals-result .pr-list>li .card-bx .comp-info img,
+.pr-list>li .goals-result .card-bx .comp-info img,
+.goals-result .trgr1 .comp-info img,
+.goals-result .trgr2 .comp-info img,
+.goals-result .trgr3 .comp-info img,
+.goals-result .tog_cont1 .comp-info img,
+.goals-result .tog_cont2 .comp-info img,
+.goals-result .tog_cont3 .comp-info img,
+.goals-result .mf-invest .start-box .comp-info img,
+.mf-invest .goals-result .start-box .comp-info img,
+.goals-result .more-box .comp-info img,
+.goals-result .media-kit .media-list .card-media .comp-info img,
+.media-kit .media-list .goals-result .card-media .comp-info img,
+.goals-result .ebc-loan-banner .lawbx .comp-info img,
+.ebc-loan-banner .goals-result .lawbx .comp-info img {
+    margin-right: 20px;
+}
+
+.goals-result .white-box .comp-info .star-ratting span,
+.goals-result .search-bxIn .search-ad .ad-card .comp-info .star-ratting span,
+.search-bxIn .search-ad .goals-result .ad-card .comp-info .star-ratting span,
+.goals-result .accordian .trgr .comp-info .star-ratting span,
+.accordian .goals-result .trgr .comp-info .star-ratting span,
+.goals-result .accordian .tog_cont .comp-info .star-ratting span,
+.accordian .goals-result .tog_cont .comp-info .star-ratting span,
+.goals-result .card-look .comp-info .star-ratting span,
+.goals-result .media-card .comp-info .star-ratting span,
+.goals-result .pr-list>li .card-bx .comp-info .star-ratting span,
+.pr-list>li .goals-result .card-bx .comp-info .star-ratting span,
+.goals-result .trgr1 .comp-info .star-ratting span,
+.goals-result .trgr2 .comp-info .star-ratting span,
+.goals-result .trgr3 .comp-info .star-ratting span,
+.goals-result .tog_cont1 .comp-info .star-ratting span,
+.goals-result .tog_cont2 .comp-info .star-ratting span,
+.goals-result .tog_cont3 .comp-info .star-ratting span,
+.goals-result .mf-invest .start-box .comp-info .star-ratting span,
+.mf-invest .goals-result .start-box .comp-info .star-ratting span,
+.goals-result .more-box .comp-info .star-ratting span,
+.goals-result .media-kit .media-list .card-media .comp-info .star-ratting span,
+.media-kit .media-list .goals-result .card-media .comp-info .star-ratting span,
+.goals-result .ebc-loan-banner .lawbx .comp-info .star-ratting span,
+.ebc-loan-banner .goals-result .lawbx .comp-info .star-ratting span {
+    font-size: 12px;
+}
+
+.goals-result .white-box .return-bx,
+.goals-result .search-bxIn .search-ad .ad-card .return-bx,
+.search-bxIn .search-ad .goals-result .ad-card .return-bx,
+.goals-result .accordian .trgr .return-bx,
+.accordian .goals-result .trgr .return-bx,
+.goals-result .accordian .tog_cont .return-bx,
+.accordian .goals-result .tog_cont .return-bx,
+.goals-result .card-look .return-bx,
+.goals-result .media-card .return-bx,
+.goals-result .pr-list>li .card-bx .return-bx,
+.pr-list>li .goals-result .card-bx .return-bx,
+.goals-result .trgr1 .return-bx,
+.goals-result .trgr2 .return-bx,
+.goals-result .trgr3 .return-bx,
+.goals-result .tog_cont1 .return-bx,
+.goals-result .tog_cont2 .return-bx,
+.goals-result .tog_cont3 .return-bx,
+.goals-result .mf-invest .start-box .return-bx,
+.mf-invest .goals-result .start-box .return-bx,
+.goals-result .more-box .return-bx,
+.goals-result .media-kit .media-list .card-media .return-bx,
+.media-kit .media-list .goals-result .card-media .return-bx,
+.goals-result .ebc-loan-banner .lawbx .return-bx,
+.ebc-loan-banner .goals-result .lawbx .return-bx {
+    width: 40%;
+}
+
+.goals-result .white-box .returnsIn,
+.goals-result .search-bxIn .search-ad .ad-card .returnsIn,
+.search-bxIn .search-ad .goals-result .ad-card .returnsIn,
+.goals-result .accordian .trgr .returnsIn,
+.accordian .goals-result .trgr .returnsIn,
+.goals-result .accordian .tog_cont .returnsIn,
+.accordian .goals-result .tog_cont .returnsIn,
+.goals-result .card-look .returnsIn,
+.goals-result .media-card .returnsIn,
+.goals-result .pr-list>li .card-bx .returnsIn,
+.pr-list>li .goals-result .card-bx .returnsIn,
+.goals-result .trgr1 .returnsIn,
+.goals-result .trgr2 .returnsIn,
+.goals-result .trgr3 .returnsIn,
+.goals-result .tog_cont1 .returnsIn,
+.goals-result .tog_cont2 .returnsIn,
+.goals-result .tog_cont3 .returnsIn,
+.goals-result .mf-invest .start-box .returnsIn,
+.mf-invest .goals-result .start-box .returnsIn,
+.goals-result .more-box .returnsIn,
+.goals-result .media-kit .media-list .card-media .returnsIn,
+.media-kit .media-list .goals-result .card-media .returnsIn,
+.goals-result .ebc-loan-banner .lawbx .returnsIn,
+.ebc-loan-banner .goals-result .lawbx .returnsIn {
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+}
+
+.goals-result .white-box .returnsIn .f18,
+.goals-result .search-bxIn .search-ad .ad-card .returnsIn .f18,
+.search-bxIn .search-ad .goals-result .ad-card .returnsIn .f18,
+.goals-result .accordian .trgr .returnsIn .f18,
+.accordian .goals-result .trgr .returnsIn .f18,
+.goals-result .accordian .tog_cont .returnsIn .f18,
+.accordian .goals-result .tog_cont .returnsIn .f18,
+.goals-result .card-look .returnsIn .f18,
+.goals-result .media-card .returnsIn .f18,
+.goals-result .pr-list>li .card-bx .returnsIn .f18,
+.pr-list>li .goals-result .card-bx .returnsIn .f18,
+.goals-result .trgr1 .returnsIn .f18,
+.goals-result .trgr2 .returnsIn .f18,
+.goals-result .trgr3 .returnsIn .f18,
+.goals-result .tog_cont1 .returnsIn .f18,
+.goals-result .tog_cont2 .returnsIn .f18,
+.goals-result .tog_cont3 .returnsIn .f18,
+.goals-result .mf-invest .start-box .returnsIn .f18,
+.mf-invest .goals-result .start-box .returnsIn .f18,
+.goals-result .more-box .returnsIn .f18,
+.goals-result .media-kit .media-list .card-media .returnsIn .f18,
+.media-kit .media-list .goals-result .card-media .returnsIn .f18,
+.goals-result .ebc-loan-banner .lawbx .returnsIn .f18,
+.ebc-loan-banner .goals-result .lawbx .returnsIn .f18 {
+    width: 33%;
+    margin-bottom: 0;
+}
+
+.goals-result .white-box .returnsIn .f18 span,
+.goals-result .search-bxIn .search-ad .ad-card .returnsIn .f18 span,
+.search-bxIn .search-ad .goals-result .ad-card .returnsIn .f18 span,
+.goals-result .accordian .trgr .returnsIn .f18 span,
+.accordian .goals-result .trgr .returnsIn .f18 span,
+.goals-result .accordian .tog_cont .returnsIn .f18 span,
+.accordian .goals-result .tog_cont .returnsIn .f18 span,
+.goals-result .card-look .returnsIn .f18 span,
+.goals-result .media-card .returnsIn .f18 span,
+.goals-result .pr-list>li .card-bx .returnsIn .f18 span,
+.pr-list>li .goals-result .card-bx .returnsIn .f18 span,
+.goals-result .trgr1 .returnsIn .f18 span,
+.goals-result .trgr2 .returnsIn .f18 span,
+.goals-result .trgr3 .returnsIn .f18 span,
+.goals-result .tog_cont1 .returnsIn .f18 span,
+.goals-result .tog_cont2 .returnsIn .f18 span,
+.goals-result .tog_cont3 .returnsIn .f18 span,
+.goals-result .mf-invest .start-box .returnsIn .f18 span,
+.mf-invest .goals-result .start-box .returnsIn .f18 span,
+.goals-result .more-box .returnsIn .f18 span,
+.goals-result .media-kit .media-list .card-media .returnsIn .f18 span,
+.media-kit .media-list .goals-result .card-media .returnsIn .f18 span,
+.goals-result .ebc-loan-banner .lawbx .returnsIn .f18 span,
+.ebc-loan-banner .goals-result .lawbx .returnsIn .f18 span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.goals-result .white-box .f24,
+.goals-result .search-bxIn .search-ad .ad-card .f24,
+.search-bxIn .search-ad .goals-result .ad-card .f24,
+.goals-result .accordian .trgr .f24,
+.accordian .goals-result .trgr .f24,
+.goals-result .accordian .tog_cont .f24,
+.accordian .goals-result .tog_cont .f24,
+.goals-result .card-look .f24,
+.goals-result .media-card .f24,
+.goals-result .pr-list>li .card-bx .f24,
+.pr-list>li .goals-result .card-bx .f24,
+.goals-result .trgr1 .f24,
+.goals-result .trgr2 .f24,
+.goals-result .trgr3 .f24,
+.goals-result .tog_cont1 .f24,
+.goals-result .tog_cont2 .f24,
+.goals-result .tog_cont3 .f24,
+.goals-result .mf-invest .start-box .f24,
+.mf-invest .goals-result .start-box .f24,
+.goals-result .more-box .f24,
+.goals-result .media-kit .media-list .card-media .f24,
+.media-kit .media-list .goals-result .card-media .f24,
+.goals-result .ebc-loan-banner .lawbx .f24,
+.ebc-loan-banner .goals-result .lawbx .f24,
+.goals-result .white-box .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .white-box .card-text,
+.goals-result .search-bxIn .search-ad .ad-card .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .search-bxIn .search-ad .ad-card .card-text,
+.search-bxIn .search-ad .goals-result .ad-card .page-breaker-1 .card-text,
+.page-breaker-1 .search-bxIn .search-ad .goals-result .ad-card .card-text,
+.goals-result .accordian .trgr .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .accordian .trgr .card-text,
+.accordian .goals-result .trgr .page-breaker-1 .card-text,
+.page-breaker-1 .accordian .goals-result .trgr .card-text,
+.goals-result .accordian .tog_cont .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .accordian .tog_cont .card-text,
+.accordian .goals-result .tog_cont .page-breaker-1 .card-text,
+.page-breaker-1 .accordian .goals-result .tog_cont .card-text,
+.goals-result .card-look .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .card-look .card-text,
+.goals-result .media-card .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .media-card .card-text,
+.goals-result .pr-list>li .card-bx .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .pr-list>li .card-bx .card-text,
+.pr-list>li .goals-result .card-bx .page-breaker-1 .card-text,
+.page-breaker-1 .pr-list>li .goals-result .card-bx .card-text,
+.goals-result .trgr1 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .trgr1 .card-text,
+.goals-result .trgr2 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .trgr2 .card-text,
+.goals-result .trgr3 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .trgr3 .card-text,
+.goals-result .tog_cont1 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .tog_cont1 .card-text,
+.goals-result .tog_cont2 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .tog_cont2 .card-text,
+.goals-result .tog_cont3 .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .tog_cont3 .card-text,
+.goals-result .mf-invest .start-box .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .mf-invest .start-box .card-text,
+.mf-invest .goals-result .start-box .page-breaker-1 .card-text,
+.page-breaker-1 .mf-invest .goals-result .start-box .card-text,
+.goals-result .more-box .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .more-box .card-text,
+.goals-result .media-kit .media-list .card-media .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .media-kit .media-list .card-media .card-text,
+.media-kit .media-list .goals-result .card-media .page-breaker-1 .card-text,
+.page-breaker-1 .media-kit .media-list .goals-result .card-media .card-text,
+.goals-result .ebc-loan-banner .lawbx .page-breaker-1 .card-text,
+.page-breaker-1 .goals-result .ebc-loan-banner .lawbx .card-text,
+.ebc-loan-banner .goals-result .lawbx .page-breaker-1 .card-text,
+.page-breaker-1 .ebc-loan-banner .goals-result .lawbx .card-text {
+    padding: 16px 30px;
+    margin-bottom: 0;
+    width: 14%;
+}
+
+.goals-result .white-box .f24 .f14,
+.goals-result .search-bxIn .search-ad .ad-card .f24 .f14,
+.search-bxIn .search-ad .goals-result .ad-card .f24 .f14,
+.goals-result .accordian .trgr .f24 .f14,
+.accordian .goals-result .trgr .f24 .f14,
+.goals-result .accordian .tog_cont .f24 .f14,
+.accordian .goals-result .tog_cont .f24 .f14,
+.goals-result .card-look .f24 .f14,
+.goals-result .media-card .f24 .f14,
+.goals-result .pr-list>li .card-bx .f24 .f14,
+.pr-list>li .goals-result .card-bx .f24 .f14,
+.goals-result .trgr1 .f24 .f14,
+.goals-result .trgr2 .f24 .f14,
+.goals-result .trgr3 .f24 .f14,
+.goals-result .tog_cont1 .f24 .f14,
+.goals-result .tog_cont2 .f24 .f14,
+.goals-result .tog_cont3 .f24 .f14,
+.goals-result .mf-invest .start-box .f24 .f14,
+.mf-invest .goals-result .start-box .f24 .f14,
+.goals-result .more-box .f24 .f14,
+.goals-result .media-kit .media-list .card-media .f24 .f14,
+.media-kit .media-list .goals-result .card-media .f24 .f14,
+.goals-result .ebc-loan-banner .lawbx .f24 .f14,
+.ebc-loan-banner .goals-result .lawbx .f24 .f14,
+.goals-result .white-box .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .white-box .card-text .f14,
+.goals-result .search-bxIn .search-ad .ad-card .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .search-bxIn .search-ad .ad-card .card-text .f14,
+.search-bxIn .search-ad .goals-result .ad-card .page-breaker-1 .card-text .f14,
+.page-breaker-1 .search-bxIn .search-ad .goals-result .ad-card .card-text .f14,
+.goals-result .accordian .trgr .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .accordian .trgr .card-text .f14,
+.accordian .goals-result .trgr .page-breaker-1 .card-text .f14,
+.page-breaker-1 .accordian .goals-result .trgr .card-text .f14,
+.goals-result .accordian .tog_cont .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .accordian .tog_cont .card-text .f14,
+.accordian .goals-result .tog_cont .page-breaker-1 .card-text .f14,
+.page-breaker-1 .accordian .goals-result .tog_cont .card-text .f14,
+.goals-result .card-look .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .card-look .card-text .f14,
+.goals-result .media-card .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .media-card .card-text .f14,
+.goals-result .pr-list>li .card-bx .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .pr-list>li .card-bx .card-text .f14,
+.pr-list>li .goals-result .card-bx .page-breaker-1 .card-text .f14,
+.page-breaker-1 .pr-list>li .goals-result .card-bx .card-text .f14,
+.goals-result .trgr1 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .trgr1 .card-text .f14,
+.goals-result .trgr2 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .trgr2 .card-text .f14,
+.goals-result .trgr3 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .trgr3 .card-text .f14,
+.goals-result .tog_cont1 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .tog_cont1 .card-text .f14,
+.goals-result .tog_cont2 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .tog_cont2 .card-text .f14,
+.goals-result .tog_cont3 .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .tog_cont3 .card-text .f14,
+.goals-result .mf-invest .start-box .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .mf-invest .start-box .card-text .f14,
+.mf-invest .goals-result .start-box .page-breaker-1 .card-text .f14,
+.page-breaker-1 .mf-invest .goals-result .start-box .card-text .f14,
+.goals-result .more-box .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .more-box .card-text .f14,
+.goals-result .media-kit .media-list .card-media .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .media-kit .media-list .card-media .card-text .f14,
+.media-kit .media-list .goals-result .card-media .page-breaker-1 .card-text .f14,
+.page-breaker-1 .media-kit .media-list .goals-result .card-media .card-text .f14,
+.goals-result .ebc-loan-banner .lawbx .page-breaker-1 .card-text .f14,
+.page-breaker-1 .goals-result .ebc-loan-banner .lawbx .card-text .f14,
+.ebc-loan-banner .goals-result .lawbx .page-breaker-1 .card-text .f14,
+.page-breaker-1 .ebc-loan-banner .goals-result .lawbx .card-text .f14 {
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.goals-result .btn-box.op3 {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.goals-result .btn-box.op3 .btn-red,
+.goals-result .btn-box.op3 .btn-red1 {
+    min-width: 200px;
+}
+
+.goals-result .btn-box.op3 .btn-red {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+
+    .goals-result .white-box .f24,
+    .goals-result .search-bxIn .search-ad .ad-card .f24,
+    .search-bxIn .search-ad .goals-result .ad-card .f24,
+    .goals-result .accordian .trgr .f24,
+    .accordian .goals-result .trgr .f24,
+    .goals-result .accordian .tog_cont .f24,
+    .accordian .goals-result .tog_cont .f24,
+    .goals-result .card-look .f24,
+    .goals-result .media-card .f24,
+    .goals-result .pr-list>li .card-bx .f24,
+    .pr-list>li .goals-result .card-bx .f24,
+    .goals-result .trgr1 .f24,
+    .goals-result .trgr2 .f24,
+    .goals-result .trgr3 .f24,
+    .goals-result .tog_cont1 .f24,
+    .goals-result .tog_cont2 .f24,
+    .goals-result .tog_cont3 .f24,
+    .goals-result .mf-invest .start-box .f24,
+    .mf-invest .goals-result .start-box .f24,
+    .goals-result .more-box .f24,
+    .goals-result .media-kit .media-list .card-media .f24,
+    .media-kit .media-list .goals-result .card-media .f24,
+    .goals-result .ebc-loan-banner .lawbx .f24,
+    .ebc-loan-banner .goals-result .lawbx .f24,
+    .goals-result .white-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .white-box .card-text,
+    .goals-result .search-bxIn .search-ad .ad-card .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .search-bxIn .search-ad .ad-card .card-text,
+    .search-bxIn .search-ad .goals-result .ad-card .page-breaker-1 .card-text,
+    .page-breaker-1 .search-bxIn .search-ad .goals-result .ad-card .card-text,
+    .goals-result .accordian .trgr .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .accordian .trgr .card-text,
+    .accordian .goals-result .trgr .page-breaker-1 .card-text,
+    .page-breaker-1 .accordian .goals-result .trgr .card-text,
+    .goals-result .accordian .tog_cont .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .accordian .tog_cont .card-text,
+    .accordian .goals-result .tog_cont .page-breaker-1 .card-text,
+    .page-breaker-1 .accordian .goals-result .tog_cont .card-text,
+    .goals-result .card-look .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .card-look .card-text,
+    .goals-result .media-card .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .media-card .card-text,
+    .goals-result .pr-list>li .card-bx .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .pr-list>li .card-bx .card-text,
+    .pr-list>li .goals-result .card-bx .page-breaker-1 .card-text,
+    .page-breaker-1 .pr-list>li .goals-result .card-bx .card-text,
+    .goals-result .trgr1 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr1 .card-text,
+    .goals-result .trgr2 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr2 .card-text,
+    .goals-result .trgr3 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr3 .card-text,
+    .goals-result .tog_cont1 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont1 .card-text,
+    .goals-result .tog_cont2 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont2 .card-text,
+    .goals-result .tog_cont3 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont3 .card-text,
+    .goals-result .mf-invest .start-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .mf-invest .start-box .card-text,
+    .mf-invest .goals-result .start-box .page-breaker-1 .card-text,
+    .page-breaker-1 .mf-invest .goals-result .start-box .card-text,
+    .goals-result .more-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .more-box .card-text,
+    .goals-result .media-kit .media-list .card-media .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .media-kit .media-list .card-media .card-text,
+    .media-kit .media-list .goals-result .card-media .page-breaker-1 .card-text,
+    .page-breaker-1 .media-kit .media-list .goals-result .card-media .card-text,
+    .goals-result .ebc-loan-banner .lawbx .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .ebc-loan-banner .lawbx .card-text,
+    .ebc-loan-banner .goals-result .lawbx .page-breaker-1 .card-text,
+    .page-breaker-1 .ebc-loan-banner .goals-result .lawbx .card-text {
+        font-size: 20px;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .goals-result .white-box,
+    .goals-result .search-bxIn .search-ad .ad-card,
+    .search-bxIn .search-ad .goals-result .ad-card,
+    .goals-result .accordian .trgr,
+    .accordian .goals-result .trgr,
+    .goals-result .accordian .tog_cont,
+    .accordian .goals-result .tog_cont,
+    .goals-result .card-look,
+    .goals-result .media-card,
+    .goals-result .pr-list>li .card-bx,
+    .pr-list>li .goals-result .card-bx,
+    .goals-result .trgr1,
+    .goals-result .trgr2,
+    .goals-result .trgr3,
+    .goals-result .tog_cont1,
+    .goals-result .tog_cont2,
+    .goals-result .tog_cont3,
+    .goals-result .mf-invest .start-box,
+    .mf-invest .goals-result .start-box,
+    .goals-result .more-box,
+    .goals-result .media-kit .media-list .card-media,
+    .media-kit .media-list .goals-result .card-media,
+    .goals-result .ebc-loan-banner .lawbx,
+    .ebc-loan-banner .goals-result .lawbx {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .goals-result .white-box .comp-info,
+    .goals-result .search-bxIn .search-ad .ad-card .comp-info,
+    .search-bxIn .search-ad .goals-result .ad-card .comp-info,
+    .goals-result .accordian .trgr .comp-info,
+    .accordian .goals-result .trgr .comp-info,
+    .goals-result .accordian .tog_cont .comp-info,
+    .accordian .goals-result .tog_cont .comp-info,
+    .goals-result .card-look .comp-info,
+    .goals-result .media-card .comp-info,
+    .goals-result .pr-list>li .card-bx .comp-info,
+    .pr-list>li .goals-result .card-bx .comp-info,
+    .goals-result .trgr1 .comp-info,
+    .goals-result .trgr2 .comp-info,
+    .goals-result .trgr3 .comp-info,
+    .goals-result .tog_cont1 .comp-info,
+    .goals-result .tog_cont2 .comp-info,
+    .goals-result .tog_cont3 .comp-info,
+    .goals-result .mf-invest .start-box .comp-info,
+    .mf-invest .goals-result .start-box .comp-info,
+    .goals-result .more-box .comp-info,
+    .goals-result .media-kit .media-list .card-media .comp-info,
+    .media-kit .media-list .goals-result .card-media .comp-info,
+    .goals-result .ebc-loan-banner .lawbx .comp-info,
+    .ebc-loan-banner .goals-result .lawbx .comp-info {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .goals-result .white-box .return-bx,
+    .goals-result .search-bxIn .search-ad .ad-card .return-bx,
+    .search-bxIn .search-ad .goals-result .ad-card .return-bx,
+    .goals-result .accordian .trgr .return-bx,
+    .accordian .goals-result .trgr .return-bx,
+    .goals-result .accordian .tog_cont .return-bx,
+    .accordian .goals-result .tog_cont .return-bx,
+    .goals-result .card-look .return-bx,
+    .goals-result .media-card .return-bx,
+    .goals-result .pr-list>li .card-bx .return-bx,
+    .pr-list>li .goals-result .card-bx .return-bx,
+    .goals-result .trgr1 .return-bx,
+    .goals-result .trgr2 .return-bx,
+    .goals-result .trgr3 .return-bx,
+    .goals-result .tog_cont1 .return-bx,
+    .goals-result .tog_cont2 .return-bx,
+    .goals-result .tog_cont3 .return-bx,
+    .goals-result .mf-invest .start-box .return-bx,
+    .mf-invest .goals-result .start-box .return-bx,
+    .goals-result .more-box .return-bx,
+    .goals-result .media-kit .media-list .card-media .return-bx,
+    .media-kit .media-list .goals-result .card-media .return-bx,
+    .goals-result .ebc-loan-banner .lawbx .return-bx,
+    .ebc-loan-banner .goals-result .lawbx .return-bx {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .goals-result .white-box .f24,
+    .goals-result .search-bxIn .search-ad .ad-card .f24,
+    .search-bxIn .search-ad .goals-result .ad-card .f24,
+    .goals-result .accordian .trgr .f24,
+    .accordian .goals-result .trgr .f24,
+    .goals-result .accordian .tog_cont .f24,
+    .accordian .goals-result .tog_cont .f24,
+    .goals-result .card-look .f24,
+    .goals-result .media-card .f24,
+    .goals-result .pr-list>li .card-bx .f24,
+    .pr-list>li .goals-result .card-bx .f24,
+    .goals-result .trgr1 .f24,
+    .goals-result .trgr2 .f24,
+    .goals-result .trgr3 .f24,
+    .goals-result .tog_cont1 .f24,
+    .goals-result .tog_cont2 .f24,
+    .goals-result .tog_cont3 .f24,
+    .goals-result .mf-invest .start-box .f24,
+    .mf-invest .goals-result .start-box .f24,
+    .goals-result .more-box .f24,
+    .goals-result .media-kit .media-list .card-media .f24,
+    .media-kit .media-list .goals-result .card-media .f24,
+    .goals-result .ebc-loan-banner .lawbx .f24,
+    .ebc-loan-banner .goals-result .lawbx .f24,
+    .goals-result .white-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .white-box .card-text,
+    .goals-result .search-bxIn .search-ad .ad-card .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .search-bxIn .search-ad .ad-card .card-text,
+    .search-bxIn .search-ad .goals-result .ad-card .page-breaker-1 .card-text,
+    .page-breaker-1 .search-bxIn .search-ad .goals-result .ad-card .card-text,
+    .goals-result .accordian .trgr .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .accordian .trgr .card-text,
+    .accordian .goals-result .trgr .page-breaker-1 .card-text,
+    .page-breaker-1 .accordian .goals-result .trgr .card-text,
+    .goals-result .accordian .tog_cont .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .accordian .tog_cont .card-text,
+    .accordian .goals-result .tog_cont .page-breaker-1 .card-text,
+    .page-breaker-1 .accordian .goals-result .tog_cont .card-text,
+    .goals-result .card-look .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .card-look .card-text,
+    .goals-result .media-card .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .media-card .card-text,
+    .goals-result .pr-list>li .card-bx .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .pr-list>li .card-bx .card-text,
+    .pr-list>li .goals-result .card-bx .page-breaker-1 .card-text,
+    .page-breaker-1 .pr-list>li .goals-result .card-bx .card-text,
+    .goals-result .trgr1 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr1 .card-text,
+    .goals-result .trgr2 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr2 .card-text,
+    .goals-result .trgr3 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .trgr3 .card-text,
+    .goals-result .tog_cont1 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont1 .card-text,
+    .goals-result .tog_cont2 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont2 .card-text,
+    .goals-result .tog_cont3 .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .tog_cont3 .card-text,
+    .goals-result .mf-invest .start-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .mf-invest .start-box .card-text,
+    .mf-invest .goals-result .start-box .page-breaker-1 .card-text,
+    .page-breaker-1 .mf-invest .goals-result .start-box .card-text,
+    .goals-result .more-box .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .more-box .card-text,
+    .goals-result .media-kit .media-list .card-media .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .media-kit .media-list .card-media .card-text,
+    .media-kit .media-list .goals-result .card-media .page-breaker-1 .card-text,
+    .page-breaker-1 .media-kit .media-list .goals-result .card-media .card-text,
+    .goals-result .ebc-loan-banner .lawbx .page-breaker-1 .card-text,
+    .page-breaker-1 .goals-result .ebc-loan-banner .lawbx .card-text,
+    .ebc-loan-banner .goals-result .lawbx .page-breaker-1 .card-text,
+    .page-breaker-1 .ebc-loan-banner .goals-result .lawbx .card-text {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .goals-result .btn-box.op3 {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .goals-result .btn-box.op3 .btn-red1 {
+        margin-bottom: 12px;
+    }
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch .slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.switch .slider1:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+.switch input:checked+.slider1 {
+    background-color: #00a07a;
+}
+
+.switch input:focus+.slider1 {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.switch input:checked+.slider1:before {
+    transform: translateX(26px);
+}
+
+.switch .slider1.round {
+    border-radius: 24px;
+}
+
+.switch .slider1.round:before {
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+body.non-india {
+  padding: 30px 0 0 0;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+body.non-india::before {
+  position: fixed;
+  content: "";
+  height: 20px;
+  width: 100%;
+  background: #9D1D27;
+  bottom: 0;
+  z-index: 1;
+}
+
+body.non-india .ui-autocomplete {
+  width: 300px !important;
+  background: #FFFFFF;
+  max-height: 300px;
+  overflow: auto;
+}
+
+body.non-india .ui-helper-hidden-accessible div {
+  display: none;
+}
+
+.form-details.op1 {
+  display: block;
+}

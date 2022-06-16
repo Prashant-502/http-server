@@ -1,0 +1,125 @@
+/*Blog Learn. Plan. Save. element*/
+.card-box.op2 {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #b8b8b8;
+  border-radius: 3px;
+}
+
+.blog-card {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .blog-card {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.blog-card .blog-img {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  margin: -160px 0 0 -90px;
+  width: 240px;
+}
+
+.blog-card .blog-img img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .blog-card .blog-img {
+    position: inherit;
+    left: auto;
+    top: auto;
+    margin: -190px 0 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-card .blog-img {
+    margin: 0 auto;
+    margin-top: -190px;
+  }
+}
+
+.blog-card .card-left {
+  padding: 55px 45px 35px 190px;
+  border-right: 1px solid rgba(84, 86, 91, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .blog-card .card-left {
+    padding: 35px 45px 35px 190px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog-card .card-left {
+    padding: 30px;
+    border-right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .blog-card .card-left .hd {
+    font-size: 24px;
+  }
+}
+
+.blog-card .card-right {
+  padding: 50px 24px 0 50px;
+}
+
+@media (max-width: 1024px) {
+  .blog-card .card-right {
+    padding: 35px 24px 0 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog-card .card-right {
+    padding: 30px 30px 0 30px;
+    border-top: 1px solid #d8d8d8;
+  }
+}
+
+.blog-card-wrapper {
+  padding-bottom: 4px;
+}
+
+@media (max-width: 991px) {
+  .blog-card-wrapper {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog-card-wrapper .list-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .blog-card-wrapper .list-img li {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) and (max-width: 767px) {
+  .blog-card-wrapper .list-img li {
+    width: auto;
+  }
+}
+
+/*Blog element end*/

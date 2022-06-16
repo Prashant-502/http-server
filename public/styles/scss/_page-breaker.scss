@@ -1,0 +1,272 @@
+/* Page Breaker SOC detail Start */
+.card.page-breaker {
+    border: 2px solid $c-red;
+    border-radius: 8px;
+    background: none;
+
+    .row {
+        align-items: center;
+        min-height: 150px;
+    }
+
+    .card-img {
+        text-align: center;
+        align-self: flex-end;
+
+        img {
+            max-width: 268px;
+        }
+    }
+
+    .card-body {
+        padding: 0;
+        border-bottom: 0;
+        background: none;
+    }
+
+    .btn-box {
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    @include breakpoint($mxw992) {
+        .card-img img {
+            width: 100%;
+        }
+
+        .hd {
+            font-size: 24px;
+        }
+
+        .btn-box {
+            padding-right: 20px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .card-img {
+            order: 1;
+
+            img {
+                width: auto;
+            }
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .btn-box {
+            text-align: left;
+            padding: 0 0 50px 30px;
+        }
+    }
+}
+
+/* Page Breaker End */
+
+/* Page Breaker Product detail Start */
+.page-breaker-1 {
+    border: 2px solid $c-red;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card-image,
+    .card-btn {
+        margin: 0 36px;
+
+        img {
+            max-width: 265px;
+        }
+    }
+
+    .card-text {
+        @extend .f24;
+        font-weight: $font-light;
+        color: $c-grey-5;
+        display: flex;
+        width: 50%;
+
+        p {
+            margin-bottom: 0;
+
+            &:first-child {
+                position: relative;
+                padding-right: 30px;
+                margin-right: 30px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 1px;
+                    height: 24px;
+                    background: $c-red;
+                }
+            }
+        }
+
+        span {
+            font-size: 64px;
+            line-height: 1;
+            display: block;
+
+            sup {
+                font-size: 18px;
+                top: -36px;
+            }
+        }
+    }
+
+    .card-btn .btn-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .btn-red {
+            margin-bottom: 20px;
+        }
+
+        a {
+            margin-right: 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .card-text {
+            font-size: 16px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding: 20px 0 20px 30px;
+
+        .card-image {
+            display: none;
+        }
+
+        .card-text {
+            width: 70%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 0 30px 0;
+
+        .card-text {
+            width: 100%;
+            padding: 30px 36px;
+            flex-direction: column;
+
+            p:first-child {
+                padding-right: 0;
+                margin-right: 0;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+
+                &::before {
+                    transform: rotate(90deg);
+                    right: auto;
+                    left: 12px;
+                    bottom: -12px;
+                }
+            }
+        }
+    }
+}
+
+/* Page Breaker End */
+
+/* Page Breaker Home Loan Start */
+.card.page-breaker {
+
+    //margin-bottom: 60px;
+    .btn-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        padding: 0;
+
+        a {
+            margin-bottom: 10px;
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 0 30px;
+            align-items: flex-start;
+        }
+    }
+}
+
+/* Page Breaker End */
+
+/* Page Breaker Fixed Deposit Start */
+.card.page-breaker {
+    .btn-box {
+        @include breakpoint($mxw768) {
+            padding-bottom: 30px;
+        }
+    }
+
+    .card-img {
+        @include breakpoint($mxw769) {
+            display: none;
+        }
+    }
+
+    .card-body {
+        @include breakpoint($mxw769) {
+            padding: 30px;
+        }
+
+        .row {
+            min-height: inherit;
+        }
+
+        .col-lg-4.col-md-4 {
+            @include breakpoint($mxw768) {
+                margin-top: 30px;
+            }
+        }
+
+        p.f24 {
+            font-size: 20px;
+            font-weight: $font-light;
+            margin-bottom: 0px;
+
+            @include breakpoint($mxw769) {
+                margin-bottom: 15px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+
+            span {
+                font-size: 50px;
+                font-weight: $font-light;
+
+                @include breakpoint($mxw1000) {
+                    font-size: 45px;
+                }
+
+                @include breakpoint($mxw769) {
+                    font-size: 45px;
+                }
+
+                @include breakpoint($mxw768) {
+                    font-size: 64px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+/* Page Breaker End */

@@ -1,0 +1,228 @@
+// flex center horizontal & vertical
+.ctr-vh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//card
+.card-box {
+    background: $c-white;
+    box-shadow: rgba($c-black, .1) 12px 27px 38px;
+    height: 100%;
+
+    &.op1 {
+        padding: 30px;
+
+        figure {
+            background: #F3F3F3;
+            width: 86px;
+            height: 86px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: auto;
+            }
+        }
+    }
+}
+
+.owl-carousel {
+    .card-box {
+        margin: 15px;
+    }
+}
+
+
+
+.arrow {
+    background: $maroon;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.32);
+
+    span {
+        font-size: 12px;
+
+        &::before {
+            color: $white;
+        }
+    }
+
+    &.big {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+
+        span {
+            font-size: 18px;
+        }
+    }
+
+    &.white {
+        background: $white;
+
+        span {
+            &::before {
+                color: $maroon;
+            }
+        }
+    }
+
+    &.yellow {
+        background: $c-yellow;
+
+        span {
+            &::before {
+                color: $maroon;
+            }
+        }
+    }
+
+    &.green {
+        background: $white;
+
+        span {
+            &::before {
+                color: $teal;
+            }
+        }
+    }
+
+    &.gray {
+        background: $white;
+
+        span {
+            &::before {
+                color: $grey-400;
+            }
+        }
+    }
+}
+
+.progress {
+    height: .5rem;
+    background-color: $grey-200;
+    border-radius: .5rem;
+
+    .progress-bar {
+        background-color: $maroon;
+        border-radius: .5rem;
+        font-size: 0;
+        text-indent: -999999px;
+    }
+}
+
+.card-img-overlay {
+    &.ctnt-btm {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: $c-white;
+    }
+}
+
+
+.managing-box{
+    padding: 10px 0 0 60px;
+    @include breakpoint($mxw992) {
+        padding: 10px 0 0 30px;
+    }
+    strong,span{
+        display: block;
+    }
+   
+}
+.acrd-data{
+    &.result{
+        table{
+            background: rgba($grey-100,0.5);
+            th,td{
+                font-size: 20px;
+                border-right: 1px solid $c-grey-2;
+                border-bottom: 0;
+                border-top: 0;
+                padding: 15px 30px;
+                white-space: nowrap;
+                text-align: center;
+                @include breakpoint($mxw1000) {
+                    padding: 15px;
+                    font-size: 16px;
+                }
+                &:first-child{
+                    text-align: left;
+                }
+                &:last-child{
+                    border-right: 0;
+                }
+            }
+            th{
+                background: $grey-100;
+            }
+            
+        }
+    }
+}
+.view-all{
+    font-weight: $font-bold;
+    font-size: 14px;
+    color: $c-red;
+    .icon-Right{
+        &::before{
+            color: $c-red;
+        }
+    }
+    &:hover{
+        color: $c-red;
+    }
+}
+.PA30{
+    padding: 30px;
+}
+.our-founding {
+    background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+    color: $c-white;
+    position: relative;
+    &::after {
+        content: "";
+        background: url("../images/svg/comma-karma.svg") no-repeat;
+        height: 270px;
+        width: 200px;
+        position: absolute;
+        top: 0px;
+        left: 70px;
+    }
+    .inner-box{
+        padding: 90px 140px;
+        @include breakpoint($mxw1000) {
+            padding: 40px 70px;
+        }
+        @include breakpoint($mxw992) {
+            padding: 30px;
+        }
+    }
+    .founding-info{
+        padding: 0 40px;
+        @include breakpoint($mxw768) {
+            padding: 0;
+            .MT50-M{
+                margin-top: 50px;
+            }
+        }
+    }
+    hr {
+        border-color: rgba($c-white, 0.23);
+        margin: 30px 0;
+        margin-top: 0px;
+    }
+}
+.m-auto{
+    margin: 0 auto;
+}

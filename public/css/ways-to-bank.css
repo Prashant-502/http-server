@@ -1,0 +1,74 @@
+/* Ways to bank element*/
+.way-to-bank {
+  padding: 50px 0;
+}
+
+.way-to-bank .hd1.black+p {
+  color: #737373;
+  margin: 10px 0 20px;
+}
+
+.way-to-bank.overlap-above {
+  margin-top: -65px;
+}
+
+.way-to-bank .way-img {
+  text-align: center;
+}
+
+.way-to-bank .way-img img,
+.way-to-bank .way-img video {
+  margin-top: -40px;
+}
+
+@media (max-width: 1024px) {
+  .way-to-bank .hd1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  .way-to-bank {
+    padding: 50px 0;
+  }
+
+  .way-to-bank .row {
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .way-to-bank.overlap-above {
+    margin-top: 0;
+  }
+
+  .way-to-bank .hd1.black {
+    margin: 12px 0;
+  }
+
+  .way-to-bank .download-btn {
+    margin-bottom: 32px;
+  }
+
+  .way-to-bank .download-btn a {
+    display: block;
+    margin-top: 12px;
+  }
+
+  .way-to-bank .btn-box {
+    margin-bottom: 32px;
+  }
+
+  .way-to-bank .way-img img,
+  .way-to-bank .way-img video {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .way-to-bank .way-img {
+    margin-bottom: 20px;
+  }
+}
+
+/* Ways to bank element end*/

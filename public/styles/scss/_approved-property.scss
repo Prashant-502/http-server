@@ -1,0 +1,93 @@
+/* start approve perperty search Home loan page*/
+.approved-sec {
+    background: url("../images/approve-bg.jpg");
+    background-size: cover;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    @include breakpoint($mxw769) {
+        background: url("../images/approve-bg-m.jpg");
+        background-size: cover;
+        min-height: 374px;
+    }
+
+    .hd {
+        color: $c-white;
+        margin-bottom: 0px;
+        @include breakpoint($mxw769) {
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+    }
+    .dropdown .dropdown-menu {
+        height: auto;
+        min-width: 100%;
+    }
+    .btn-box {
+        margin-left: 30px;
+        @include breakpoint($mxw769) {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+    }
+}
+
+.btn-box {
+    .btn-white-fill {
+        display: inline-block;
+        height: 50px;
+        min-width: 160px;
+        padding: 10px 30px;
+        border-radius: 25px;
+        background: $c-white;
+        color: $c-red;
+        text-align: center;
+        line-height: 30px;
+        white-space: nowrap;
+
+        @include breakpoint($mxw992) {
+            width: auto;
+            padding: 0 30px;
+            line-height: 3;
+        }
+    }
+}
+
+.form-label-group {
+    .op2.bootstrap-select {
+        background: transparent;
+        color: $c-white;
+        border: 1px solid #d8d8d8;
+    }
+    
+
+    .op2.bootstrap-select.show > .btn-light.dropdown-toggle {
+        background-color: rgba($c-white, 0);
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    .op2.bootstrap-select > .btn,
+    .op2.bootstrap-select > .btn-light {
+        padding-left: 1.5rem;
+        font-size: 15px;
+        height: 60px;
+        border-radius: 4px;
+        background-color: rgba($c-white, 0) !important;
+        //border: 1px solid #1d3147 !important;
+        line-height: 3;
+        color: $c-white;
+    }
+
+    .op2.bootstrap-select > .btn-light:focus,
+    .op2.bootstrap-select > .btn-light:hover,
+    .op2.bootstrap-select .dropdown-toggle:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        color: $c-white;
+    }
+
+    
+}
+
+/* end */

@@ -1,0 +1,354 @@
+.office-address.reach-us {
+    background: rgb(196, 119, 125);
+    background: linear-gradient(90deg, #9d1d27 20%, #c4777d 80%);
+    color: $c-white;
+    padding: 44px 0;
+    line-height: 22px;
+
+    .hd3b {
+        margin-bottom: 8px;
+    }
+
+    .col-lg-5 {
+        padding: 8px 0;
+    }
+
+    .rgt-brd {
+        border-right-color: rgba($c-white, .25);
+
+        &::after {
+            display: none;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 44px 24px;
+    }
+}
+
+.best-give {
+    @extend .pad1;
+
+    &.grey {
+        background: $grey-50;
+    }
+
+    .hdr + p {
+        margin-top: 12px;
+        line-height: 22px;
+    }
+
+    @include breakpoint($mxw768) {
+        .hdr.CTR {
+            text-align: left;
+        }
+    }
+}
+
+.table.escalation {
+    color: $c-black;
+
+    td {
+        border-bottom: 1px solid $grey-200;
+        padding: 20px 0;
+
+        p {
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+
+        .my-links {
+            float: right;
+
+            .share-box {
+                margin-left: 20px;
+
+                .share-bubble:after {
+                    right: 20px;
+                    left: auto;
+                }
+            }
+            a span {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 0;
+                font-size: 20px;
+            }
+
+            .download {
+                width: 40px;
+                height: 40px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .share-positon-box {
+            right: -4px;
+            left: auto;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        border-top: 1px solid $grey-200;
+
+        td {
+            display: block;
+            border: 0;
+
+            &:last-child {
+                border-bottom: 1px solid $grey-200;
+                padding-top: 10px;
+            }
+
+            &:first-child {
+                padding-bottom: 0px;
+            }
+        }
+    }
+}
+
+.list-looking li.full {
+    @include breakpoint($mxw992) {
+        .card-look {
+            > a {
+                align-items: flex-start;
+            }
+
+            figure {
+                margin-bottom: 10px;
+            }
+
+            div {
+                text-align: left;
+            }
+
+            p {
+                display: block;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+
+.your-query {
+    background: $grey-50 url('../images/svg/your-query.svg') repeat-x;
+    padding: 52px 0;
+    color: $c-white;
+
+    .pers-supp {
+        margin: 50px 0 40px;
+        text-align: center;
+
+        a {
+            color: $c-white;
+            font-weight: $font-bold;
+            text-decoration: underline;
+        }
+    }
+
+    .accordian {
+        color: $c-black;
+
+        .trgr {
+            font-size: 24px;
+
+            &::before {
+                color: $c-black;
+            }
+        }
+    }
+
+    .form-label-group {
+        select {
+            background: transparent url('../images/svg/down1.svg') no-repeat 94% center;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-color: $c-white;
+            color: $c-white;
+            padding: 16px 20px;
+
+            &::-ms-expand {
+                display: none;
+            }
+
+            option {
+                color: $c-black;
+            }
+        }
+
+        > label.form-control-placeholder {
+            top: 3px;
+            left: 10px;
+            color: $c-white;
+        }
+
+        .normal-select-box.selected:not(:placeholder-shown) ~ label {
+            background: $c-red;
+            margin-top: -13px;
+        }
+
+        .form-control {
+            .explorer11 & {
+
+                &:focus ~ label,
+                &:valid ~ label,
+                & ~ label {
+                    background: $c-red;
+                    color: $c-white;
+                }
+            }
+        }
+    }
+
+    .acrd-data table th {
+        &:last-child {
+            width: 25%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background-image: url('../images/svg/your-query-mob.svg');
+
+        .pers-supp {
+            margin: 30px 0;
+        }
+
+        .accordian .trgr {
+            font-size: 16px;
+
+            &::before {
+                font-size: 20px;
+            }
+        }
+
+        .hdr.CTR br {
+            display: none;
+        }
+
+        .form-label-group {
+            margin-bottom: 20px;
+        }
+
+        .acrd-data table th:last-child {
+            width: auto;
+        }
+    }
+}
+
+.query-result {
+    display: none;
+    color: $c-black;
+
+    .white-box {
+        padding: 50px 60px;
+        margin-bottom: 20px;
+
+        .d-flex {
+            align-items: center;
+
+            .btn-box {
+                margin-left: auto;
+            }
+        }
+
+        .nav.tag-list {
+            li {
+                margin-bottom: 0;
+
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            padding: 30px;
+
+            .d-flex {
+                flex-direction: column;
+                align-items: flex-start;
+
+                .btn-box {
+                    margin: 20px 0 0;
+                }
+            }
+
+            .nav.tag-list li {
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            .nav.tag-list {
+                flex-direction: column;
+
+                li {
+                    margin: 0 0 16px;
+                    text-align: center;
+
+                    a {
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.get-callBack {
+    @extend .pad2;
+
+    .hd3 {
+        color: $brownish-grey-two;
+        margin-bottom: 0;
+        line-height: 1.3;
+        padding-top: 3px;
+    }
+
+    @include breakpoint($mxw992) {
+        .jvalidation.PL50 {
+            padding: 30px 0 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .mb20m {
+            margin-bottom: 20px;
+        }
+
+        .MT30 {
+            margin-top: 20px;
+        }
+
+        .btn-box.MT30 {
+            text-align: center;
+        }
+    }
+}
+
+.captcha-box {
+    border: 2px solid rgba($grey-200, .7);
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .25rem;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+
+    span {
+        display: inline-block;
+        margin-right: 5px;
+    }
+}

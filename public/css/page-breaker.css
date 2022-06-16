@@ -1,0 +1,312 @@
+/* Page Breaker SOC detail Start */
+.card.page-breaker {
+  border: 2px solid #9D1D27;
+  border-radius: 8px;
+  background: none;
+}
+
+.card.page-breaker .row {
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.card.page-breaker .card-img {
+  text-align: center;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.card.page-breaker .card-img img {
+  max-width: 268px;
+}
+
+.card.page-breaker .card-body {
+  padding: 0;
+  border-bottom: 0;
+  background: none;
+}
+
+.card.page-breaker .btn-box {
+  text-align: right;
+  padding-right: 40px;
+}
+
+@media (max-width: 991px) {
+  .card.page-breaker .card-img img {
+    width: 100%;
+  }
+
+  .card.page-breaker .hd {
+    font-size: 24px;
+  }
+
+  .card.page-breaker .btn-box {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card.page-breaker .card-img {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .card.page-breaker .card-img img {
+    width: auto;
+  }
+
+  .card.page-breaker .card-body {
+    padding: 30px;
+  }
+
+  .card.page-breaker .btn-box {
+    text-align: left;
+    padding: 0 0 50px 30px;
+  }
+}
+
+/* Page Breaker End */
+/* Page Breaker Product detail Start */
+.page-breaker-1 {
+  border: 2px solid #9D1D27;
+  border-radius: 8px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.page-breaker-1 .card-image,
+.page-breaker-1 .card-btn {
+  margin: 0 36px;
+}
+
+.page-breaker-1 .card-image img,
+.page-breaker-1 .card-btn img {
+  max-width: 265px;
+}
+
+.page-breaker-1 .card-text {
+  font-weight: 300;
+  color: #616161;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.page-breaker-1 .card-text p {
+  margin-bottom: 0;
+}
+
+.page-breaker-1 .card-text p:first-child {
+  position: relative;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.page-breaker-1 .card-text p:first-child::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 24px;
+  background: #9D1D27;
+}
+
+.page-breaker-1 .card-text span {
+  font-size: 64px;
+  line-height: 1;
+  display: block;
+}
+
+.page-breaker-1 .card-text span sup {
+  font-size: 18px;
+  top: -36px;
+}
+
+.page-breaker-1 .card-btn .btn-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.page-breaker-1 .card-btn .btn-box .btn-red {
+  margin-bottom: 20px;
+}
+
+.page-breaker-1 .card-btn .btn-box a {
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .page-breaker-1 .card-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-breaker-1 {
+    padding: 20px 0 20px 30px;
+  }
+
+  .page-breaker-1 .card-image {
+    display: none;
+  }
+
+  .page-breaker-1 .card-text {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-breaker-1 {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 0 0 30px 0;
+  }
+
+  .page-breaker-1 .card-text {
+    width: 100%;
+    padding: 30px 36px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .page-breaker-1 .card-text p:first-child {
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .page-breaker-1 .card-text p:first-child::before {
+    transform: rotate(90deg);
+    right: auto;
+    left: 12px;
+    bottom: -12px;
+  }
+}
+
+/* Page Breaker End */
+/* Page Breaker Home Loan Start */
+.card.page-breaker .btn-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0;
+}
+
+.card.page-breaker .btn-box a {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .card.page-breaker .btn-box {
+    padding: 0 30px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+/* Page Breaker End */
+/* Page Breaker Fixed Deposit Start */
+@media (max-width: 767px) {
+  .card.page-breaker .btn-box {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card.page-breaker .card-img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card.page-breaker .card-body {
+    padding: 30px;
+  }
+}
+
+.card.page-breaker .card-body .row {
+  min-height: inherit;
+}
+
+@media (max-width: 767px) {
+  .card.page-breaker .card-body .col-lg-4.col-md-4 {
+    margin-top: 30px;
+  }
+}
+
+.card.page-breaker .card-body p.f24,
+.card.page-breaker .card-body .page-breaker-1 p.card-text,
+.page-breaker-1 .card.page-breaker .card-body p.card-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+
+  .card.page-breaker .card-body p.f24,
+  .card.page-breaker .card-body .page-breaker-1 p.card-text,
+  .page-breaker-1 .card.page-breaker .card-body p.card-text {
+    margin-bottom: 15px;
+  }
+
+  .card.page-breaker .card-body p.f24:last-child,
+  .card.page-breaker .card-body .page-breaker-1 p.card-text:last-child,
+  .page-breaker-1 .card.page-breaker .card-body p.card-text:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.card.page-breaker .card-body p.f24 span,
+.card.page-breaker .card-body .page-breaker-1 p.card-text span,
+.page-breaker-1 .card.page-breaker .card-body p.card-text span {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+
+  .card.page-breaker .card-body p.f24 span,
+  .card.page-breaker .card-body .page-breaker-1 p.card-text span,
+  .page-breaker-1 .card.page-breaker .card-body p.card-text span {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .card.page-breaker .card-body p.f24 span,
+  .card.page-breaker .card-body .page-breaker-1 p.card-text span,
+  .page-breaker-1 .card.page-breaker .card-body p.card-text span {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .card.page-breaker .card-body p.f24 span,
+  .card.page-breaker .card-body .page-breaker-1 p.card-text span,
+  .page-breaker-1 .card.page-breaker .card-body p.card-text span {
+    font-size: 64px;
+    display: block;
+  }
+}
+
+/* Page Breaker End */

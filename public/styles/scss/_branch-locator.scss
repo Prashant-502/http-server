@@ -1,0 +1,485 @@
+.nearby-search {
+    margin-top: 30px;
+    display: flex;
+    max-width: 400px;
+    border-radius: 4px;
+    background: $c-white;
+    position: relative;
+
+    span {
+        background: $grey-100;
+        padding: 18px;
+        border-radius: 4px;
+        font-size: 14px;
+        width: 108px;
+
+        img {
+            height: 24px;
+            margin-right: 5px;
+        }
+    }
+
+    input {
+        border: 0;
+        padding: 18px;
+        width: 60%;
+
+        &::-ms-clear {
+            display: none;
+        }
+    }
+
+    .search-btn {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+        font-size: 24px;
+        border: 0;
+        background: none;
+        padding: 0;
+    }
+
+    .invalid-feedback {
+        position: absolute;
+        top: 60px;
+        left: 120px;
+    }
+
+    @include breakpoint($mxw1000) {
+        margin-top: 0;
+    }
+
+    @include breakpoint($mxw992) {
+        margin-top: 10px;
+    }
+}
+
+.product-banner.visit {
+    .banner-wrapper .banner-ctnt .needs-validation {
+        display: block;
+    }
+
+    @include breakpoint($mxw1000) {
+        .banner-ctnt .hd1 {
+            margin-top: 20px;
+        }
+    }
+}
+
+// open a/c button in secondary nav
+.visit-us {
+    position: relative;
+
+    .stab-wraper .secondary-tab {
+        border-bottom: 1px solid $grey-200;
+    }
+
+    //@include breakpoint($mxw992) {
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+        .secondary-tab ul:not(.filter) li {
+            margin: 0 12px;
+        }
+    }
+}
+
+.secondary-tab .container {
+    position: relative;
+
+    .btn-box {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    @include breakpoint($mxw992) {
+        .btn-box {
+            right: 0
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .btn-box {
+            display: none;
+        }
+    }
+}
+
+.search-filter {
+    position: absolute;
+    //width: 100%;
+    right: 180px;
+    top: 10px;
+
+    .dropdown {
+        text-align: right;
+
+        .dropdown-menu {
+            min-width: 240px;
+            height: 300px;
+            padding: 0;
+            background-color: $grey-100;
+            //display: inline-block;
+
+            li {
+                padding: 12px 20px;
+                border-bottom: 1px solid $c-white;
+
+                &:last-child {
+                    border-bottom: 0;
+                }
+
+                .custom-control.custom-checkbox {
+                    padding-left: 0;
+                }
+
+                .custom-control-label {
+                    position: relative;
+                    padding-right: 1.5rem;
+                    font-size: 14px;
+                    font-weight: $font-light;
+                    width: 100%;
+
+                    &::after {
+                        background-color: $c-white;
+                    }
+                }
+
+                .custom-control-label::before,
+                .custom-control-label::after {
+                    right: 0;
+                    left: auto;
+                    border: 0;
+                    width: 1.28rem;
+                    height: 1.28rem;
+                }
+
+
+                .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+                    background: url(../images/svg/check_box.svg) no-repeat;
+                }
+            }
+        }
+    }
+
+    //display: none;
+    .dropdown .dropdown-toggle {
+        font-size: 14px;
+        padding: 0;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        span {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: $grey-100 url(../images/svg/filter.svg) no-repeat center center;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        position: fixed;
+        top: auto;
+        bottom: 125px;
+        right: 12px;
+        z-index: 1;
+
+        .container {
+            padding: 0;
+        }
+
+        .dropdown .dropdown-toggle span {
+            background-color: $c-white;
+            width: 78px;
+            height: 78px;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .32), 0 5px 8px 0 rgba(0, 0, 0, .22);
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        bottom: 65px;
+
+        .dropdown .dropdown-toggle span {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+.search-main {
+    @include breakpoint($mxw992) {
+        background: $grey-100;
+        //padding-top: 50px; 
+    }
+}
+
+.search-result {
+    > li {
+        padding: 50px 0;
+        border-bottom: 1px solid $grey-200;
+        //display: flex;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+
+        .kms {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: $c-yellow;
+            text-align: center;
+            margin-right: 32px;
+            font-size: 12px;
+            line-height: 1;
+            padding-top: 16px;
+            flex: 0 0 64px;
+
+            strong {
+                font-size: 20px;
+                display: block;
+            }
+        }
+
+        .btn-box {
+            margin-left: auto;
+
+            .btn-red {
+                min-width: 180px;
+                //padding-top: 8px;
+                //color: $brownish-grey-two;
+            }
+        }
+
+        .branch-info {
+            .hd2v {
+                font-weight: 300;
+                margin: 10px 0 12px;
+            }
+
+            .f14 {
+                margin-bottom: 24px;
+            }
+
+            .other-dtl {
+                display: flex;
+                margin-bottom: 28px;
+
+                .f20l {
+                    margin-right: 50px;
+                    margin-bottom: 0;
+
+                    span {
+                        font-size: 14px;
+                        color: $c-grey-3;
+                        display: block;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .branch-info .hd2v {
+                span {
+                    display: none;
+                }
+
+                strong {
+                    display: block;
+                    margin-bottom: 8px;
+                }
+            }
+
+        }
+
+        @include breakpoint($mxw768) {
+            .d-flex {
+                flex-direction: column;
+            }
+
+            .branch-info .other-dtl {
+                flex-direction: column;
+                margin-bottom: 10px;
+
+                .f20l {
+                    margin: 0 0 20px;
+                }
+            }
+
+            .btn-box {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.view-service {
+    padding-left: 96px;
+
+    .f14br {
+        color: $c-red;
+
+        &.collapsed {
+            .icon-Down:before {
+                content: "\e900";
+            }
+        }
+
+        .icon-Down {
+            vertical-align: middle;
+            margin-left: 8px;
+            font-weight: 700;
+
+            &:before {
+                content: "\e903";
+                color: $c-red;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 30px 0 0 12px;
+    }
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.op1 li {
+        width: 20%;
+        color: $c-black1;
+        margin-top: 16px;
+    }
+
+    li {
+        width: 30%;
+        margin-right: 2%;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 24px;
+
+        img {
+            margin-right: 8px;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        li {
+            width: 40%;
+        }
+
+        &.op1 li {
+            width: 28%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        li {
+            width: 100%;
+            margin: 24px 0 0;
+        }
+
+        &.op1 li {
+            width: 50%;
+        }
+    }
+}
+
+.looking-for.serve-you {
+    .card-look {
+        > a {
+            height: 90px;
+        }
+
+        .title {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background: $c-white;
+    }
+}
+
+.office-address {
+    @extend .pad1;
+
+    .rgt-brd {
+        position: relative;
+        width: 2px;
+        border-right: 1px solid $grey-200;
+
+        &::after {
+            content: '';
+            position: absolute;
+            @include center(xy);
+            width: 2px;
+            height: 36%;
+            background: $c-red;
+        }
+    }
+
+    .col-lg-4 {
+        padding: 20px 0;
+    }
+
+    @include breakpoint($mxw992) {
+        background: $grey-100;
+
+        p {
+            padding-left: 20px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 40px;
+
+        .rgt-brd {
+            border-right: 0;
+            border-bottom: 1px solid $grey-200;
+            width: 100%;
+            margin: 30px 0;
+
+            &::after {
+                width: 36%;
+                height: 2px;
+                background: $c-red;
+            }
+        }
+
+        p {
+            padding-left: 0;
+        }
+    }
+}
+
+.white-box.hero-from {
+    padding: 40px 60px;
+
+    @include breakpoint($mxw1000) {
+        padding: 30px;
+    }
+}
+
+@include breakpoint($mxw992) {
+
+    .mf-banner.op1 .banner-wrapper {
+        margin-bottom: 52%;
+    }
+
+    .mf-banner.op2 .banner-wrapper {
+        margin-bottom: 36%;
+    }
+}

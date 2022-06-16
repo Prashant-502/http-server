@@ -1,0 +1,378 @@
+.modal-dialog {
+    max-width: 600px;
+
+    .modal-body {
+        &.op1 {
+            padding: 70px 100px;
+
+            @include breakpoint($mxw768) {
+                padding: 50px 30px;
+            }
+        }
+    }
+}
+
+/*pl joureny banner*/
+.pl-banner {
+    background: rgb(255, 236, 238);
+    background: linear-gradient(90deg,
+            rgba(255, 236, 238, 1) 0%,
+            rgba(194, 181, 181, 1) 64%,
+            rgba(255, 255, 255, 1) 64%,
+            rgba(255, 255, 255, 1) 100%);
+
+    &.op1 {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 60%,
+                rgba(255, 255, 255, 1) 60%,
+                rgba(255, 255, 255, 1) 100%);
+
+        .hero-from {
+            padding-left: 40px;
+
+            @include breakpoint($mxw768) {
+                padding: 0 15px;
+            }
+
+            .go-back {
+                font-size: 14px;
+            }
+
+            .btn-box .btn-red,
+            .btn-box .btn-white {
+                padding: 10px 20px;
+                font-size: 14px;
+
+                @include breakpoint($mxw768) {
+                    line-height: 2;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            background: rgb(255, 236, 238);
+            background: linear-gradient(90deg,
+                    rgba(255, 236, 238, 1) 0%,
+                    rgba(194, 181, 181, 1) 64%,
+                    rgba(255, 255, 255, 1) 64%,
+                    rgba(255, 255, 255, 1) 100%);
+            padding-top: 30px;
+        }
+
+        @include breakpoint($mxw992) {
+            background: rgb(255, 236, 238);
+            background: linear-gradient(90deg,
+                    rgba(255, 236, 238, 1) 0%,
+                    rgba(194, 181, 181, 1) 50%,
+                    rgba(255, 255, 255, 1) 50%,
+                    rgba(255, 255, 255, 1) 100%);
+            padding-top: 30px;
+        }
+
+        @include breakpoint($mxw768) {
+            background: none;
+        }
+    }
+
+
+
+    @media only screen and (min-device-width: 1820px) and (max-device-width: 2048px) {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 60%,
+                rgba(255, 255, 255, 1) 60%,
+                rgba(255, 255, 255, 1) 100%);
+    }
+
+    @include breakpoint($mxw992) {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 50%,
+                rgba(255, 255, 255, 1) 50%,
+                rgba(255, 255, 255, 1) 100%);
+        padding-top: 30px;
+    }
+
+    @include breakpoint($mxw768) {
+        background: none;
+        padding: 50px 0;
+    }
+
+    .hero-img {
+        margin-left: -30px;
+
+        @include breakpoint($mxw1000) {
+            margin-left: -60px;
+        }
+
+        @include breakpoint($mxw992) {
+            margin: 0;
+        }
+    }
+
+    figure {
+        margin: 0;
+
+        img {
+            display: block;
+
+            @include breakpoint($mxw1000) {
+                width: 360px;
+            }
+
+            @include breakpoint($mxw992) {
+                width: 250px;
+            }
+
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+        }
+    }
+
+    .hd {
+        margin-bottom: 10px;
+        color: $c-white;
+        font-weight: $font-normal;
+    }
+
+    .hero-from {
+        padding-left: 70px;
+
+        @include breakpoint($mxw1000) {
+            padding: 0;
+        }
+
+        @include breakpoint($mxw992) {
+            padding-left: 30px;
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 0 15px;
+        }
+
+        .hd6 {
+            color: $c-black;
+
+            strong {
+                display: block;
+                margin-bottom: 3px;
+            }
+        }
+
+        .skip {
+            margin-left: 45px;
+
+            @include breakpoint($mxw1000) {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.preLoanamt {
+    display: flex;
+    margin: 12px 0 0;
+
+    a {
+        border: 2px solid $grey-200;
+        border-radius: 5px;
+        padding: 10px;
+        flex-grow: 1;
+        margin-right: 10px;
+        text-align: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.homeloan {
+    @extend .pad2;
+
+    .why-app {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+
+        &.op1 {
+            .card-bx figure {
+                border-color: #9B1E26;
+            }
+        }
+
+        .card-bx {
+            width: 33%;
+            text-align: center;
+            margin-top: 50px;
+            padding: 0 10px;
+
+            figure {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border: 12px solid rgba($c-grey-6, .6);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            .hd3b {
+                margin: 20px 0 12px;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            flex-direction: column;
+
+            .card-bx {
+                width: 100%;
+                text-align: left;
+                display: flex;
+                padding: 0;
+                margin-top: 28px;
+
+                figure {
+                    margin: 0 12px 0 0;
+                    width: 64px;
+                    height: 64px;
+                    border-width: 8px;
+                    flex: 0 0 64px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .hd3b {
+                    margin: 0 0 4px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.homeloan-features {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+
+    .card-bx {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        margin-top: 40px;
+
+        figure {
+            width: 56px;
+            height: 56px;
+            margin: 0 12px 0 0;
+            background: $grey-100;
+            flex: 0 0 56px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .card-info {
+            margin-bottom: 0;
+        }
+
+        @include breakpoint($mxw992) {
+            width: 48%;
+        }
+
+        @include breakpoint($mxw768) {
+            width: 100%;
+            margin-top: 28px;
+        }
+    }
+}
+
+.homeloan.thruapp {
+    background: $grey-100;
+
+    .why-app {
+        .card-bx {
+            width: 24%;
+
+            span.hd3b {
+                color: rgba(155, 30, 38, .5);
+                display: block;
+                font-size: 25px;
+            }
+
+            figure {
+                background: $c-white;
+                border: 0;
+                box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+            }
+
+            a {
+                font-weight: 700;
+                color: #2E71F2;
+            }
+        }
+
+        .arw {
+            margin-top: 244px;
+        }
+
+        @include breakpoint($mxw1000) {
+            .card-bx {
+                width: 22%;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .arw {
+                width: 80px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            .card-bx {
+                width: 100%;
+                align-items: center;
+                margin-top: 24px;
+                padding-bottom: 80px;
+                background: url(../images/hl/arw1.svg) no-repeat 60px bottom;
+
+                &:last-child {
+                    background: none;
+                    padding-bottom: 0;
+                }
+
+                span.hd3b {
+                    margin-bottom: 0;
+                }
+
+                figure {
+                    margin: 0 12px 0 8px;
+                }
+            }
+
+            .arw {
+                display: none;
+            }
+        }
+    }
+}

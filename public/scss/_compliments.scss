@@ -1,0 +1,269 @@
+/* compliments banner*/
+.compliments-banner {
+    background: rgb(209, 180, 172);
+    background: linear-gradient(45deg, rgba(209, 180, 172, 1) 30%, rgba(250, 235, 231, 1) 100%);
+    padding-top: 50px;
+    color: $c-white;
+
+    .banner-wrapper {
+        figure {
+            position: relative;
+            z-index: 1;
+            margin-bottom: -40px;
+            margin-left: 100px;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        .banner-ctnt {
+            margin-top: -40px;
+            z-index: 1;
+        }
+    }
+
+    .banner-form {
+        padding: 45px 50px 40px;
+        margin-bottom: -70px;
+        min-height: 540px;
+        color: $c-black;
+        display: flex;
+        align-items: center;
+
+        .form-list {
+            margin-top: 0;
+
+            li:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        textarea.form-control {
+            resize: none;
+        }
+
+        .custom-checkbox {
+            color: $c-black;
+        }
+
+        .comp-form2 {
+            display: none;
+
+            .explorer11 & {
+                .needs-validation {
+                    display: block;
+                    margin-top: 80px;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .banner-form {
+            margin-left: 40px;
+            padding: 40px;
+        }
+
+        .banner-wrapper figure {
+            margin-left: -30px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .banner-form {
+            margin-left: 75px;
+            padding: 30px;
+
+            .needs-validation .form-control {
+                width: 200px;
+            }
+        }
+
+        .banner-wrapper figure {
+            margin-left: -90px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: linear-gradient(150deg, rgba(209, 180, 172, 1) 10%, rgba(250, 235, 231, 1) 100%);
+        padding-top: 36px;
+
+        .banner-wrapper {
+            figure {
+                display: none;
+            }
+
+            .banner-ctnt {
+                position: static;
+                margin-top: 0;
+            }
+        }
+
+        .banner-form {
+            margin: 30px 0 -60px;
+            padding: 40px 25px;
+            display: block;
+            min-height: inherit;
+
+            .form-list li {
+                margin-bottom: 20px;
+            }
+
+            .needs-validation .form-control {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.star-ratting {
+    display: flex;
+
+    span {
+        font-size: 30px;
+        margin-right: 5px;
+
+        &.icon-star-filled:before {
+            color: $c-yellow;
+        }
+    }
+}
+
+
+
+.all-compliments {
+    background: #FFF;
+    padding-bottom: 100px;
+
+    .allCompTop {
+        height: 100px;
+    }
+
+    .list-compliment {
+        margin-top: 40px;
+
+        li {
+            border-top: 1px solid $grey-200;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+
+            figure {
+                width: 12%;
+                margin-right: 4%;
+                text-align: center;
+                margin-bottom: 0;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+
+                figcaption {
+                    margin-top: 8px;
+                }
+            }
+
+            .desc {
+                width: 70%;
+                line-height: 1.4;
+                margin-bottom: 0;
+            }
+
+            .f16b {
+                width: 14%;
+                text-align: right;
+                color: $c-grey-3;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding-bottom: 60px;
+
+        .list-compliment {
+            margin-top: 30px;
+
+            li {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 30px 0;
+
+                figure,
+                .desc,
+                .f16b {
+                    width: 100%;
+                }
+
+                figure {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 16px;
+
+                    figcaption {
+                        margin: 0 0 0 15px;
+                    }
+                }
+
+                .f16b {
+                    text-align: left;
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        .pag.MT50 {
+            margin-top: 20px;
+        }
+    }
+}
+
+
+.pag {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: $font-bold;
+
+    li {
+        line-height: 22px;
+        padding: 0 3px;
+        border-radius: 3px;
+
+        &.act {
+            background: #EEE;
+            padding: 0 6px;
+            margin-right: 3px;
+        }
+    }
+
+    .prev,
+    .next {
+        font-weight: $font-light;
+        color: $c-grey-3;
+
+        .icon-Left {
+            font-weight: bold;
+        }
+
+        .icon-Right {
+            font-weight: bold;
+        }
+
+        span:before {
+            color: $c-grey-3;
+            vertical-align: middle;
+        }
+    }
+
+    .prev {
+        margin-right: 10px
+    }
+
+    .next {
+        margin-left: 10px;
+    }
+}

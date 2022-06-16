@@ -1,0 +1,623 @@
+.product-banner.ebc-banner {
+    .f24 {
+        font-weight: $font-light;
+        margin-bottom: 40px;
+
+        span {
+            font-weight: $font-normal;
+            display: block;
+            font-size: 64px;
+            line-height: 1;
+        }
+
+        @include breakpoint($mxw1000) {
+            margin-bottom: 24px;
+        }
+    }
+
+    .card-dtl {
+        margin-left: 24px;
+
+        p {
+            margin-bottom: 28px;
+
+            span {
+                font-size: 48px;
+                display: block;
+                line-height: 1;
+                margin-top: 5px;
+            }
+
+            &.payAmt {
+                margin-bottom: 0;
+
+                .icon-Right {
+                    font-weight: 700;
+                    vertical-align: middle;
+                    margin-left: 4px;
+
+                    &::before {
+                        color: $c-red;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw1440) {
+        .card-info {
+            .banner-ctnt {
+                margin-top: 28px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .card-info {
+            .bgImg img {
+                height: 480px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .card-info {
+            .banner-ctnt {
+                margin-top: 0;
+
+                .f24.mb-4 {
+                    margin-top: 20px;
+                }
+
+                .card-dtl p {
+                    font-size: 14px;
+
+                    span {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw769) {
+        .card-dtl {
+            margin-left: -10px;
+        }
+
+        .banner-ctnt {
+            position: static;
+            padding: 40px 0;
+            background-image: linear-gradient(110deg, #EEEEEE 0%, #D8D8D8 100%);
+        }
+
+        .f24 {
+            font-size: 20px;
+
+            span {
+                font-size: 44px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .card-info .banner-ctnt {
+            .f24.mb-4 {
+                margin-top: 0;
+            }
+
+            .card-dtl {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.ebc-card {
+    //    background: url(../images/ebc-card.png) no-repeat;
+    position: relative;
+    margin-left: auto;
+
+    figure {
+        border-radius: 23px;
+        box-shadow: 20px 30px 85px 0 rgba(0, 0, 0, 0.30);
+        overflow: hidden;
+
+        img {
+            transition: .3s ease all;
+        }
+    }
+
+    &:hover figure img {
+        //  transform: scale(1.1);
+    }
+
+    .ebc-cardIn {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 44px;
+        color: $c-white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .name {
+        line-height: 1;
+        margin-bottom: 0;
+
+        span {
+            font-size: 24px;
+            font-weight: $font-light;
+        }
+
+        strong {
+            font-size: 42px;
+            font-weight: $font-normal;
+            display: block;
+            letter-spacing: 3.37px;
+            margin-top: 10px;
+        }
+    }
+
+    .btn-box .btn-white {
+        background: $c-white;
+        border: 0;
+        font-size: 14px;
+        min-width: 190px;
+    }
+
+    &.op1 .ebc-cardIn {
+        padding: 30px;
+
+        .btn-box .btn-white {
+            min-width: 148px;
+            height: 40px;
+            line-height: 20px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        &.op1 {
+            .name strong {
+                font-size: 36px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        &.op1 {
+            margin-top: 20px;
+
+            .ebc-cardIn {
+                padding: 20px;
+
+                .btn-box .btn-white {
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw769) {
+        margin-top: 40px;
+
+        .ebc-cardIn {
+            padding: 20px;
+
+            .f18 {
+                font-size: 14px;
+            }
+
+            .name {
+                span {
+                    font-size: 20px;
+                }
+
+                strong {
+                    font-size: 28px;
+                    letter-spacing: 2.25px;
+                }
+            }
+
+            .btn-box .btn-white {
+                font-size: 12px;
+                min-width: auto;
+                height: auto;
+            }
+        }
+    }
+}
+
+.loan-cards {
+    .white-box {
+        border: 1px solid #E5E5E5;
+        padding: 30px 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+
+        .loan-img {
+            width: 24%;
+        }
+
+        .loan-dtls {
+            width: 54%;
+        }
+
+        .btn-box {
+            margin-left: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .btn-red {
+                font-size: 14px;
+                font-weight: 700;
+                min-width: 175px;
+            }
+
+            .f14br {
+                margin-top: 12px;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .loan-img {
+                display: none;
+            }
+
+            .loan-dtls {
+                width: 65%;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 30px 20px;
+            flex-direction: column;
+
+            .loan-img {
+                width: 100%;
+                margin-bottom: 30px;
+                text-align: center;
+                display: block;
+            }
+
+            .loan-dtls {
+                width: 100%;
+
+                .f20 {
+                    width: 100%;
+                    text-align: center;
+
+                    strong {
+                        display: block;
+                        margin: 0 0 10px;
+                    }
+                }
+
+                .hdr + p {
+                    font-size: 12px;
+                }
+
+                .MT20.MB20 {
+                    margin: 30px 0;
+                }
+            }
+
+            .btn-box {
+                margin: 40px 0 0 0;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .btn-red {
+                    line-height: 50px;
+                }
+
+                .f14br {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.progress.op1 {
+    height: 12px;
+
+    .progress-bar {
+        background: $c-yellow;
+    }
+}
+
+.w50p {
+    width: 50%;
+}
+
+.status {
+    font-size: 20px;
+    font-weight: 700;
+    color: $c-green;
+
+    span {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: inline-block;
+        background: $c-green;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+    &.op1 {
+        color: #E27A2F;
+
+        span {
+            background: #E27A2F;
+        }
+    }
+
+    &.op2 {
+        color: #D10000;
+
+        span {
+            background: #D10000;
+        }
+    }
+}
+
+.scan-code {
+    background: linear-gradient(90deg, #c4777d 0%, #9d1d1d 66%, #D5D7D9 66%, #F2F2F2 100%);
+    padding-top: 60px;
+
+    .row.fop {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .list-item {
+        border-top: 0;
+        padding-top: 0;
+    }
+
+    figure {
+        margin: 0 0 0 50px;
+    }
+
+    + .service-box::before {
+        background: linear-gradient(90deg, #c4777d 0%, #9d1d1d 66%, #D5D7D9 66%, #F2F2F2 100%);
+    }
+
+    .hdr {
+        color: $c-white;
+        line-height: 44px;
+
+        a {
+            color: $c-white;
+        }
+    }
+
+    @include breakpoint($mnw1440) {
+        background: linear-gradient(90deg, #c4777d 0%, #9d1d1d 60%, #D5D7D9 60%, #F2F2F2 100%);
+
+        + .service-box::before {
+            background: linear-gradient(90deg, #c4777d 0%, #9d1d1d 60%, #D5D7D9 60%, #F2F2F2 100%);
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        figure {
+            margin-left: 20px;
+        }
+
+        .list-item {
+            margin-left: 20px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: linear-gradient(180deg, #c4777d 0%, #9d1d1d 60%, #D5D7D9 60%, #F2F2F2 100%);
+        padding-top: 40px;
+
+        + .service-box::before {
+            background: #F2F2F2;
+        }
+
+        .hdr {
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        figure {
+            margin: 40px 0 100px;
+            text-align: center;
+        }
+
+        .list-item {
+            margin: 0 30px;
+        }
+    }
+
+}
+
+/*EBC Loan Details*/
+.ebc-loan-banner {
+    background: #FAFAFA;
+    background-image: linear-gradient(180deg, #F5F5F5 27%, #D8D8D8 100%);
+    padding: 80px 0 70px;
+
+    .card {
+        padding: 60px 50px 40px;
+        border-radius: 6px;
+        margin-right: 20px;
+
+        .stat {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: $c-yellow;
+            font-size: 14px;
+            padding: 4px 12px;
+            border-radius: 6px 0 6px 0;
+        }
+
+        .f20 {
+            text-align: center;
+        }
+
+        figure {
+            margin: 20px 0;
+        }
+
+        .btn-box {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .labx {
+        margin-bottom: 40px;
+
+        strong {
+            font-size: 24px;
+            display: block;
+            margin-top: 5px;
+        }
+    }
+
+    .lawbx {
+        @extend .white-box;
+        padding: 12px 0 16px 30px;
+        margin: 0 20px 40px 0;
+
+        .labx {
+            margin-bottom: 0;
+        }
+
+        .row {
+            align-items: center;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .card {
+            margin-right: 0;
+            padding: 60px 30px 40px;
+        }
+
+        .row.ML15 {
+            margin-left: 0;
+        }
+
+        .labx strong {
+            font-size: 20px;
+        }
+
+        .lawbx {
+            margin-right: 0;
+            padding-left: 20px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .row.ML15 {
+            //            margin-left: -15px;
+            margin-top: 30px;
+        }
+
+        .card {
+            flex-direction: row;
+            align-items: flex-end;
+
+            .w50sm {
+                width: 50%;
+            }
+
+            figure {
+                margin-bottom: 0;
+            }
+
+            .btn-box.MT5 {
+                text-align: left;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 40px 0;
+
+        .card {
+            flex-direction: column;
+
+            .w50sm {
+                width: 100%;
+            }
+
+            figure {
+                margin-bottom: 20px;
+            }
+
+            .btn-box.MT5 {
+                text-align: center;
+            }
+        }
+
+        .row.ML15 {
+            margin-left: -10px;
+        }
+
+        .labx strong {
+            font-size: 18px;
+        }
+
+        .lawbx {
+            padding-right: 20px;
+
+            .btn-box {
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+.rel-doc {
+    background: $grey-50;
+    padding: 60px 0 40px;
+
+    .white-box {
+        padding: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .f16br {
+            display: block;
+            margin-top: 3px;
+        }
+
+        .download {
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            flex: 0 0 48px;
+        }
+
+        @include breakpoint($mxw1000) {
+            min-height: 125px;
+        }
+
+        @include breakpoint($mxw992) {
+            padding: 20px;
+        }
+
+        @include breakpoint($mxw768) {
+            margin-bottom: 12px;
+            min-height: inherit;
+        }
+    }
+}

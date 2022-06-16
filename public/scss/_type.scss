@@ -1,0 +1,305 @@
+body {
+    font: 400 1rem/1.25rem 'Roboto', sans-serif;
+    color: $c-black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 400;
+    letter-spacing: inherit;
+    line-height: inherit;
+}
+
+.hd {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: $font-light;
+    color: $grey-500;
+    margin-bottom: 1rem;
+
+    @include breakpoint($mxw768) {
+        font-size: 24px;
+    }
+}
+
+.hdr {
+    font-size: 36px;
+    line-height: 1.1;
+
+    @include breakpoint($mxw768) {
+        font-size: 24px;
+    }
+}
+
+.hd1 {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: $c-white;
+
+    &.black {
+        color: $c-black;
+    }
+
+    @include breakpoint($mxw1000) {
+        font-size: 48px;
+        letter-spacing: -1px;
+    }
+
+    @include breakpoint($mxw992) {
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+
+    // @include breakpoint($mxw768) {
+    //   font-size: 24px;
+    //   letter-spacing: 0;
+    // }
+}
+
+.hd1l {
+    font-size: 64px;
+    font-weight: $font-light;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: $c-grey-5;
+}
+
+.hd2 {
+    font-size: 24px;
+    font-weight: $font-light;
+    line-height: 1.1;
+    color: $c-white;
+    margin-bottom: 5px;
+}
+
+.hd2v {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: $grey-500;
+    margin-bottom: 25px;
+}
+
+.hd3 {
+    color: $very-light-pink;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.hd4 {
+    font-size: 12px;
+    color: $brownish-grey-two;
+
+    span {
+        display: block;
+        color: $very-light-pink;
+    }
+}
+
+.hd5 {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: $font-bold;
+    color: $grey-500;
+    margin-bottom: .50rem;
+
+    @include breakpoint($mxw1000) {
+        font-size: 24px;
+    }
+}
+
+.hd6 {
+    color: $very-light-pink;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.hd7 {
+    font-size: 36px;
+    font-weight: $font-light;
+    line-height: 1;
+
+    @include breakpoint($mxw768) {
+        font-size: 24px
+    }
+}
+
+.hd100 {
+    font-size: 100px;
+    line-height: 0.93;
+    letter-spacing: -2px;
+    color: $c-white;
+
+    @include breakpoint($mxw1000) {
+        font-size: 72px;
+    }
+
+    @include breakpoint($mxw992) {
+        font-size: 48px;
+    }
+}
+
+.read-stroy {
+    color: $maroon;
+    font-size: 14px;
+    font-weight: $font-bold;
+}
+
+.icon-star {
+    width: 20px;
+    display: inline-block;
+
+    &.active {
+        &:hover {
+            &::before {
+                content: "\e91b";
+                color: $maroon;
+
+                @include breakpoint($mxw768) {
+                    content: "\e91b";
+                    color: $maroon;
+                }
+            }
+        }
+
+        &::before {
+            content: "\e91b";
+            color: $maroon;
+
+            @include breakpoint($mxw768) {
+                content: "\e91b";
+                color: $maroon;
+            }
+        }
+    }
+
+    &:hover {
+        &::before {
+            content: "\e91b";
+            color: $maroon;
+
+            @include breakpoint($mxw768) {
+                content: "\e908";
+                color: #787878;
+            }
+        }
+    }
+}
+
+.black {
+    color: $c-black;
+}
+
+.white {
+    color: $c-white;
+}
+
+.clr-grey {
+    color: $c-grey-3;
+}
+
+.link-arw {
+    font-weight: 700;
+    color: $c-red;
+
+    .icon-Right {
+        margin-left: 8px;
+
+        &:before {
+            color: $c-red;
+        }
+    }
+}
+
+.hd3b {
+    font-size: 24px;
+    font-weight: $font-bold;
+    line-height: 1.2;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16b,
+.f16br {
+    font-size: 16px;
+    font-weight: $font-bold;
+}
+
+.f16br {
+    color: $c-red;
+}
+
+.f14l,
+.f20l {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.f20l {
+    font-size: 20px;
+}
+
+.f24 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f16N {
+    font-size: 16px;
+    font-weight: $font-normal;
+}
+
+.f14br,
+.f14g {
+    font-size: 14px;
+    font-weight: 700;
+    color: $c-red;
+}
+
+.f14g {
+    color: $brownish-grey-two;
+}
+
+.f100l {
+    font-size: 100px;
+    font-weight: $font-light;
+    line-height: 1;
+    letter-spacing: -5px;
+}
+
+.clr-grn {
+    color: $c-green;
+}
+
+.clr-red {
+    color: $c-red;
+}
+
+.clr-wht {
+    color: $c-white;
+}
+
+.sep {
+    margin: 0 10px;
+}

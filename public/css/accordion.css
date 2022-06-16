@@ -1,0 +1,114 @@
+/* Accordian style */
+.accordian {
+  /* common accordian like FAQ */
+  /* common accordian like FAQ end */
+  /* Product Detail page Eligibility */
+  /* Product Detail Eligibility end*/
+}
+
+.accordian .trgr {
+  padding: 20px 50px 20px 30px;
+  margin-top: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordian .trgr::before {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  font-family: icomoon;
+  content: "\e900";
+  right: 30px;
+  top: 20px;
+  color: #9d1d27;
+}
+
+.accordian .trgr.act {
+  border-radius: 5px 5px 0 0;
+}
+
+.accordian .trgr.act::before {
+  content: "\e903";
+}
+
+.accordian .tog_cont {
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #9d1d27;
+  padding: 20px 30px;
+  margin-bottom: 1rem;
+}
+
+.accordian .tog_cont .block {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .accordian .trgr {
+    padding: 20px 50px 20px 20px;
+  }
+
+  .accordian .tog_cont {
+    padding: 20px;
+  }
+}
+
+.accordian.op1 .trgr {
+  box-shadow: none;
+  font-size: 36px;
+  font-weight: 300;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 10px 50px 10px 0;
+  border-radius: 0;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .accordian.op1 .trgr {
+    font-size: 24px;
+  }
+}
+
+.accordian.op1 .trgr::before {
+  content: "\e906";
+  height: auto;
+  width: auto;
+  right: 0;
+  color: #54565B;
+  top: 15px;
+  font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+  .accordian.op1 .trgr::before {
+    font-size: 18px;
+  }
+}
+
+.accordian.op1 .trgr.act::before {
+  content: "\e905";
+}
+
+.accordian.op1 .tog_cont {
+  box-shadow: none;
+  border: 0;
+  padding-left: 20px;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .accordian.op1 .tog_cont {
+    padding-bottom: 16px;
+  }
+}
+
+.accordian.op1 .tog_cont ul li {
+  list-style: disc;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+  .accordian.op1 .tog_cont ul li {
+    margin-bottom: 8px;
+  }
+}

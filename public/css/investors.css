@@ -1,0 +1,917 @@
+/* Financial Documents upgraded from Media KIT comp news-media page start*/
+.media-kit.finance-doc {
+  background: #f3f3f3;
+  background: linear-gradient(90deg, #f3f3f3 0%, #f3f3f3 60%, #fafafa 60%, #fafafa 100%);
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.media-kit.finance-doc .mk-left {
+  padding: 44px 0 0;
+  margin-right: 0;
+  background: none;
+}
+
+.media-kit.finance-doc .mk-left .hd1l {
+  margin-top: 60px;
+}
+
+.media-kit.finance-doc .media-list {
+  padding-left: 16px;
+  margin-bottom: -40px;
+}
+
+.media-kit.finance-doc .media-list .card-media {
+  width: 204px;
+  height: 204px;
+  padding-top: 30px;
+}
+
+.media-kit.finance-doc .media-list .card-media:nth-child(3),
+.media-kit.finance-doc .media-list .card-media:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.media-kit.finance-doc .media-list .card-media figure img {
+  height: 60px;
+  width: auto;
+}
+
+.media-kit.finance-doc .media-right .list-item {
+  padding-top: 0;
+}
+
+.media-kit.finance-doc .media-right .list-item li {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+  .media-kit.finance-doc .media-list {
+    margin-right: -10px;
+  }
+
+  .media-kit.finance-doc .media-list .card-media {
+    width: 180px;
+    height: 180px;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .media-kit.finance-doc {
+    background: linear-gradient(180deg, #f3f3f3 0%, #f3f3f3 52%, #fafafa 52%, #fafafa 100%);
+  }
+
+  .media-kit.finance-doc .media-right .list-item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .media-kit.finance-doc .media-right .list-item li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .media-kit.finance-doc {
+    margin-bottom: 0;
+  }
+
+  .media-kit.finance-doc .mk-left {
+    padding-top: 0;
+  }
+
+  .media-kit.finance-doc .mk-left .hd1l {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .media-kit.finance-doc .mk-left p.clr-grey,
+  .media-kit.finance-doc .mk-left .hero-from .form-list p.notes,
+  .hero-from .form-list .media-kit.finance-doc .mk-left p.notes {
+    min-height: inherit;
+  }
+
+  .media-kit.finance-doc .media-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .media-kit.finance-doc .media-list .card-media {
+    width: 155px;
+    height: 155px;
+  }
+
+  .media-kit.finance-doc .media-right {
+    margin: 0;
+  }
+
+  .media-kit.finance-doc .media-right .hd2 {
+    margin-top: 10px;
+  }
+
+  .media-kit.finance-doc .media-right .list-item li {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* Financial Documents upgraded from Media KIT comp news-media page end*/
+/* ANNUAL REPORT start*/
+.annual-reports {
+  padding: 120px 0 90px;
+}
+
+.annual-reports .year-report {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.annual-reports .year-report .report-left {
+  width: 30%;
+  padding: 60px;
+  background: #c4777d;
+  background: linear-gradient(145deg, #c4777d 0%, #9d1d27 100%);
+  color: #FFFFFF;
+}
+
+.annual-reports .year-report .report-left .f100l span {
+  display: block;
+}
+
+.annual-reports .year-report .report-left p {
+  margin-bottom: 0;
+}
+
+.annual-reports .year-report .report-left p .know-more {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.annual-reports .year-report .report-left .btn-box .btn-white {
+  color: #FFFFFF;
+  min-width: 200px;
+  border-color: #FFFFFF;
+}
+
+.annual-reports .year-report .report-right {
+  width: 70%;
+  padding: 84px 36px;
+  border: 1px solid #d8d8d8;
+  border-left: 0;
+  position: relative;
+}
+
+.annual-reports .year-report .report-right .note {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(118, 118, 118, 0.45);
+  margin-bottom: 0;
+}
+
+.annual-reports .owl-nav span {
+  display: inline-block;
+  margin: 2px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+.annual-reports .owl-nav span::before {
+  color: #9D1D27;
+}
+
+.annual-reports .owl-nav .owl-prev {
+  left: -24px;
+}
+
+.annual-reports .owl-nav .owl-next {
+  right: -24px;
+}
+
+.annual-reports .owl-dots {
+  margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+  .annual-reports .year-report .report-left {
+    padding: 60px 40px;
+  }
+
+  .annual-reports .year-report .report-left .f100l {
+    font-size: 88px;
+  }
+
+  .annual-reports .year-report .report-right {
+    padding: 54px 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .annual-reports {
+    padding: 50px 0;
+  }
+
+  .annual-reports .year-report {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .annual-reports .year-report .report-left {
+    width: 100%;
+    padding: 30px 24px;
+    text-align: center;
+  }
+
+  .annual-reports .year-report .report-left .f100l {
+    font-size: 64px;
+    letter-spacing: -3px;
+    margin-top: 10px;
+  }
+
+  .annual-reports .year-report .report-left .f100l span {
+    display: inline-block;
+  }
+
+  .annual-reports .year-report .report-right {
+    width: 100%;
+    border-left: 1px solid #d8d8d8;
+    border-top: 0;
+    padding: 0 0 60px;
+  }
+
+  .annual-reports .year-report .report-right .note {
+    line-height: 1.2;
+    bottom: 16px;
+    padding: 0 12px;
+  }
+}
+
+.report-data {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.report-data.op1 .item {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.report-data.op1 .item:nth-last-child(-n+3) {
+  border-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .report-data.op1 .item:nth-last-child(-n+3) {
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .report-data.op1 .item:nth-child(9) {
+    border-bottom: 0;
+  }
+}
+
+.report-data .item {
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid #d8d8d8;
+  padding: 42px 12px;
+}
+
+.report-data .item:nth-child(-n+3) {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.report-data .item:nth-child(3n) {
+  border-right: 0;
+}
+
+.report-data .item .hdr {
+  margin-bottom: 8px;
+}
+
+.report-data .item .clr-grey,
+.report-data .item .hero-from .form-list .notes,
+.hero-from .form-list .report-data .item .notes {
+  margin-bottom: 0;
+}
+
+.report-data.col4 .item {
+  width: 25%;
+}
+
+.report-data.col4 .item:nth-child(4) {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.report-data.col4 .item:nth-child(3n) {
+  border-right: 1px solid #d8d8d8;
+}
+
+.report-data.col4 .item:nth-child(4n) {
+  border-right: 0;
+}
+
+@media (max-width: 767px) {
+
+  .report-data.col4 .item,
+  .report-data .item {
+    width: 50%;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .report-data.col4 .item:nth-child(odd),
+  .report-data .item:nth-child(odd) {
+    border-right: 1px solid #d8d8d8;
+  }
+
+  .report-data.col4 .item:last-child,
+  .report-data.col4 .item:nth-last-child(2),
+  .report-data .item:last-child,
+  .report-data .item:nth-last-child(2) {
+    border-bottom: 0;
+  }
+
+  .report-data.col4 .item:nth-child(6) {
+    border-right: 0;
+  }
+}
+
+.investor-presentation {
+  padding: 50px 0 75px;
+  background: #f3f3f3;
+}
+
+.investor-presentation .hd-box {
+  margin-bottom: 28px;
+}
+
+.investor-presentation .hd-box .f12,
+.investor-presentation .hd-box .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .investor-presentation .hd-box .blog-by {
+  margin: 5px 0 0 3px;
+}
+
+.investor-presentation .hd-box .btn-box {
+  margin-left: auto;
+}
+
+.investor-presentation .hd-box .btn-box .icon-Right {
+  vertical-align: middle;
+}
+
+.investor-presentation .hd-box .btn-box .icon-Right::before {
+  color: #9D1D27;
+}
+
+@media (max-width: 991px) {
+  .investor-presentation .hd-box {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .investor-presentation .hd-box .btn-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .investor-presentation .hd-box .btn-box .f14br.ML30,
+  .investor-presentation .hd-box .btn-box .product-banner .ML30.hero-know-more,
+  .product-banner .investor-presentation .hd-box .btn-box .ML30.hero-know-more {
+    margin: 20px 0 0 0;
+  }
+}
+
+/* ANNUAL REPORT end*/
+/* News & Updates start*/
+.news-updates {
+  padding: 90px 0;
+  background: #F5F5F5;
+}
+
+@media (max-width: 1024px) {
+  .card-right.op1 {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+/* News & Updates end*/
+/* Stock Info Widget start*/
+.stoke-info .white-box,
+.stoke-info .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .stoke-info .ad-card,
+.stoke-info .accordian .trgr,
+.accordian .stoke-info .trgr,
+.stoke-info .accordian .tog_cont,
+.accordian .stoke-info .tog_cont,
+.stoke-info .card-look,
+.stoke-info .media-card,
+.stoke-info .pr-list>li .card-bx,
+.pr-list>li .stoke-info .card-bx,
+.stoke-info .trgr1,
+.stoke-info .trgr2,
+.stoke-info .trgr3,
+.stoke-info .tog_cont1,
+.stoke-info .tog_cont2,
+.stoke-info .tog_cont3,
+.stoke-info .mf-invest .start-box,
+.mf-invest .stoke-info .start-box,
+.stoke-info .more-box,
+.stoke-info .media-kit .media-list .card-media,
+.media-kit .media-list .stoke-info .card-media,
+.stoke-info .ebc-loan-banner .lawbx,
+.ebc-loan-banner .stoke-info .lawbx {
+  padding: 36px;
+  text-align: center;
+}
+
+.stoke-info .white-box p,
+.stoke-info .search-bxIn .search-ad .ad-card p,
+.search-bxIn .search-ad .stoke-info .ad-card p,
+.stoke-info .accordian .trgr p,
+.accordian .stoke-info .trgr p,
+.stoke-info .accordian .tog_cont p,
+.accordian .stoke-info .tog_cont p,
+.stoke-info .card-look p,
+.stoke-info .media-card p,
+.stoke-info .pr-list>li .card-bx p,
+.pr-list>li .stoke-info .card-bx p,
+.stoke-info .trgr1 p,
+.stoke-info .trgr2 p,
+.stoke-info .trgr3 p,
+.stoke-info .tog_cont1 p,
+.stoke-info .tog_cont2 p,
+.stoke-info .tog_cont3 p,
+.stoke-info .mf-invest .start-box p,
+.mf-invest .stoke-info .start-box p,
+.stoke-info .more-box p,
+.stoke-info .media-kit .media-list .card-media p,
+.media-kit .media-list .stoke-info .card-media p,
+.stoke-info .ebc-loan-banner .lawbx p,
+.ebc-loan-banner .stoke-info .lawbx p {
+  margin-bottom: 0;
+}
+
+.stoke-info .white-box p.hd3b,
+.stoke-info .search-bxIn .search-ad .ad-card p.hd3b,
+.search-bxIn .search-ad .stoke-info .ad-card p.hd3b,
+.stoke-info .accordian .trgr p.hd3b,
+.accordian .stoke-info .trgr p.hd3b,
+.stoke-info .accordian .tog_cont p.hd3b,
+.accordian .stoke-info .tog_cont p.hd3b,
+.stoke-info .card-look p.hd3b,
+.stoke-info .media-card p.hd3b,
+.stoke-info .pr-list>li .card-bx p.hd3b,
+.pr-list>li .stoke-info .card-bx p.hd3b,
+.stoke-info .trgr1 p.hd3b,
+.stoke-info .trgr2 p.hd3b,
+.stoke-info .trgr3 p.hd3b,
+.stoke-info .tog_cont1 p.hd3b,
+.stoke-info .tog_cont2 p.hd3b,
+.stoke-info .tog_cont3 p.hd3b,
+.stoke-info .mf-invest .start-box p.hd3b,
+.mf-invest .stoke-info .start-box p.hd3b,
+.stoke-info .more-box p.hd3b,
+.stoke-info .media-kit .media-list .card-media p.hd3b,
+.media-kit .media-list .stoke-info .card-media p.hd3b,
+.stoke-info .ebc-loan-banner .lawbx p.hd3b,
+.ebc-loan-banner .stoke-info .lawbx p.hd3b {
+  margin: 24px 0 8px;
+}
+
+.stoke-info .white-box p.hd3b span,
+.stoke-info .search-bxIn .search-ad .ad-card p.hd3b span,
+.search-bxIn .search-ad .stoke-info .ad-card p.hd3b span,
+.stoke-info .accordian .trgr p.hd3b span,
+.accordian .stoke-info .trgr p.hd3b span,
+.stoke-info .accordian .tog_cont p.hd3b span,
+.accordian .stoke-info .tog_cont p.hd3b span,
+.stoke-info .card-look p.hd3b span,
+.stoke-info .media-card p.hd3b span,
+.stoke-info .pr-list>li .card-bx p.hd3b span,
+.pr-list>li .stoke-info .card-bx p.hd3b span,
+.stoke-info .trgr1 p.hd3b span,
+.stoke-info .trgr2 p.hd3b span,
+.stoke-info .trgr3 p.hd3b span,
+.stoke-info .tog_cont1 p.hd3b span,
+.stoke-info .tog_cont2 p.hd3b span,
+.stoke-info .tog_cont3 p.hd3b span,
+.stoke-info .mf-invest .start-box p.hd3b span,
+.mf-invest .stoke-info .start-box p.hd3b span,
+.stoke-info .more-box p.hd3b span,
+.stoke-info .media-kit .media-list .card-media p.hd3b span,
+.media-kit .media-list .stoke-info .card-media p.hd3b span,
+.stoke-info .ebc-loan-banner .lawbx p.hd3b span,
+.ebc-loan-banner .stoke-info .lawbx p.hd3b span {
+  color: #b8b8b8;
+}
+
+.stoke-info .white-box .icon-up,
+.stoke-info .search-bxIn .search-ad .ad-card .icon-up,
+.search-bxIn .search-ad .stoke-info .ad-card .icon-up,
+.stoke-info .accordian .trgr .icon-up,
+.accordian .stoke-info .trgr .icon-up,
+.stoke-info .accordian .tog_cont .icon-up,
+.accordian .stoke-info .tog_cont .icon-up,
+.stoke-info .card-look .icon-up,
+.stoke-info .media-card .icon-up,
+.stoke-info .pr-list>li .card-bx .icon-up,
+.pr-list>li .stoke-info .card-bx .icon-up,
+.stoke-info .trgr1 .icon-up,
+.stoke-info .trgr2 .icon-up,
+.stoke-info .trgr3 .icon-up,
+.stoke-info .tog_cont1 .icon-up,
+.stoke-info .tog_cont2 .icon-up,
+.stoke-info .tog_cont3 .icon-up,
+.stoke-info .mf-invest .start-box .icon-up,
+.mf-invest .stoke-info .start-box .icon-up,
+.stoke-info .more-box .icon-up,
+.stoke-info .media-kit .media-list .card-media .icon-up,
+.media-kit .media-list .stoke-info .card-media .icon-up,
+.stoke-info .ebc-loan-banner .lawbx .icon-up,
+.ebc-loan-banner .stoke-info .lawbx .icon-up,
+.stoke-info .white-box .icon-down,
+.stoke-info .search-bxIn .search-ad .ad-card .icon-down,
+.search-bxIn .search-ad .stoke-info .ad-card .icon-down,
+.stoke-info .accordian .trgr .icon-down,
+.accordian .stoke-info .trgr .icon-down,
+.stoke-info .accordian .tog_cont .icon-down,
+.accordian .stoke-info .tog_cont .icon-down,
+.stoke-info .card-look .icon-down,
+.stoke-info .media-card .icon-down,
+.stoke-info .pr-list>li .card-bx .icon-down,
+.pr-list>li .stoke-info .card-bx .icon-down,
+.stoke-info .trgr1 .icon-down,
+.stoke-info .trgr2 .icon-down,
+.stoke-info .trgr3 .icon-down,
+.stoke-info .tog_cont1 .icon-down,
+.stoke-info .tog_cont2 .icon-down,
+.stoke-info .tog_cont3 .icon-down,
+.stoke-info .mf-invest .start-box .icon-down,
+.mf-invest .stoke-info .start-box .icon-down,
+.stoke-info .more-box .icon-down,
+.stoke-info .media-kit .media-list .card-media .icon-down,
+.media-kit .media-list .stoke-info .card-media .icon-down,
+.stoke-info .ebc-loan-banner .lawbx .icon-down,
+.ebc-loan-banner .stoke-info .lawbx .icon-down {
+  font-size: 28px;
+}
+
+@media (max-width: 991px) {
+  .stoke-info .col-lg-6:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+/* Stock Info Widget end*/
+/* FAQ bg update start*/
+.faq-section.op1 {
+  background: #f3f3f3;
+  padding: 90px 0 0;
+}
+
+.faq-section.op1 .TAR.MT30 {
+  margin-bottom: 0;
+}
+
+/* FAQ bg update end*/
+/* Investor Contact */
+.ic-section {
+  padding: 80px 0;
+}
+
+.ic-box {
+  padding: 35px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .ic-box {
+    margin-bottom: 30px;
+    height: auto;
+  }
+}
+
+.ic-box .info-box {
+  min-height: 220px;
+}
+
+@media (max-width: 1024px) {
+  .ic-box .info-box {
+    min-height: 270px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ic-box .info-box {
+    min-height: inherit;
+  }
+}
+
+.ic-box .info-box .hd2 {
+  min-height: 46px;
+}
+
+@media (max-width: 1024px) {
+  .ic-box .info-box .hd2 {
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ic-box .info-box .hd2 {
+    min-height: inherit;
+    margin-bottom: 15px;
+  }
+}
+
+.c-grey-3 {
+  color: #b8b8b8;
+}
+
+/* Investor Contact end*/
+/* Codes & Policie start*/
+.code-pol {
+  padding: 40px 0 100px;
+}
+
+.code-pol .acrd-data.white-box,
+.code-pol .search-bxIn .search-ad .acrd-data.ad-card,
+.search-bxIn .search-ad .code-pol .acrd-data.ad-card,
+.code-pol .accordian .acrd-data.trgr,
+.accordian .code-pol .acrd-data.trgr,
+.code-pol .accordian .acrd-data.tog_cont,
+.accordian .code-pol .acrd-data.tog_cont,
+.code-pol .acrd-data.card-look,
+.code-pol .acrd-data.media-card,
+.code-pol .pr-list>li .acrd-data.card-bx,
+.pr-list>li .code-pol .acrd-data.card-bx,
+.code-pol .acrd-data.trgr1,
+.code-pol .acrd-data.trgr2,
+.code-pol .acrd-data.trgr3,
+.code-pol .acrd-data.tog_cont1,
+.code-pol .acrd-data.tog_cont2,
+.code-pol .acrd-data.tog_cont3,
+.code-pol .mf-invest .acrd-data.start-box,
+.mf-invest .code-pol .acrd-data.start-box,
+.code-pol .acrd-data.more-box,
+.code-pol .media-kit .media-list .acrd-data.card-media,
+.media-kit .media-list .code-pol .acrd-data.card-media,
+.code-pol .ebc-loan-banner .acrd-data.lawbx,
+.ebc-loan-banner .code-pol .acrd-data.lawbx {
+  padding: 10px 30px;
+}
+
+@media (max-width: 767px) {
+
+  .code-pol .acrd-data.white-box,
+  .code-pol .search-bxIn .search-ad .acrd-data.ad-card,
+  .search-bxIn .search-ad .code-pol .acrd-data.ad-card,
+  .code-pol .accordian .acrd-data.trgr,
+  .accordian .code-pol .acrd-data.trgr,
+  .code-pol .accordian .acrd-data.tog_cont,
+  .accordian .code-pol .acrd-data.tog_cont,
+  .code-pol .acrd-data.card-look,
+  .code-pol .acrd-data.media-card,
+  .code-pol .pr-list>li .acrd-data.card-bx,
+  .pr-list>li .code-pol .acrd-data.card-bx,
+  .code-pol .acrd-data.trgr1,
+  .code-pol .acrd-data.trgr2,
+  .code-pol .acrd-data.trgr3,
+  .code-pol .acrd-data.tog_cont1,
+  .code-pol .acrd-data.tog_cont2,
+  .code-pol .acrd-data.tog_cont3,
+  .code-pol .mf-invest .acrd-data.start-box,
+  .mf-invest .code-pol .acrd-data.start-box,
+  .code-pol .acrd-data.more-box,
+  .code-pol .media-kit .media-list .acrd-data.card-media,
+  .media-kit .media-list .code-pol .acrd-data.card-media,
+  .code-pol .ebc-loan-banner .acrd-data.lawbx,
+  .ebc-loan-banner .code-pol .acrd-data.lawbx {
+    padding: 0 20px;
+  }
+}
+
+/* Codes & Policie end*/
+/* Board & Committee Members */
+.board-committee {
+  background: #f3f3f3;
+  background: linear-gradient(90deg, #fafafa 0%, #fafafa 75%, #c4777d 75%, #9d1d27 100%);
+  padding: 75px 0;
+}
+
+.board-committee .acrd-data.white-box ul.opt1 li,
+.board-committee .search-bxIn .search-ad .acrd-data.ad-card ul.opt1 li,
+.search-bxIn .search-ad .board-committee .acrd-data.ad-card ul.opt1 li,
+.board-committee .accordian .acrd-data.trgr ul.opt1 li,
+.accordian .board-committee .acrd-data.trgr ul.opt1 li,
+.board-committee .accordian .acrd-data.tog_cont ul.opt1 li,
+.accordian .board-committee .acrd-data.tog_cont ul.opt1 li,
+.board-committee .acrd-data.card-look ul.opt1 li,
+.board-committee .acrd-data.media-card ul.opt1 li,
+.board-committee .pr-list>li .acrd-data.card-bx ul.opt1 li,
+.pr-list>li .board-committee .acrd-data.card-bx ul.opt1 li,
+.board-committee .acrd-data.trgr1 ul.opt1 li,
+.board-committee .acrd-data.trgr2 ul.opt1 li,
+.board-committee .acrd-data.trgr3 ul.opt1 li,
+.board-committee .acrd-data.tog_cont1 ul.opt1 li,
+.board-committee .acrd-data.tog_cont2 ul.opt1 li,
+.board-committee .acrd-data.tog_cont3 ul.opt1 li,
+.board-committee .mf-invest .acrd-data.start-box ul.opt1 li,
+.mf-invest .board-committee .acrd-data.start-box ul.opt1 li,
+.board-committee .acrd-data.more-box ul.opt1 li,
+.board-committee .media-kit .media-list .acrd-data.card-media ul.opt1 li,
+.media-kit .media-list .board-committee .acrd-data.card-media ul.opt1 li,
+.board-committee .ebc-loan-banner .acrd-data.lawbx ul.opt1 li,
+.ebc-loan-banner .board-committee .acrd-data.lawbx ul.opt1 li {
+  padding: 40px 30px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.board-committee .acrd-data.white-box ul.opt1 li .action-box,
+.board-committee .search-bxIn .search-ad .acrd-data.ad-card ul.opt1 li .action-box,
+.search-bxIn .search-ad .board-committee .acrd-data.ad-card ul.opt1 li .action-box,
+.board-committee .accordian .acrd-data.trgr ul.opt1 li .action-box,
+.accordian .board-committee .acrd-data.trgr ul.opt1 li .action-box,
+.board-committee .accordian .acrd-data.tog_cont ul.opt1 li .action-box,
+.accordian .board-committee .acrd-data.tog_cont ul.opt1 li .action-box,
+.board-committee .acrd-data.card-look ul.opt1 li .action-box,
+.board-committee .acrd-data.media-card ul.opt1 li .action-box,
+.board-committee .pr-list>li .acrd-data.card-bx ul.opt1 li .action-box,
+.pr-list>li .board-committee .acrd-data.card-bx ul.opt1 li .action-box,
+.board-committee .acrd-data.trgr1 ul.opt1 li .action-box,
+.board-committee .acrd-data.trgr2 ul.opt1 li .action-box,
+.board-committee .acrd-data.trgr3 ul.opt1 li .action-box,
+.board-committee .acrd-data.tog_cont1 ul.opt1 li .action-box,
+.board-committee .acrd-data.tog_cont2 ul.opt1 li .action-box,
+.board-committee .acrd-data.tog_cont3 ul.opt1 li .action-box,
+.board-committee .mf-invest .acrd-data.start-box ul.opt1 li .action-box,
+.mf-invest .board-committee .acrd-data.start-box ul.opt1 li .action-box,
+.board-committee .acrd-data.more-box ul.opt1 li .action-box,
+.board-committee .media-kit .media-list .acrd-data.card-media ul.opt1 li .action-box,
+.media-kit .media-list .board-committee .acrd-data.card-media ul.opt1 li .action-box,
+.board-committee .ebc-loan-banner .acrd-data.lawbx ul.opt1 li .action-box,
+.ebc-loan-banner .board-committee .acrd-data.lawbx ul.opt1 li .action-box {
+  margin-left: 10px;
+}
+
+.board-committee .acrd-data.white-box ul.opt1 li .action-box .download-icon,
+.board-committee .search-bxIn .search-ad .acrd-data.ad-card ul.opt1 li .action-box .download-icon,
+.search-bxIn .search-ad .board-committee .acrd-data.ad-card ul.opt1 li .action-box .download-icon,
+.board-committee .accordian .acrd-data.trgr ul.opt1 li .action-box .download-icon,
+.accordian .board-committee .acrd-data.trgr ul.opt1 li .action-box .download-icon,
+.board-committee .accordian .acrd-data.tog_cont ul.opt1 li .action-box .download-icon,
+.accordian .board-committee .acrd-data.tog_cont ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.card-look ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.media-card ul.opt1 li .action-box .download-icon,
+.board-committee .pr-list>li .acrd-data.card-bx ul.opt1 li .action-box .download-icon,
+.pr-list>li .board-committee .acrd-data.card-bx ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.trgr1 ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.trgr2 ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.trgr3 ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.tog_cont1 ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.tog_cont2 ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.tog_cont3 ul.opt1 li .action-box .download-icon,
+.board-committee .mf-invest .acrd-data.start-box ul.opt1 li .action-box .download-icon,
+.mf-invest .board-committee .acrd-data.start-box ul.opt1 li .action-box .download-icon,
+.board-committee .acrd-data.more-box ul.opt1 li .action-box .download-icon,
+.board-committee .media-kit .media-list .acrd-data.card-media ul.opt1 li .action-box .download-icon,
+.media-kit .media-list .board-committee .acrd-data.card-media ul.opt1 li .action-box .download-icon,
+.board-committee .ebc-loan-banner .acrd-data.lawbx ul.opt1 li .action-box .download-icon,
+.ebc-loan-banner .board-committee .acrd-data.lawbx ul.opt1 li .action-box .download-icon {
+  margin-left: 0;
+  background: #f3f3f3;
+}
+
+@media (max-width: 767px) {
+  .board-committee {
+    background: linear-gradient(180deg, #fafafa 0%, #fafafa 70%, #c4777d 70%, #9d1d27 100%);
+  }
+
+  .board-committee .acrd-data.white-box,
+  .board-committee .search-bxIn .search-ad .acrd-data.ad-card,
+  .search-bxIn .search-ad .board-committee .acrd-data.ad-card,
+  .board-committee .accordian .acrd-data.trgr,
+  .accordian .board-committee .acrd-data.trgr,
+  .board-committee .accordian .acrd-data.tog_cont,
+  .accordian .board-committee .acrd-data.tog_cont,
+  .board-committee .acrd-data.card-look,
+  .board-committee .acrd-data.media-card,
+  .board-committee .pr-list>li .acrd-data.card-bx,
+  .pr-list>li .board-committee .acrd-data.card-bx,
+  .board-committee .acrd-data.trgr1,
+  .board-committee .acrd-data.trgr2,
+  .board-committee .acrd-data.trgr3,
+  .board-committee .acrd-data.tog_cont1,
+  .board-committee .acrd-data.tog_cont2,
+  .board-committee .acrd-data.tog_cont3,
+  .board-committee .mf-invest .acrd-data.start-box,
+  .mf-invest .board-committee .acrd-data.start-box,
+  .board-committee .acrd-data.more-box,
+  .board-committee .media-kit .media-list .acrd-data.card-media,
+  .media-kit .media-list .board-committee .acrd-data.card-media,
+  .board-committee .ebc-loan-banner .acrd-data.lawbx,
+  .ebc-loan-banner .board-committee .acrd-data.lawbx {
+    margin-top: 40px;
+  }
+}
+
+/* Board & Committee Members  End*/
+/* Board Level Committee Composition start*/
+.board-lcc {
+  text-align: center;
+}
+
+.board-lcc .nav.tag-list {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.board-lcc .nav.tag-list li {
+  margin: 0 12px 15px 0;
+}
+
+.board-lcc .nav.tag-list li:last-child {
+  margin-bottom: 0;
+}
+
+.board-lcc .nav.tag-list a {
+  position: relative;
+  padding: 15px 52px 15px 35px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.board-lcc .nav.tag-list a::before {
+  position: absolute;
+  font-size: 15px;
+  font-family: icomoon;
+  content: "\e902";
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 767px) {
+  .board-lcc .nav.tag-list li {
+    width: 100%;
+  }
+
+  .board-lcc .nav.tag-list li a {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Board Level Committee Composition end*/
+/* Corporate Governance page Stock Information section start*/
+.stock-info {
+  padding: 75px 0 0;
+  background: #fafafa;
+}
+
+.stock-info .media-kit.finance-doc {
+  margin: 75px 0 130px;
+  background: linear-gradient(90deg, #f3f3f3 0%, #f3f3f3 60%, white 60%, white 100%);
+}
+
+.stock-info+.service-box::before {
+  background: #fafafa;
+}
+
+@media (max-width: 991px) {
+  .stock-info .media-kit.finance-doc {
+    background: linear-gradient(180deg, #f3f3f3 0%, #f3f3f3 52%, white 52%, white 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .stock-info .media-kit.finance-doc {
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Corporate Governance page Stock Information section end*/
+/* start*/
+/* end*/

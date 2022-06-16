@@ -1,0 +1,235 @@
+/* Benefits element*/
+.benefits {
+  background: #c4777d;
+  background: linear-gradient(180deg, #c4777d 0%, #9d1d27 100%);
+  padding: 50px 0;
+  color: #FFFFFF;
+}
+
+.benefits .hd1+p,
+.benefits .btn-box+p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .benefits .hdr {
+    font-size: 36px;
+  }
+}
+
+.benefits-list {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.benefits-list li {
+  padding: 0 40px;
+}
+
+.benefits-list li .hd1 {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits-list li .hd1 span {
+  font-size: 36px;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+}
+
+.benefits-list li .hd1 span small {
+  margin: 0;
+}
+
+.benefits-list li .hd1 small {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.benefits-list li:first-child {
+  padding-left: 0;
+}
+
+.benefits-list li:last-child {
+  padding-right: 0;
+}
+
+.benefits-list li .btn-box .btn-white {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .benefits-list li {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .benefits-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .benefits-list li {
+    padding: 0 12px;
+    width: 25%;
+  }
+
+  .benefits-list li:last-child {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .benefits-list li:last-child .btn-box {
+    margin-right: 30px;
+  }
+
+  .benefits-list li .hd1 {
+    font-size: 48px;
+  }
+
+  .benefits-list li .hd1 span {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits-list {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .benefits-list li {
+    padding: 0 12px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .benefits-list li:first-child {
+    padding-left: 20px;
+  }
+
+  .benefits-list li:last-child {
+    padding: 0 30px;
+    margin-bottom: 0;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .benefits-list li:last-child .btn-box {
+    margin-right: 0;
+  }
+
+  .benefits-list li:last-child p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefits-list li:last-child p .btn-white {
+    width: 100%;
+  }
+
+  .benefits-list li:last-child p .know-more {
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .benefits-list li p {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .benefits-list li .hd1 {
+    width: 50%;
+    font-size: 64px;
+  }
+
+  .benefits-list li .hd1 span {
+    margin-top: 24px;
+  }
+}
+
+/* Benefits element end*/
+/* Credit Ratings Investor page start*/
+.benefits.cr .benefits-list li {
+  text-align: center;
+}
+
+.benefits.cr .benefits-list li .hdr {
+  margin-bottom: 10px;
+}
+
+.benefits.cr .benefits-list li p {
+  margin-bottom: 0;
+}
+
+.benefits.cr .btn-box .btn-white {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1000px) and (min-width: 767px) {
+  .benefits.cr .benefits-list li {
+    width: 20%;
+  }
+
+  .benefits.cr .benefits-list li:last-child {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits.cr .benefits-list li {
+    text-align: left;
+  }
+
+  .benefits.cr .benefits-list li:first-child {
+    padding-left: 12px;
+  }
+
+  .benefits.cr .benefits-list li:last-child {
+    padding: 0 12px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .benefits.cr .benefits-list li .hdr {
+    width: 70%;
+  }
+
+  .benefits.cr .benefits-list li p {
+    width: 30%;
+  }
+}
+
+/* Credit Ratings Investor page end*/
+.page-404 .hd48 {
+  color: #9D1D27;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: .5px;
+}
+
+.page-404 .hd48+p {
+  color: #9D1D27;
+}
+
+@media (max-width: 767px) {
+  .page-404 .hd48 {
+    font-size: 30px;
+  }
+}

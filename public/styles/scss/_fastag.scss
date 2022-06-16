@@ -1,0 +1,742 @@
+.product-banner.fastag {
+    .hero-know-more {
+        color: $c-white;
+        font-size: 16px;
+    }
+
+    @include breakpoint($mxw992) {
+        figure {
+            overflow: hidden;
+
+            img {
+                width: 110%;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        figure img {
+            width: 100%;
+        }
+    }
+}
+
+.fastag-overview {
+    @extend .pad1;
+
+    .page-breaker-1 {
+        margin-bottom: 48px;
+
+        .card-txt {
+            padding-left: 30px;
+
+            .hd {
+                margin-bottom: 0;
+                letter-spacing: -0.5px;
+            }
+        }
+
+        .card-imgbx {
+            padding-right: 30px;
+        }
+    }
+
+    .moretext {
+        display: none;
+    }
+
+    @include breakpoint($mxw992) {
+        .page-breaker-1 {
+            padding: 0;
+        }
+
+        .card-imgbx img {
+            width: 260px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .page-breaker-1 {
+            .card-txt {
+                padding: 30px;
+            }
+
+            .card-imgbx {
+                width: 100%;
+                padding: 0 8px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.annual-reports.op1 {
+    background: $c-grey-1;
+    @extend .pad2;
+
+    .hd1l {
+        color: $c-white;
+        letter-spacing: -2.13px;
+        line-height: 1;
+    }
+
+    .year-report .report-right {
+        background: $grey-50;
+        padding: 24px 36px;
+
+        .radio-option {
+            margin-top: 10px;
+
+            .custom-control-inline {
+                margin-right: 36px;
+
+                .custom-control-label {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    .report-data .item {
+        padding: 28px 12px;
+    }
+
+    @include breakpoint($mxw768) {
+        .year-report {
+            .report-left {
+                padding: 52px 20px;
+
+                .hd1l {
+                    font-size: 36px;
+                    letter-spacing: 0;
+                    line-height: 1.2;
+                }
+
+                .btn-box.MT40 {
+                    margin-top: 28px;
+                }
+            }
+
+            .report-right {
+                padding: 0;
+                background: none;
+
+                .radio-option {
+                    margin: 24px 20px 0;
+
+                    + p {
+                        margin: 16px 20px 20px;
+                    }
+                }
+
+                .report-data {
+                    border-top: 1px solid $grey-200;
+                    border-bottom: 1px solid $grey-200;
+
+                    + p {
+                        padding: 20px;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.help-card.op1 {
+    @extend .pad1;
+    margin-top: 0;
+
+    .card-look.full {
+        figure img {
+            width: 260px;
+        }
+
+        .app-icons {
+            margin-right: 32px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .card-look.full .app-icons a {
+            display: block;
+
+            &.MR15 {
+                margin: 0 0 8px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .card-look.full figure img {
+            width: 100%;
+        }
+    }
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.how-work {
+    padding: 0 40px;
+
+    .d-flex {
+        justify-content: space-between;
+        align-items: center;
+
+        .hd {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .b-tab-list li .img-box {
+            margin-right: 20px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding: 0;
+
+        .b-tab-list li .img-box {
+            margin-right: 5px;
+        }
+    }
+}
+
+.blog-tab.fastag {
+    @extend .grey-bg;
+    @extend .pad1;
+
+    .blog-card-2 {
+        padding: 12px 0 12px 56px;
+        align-items: center;
+
+        figure {
+            margin-bottom: 0;
+        }
+
+        .card-left {
+            padding-top: 0;
+        }
+
+        .list-item.opt2 {
+            padding-top: 0;
+
+            &::before {
+                background: $brownish-grey;
+                z-index: 0;
+            }
+
+            li {
+                span {
+                    flex: 0 0 30px;
+                    background: $brownish-grey;
+                    color: $c-white;
+                    z-index: 1;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .blog-card-2 {
+            padding: 40px 0 0;
+
+            .card-left {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .d-flex {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .btn-box {
+                margin-top: 12px;
+            }
+        }
+
+        .blog-card-2 .card-left {
+            padding: 0 32px;
+        }
+    }
+}
+
+.steps-touse {
+    background: #C4777D;
+    background-image: linear-gradient(180deg, #C4777D 0%, #9D1D27 90%, #FAFAFA 90%, #FAFAFA 100%);
+    padding: 50px 0 20px;
+
+    .hdr {
+        color: $c-white;
+        text-align: center;
+    }
+
+    .card.opt1 {
+        border: 0;
+        border-radius: 0;
+        .tag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #FFDF66;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 5px 10px;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            z-index: 1;
+            display: none;
+        }
+        &.act{
+            .tag {
+                display: block;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding-bottom: 0;
+
+        .card.opt1 {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .col-lg-9 {
+            padding: 0;
+        }
+    }
+}
+
+.toll-loc {
+    background: $grey-50;
+    padding: 60px 0;
+
+    .nav.soc-listingTab {
+        padding: 0;
+
+        a .card-box figure img {
+            height: 32px;
+        }
+
+        @include breakpoint($mxw768) {
+            flex-direction: column;
+            margin: 0 20px;
+
+            a {
+                margin: 0 0 16px;
+                min-height: 90px;
+
+                .card-box {
+                    min-height: 90px;
+
+                    .card-title {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-fastag {
+    padding: 60px 0;
+    background: $grey-100;
+    background: linear-gradient(90deg, $grey-100 46%, #c4777d 46%, #9d1d1d 100%);
+
+    .row {
+        justify-content: space-between;
+    }
+
+    .white-box {
+        padding: 70px 90px;
+
+        .list1 li {
+            margin-top: 32px;
+        }
+    }
+
+    .card-bx {
+        display: flex;
+        align-items: center;
+
+        figure {
+            width: 76px;
+            height: 76px;
+            background: $c-grey-6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 76px;
+            margin: 0 24px 0 0;
+        }
+
+        .clr-grey {
+            margin: 4px 0 0;
+        }
+    }
+
+    .col-md-5 {
+        margin-right: 40px;
+
+        .hd {
+            color: $c-white;
+            margin-bottom: 20px;
+        }
+
+        .owl-nav {
+            span::before {
+                color: $c-white;
+            }
+
+            .owl-prev {
+                left: -40px;
+            }
+
+            .owl-next {
+                right: -40px;
+            }
+        }
+
+        .owl-dots .owl-dot {
+            span {
+                background: $c-white;
+            }
+        }
+    }
+
+    .media-card {
+        padding: 0;
+    }
+
+    @include breakpoint($mxw992) {
+        .white-box.MR30 {
+            margin: 0 0 40px;
+            padding: 30px 20px;
+        }
+
+        .col-md-5 {
+            margin-right: 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: linear-gradient(180deg, $grey-100 46%, #c4777d 46%, #9d1d1d 100%);
+    }
+}
+
+.fastag-tandc {
+    @extend .pad1;
+
+    p {
+        line-height: 22px
+    }
+
+    .hdg {
+        font-weight: 700;
+        margin: 40px 0 20px;
+    }
+
+    .read-more {
+        @extend .f16br;
+        margin-bottom: 0;
+        display: none;
+
+        a {
+            color: $c-red;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .read-more {
+            display: block;
+        }
+
+        .tandc-more {
+            display: none;
+        }
+    }
+}
+
+
+/*fastag listing*/
+.fastag-listing {
+    border-top: 1px solid $grey-200;
+    padding: 35px 0;
+}
+
+.nearby-search {
+    &.op2 {
+        margin-top: 0;
+
+        @include breakpoint($mxw768) {
+            margin-top: 30px;
+        }
+
+        input {
+            border: 1px solid $grey-100;
+            width: 70%;
+
+            @include breakpoint($mxw1000) {
+                width: 65%;
+            }
+        }
+    }
+}
+
+.acrd-data {
+    &.fastag-table {
+        margin-top: 50px;
+
+        @include breakpoint($mxw768) {
+            margin-top: 30px;
+        }
+
+        table {
+            tr {
+                @include breakpoint($mxw768) {
+                    overflow: hidden;
+                    border-bottom: 1px solid rgba(0, 0, 0, .11);
+                    padding: 10px;
+                    display: block;
+
+                    &:first-child {
+                        display: none;
+                    }
+                }
+            }
+
+            th {
+                @include breakpoint($mxw768) {
+                    display: none;
+                }
+            }
+
+            td {
+                vertical-align: middle;
+                padding: 15px 3px;
+                flex: 0 0 100%;
+
+                @include breakpoint($mxw768) {
+                    display: block;
+                    border-top: none;
+                    padding: 3px;
+                    overflow: hidden;
+
+                    span {
+                        float: left;
+                        width: 50%;
+                    }
+                }
+
+                .data-title {
+                    display: none;
+
+                    @include breakpoint($mxw768) {
+                        display: block;
+                        font-size: 12px;
+                        color: $grey-400;
+                        width: 50%;
+                        float: left;
+                        padding-right: 15px;
+
+                        &.no-float {
+                            float: none;
+                            width: 100%;
+                            padding-bottom: 5px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+
+.media-kit.finance-doc {
+    &.recharge {
+        background: rgb(196, 119, 125);
+        background: linear-gradient(90deg, rgba(196, 119, 125, 1) 0%, rgba(157, 29, 39, 1) 60%, rgba(250, 250, 250, 1) 60%, rgba(250, 250, 250, 1) 100%);
+        padding: 0;
+        margin-bottom: 50px;
+
+        @include breakpoint($mxw992) {
+            background: rgb(196, 119, 125);
+            background: linear-gradient(180deg, rgba(196, 119, 125, 1) 0%, rgba(157, 29, 39, 1) 60%, rgba(250, 250, 250, 1) 60%, rgba(250, 250, 250, 1) 100%);
+        }
+
+        .hd1l {
+            color: $c-white;
+            margin-top: 15px;
+
+            @include breakpoint($mxw1000) {
+                font-size: 45px;
+            }
+
+            @include breakpoint($mxw992) {
+                font-size: 50px;
+            }
+
+            @include breakpoint($mxw768) {
+                font-size: 36px;
+                margin: 30px 0 20px;
+            }
+        }
+
+        .media-right {
+            margin-left: -20px;
+
+            .hd1l {
+                color: $grey-400;
+                margin-top: 64px;
+                letter-spacing: -2.13px;
+                line-height: .96;
+
+                @include breakpoint($mxw992) {
+                    font-size: 50px;
+                    margin-top: 50px;
+                }
+
+                @include breakpoint($mxw768) {
+                    margin-top: 10px;
+                    font-size: 36px;
+                    letter-spacing: 0;
+                }
+            }
+
+            @include breakpoint($mxw1000) {
+                margin-left: 0;
+            }
+
+            @include breakpoint($mxw992) {
+                padding: 20px 0;
+            }
+        }
+
+        .media-list {
+            .card-media {
+                padding: 5px 15px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                //word-break: normal;
+
+                figure {
+                    height: 32px;
+
+                    img {
+                        width: 32px;
+                    }
+                }
+
+                h2 {
+                    strong {
+                        display: block;
+                    }
+                }
+
+                @include breakpoint($mxw1000) {
+                    font-size: 15px;
+                }
+            }
+
+            @include breakpoint($mxw768) {
+                max-width: 340px;
+                margin: 0 auto;
+
+                .card-media {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+/*fastag listing end*/
+
+/*Fastag P2C component start*/
+
+.steps-touse2 {
+    @extend .pad1;
+
+    .card-bx {
+        background: #FFFFFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
+        border-radius: 1px;
+        text-align: center;
+        padding: 30px 15px;
+        margin: 20px 20px 30px;
+
+        img {
+            height: 200px;
+            width: auto;
+            margin: 0 auto 12px;
+        }
+
+        p.f16br {
+            margin-bottom: 12px;
+
+            + p {
+                min-height: 64px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .owl-carousel .owl-nav {
+
+        span {
+            font-size: 20px;
+
+            &::before {
+                color: $c-red;
+            }
+        }
+
+        .owl-prev,
+        .owl-next {
+            width: 44px;
+            height: 44px;
+            background: $c-white;
+            border-radius: 50%;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
+        }
+
+        .owl-prev {
+            left: -60px;
+        }
+
+        .owl-next {
+            right: -60px;
+        }
+
+        @include breakpoint($mxw1000) {
+            .owl-prev {
+                left: -30px;
+            }
+
+            .owl-next {
+                right: -30px;
+            }
+        }
+    }
+}
+
+/*Fastag P2C component end*/

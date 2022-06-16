@@ -1,0 +1,355 @@
+.single-form {
+  background: #f3f3f3 url(../images/form-banner.jpg) no-repeat;
+  background-size: contain;
+  padding-top: 98px;
+}
+
+@media (max-width: 767px) {
+  .single-form {
+    padding-top: 48px;
+    padding-bottom: 4px;
+    background-size: 200%;
+  }
+}
+
+.single-form .white-box,
+.single-form .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .single-form .ad-card,
+.single-form .accordian .trgr,
+.accordian .single-form .trgr,
+.single-form .accordian .tog_cont,
+.accordian .single-form .tog_cont,
+.single-form .card-look,
+.single-form .media-card,
+.single-form .pr-list>li .card-bx,
+.pr-list>li .single-form .card-bx,
+.single-form .trgr1,
+.single-form .trgr2,
+.single-form .trgr3,
+.single-form .tog_cont1,
+.single-form .tog_cont2,
+.single-form .tog_cont3,
+.single-form .mf-invest .start-box,
+.mf-invest .single-form .start-box,
+.single-form .more-box,
+.single-form .media-kit .media-list .card-media,
+.media-kit .media-list .single-form .card-media,
+.single-form .ebc-loan-banner .lawbx,
+.ebc-loan-banner .single-form .lawbx {
+  padding: 52px 72px;
+  max-width: 650px;
+  margin: 0 auto 2px;
+}
+
+.single-form .white-box .hd2,
+.single-form .search-bxIn .search-ad .ad-card .hd2,
+.search-bxIn .search-ad .single-form .ad-card .hd2,
+.single-form .accordian .trgr .hd2,
+.accordian .single-form .trgr .hd2,
+.single-form .accordian .tog_cont .hd2,
+.accordian .single-form .tog_cont .hd2,
+.single-form .card-look .hd2,
+.single-form .media-card .hd2,
+.single-form .pr-list>li .card-bx .hd2,
+.pr-list>li .single-form .card-bx .hd2,
+.single-form .trgr1 .hd2,
+.single-form .trgr2 .hd2,
+.single-form .trgr3 .hd2,
+.single-form .tog_cont1 .hd2,
+.single-form .tog_cont2 .hd2,
+.single-form .tog_cont3 .hd2,
+.single-form .mf-invest .start-box .hd2,
+.mf-invest .single-form .start-box .hd2,
+.single-form .more-box .hd2,
+.single-form .media-kit .media-list .card-media .hd2,
+.media-kit .media-list .single-form .card-media .hd2,
+.single-form .ebc-loan-banner .lawbx .hd2,
+.ebc-loan-banner .single-form .lawbx .hd2 {
+  color: #54565B;
+}
+
+.single-form .white-box .radio-option,
+.single-form .search-bxIn .search-ad .ad-card .radio-option,
+.search-bxIn .search-ad .single-form .ad-card .radio-option,
+.single-form .accordian .trgr .radio-option,
+.accordian .single-form .trgr .radio-option,
+.single-form .accordian .tog_cont .radio-option,
+.accordian .single-form .tog_cont .radio-option,
+.single-form .card-look .radio-option,
+.single-form .media-card .radio-option,
+.single-form .pr-list>li .card-bx .radio-option,
+.pr-list>li .single-form .card-bx .radio-option,
+.single-form .trgr1 .radio-option,
+.single-form .trgr2 .radio-option,
+.single-form .trgr3 .radio-option,
+.single-form .tog_cont1 .radio-option,
+.single-form .tog_cont2 .radio-option,
+.single-form .tog_cont3 .radio-option,
+.single-form .mf-invest .start-box .radio-option,
+.mf-invest .single-form .start-box .radio-option,
+.single-form .more-box .radio-option,
+.single-form .media-kit .media-list .card-media .radio-option,
+.media-kit .media-list .single-form .card-media .radio-option,
+.single-form .ebc-loan-banner .lawbx .radio-option,
+.ebc-loan-banner .single-form .lawbx .radio-option {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+
+  .single-form .white-box,
+  .single-form .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .single-form .ad-card,
+  .single-form .accordian .trgr,
+  .accordian .single-form .trgr,
+  .single-form .accordian .tog_cont,
+  .accordian .single-form .tog_cont,
+  .single-form .card-look,
+  .single-form .media-card,
+  .single-form .pr-list>li .card-bx,
+  .pr-list>li .single-form .card-bx,
+  .single-form .trgr1,
+  .single-form .trgr2,
+  .single-form .trgr3,
+  .single-form .tog_cont1,
+  .single-form .tog_cont2,
+  .single-form .tog_cont3,
+  .single-form .mf-invest .start-box,
+  .mf-invest .single-form .start-box,
+  .single-form .more-box,
+  .single-form .media-kit .media-list .card-media,
+  .media-kit .media-list .single-form .card-media,
+  .single-form .ebc-loan-banner .lawbx,
+  .ebc-loan-banner .single-form .lawbx {
+    padding: 20px;
+    margin: 0 15px;
+  }
+
+  .single-form .white-box .form-list li,
+  .single-form .search-bxIn .search-ad .ad-card .form-list li,
+  .search-bxIn .search-ad .single-form .ad-card .form-list li,
+  .single-form .accordian .trgr .form-list li,
+  .accordian .single-form .trgr .form-list li,
+  .single-form .accordian .tog_cont .form-list li,
+  .accordian .single-form .tog_cont .form-list li,
+  .single-form .card-look .form-list li,
+  .single-form .media-card .form-list li,
+  .single-form .pr-list>li .card-bx .form-list li,
+  .pr-list>li .single-form .card-bx .form-list li,
+  .single-form .trgr1 .form-list li,
+  .single-form .trgr2 .form-list li,
+  .single-form .trgr3 .form-list li,
+  .single-form .tog_cont1 .form-list li,
+  .single-form .tog_cont2 .form-list li,
+  .single-form .tog_cont3 .form-list li,
+  .single-form .mf-invest .start-box .form-list li,
+  .mf-invest .single-form .start-box .form-list li,
+  .single-form .more-box .form-list li,
+  .single-form .media-kit .media-list .card-media .form-list li,
+  .media-kit .media-list .single-form .card-media .form-list li,
+  .single-form .ebc-loan-banner .lawbx .form-list li,
+  .ebc-loan-banner .single-form .lawbx .form-list li {
+    margin-bottom: 16px;
+  }
+}
+
+.rate-exp {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.rate-exp label {
+  cursor: pointer;
+  margin-right: 4px;
+  margin-bottom: 0;
+}
+
+.rate-exp label input {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.rate-exp label .design {
+  background: #f3f3f3;
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+.rate-exp label input:checked+.design,
+.rate-exp label input:checked+.error+.design {
+  background: #9D1D27;
+  color: #FFFFFF;
+}
+
+.rate-exp label.error {
+  position: absolute;
+  top: 30px;
+  font-size: 14px;
+  color: #d10000;
+}
+
+.cd-banner {
+  background: #F4D8CF;
+  background-image: linear-gradient(90deg, #F4D8CF 0%, #AB615F 63%, #FFFFFF 63%, #FFFFFF 100%);
+  padding-top: 30px;
+  color: #25243B;
+}
+
+.cd-banner .custom-control-label.f12,
+.cd-banner .blog-detail .blog-ctnt .custom-control-label.blog-by,
+.blog-detail .blog-ctnt .cd-banner .custom-control-label.blog-by {
+  line-height: 18px;
+  color: #54565B;
+}
+
+.cd-banner .custom-control-label.f12 .link-txt,
+.cd-banner .blog-detail .blog-ctnt .custom-control-label.blog-by .link-txt,
+.blog-detail .blog-ctnt .cd-banner .custom-control-label.blog-by .link-txt {
+  font-size: 12px;
+}
+
+.cd-banner .hero-from .list-item.op3 {
+  display: none;
+}
+
+.cd-banner .sa-left .img-mob {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .cd-banner .ml-6 {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .cd-banner {
+    background-image: linear-gradient(90deg, #F4D8CF 0%, #AB615F 58%, #FFFFFF 58%, #FFFFFF 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .cd-banner {
+    background-image: linear-gradient(135deg, #F4D8CF 0%, #AB615F 100%);
+  }
+
+  .cd-banner .sa-left {
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .cd-banner .sa-left .list-item.op3 {
+    display: none;
+  }
+
+  .cd-banner .sa-left .img-mob {
+    display: block;
+    position: absolute;
+    bottom: -21px;
+    right: -15px;
+  }
+
+  .cd-banner .hero-from .list-item.op3 {
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #979797;
+    margin-top: 25px;
+    padding-top: 20px;
+  }
+
+  .cd-banner .hero-from .list-item.op3 li span {
+    background: #f3f3f3;
+  }
+
+  .cd-banner .sa-right {
+    background: #FFFFFF;
+  }
+
+  .cd-banner .pr-8 {
+    padding-right: 110px;
+  }
+}
+
+.list-item.op3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 0;
+}
+
+.list-item.op3 li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+}
+
+.list-item.op3 li span {
+  background: #fafafa;
+  margin-bottom: 10px;
+  margin-right: 0;
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+  width: 50px;
+}
+
+.list-counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.list-counter li::before {
+  content: counter(step-counter);
+  margin-right: 10px;
+  background-color: #F4D8CF;
+  color: #9B1E26;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.pr-8 {
+  padding-right: 90px;
+}
+
+.ml-6 {
+  margin-left: -60px;
+}
+
+.hd-bx {
+  background: #AB615F;
+  background-image: linear-gradient(135deg, #AB615F 0%, #F4D8CF 100%);
+  padding: 20px 0;
+}
+
+.hd-bx .hd2 {
+  margin-bottom: 0;
+}

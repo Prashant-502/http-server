@@ -1,0 +1,100 @@
+/* start approve perperty search Home loan page*/
+.approved-sec {
+  background: url("../images/approve-bg.jpg");
+  background-size: cover;
+  height: 160px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .approved-sec {
+    background: url("../images/approve-bg-m.jpg");
+    background-size: cover;
+    min-height: 374px;
+  }
+}
+
+.approved-sec .hd {
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .approved-sec .hd {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+}
+
+.approved-sec .dropdown .dropdown-menu {
+  height: auto;
+  min-width: 100%;
+}
+
+.approved-sec .btn-box {
+  margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .approved-sec .btn-box {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+
+.btn-box .btn-white-fill {
+  display: inline-block;
+  height: 50px;
+  min-width: 160px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  background: #FFFFFF;
+  color: #9D1D27;
+  text-align: center;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .btn-box .btn-white-fill {
+    width: auto;
+    padding: 0 30px;
+    line-height: 3;
+  }
+}
+
+.form-label-group .op2.bootstrap-select {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid #d8d8d8;
+}
+
+.form-label-group .op2.bootstrap-select.show>.btn-light.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.form-label-group .op2.bootstrap-select>.btn,
+.form-label-group .op2.bootstrap-select>.btn-light {
+  padding-left: 1.5rem;
+  font-size: 15px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0) !important;
+  line-height: 3;
+  color: #FFFFFF;
+}
+
+.form-label-group .op2.bootstrap-select>.btn-light:focus,
+.form-label-group .op2.bootstrap-select>.btn-light:hover,
+.form-label-group .op2.bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+
+/* end */

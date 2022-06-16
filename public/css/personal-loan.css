@@ -1,0 +1,392 @@
+.modal-dialog {
+  max-width: 600px;
+}
+
+.modal-dialog .modal-body.op1 {
+  padding: 70px 100px;
+}
+
+@media (max-width: 767px) {
+  .modal-dialog .modal-body.op1 {
+    padding: 50px 30px;
+  }
+}
+
+/*pl joureny banner*/
+.pl-banner {
+  background: #ffecee;
+  background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 64%, white 64%, white 100%);
+}
+
+.pl-banner.op1 {
+  background: #ffecee;
+  background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 60%, white 60%, white 100%);
+}
+
+.pl-banner.op1 .hero-from {
+  padding-left: 40px;
+}
+
+@media (max-width: 767px) {
+  .pl-banner.op1 .hero-from {
+    padding: 0 15px;
+  }
+}
+
+.pl-banner.op1 .hero-from .go-back {
+  font-size: 14px;
+}
+
+.pl-banner.op1 .hero-from .btn-box .btn-red,
+.pl-banner.op1 .hero-from .btn-box .btn-white {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+
+  .pl-banner.op1 .hero-from .btn-box .btn-red,
+  .pl-banner.op1 .hero-from .btn-box .btn-white {
+    line-height: 2;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pl-banner.op1 {
+    background: #ffecee;
+    background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 64%, white 64%, white 100%);
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner.op1 {
+    background: #ffecee;
+    background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 50%, white 50%, white 100%);
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-banner.op1 {
+    background: none;
+  }
+}
+
+@media only screen and (min-device-width: 1820px) and (max-device-width: 2048px) {
+  .pl-banner {
+    background: #ffecee;
+    background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 60%, white 60%, white 100%);
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner {
+    background: #ffecee;
+    background: linear-gradient(90deg, #ffecee 0%, #c2b5b5 50%, white 50%, white 100%);
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-banner {
+    background: none;
+    padding: 50px 0;
+  }
+}
+
+.pl-banner .hero-img {
+  margin-left: -30px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner .hero-img {
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner .hero-img {
+    margin: 0;
+  }
+}
+
+.pl-banner figure {
+  margin: 0;
+}
+
+.pl-banner figure img {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner figure img {
+    width: 360px;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner figure img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-banner figure img {
+    width: 100%;
+  }
+}
+
+.pl-banner .hd {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.pl-banner .hero-from {
+  padding-left: 70px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner .hero-from {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .pl-banner .hero-from {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-banner .hero-from {
+    padding: 0 15px;
+  }
+}
+
+.pl-banner .hero-from .hd6 {
+  color: #54565B;
+}
+
+.pl-banner .hero-from .hd6 strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.pl-banner .hero-from .skip {
+  margin-left: 45px;
+}
+
+@media (max-width: 1024px) {
+  .pl-banner .hero-from .skip {
+    margin-left: 15px;
+  }
+}
+
+.preLoanamt {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 12px 0 0;
+}
+
+.preLoanamt a {
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 10px;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.preLoanamt a:last-child {
+  margin-right: 0;
+}
+.homeloan .why-app {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.homeloan .why-app .card-bx {
+  width: 33%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+
+.homeloan .why-app .card-bx figure {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 12px solid rgba(232, 232, 232, 0.6);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+}
+
+.homeloan .why-app .card-bx .hd3b {
+  margin: 20px 0 12px;
+}
+
+@media (max-width: 767px) {
+  .homeloan .why-app {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .homeloan .why-app .card-bx {
+    width: 100%;
+    text-align: left;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin-top: 28px;
+  }
+  .homeloan .why-app .card-bx figure {
+    margin: 0 12px 0 0;
+    width: 64px;
+    height: 64px;
+    border-width: 8px;
+    -ms-flex: 0 0 64px;
+        flex: 0 0 64px;
+  }
+  .homeloan .why-app .card-bx figure img {
+    width: 30px;
+    height: 30px;
+  }
+  .homeloan .why-app .card-bx .hd3b {
+    margin: 0 0 4px;
+    font-size: 18px;
+  }
+}
+
+.homeloan-features {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.homeloan-features .card-bx {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 30%;
+  margin-top: 40px;
+}
+
+.homeloan-features .card-bx figure {
+  width: 56px;
+  height: 56px;
+  margin: 0 12px 0 0;
+  background: #f3f3f3;
+  -ms-flex: 0 0 56px;
+      flex: 0 0 56px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.homeloan-features .card-bx figure img {
+  width: 32px;
+  height: 32px;
+}
+
+.homeloan-features .card-bx .card-info {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .homeloan-features .card-bx {
+    width: 48%;
+  }
+}
+
+@media (max-width: 767px) {
+  .homeloan-features .card-bx {
+    width: 100%;
+    margin-top: 28px;
+  }
+}
+.homeloan.thruapp {
+  background: #f3f3f3;
+}
+
+.homeloan.thruapp .why-app .card-bx {
+  width: 24%;
+}
+
+.homeloan.thruapp .why-app .card-bx span.hd3b {
+  color: rgba(155, 30, 38, 0.5);
+  display: block;
+  font-size: 25px;
+}
+
+.homeloan.thruapp .why-app .card-bx figure {
+  background: #FFFFFF;
+  border: 0;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+
+.homeloan.thruapp .why-app .card-bx a {
+  font-weight: 700;
+  color: #2E71F2;
+}
+
+.homeloan.thruapp .why-app .arw {
+  margin-top: 244px;
+}
+
+@media (max-width: 1024px) {
+  .homeloan.thruapp .why-app .card-bx {
+    width: 22%;
+  }
+}
+
+@media (max-width: 991px) {
+  .homeloan.thruapp .why-app .arw {
+    width: 80px;
+  }
+  .homeloan.thruapp .why-app .arw img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .homeloan.thruapp .why-app .card-bx {
+    width: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-top: 24px;
+    padding-bottom: 80px;
+    background: url(../images/hl/arw1.svg) no-repeat 60px bottom;
+  }
+  .homeloan.thruapp .why-app .card-bx:last-child {
+    background: none;
+    padding-bottom: 0;
+  }
+  .homeloan.thruapp .why-app .card-bx span.hd3b {
+    margin-bottom: 0;
+  }
+  .homeloan.thruapp .why-app .card-bx figure {
+    margin: 0 12px 0 8px;
+  }
+  .homeloan.thruapp .why-app .arw {
+    display: none;
+  }
+}

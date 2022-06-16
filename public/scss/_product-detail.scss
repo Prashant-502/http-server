@@ -1,0 +1,111 @@
+.grey-bg1 {
+    background: $c-grey-1;
+}
+
+.pad-tb1 {
+    padding: 60px 0 0 0;
+}
+
+// Product Feature section
+.prod-feature {
+    @extend .grey-bg1;
+    @extend .pad-tb1;
+
+    .hd2v {
+        margin-bottom: 15px;
+    }
+
+    .moretext {
+        display: none;
+    }
+
+    .intro-banner {
+        @extend .pad-tb1;
+    }
+}
+
+// open a/c button in secondary nav
+.secondary-nav .container {
+    position: relative;
+
+    .btn-box {
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+    @include breakpoint($mxw992) {
+        .btn-box {
+            display: none;
+        }
+    }
+}
+
+//Discover our banking products
+.dob-product {
+    padding: 80px 0;
+    .hd {
+        margin-bottom: 50px;
+    }
+
+    .card.op2 {
+        margin: 1%;
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 50px 0;
+    }
+}
+
+//faq section
+.faq-section {
+    padding: 45px 0 105px 0;
+
+    @include breakpoint($mxw768) {
+        padding: 45px 0;
+    }
+}
+
+//fees section
+.fees-section {
+    padding: 45px 0;
+}
+
+//fees section end
+
+/*eligibility section start */
+.eligibility-section {
+    @include breakpoint($mxw992) {
+        padding-top: 50px;
+    }
+
+    &.overlap {
+        margin-top: -30px;
+
+        @include breakpoint($mxw768) {
+            margin-top: 30px;
+            padding: 0;
+        }
+    }
+}
+
+.eligibility-comp {
+    align-items: center;
+
+    figure {
+        margin: 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+/*eligibility section end */
+
+/*page Home loan */
+.prod-feature .intro-banner.PB60 {
+    padding-bottom: 60px;
+}
+
+/* end */

@@ -1,0 +1,1511 @@
+/* Product listing banner start */
+.hero-banner.wealth-page .banner-ctnt {
+  margin-top: 0px;
+}
+
+.hero-banner.wealth-page .banner-ctnt .hd1 {
+  color: #FFFFFF;
+  letter-spacing: -1px;
+}
+
+.hero-banner.wealth-page .banner-ctnt .desc {
+  color: #FFFFFF;
+}
+
+.hero-banner.wealth-page .banner-ctnt .btn-box .btn-red {
+  background: #FFFFFF;
+  color: #9D1D27;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-banner.wealth-page .banner-ctnt .btn-box .btn-red1 {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .hero-banner.wealth-page .banner-ctnt {
+    margin-top: 50px;
+  }
+
+  .hero-banner.wealth-page .banner-ctnt .btn-box {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .hero-banner.wealth-page .banner-ctnt .btn-box .btn-red {
+    margin-right: 10px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-banner.wealth-page .banner-ctnt {
+    margin-top: 0;
+  }
+
+  .hero-banner.wealth-page .banner-ctnt .btn-box {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .hero-banner.wealth-page .banner-ctnt .btn-box .btn-red {
+    margin: 0 0 16px;
+  }
+}
+
+.hero-banner.wealth-page .owl-dots .owl-dot span {
+  background: #FFFFFF;
+}
+
+.looking-for.hover-card .wcard .card-look>a {
+  min-height: 90px;
+  padding: 20px 25px;
+}
+
+@media (max-width: 1024px) {
+  .looking-for.hover-card .wcard .card-look {
+    min-height: inherit;
+  }
+}
+
+@media (max-width: 991px) {
+  .looking-for.hover-card .wcard .card-look figure {
+    margin-bottom: 8px;
+  }
+
+  .looking-for.hover-card .wcard .card-look>a {
+    min-height: 116px;
+  }
+}
+
+.insurance-didyou1.customer-speak {
+  background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+}
+
+.insurance-didyou1.customer-speak .container.shape {
+  background: url("../images/svg/qst-icon.svg") no-repeat 80px -2px;
+  padding: 120px 15px 120px 15px;
+}
+
+@media (max-width: 767px) {
+  .insurance-didyou1.customer-speak .container.shape {
+    padding: 80px 15px 0 15px;
+    background: url("../images/svg/qst-icon.svg") no-repeat center -2px;
+  }
+}
+
+.insurance-didyou1.customer-speak .hd2 {
+  color: #54565B;
+}
+
+.insurance-didyou1.customer-speak .hd {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .insurance-didyou1.customer-speak .hd {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insurance-didyou1.customer-speak .hd {
+    font-size: 30px;
+  }
+}
+
+.insurance-didyou1.customer-speak .customer-speak-carousel .owl-nav {
+  left: -285px;
+  top: 140px;
+}
+
+@media (max-width: 1024px) {
+  .insurance-didyou1.customer-speak .customer-speak-carousel .owl-nav {
+    left: -235px;
+  }
+}
+
+@media (max-width: 991px) {
+  .insurance-didyou1.customer-speak .customer-speak-carousel .owl-nav {
+    left: -190px;
+  }
+}
+
+@media (max-width: 767px) {
+  .insurance-didyou1.customer-speak .customer-speak-carousel .owl-nav {
+    position: static;
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+.insurance-didyou1.customer-speak .customer-speak-carousel .owl-nav button {
+  background: #FFFFFF;
+}
+
+.customer-speak.wealth {
+  background-image: linear-gradient(134deg, #866628 0%, #DCB526 97%);
+}
+
+.customer-speak.wealth .cs-title-box {
+  padding-top: 0px;
+}
+
+.customer-speak.wealth .cs-title-box .hd {
+  color: #FFFFFF;
+  line-height: 42px;
+}
+
+.customer-speak.wealth .container.shape {
+  background: url("../images/wealth/exm-icon.svg") no-repeat 170px 0;
+}
+
+.customer-speak.wealth .hd2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #54565B;
+}
+
+.customer-speak.wealth .hd2+div {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.customer-speak.wealth .white-box,
+.customer-speak.wealth .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .customer-speak.wealth .ad-card,
+.customer-speak.wealth .accordian .trgr,
+.accordian .customer-speak.wealth .trgr,
+.customer-speak.wealth .accordian .tog_cont,
+.accordian .customer-speak.wealth .tog_cont,
+.customer-speak.wealth .card-look,
+.customer-speak.wealth .media-card,
+.customer-speak.wealth .pr-list>li .card-bx,
+.pr-list>li .customer-speak.wealth .card-bx,
+.customer-speak.wealth .trgr1,
+.customer-speak.wealth .trgr2,
+.customer-speak.wealth .trgr3,
+.customer-speak.wealth .tog_cont1,
+.customer-speak.wealth .tog_cont2,
+.customer-speak.wealth .tog_cont3,
+.customer-speak.wealth .mf-invest .start-box,
+.mf-invest .customer-speak.wealth .start-box,
+.customer-speak.wealth .more-box,
+.customer-speak.wealth .media-kit .media-list .card-media,
+.media-kit .media-list .customer-speak.wealth .card-media,
+.customer-speak.wealth .ebc-loan-banner .lawbx,
+.ebc-loan-banner .customer-speak.wealth .lawbx {
+  font-size: 14px;
+  min-height: 160px;
+}
+
+@media (max-width: 1024px) {
+
+  .customer-speak.wealth .white-box,
+  .customer-speak.wealth .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .customer-speak.wealth .ad-card,
+  .customer-speak.wealth .accordian .trgr,
+  .accordian .customer-speak.wealth .trgr,
+  .customer-speak.wealth .accordian .tog_cont,
+  .accordian .customer-speak.wealth .tog_cont,
+  .customer-speak.wealth .card-look,
+  .customer-speak.wealth .media-card,
+  .customer-speak.wealth .pr-list>li .card-bx,
+  .pr-list>li .customer-speak.wealth .card-bx,
+  .customer-speak.wealth .trgr1,
+  .customer-speak.wealth .trgr2,
+  .customer-speak.wealth .trgr3,
+  .customer-speak.wealth .tog_cont1,
+  .customer-speak.wealth .tog_cont2,
+  .customer-speak.wealth .tog_cont3,
+  .customer-speak.wealth .mf-invest .start-box,
+  .mf-invest .customer-speak.wealth .start-box,
+  .customer-speak.wealth .more-box,
+  .customer-speak.wealth .media-kit .media-list .card-media,
+  .media-kit .media-list .customer-speak.wealth .card-media,
+  .customer-speak.wealth .ebc-loan-banner .lawbx,
+  .ebc-loan-banner .customer-speak.wealth .lawbx {
+    min-height: 185px;
+  }
+}
+
+.customer-speak.wealth .customer-speak-carousel .owl-nav {
+  left: -278px;
+  top: 115px;
+}
+
+@media (max-width: 1024px) {
+  .customer-speak.wealth .customer-speak-carousel .owl-nav {
+    left: -235px;
+  }
+}
+
+@media (max-width: 991px) {
+  .customer-speak.wealth .customer-speak-carousel .owl-nav {
+    left: -190px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .customer-speak.wealth .customer-speak-carousel .owl-nav {
+    position: static;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 0;
+  }
+}
+
+.customer-speak.wealth .customer-speak-carousel .owl-nav button {
+  background: #FFFFFF;
+  font-size: 22px;
+}
+
+.customer-speak.wealth .customer-speak-carousel .owl-nav button::before {
+  color: #54565B;
+}
+
+.wealth-benefits {
+  background: #4B4B4B;
+  background-image: linear-gradient(180deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, #fafafa 100%);
+  padding: 60px 0 20px;
+}
+
+.wealth-benefits .subhd {
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.wealth-benefits .hdr {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.wealth-benefits .owl-carousel .owl-item img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.wealth-benefits .owl-carousel .owl-nav button.owl-prev,
+.wealth-benefits .owl-carousel .owl-nav button.owl-next {
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF !important;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  margin: 0 10px;
+}
+
+.wealth-benefits .owl-carousel .owl-nav button.owl-prev span,
+.wealth-benefits .owl-carousel .owl-nav button.owl-next span {
+  display: none;
+}
+
+.wealth-benefits .owl-carousel .owl-nav .owl-prev {
+  left: -80px;
+}
+
+.wealth-benefits .owl-carousel .owl-nav .owl-prev::before {
+  font-family: icomoon;
+  content: "\e901";
+  color: #787878;
+}
+
+.wealth-benefits .owl-carousel .owl-nav .owl-next {
+  right: -80px;
+}
+
+.wealth-benefits .owl-carousel .owl-nav .owl-next::before {
+  font-family: icomoon;
+  content: "\e902";
+  color: #787878;
+}
+
+@media (max-width: 1024px) {
+  .wealth-benefits .owl-carousel .owl-nav .owl-prev {
+    left: -48px;
+  }
+
+  .wealth-benefits .owl-carousel .owl-nav .owl-next {
+    right: -48px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wealth-benefits {
+    padding-bottom: 0;
+  }
+
+  .wealth-benefits .card.opt1 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .wealth-benefits {
+    background-image: linear-gradient(231deg, #4B4B4B 0%, #0D0D0D 100%);
+    padding-bottom: 40px;
+  }
+
+  .wealth-benefits .col-xl-9 {
+    padding: 0;
+  }
+}
+
+.benefit-card {
+  background: #FFFFFF;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 24px;
+  min-height: 400px;
+}
+
+.benefit-card hr {
+  width: 36px;
+  border: #54565B solid 1px;
+  display: inline-block;
+  margin: 12px 0 20px;
+}
+
+.benefit-card .ctnt-btm {
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .benefit-card {
+    min-height: 420px;
+  }
+}
+
+.with-circle.op2 {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.with-circle.op2 li {
+  padding: 0 0 16px 20px;
+}
+
+.with-circle.op2 li::before {
+  content: "";
+  background: url(../images/wealth/tick.svg) no-repeat;
+  width: 12px;
+  height: 9px;
+  top: 4px;
+}
+
+.with-circle.op2 li:last-child {
+  padding-bottom: 0;
+}
+
+.sec-offering {
+  padding: 40px 0 80px;
+  background-image: linear-gradient(180deg, #FAFAFA 0%, #D6D6D6 85%);
+}
+
+.sec-offering .gallery {
+  background: none;
+  padding: 0;
+}
+
+.sec-offering1 {
+  background: rgba(127, 127, 127, 0.42);
+  background-image: linear-gradient(231deg, #0D0D0D 0%, #4B4B4B 100%);
+  padding-top: 40px;
+}
+
+.sec-offering1 .hd48 {
+  color: #FFFFFF;
+  margin-top: 60px;
+}
+
+.sec-offering1 .hd48+p {
+  color: #FFFFFF;
+  margin: 10px 0 0;
+}
+
+@media (max-width: 991px) {
+  .sec-offering1 .hd48 {
+    margin-top: 0;
+  }
+
+  .sec-offering1 .CTR img,
+  .sec-offering1 .about-intro img,
+  .sec-offering1 .our-vision img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .sec-offering1 .CTR,
+  .sec-offering1 .about-intro,
+  .sec-offering1 .our-vision {
+    margin-top: 40px;
+  }
+}
+
+.obx {
+  padding: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.obx .ctnt {
+  margin: 0 24px;
+}
+
+.obx .hd3b {
+  margin-bottom: 6px;
+}
+
+.obx .hd3b+p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .obx {
+    padding: 20px;
+  }
+
+  .obx .ctnt {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .obx {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .obx .ctnt {
+    text-align: center;
+    margin: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .obx.MT20-xs {
+    margin-top: 20px;
+  }
+}
+
+.customer-speak.op1 {
+  background: white;
+  background: linear-gradient(90deg, #FFFFFF 40%, #866628 40%, #DCB526 100%);
+}
+
+.customer-speak.op1 .container.shape {
+  background-image: url(../images/wealth/shape.svg);
+}
+
+.customer-speak.op1 .white-box,
+.customer-speak.op1 .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .customer-speak.op1 .ad-card,
+.customer-speak.op1 .accordian .trgr,
+.accordian .customer-speak.op1 .trgr,
+.customer-speak.op1 .accordian .tog_cont,
+.accordian .customer-speak.op1 .tog_cont,
+.customer-speak.op1 .card-look,
+.customer-speak.op1 .media-card,
+.customer-speak.op1 .pr-list>li .card-bx,
+.pr-list>li .customer-speak.op1 .card-bx,
+.customer-speak.op1 .trgr1,
+.customer-speak.op1 .trgr2,
+.customer-speak.op1 .trgr3,
+.customer-speak.op1 .tog_cont1,
+.customer-speak.op1 .tog_cont2,
+.customer-speak.op1 .tog_cont3,
+.customer-speak.op1 .mf-invest .start-box,
+.mf-invest .customer-speak.op1 .start-box,
+.customer-speak.op1 .more-box,
+.customer-speak.op1 .media-kit .media-list .card-media,
+.media-kit .media-list .customer-speak.op1 .card-media,
+.customer-speak.op1 .ebc-loan-banner .lawbx,
+.ebc-loan-banner .customer-speak.op1 .lawbx {
+  min-height: 180px;
+}
+
+@media (max-width: 767px) {
+  .customer-speak.op1 {
+    background: white;
+    background: linear-gradient(180deg, #FFFFFF 48%, #866628 48%, #DCB526 100%);
+  }
+}
+
+.sec-awards {
+  background-image: linear-gradient(180deg, #1E1E1E 0%, #0D0D0D 73.65%, #F5F5F5 73.65%, #F5F5F5 100%);
+}
+
+.sec-awards .container.shape {
+  background: url("../images/wealth/award-bg.svg") no-repeat 0 0;
+  padding: 50px 0;
+  margin-bottom: 40px;
+}
+
+.sec-awards .container.shape .row {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sec-awards .container.shape .hd3b {
+  font-size: 90px;
+  line-height: 1;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.sec-awards .container.shape .hd3b strong {
+  font-size: 100px;
+  letter-spacing: 2px;
+}
+
+.sec-awards .container.shape .vertical-slider .txt {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 16px 0 16px 50px;
+  position: relative;
+}
+
+.sec-awards .container.shape .vertical-slider .txt img {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  left: 20px;
+  top: -12px;
+  display: none;
+}
+
+.sec-awards .container.shape .vertical-slider .txt.slick-current {
+  opacity: 1;
+  background: #1F1F1F;
+  border-radius: 6px;
+}
+
+.sec-awards .container.shape .vertical-slider .txt.slick-current img {
+  display: block;
+}
+
+.sec-awards .container.shape .vertical-slider .txt.slick-current::after {
+  font-family: icomoon;
+  content: "\e902";
+  color: #FFCB05;
+  font-size: 20px;
+  position: absolute;
+  right: 30px;
+  top: 16px;
+}
+
+@media (max-width: 1024px) {
+  .sec-awards .container.shape {
+    background-size: 50%;
+  }
+
+  .sec-awards .container.shape .hd3b {
+    font-size: 74px;
+  }
+
+  .sec-awards .container.shape .hd3b strong {
+    font-size: 80px;
+  }
+
+  .sec-awards .container.shape .vertical-slider .txt {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .sec-awards .container.shape .vertical-slider.slick-current::after {
+    right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sec-awards .container.shape {
+    padding: 80px 15px 0 15px;
+    background: url("../images/wealth/award-bg.svg") no-repeat center -132px;
+  }
+
+  .sec-awards .container.shape .hd3b {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sec-awards .container.shape .hd3b strong {
+    font-size: 60px;
+  }
+
+  .sec-awards .container.shape .vertical-slider {
+    margin-bottom: 40px;
+  }
+
+  .sec-awards .container.shape .vertical-slider .txt {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .sec-awards .container.shape .vertical-slider .txt.slick-current img {
+    display: none;
+  }
+
+  .sec-awards .container.shape .vertical-slider .txt.slick-current::after {
+    right: 10px;
+  }
+}
+
+.sec-awards .slick-list {
+  margin-top: 40px;
+}
+
+.sec-awards .gallery {
+  background: none;
+  padding: 0;
+}
+
+.sec-awards .gallery .media-card {
+  margin: 35px 2px 2px;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-prev,
+.slick-next {
+  border: 0;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.22);
+  font-size: 0;
+  position: absolute;
+  right: 0;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-family: icomoon;
+  color: #54565B;
+  font-size: 20px;
+}
+
+.slick-prev {
+  top: -40px;
+}
+
+.slick-prev:before {
+  content: "\e903";
+}
+
+.slick-next:before {
+  content: "\e900";
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.vkyc-bx {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.vkyc-bx .vkyc-img {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  margin: -130px 0 0 -110px;
+  width: 230px;
+}
+
+.vkyc-bx .vkyc-img img {
+  width: 100%;
+  height: auto;
+}
+
+.vkyc-bx .card-left {
+  padding: 70px 120px 70px 180px;
+  background-image: linear-gradient(133deg, #866628 0%, #DCB526 84%);
+  border-radius: 2px 0 0 2px;
+  width: 64%;
+}
+
+.vkyc-bx .card-left .f14 {
+  color: #303030;
+}
+
+.vkyc-bx .card-left .f14 img {
+  margin-right: 10px;
+}
+
+.vkyc-bx .card-left .hd2 {
+  line-height: 1.25;
+}
+
+.vkyc-bx .card-left .form-list {
+  width: 80%;
+}
+
+.vkyc-bx .card-left .btn-box .btn-red1 {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.vkyc-bx .card-right {
+  padding: 55px;
+  background-image: linear-gradient(90deg, #4B4B4B 0%, #000000 100%);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 0 2px 2px 0;
+  width: 36%;
+  color: #FFFFFF;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.vkyc-bx .card-right .f14 {
+  color: #a6a6a6;
+}
+
+@media (max-width: 1024px) {
+  .vkyc-bx .card-left {
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .vkyc-bx {
+    margin-top: 100px;
+  }
+
+  .vkyc-bx .vkyc-img {
+    top: -20px;
+    margin-left: 50px;
+    width: 200px;
+  }
+
+  .vkyc-bx .card-left {
+    padding: 100px 60px 40px;
+    width: 60%;
+  }
+
+  .vkyc-bx .card-right {
+    padding: 30px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .vkyc-bx {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 -15px;
+  }
+
+  .vkyc-bx .card-left,
+  .vkyc-bx .card-right {
+    width: 100%;
+  }
+
+  .vkyc-bx .card-left {
+    padding: 100px 40px 30px;
+  }
+
+  .vkyc-bx .card-left .hd2,
+  .vkyc-bx .card-left .f14 {
+    text-align: center;
+  }
+
+  .vkyc-bx .card-left .form-list {
+    width: 100%;
+  }
+
+  .vkyc-bx .card-left .btn-box {
+    text-align: center;
+  }
+
+  .vkyc-bx .card-left .btn-box .btn-red1 {
+    min-width: 160px;
+  }
+
+  .vkyc-bx .vkyc-img {
+    position: inherit;
+    margin: 0 auto -80px;
+    width: 40%;
+  }
+}
+
+.list-1 li {
+  background: url(../images/wealth/icon1.svg) no-repeat left center;
+  padding: 15px 0 15px 45px;
+}
+
+.form-control.date1 {
+  background: #FFFFFF url(../images/wealth/calendar.svg) no-repeat 94% center;
+}
+
+.form-control.time {
+  background: #FFFFFF url(../images/wealth/time.svg) no-repeat 94% center;
+}
+
+.peshoB {
+  height: 160px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .peshoB {
+    height: auto;
+  }
+}
+
+.our-research .resrchIn {
+  padding: 50px 0 40px 50px;
+  background-image: linear-gradient(90deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, #FFF 100%);
+  min-height: 500px;
+}
+
+.our-research .resrchIn .hd {
+  color: #FFFFFF;
+}
+
+.our-research .resrchIn .hd+p {
+  color: #FFFFFF;
+}
+
+.our-research .resrchIn .media-card {
+  margin: 0 2px 2px;
+}
+
+.our-research .resrchIn .media-card .mcard-body {
+  padding: 20px;
+  min-height: 132px;
+}
+
+.our-research .PR0 {
+  padding-right: 0;
+}
+
+.our-research .MT50 {
+  margin: 56px 0 0 15px;
+}
+
+.our-research .research-carousel .owl-nav {
+  position: absolute;
+  top: -60px;
+  right: 0;
+}
+
+.our-research .research-carousel .owl-nav .owl-prev,
+.our-research .research-carousel .owl-nav .owl-next {
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  margin: 0 10px;
+}
+
+@media (max-width: 767px) {
+
+  .our-research .research-carousel .owl-nav .owl-prev,
+  .our-research .research-carousel .owl-nav .owl-next {
+    background: #FFFFFF !important;
+  }
+}
+
+.our-research .research-carousel .owl-nav .owl-prev span,
+.our-research .research-carousel .owl-nav .owl-next span {
+  display: none;
+}
+
+.our-research .research-carousel .owl-nav .owl-prev {
+  position: static;
+}
+
+.our-research .research-carousel .owl-nav .owl-prev::before {
+  font-family: icomoon;
+  content: "\e901";
+}
+
+.our-research .research-carousel .owl-nav .owl-next {
+  position: static;
+}
+
+.our-research .research-carousel .owl-nav .owl-next::before {
+  font-family: icomoon;
+  content: "\e902";
+}
+
+@media (max-width: 991px) {
+  .our-research .resrchIn {
+    background-image: linear-gradient(180deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, #FFF 100%);
+    padding: 50px 6% 0;
+  }
+
+  .our-research .PR0 {
+    padding-right: 15px;
+  }
+
+  .our-research .MT50 {
+    margin: 25px 0 0;
+  }
+}
+
+.invest-withUs {
+  position: relative;
+  background-image: linear-gradient(134deg, #866628 0%, #DCB526 97%);
+}
+
+.invest-withUs::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 20%;
+  background: url("../images/wealth/exm-icon.svg") no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 12%;
+}
+
+.invest-withUs .hdb {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.invest-withUs .investIn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.invest-withUs .investIn .white-box,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card,
+.invest-withUs .investIn .accordian .trgr,
+.accordian .invest-withUs .investIn .trgr,
+.invest-withUs .investIn .accordian .tog_cont,
+.accordian .invest-withUs .investIn .tog_cont,
+.invest-withUs .investIn .card-look,
+.invest-withUs .investIn .media-card,
+.invest-withUs .investIn .pr-list>li .card-bx,
+.pr-list>li .invest-withUs .investIn .card-bx,
+.invest-withUs .investIn .trgr1,
+.invest-withUs .investIn .trgr2,
+.invest-withUs .investIn .trgr3,
+.invest-withUs .investIn .tog_cont1,
+.invest-withUs .investIn .tog_cont2,
+.invest-withUs .investIn .tog_cont3,
+.invest-withUs .investIn .mf-invest .start-box,
+.mf-invest .invest-withUs .investIn .start-box,
+.invest-withUs .investIn .more-box,
+.invest-withUs .investIn .media-kit .media-list .card-media,
+.media-kit .media-list .invest-withUs .investIn .card-media,
+.invest-withUs .investIn .ebc-loan-banner .lawbx,
+.ebc-loan-banner .invest-withUs .investIn .lawbx {
+  width: 24%;
+  padding: 30px 24px;
+  min-height: 165px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.invest-withUs .investIn .white-box .f14,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card .f14,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card .f14,
+.invest-withUs .investIn .accordian .trgr .f14,
+.accordian .invest-withUs .investIn .trgr .f14,
+.invest-withUs .investIn .accordian .tog_cont .f14,
+.accordian .invest-withUs .investIn .tog_cont .f14,
+.invest-withUs .investIn .card-look .f14,
+.invest-withUs .investIn .media-card .f14,
+.invest-withUs .investIn .pr-list>li .card-bx .f14,
+.pr-list>li .invest-withUs .investIn .card-bx .f14,
+.invest-withUs .investIn .trgr1 .f14,
+.invest-withUs .investIn .trgr2 .f14,
+.invest-withUs .investIn .trgr3 .f14,
+.invest-withUs .investIn .tog_cont1 .f14,
+.invest-withUs .investIn .tog_cont2 .f14,
+.invest-withUs .investIn .tog_cont3 .f14,
+.invest-withUs .investIn .mf-invest .start-box .f14,
+.mf-invest .invest-withUs .investIn .start-box .f14,
+.invest-withUs .investIn .more-box .f14,
+.invest-withUs .investIn .media-kit .media-list .card-media .f14,
+.media-kit .media-list .invest-withUs .investIn .card-media .f14,
+.invest-withUs .investIn .ebc-loan-banner .lawbx .f14,
+.ebc-loan-banner .invest-withUs .investIn .lawbx .f14 {
+  display: none;
+}
+
+.invest-withUs .investIn .white-box .f20,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card .f20,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card .f20,
+.invest-withUs .investIn .accordian .trgr .f20,
+.accordian .invest-withUs .investIn .trgr .f20,
+.invest-withUs .investIn .accordian .tog_cont .f20,
+.accordian .invest-withUs .investIn .tog_cont .f20,
+.invest-withUs .investIn .card-look .f20,
+.invest-withUs .investIn .media-card .f20,
+.invest-withUs .investIn .pr-list>li .card-bx .f20,
+.pr-list>li .invest-withUs .investIn .card-bx .f20,
+.invest-withUs .investIn .trgr1 .f20,
+.invest-withUs .investIn .trgr2 .f20,
+.invest-withUs .investIn .trgr3 .f20,
+.invest-withUs .investIn .tog_cont1 .f20,
+.invest-withUs .investIn .tog_cont2 .f20,
+.invest-withUs .investIn .tog_cont3 .f20,
+.invest-withUs .investIn .mf-invest .start-box .f20,
+.mf-invest .invest-withUs .investIn .start-box .f20,
+.invest-withUs .investIn .more-box .f20,
+.invest-withUs .investIn .media-kit .media-list .card-media .f20,
+.media-kit .media-list .invest-withUs .investIn .card-media .f20,
+.invest-withUs .investIn .ebc-loan-banner .lawbx .f20,
+.ebc-loan-banner .invest-withUs .investIn .lawbx .f20 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.invest-withUs .investIn .white-box figure,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card figure,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card figure,
+.invest-withUs .investIn .accordian .trgr figure,
+.accordian .invest-withUs .investIn .trgr figure,
+.invest-withUs .investIn .accordian .tog_cont figure,
+.accordian .invest-withUs .investIn .tog_cont figure,
+.invest-withUs .investIn .card-look figure,
+.invest-withUs .investIn .media-card figure,
+.invest-withUs .investIn .pr-list>li .card-bx figure,
+.pr-list>li .invest-withUs .investIn .card-bx figure,
+.invest-withUs .investIn .trgr1 figure,
+.invest-withUs .investIn .trgr2 figure,
+.invest-withUs .investIn .trgr3 figure,
+.invest-withUs .investIn .tog_cont1 figure,
+.invest-withUs .investIn .tog_cont2 figure,
+.invest-withUs .investIn .tog_cont3 figure,
+.invest-withUs .investIn .mf-invest .start-box figure,
+.mf-invest .invest-withUs .investIn .start-box figure,
+.invest-withUs .investIn .more-box figure,
+.invest-withUs .investIn .media-kit .media-list .card-media figure,
+.media-kit .media-list .invest-withUs .investIn .card-media figure,
+.invest-withUs .investIn .ebc-loan-banner .lawbx figure,
+.ebc-loan-banner .invest-withUs .investIn .lawbx figure {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.invest-withUs .investIn .white-box:hover,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card:hover,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card:hover,
+.invest-withUs .investIn .accordian .trgr:hover,
+.accordian .invest-withUs .investIn .trgr:hover,
+.invest-withUs .investIn .accordian .tog_cont:hover,
+.accordian .invest-withUs .investIn .tog_cont:hover,
+.invest-withUs .investIn .card-look:hover,
+.invest-withUs .investIn .media-card:hover,
+.invest-withUs .investIn .pr-list>li .card-bx:hover,
+.pr-list>li .invest-withUs .investIn .card-bx:hover,
+.invest-withUs .investIn .trgr1:hover,
+.invest-withUs .investIn .trgr2:hover,
+.invest-withUs .investIn .trgr3:hover,
+.invest-withUs .investIn .tog_cont1:hover,
+.invest-withUs .investIn .tog_cont2:hover,
+.invest-withUs .investIn .tog_cont3:hover,
+.invest-withUs .investIn .mf-invest .start-box:hover,
+.mf-invest .invest-withUs .investIn .start-box:hover,
+.invest-withUs .investIn .more-box:hover,
+.invest-withUs .investIn .media-kit .media-list .card-media:hover,
+.media-kit .media-list .invest-withUs .investIn .card-media:hover,
+.invest-withUs .investIn .ebc-loan-banner .lawbx:hover,
+.ebc-loan-banner .invest-withUs .investIn .lawbx:hover {
+  background-image: linear-gradient(90deg, #4B4B4B 0%, #000000 100%);
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.invest-withUs .investIn .white-box:hover .f20,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card:hover .f20,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card:hover .f20,
+.invest-withUs .investIn .accordian .trgr:hover .f20,
+.accordian .invest-withUs .investIn .trgr:hover .f20,
+.invest-withUs .investIn .accordian .tog_cont:hover .f20,
+.accordian .invest-withUs .investIn .tog_cont:hover .f20,
+.invest-withUs .investIn .card-look:hover .f20,
+.invest-withUs .investIn .media-card:hover .f20,
+.invest-withUs .investIn .pr-list>li .card-bx:hover .f20,
+.pr-list>li .invest-withUs .investIn .card-bx:hover .f20,
+.invest-withUs .investIn .trgr1:hover .f20,
+.invest-withUs .investIn .trgr2:hover .f20,
+.invest-withUs .investIn .trgr3:hover .f20,
+.invest-withUs .investIn .tog_cont1:hover .f20,
+.invest-withUs .investIn .tog_cont2:hover .f20,
+.invest-withUs .investIn .tog_cont3:hover .f20,
+.invest-withUs .investIn .mf-invest .start-box:hover .f20,
+.mf-invest .invest-withUs .investIn .start-box:hover .f20,
+.invest-withUs .investIn .more-box:hover .f20,
+.invest-withUs .investIn .media-kit .media-list .card-media:hover .f20,
+.media-kit .media-list .invest-withUs .investIn .card-media:hover .f20,
+.invest-withUs .investIn .ebc-loan-banner .lawbx:hover .f20,
+.ebc-loan-banner .invest-withUs .investIn .lawbx:hover .f20,
+.invest-withUs .investIn .white-box:hover figure,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card:hover figure,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card:hover figure,
+.invest-withUs .investIn .accordian .trgr:hover figure,
+.accordian .invest-withUs .investIn .trgr:hover figure,
+.invest-withUs .investIn .accordian .tog_cont:hover figure,
+.accordian .invest-withUs .investIn .tog_cont:hover figure,
+.invest-withUs .investIn .card-look:hover figure,
+.invest-withUs .investIn .media-card:hover figure,
+.invest-withUs .investIn .pr-list>li .card-bx:hover figure,
+.pr-list>li .invest-withUs .investIn .card-bx:hover figure,
+.invest-withUs .investIn .trgr1:hover figure,
+.invest-withUs .investIn .trgr2:hover figure,
+.invest-withUs .investIn .trgr3:hover figure,
+.invest-withUs .investIn .tog_cont1:hover figure,
+.invest-withUs .investIn .tog_cont2:hover figure,
+.invest-withUs .investIn .tog_cont3:hover figure,
+.invest-withUs .investIn .mf-invest .start-box:hover figure,
+.mf-invest .invest-withUs .investIn .start-box:hover figure,
+.invest-withUs .investIn .more-box:hover figure,
+.invest-withUs .investIn .media-kit .media-list .card-media:hover figure,
+.media-kit .media-list .invest-withUs .investIn .card-media:hover figure,
+.invest-withUs .investIn .ebc-loan-banner .lawbx:hover figure,
+.ebc-loan-banner .invest-withUs .investIn .lawbx:hover figure {
+  display: none;
+}
+
+.invest-withUs .investIn .white-box:hover .f14,
+.invest-withUs .investIn .search-bxIn .search-ad .ad-card:hover .f14,
+.search-bxIn .search-ad .invest-withUs .investIn .ad-card:hover .f14,
+.invest-withUs .investIn .accordian .trgr:hover .f14,
+.accordian .invest-withUs .investIn .trgr:hover .f14,
+.invest-withUs .investIn .accordian .tog_cont:hover .f14,
+.accordian .invest-withUs .investIn .tog_cont:hover .f14,
+.invest-withUs .investIn .card-look:hover .f14,
+.invest-withUs .investIn .media-card:hover .f14,
+.invest-withUs .investIn .pr-list>li .card-bx:hover .f14,
+.pr-list>li .invest-withUs .investIn .card-bx:hover .f14,
+.invest-withUs .investIn .trgr1:hover .f14,
+.invest-withUs .investIn .trgr2:hover .f14,
+.invest-withUs .investIn .trgr3:hover .f14,
+.invest-withUs .investIn .tog_cont1:hover .f14,
+.invest-withUs .investIn .tog_cont2:hover .f14,
+.invest-withUs .investIn .tog_cont3:hover .f14,
+.invest-withUs .investIn .mf-invest .start-box:hover .f14,
+.mf-invest .invest-withUs .investIn .start-box:hover .f14,
+.invest-withUs .investIn .more-box:hover .f14,
+.invest-withUs .investIn .media-kit .media-list .card-media:hover .f14,
+.media-kit .media-list .invest-withUs .investIn .card-media:hover .f14,
+.invest-withUs .investIn .ebc-loan-banner .lawbx:hover .f14,
+.ebc-loan-banner .invest-withUs .investIn .lawbx:hover .f14 {
+  display: block;
+}
+
+.invest-withUs .btn-box {
+  text-align: center;
+}
+
+.invest-withUs .btn-box .btn-white {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+
+  .invest-withUs .investIn .white-box .f20,
+  .invest-withUs .investIn .search-bxIn .search-ad .ad-card .f20,
+  .search-bxIn .search-ad .invest-withUs .investIn .ad-card .f20,
+  .invest-withUs .investIn .accordian .trgr .f20,
+  .accordian .invest-withUs .investIn .trgr .f20,
+  .invest-withUs .investIn .accordian .tog_cont .f20,
+  .accordian .invest-withUs .investIn .tog_cont .f20,
+  .invest-withUs .investIn .card-look .f20,
+  .invest-withUs .investIn .media-card .f20,
+  .invest-withUs .investIn .pr-list>li .card-bx .f20,
+  .pr-list>li .invest-withUs .investIn .card-bx .f20,
+  .invest-withUs .investIn .trgr1 .f20,
+  .invest-withUs .investIn .trgr2 .f20,
+  .invest-withUs .investIn .trgr3 .f20,
+  .invest-withUs .investIn .tog_cont1 .f20,
+  .invest-withUs .investIn .tog_cont2 .f20,
+  .invest-withUs .investIn .tog_cont3 .f20,
+  .invest-withUs .investIn .mf-invest .start-box .f20,
+  .mf-invest .invest-withUs .investIn .start-box .f20,
+  .invest-withUs .investIn .more-box .f20,
+  .invest-withUs .investIn .media-kit .media-list .card-media .f20,
+  .media-kit .media-list .invest-withUs .investIn .card-media .f20,
+  .invest-withUs .investIn .ebc-loan-banner .lawbx .f20,
+  .ebc-loan-banner .invest-withUs .investIn .lawbx .f20 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .invest-withUs .investIn .white-box,
+  .invest-withUs .investIn .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .invest-withUs .investIn .ad-card,
+  .invest-withUs .investIn .accordian .trgr,
+  .accordian .invest-withUs .investIn .trgr,
+  .invest-withUs .investIn .accordian .tog_cont,
+  .accordian .invest-withUs .investIn .tog_cont,
+  .invest-withUs .investIn .card-look,
+  .invest-withUs .investIn .media-card,
+  .invest-withUs .investIn .pr-list>li .card-bx,
+  .pr-list>li .invest-withUs .investIn .card-bx,
+  .invest-withUs .investIn .trgr1,
+  .invest-withUs .investIn .trgr2,
+  .invest-withUs .investIn .trgr3,
+  .invest-withUs .investIn .tog_cont1,
+  .invest-withUs .investIn .tog_cont2,
+  .invest-withUs .investIn .tog_cont3,
+  .invest-withUs .investIn .mf-invest .start-box,
+  .mf-invest .invest-withUs .investIn .start-box,
+  .invest-withUs .investIn .more-box,
+  .invest-withUs .investIn .media-kit .media-list .card-media,
+  .media-kit .media-list .invest-withUs .investIn .card-media,
+  .invest-withUs .investIn .ebc-loan-banner .lawbx,
+  .ebc-loan-banner .invest-withUs .investIn .lawbx {
+    width: 49%;
+    min-height: 105px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .invest-withUs .investIn .white-box,
+  .invest-withUs .investIn .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .invest-withUs .investIn .ad-card,
+  .invest-withUs .investIn .accordian .trgr,
+  .accordian .invest-withUs .investIn .trgr,
+  .invest-withUs .investIn .accordian .tog_cont,
+  .accordian .invest-withUs .investIn .tog_cont,
+  .invest-withUs .investIn .card-look,
+  .invest-withUs .investIn .media-card,
+  .invest-withUs .investIn .pr-list>li .card-bx,
+  .pr-list>li .invest-withUs .investIn .card-bx,
+  .invest-withUs .investIn .trgr1,
+  .invest-withUs .investIn .trgr2,
+  .invest-withUs .investIn .trgr3,
+  .invest-withUs .investIn .tog_cont1,
+  .invest-withUs .investIn .tog_cont2,
+  .invest-withUs .investIn .tog_cont3,
+  .invest-withUs .investIn .mf-invest .start-box,
+  .mf-invest .invest-withUs .investIn .start-box,
+  .invest-withUs .investIn .more-box,
+  .invest-withUs .investIn .media-kit .media-list .card-media,
+  .media-kit .media-list .invest-withUs .investIn .card-media,
+  .invest-withUs .investIn .ebc-loan-banner .lawbx,
+  .ebc-loan-banner .invest-withUs .investIn .lawbx {
+    width: 100%;
+    min-height: 105px;
+  }
+}
+
+.ui-timepicker-container {
+  position: absolute;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.ui-timepicker,
+.ui-timepicker-viewport {
+  box-sizing: content-box;
+  height: 205px;
+  display: block;
+  margin: 0;
+}
+
+.ui-timepicker {
+  list-style: none;
+  padding: 0 1px;
+  text-align: center;
+}
+
+.ui-timepicker-viewport {
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.ui-timepicker-standard {
+  background-color: #FFF;
+  border: 1px solid #AAA;
+  color: #222;
+  margin: 0;
+  padding: 2px;
+}
+
+.ui-timepicker-standard a {
+  border: 1px solid transparent;
+  color: #222;
+  display: block;
+  padding: .2em .4em;
+  text-decoration: none;
+}
+
+.ui-timepicker-standard .ui-state-hover {
+  background-color: #DADADA;
+  border: 1px solid #999;
+  font-weight: 400;
+  color: #212121;
+}
+
+.ui-timepicker-standard .ui-menu-item {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-timepicker-corners,
+.ui-timepicker-corners .ui-corner-all {
+  border-radius: 4px;
+}
+
+.ui-timepicker-hidden {
+  display: none;
+}
+
+.ui-timepicker-no-scrollbar .ui-timepicker {
+  border: none;
+}

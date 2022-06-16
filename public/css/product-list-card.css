@@ -1,0 +1,163 @@
+/* Product listing page card  */
+.card.op2 {
+  padding: 20px 30px 40px;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  height: 100%;
+  position: relative;
+  /* Notification Box for more than 3 product*/
+  /* Notification Box for more than 3 product End*/
+}
+
+@media (max-width: 1024px) {
+  .card.op2 {
+    padding: 20px 20px 25px;
+  }
+}
+
+.card.op2 hr {
+  width: 24px;
+  border: #9D1D27 solid 1px;
+  margin-left: 0px;
+  display: inline-block;
+  margin: 0.6rem 0;
+}
+
+.card.op2 figure {
+  text-align: center;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.card.op2 figure .cta {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+}
+
+.card.op2 figure .cta a {
+  background: #FFCB05;
+  width: 100px;
+  display: block;
+  border-radius: 0px 0px 0px 11px;
+  padding: 10px 10px 10px 25px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #737373;
+}
+
+.card.op2 figure .cta a:after {
+  position: absolute;
+  content: "";
+  font-family: icomoon;
+  content: "\e906";
+  font-size: 13px;
+  height: 15px;
+  width: 15px;
+  left: 12px;
+  top: 10px;
+}
+
+.card.op2 figure .cta.selected a {
+  background: #f3f3f3;
+  color: #9D1D27;
+  font-weight: 700;
+}
+
+.card.op2 figure .cta.selected a:after {
+  content: "\e905";
+}
+
+@media (max-width: 768px) {
+  .card.op2 figure .cta {
+    right: -20px;
+  }
+}
+
+.card.op2 figure img {
+  width: auto;
+  margin: 0 auto;
+}
+
+.card.op2 .card-body {
+  border-bottom: 0px;
+  padding: 20px 0px;
+  background: transparent;
+  min-height: 230px;
+}
+
+.card.op2 .card-body .hd3b {
+  line-height: 1;
+}
+
+.card.op2 .card-body .card-text {
+  margin-top: 20px;
+}
+
+.card.op2 .btn-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .card.op2 .btn-box .btn-red {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card.op2 .btn-box .btn-red {
+    min-width: 160px;
+  }
+}
+
+.card.op2 .notif-bx {
+  border-radius: 6px;
+  width: 180px;
+  top: 32px;
+  right: -10px;
+  position: absolute;
+  background: #FFFFFF;
+  line-height: 1.3;
+  z-index: 1;
+  padding: 20px 15px 15px 15px;
+  font-size: 12px;
+  box-shadow: 0 10px 9px 0px rgba(138, 107, 107, 0.11);
+}
+
+.card.op2 .notif-bx:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 30%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: 0 5px 4px -2px rgba(138, 107, 107, 0.11);
+  border-color: transparent transparent #FFFFFF transparent;
+}
+
+.card.op2 .notif-bx .close-btn {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: #54565B;
+}
+
+.card.op2 .notif-bx .close-btn:after {
+  position: absolute;
+  content: "";
+  font-family: icomoon;
+  content: "\e919";
+  font-size: 11px;
+}
+
+/* Product listing page card end */

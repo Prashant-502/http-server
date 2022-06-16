@@ -1,0 +1,435 @@
+$pad-x: 0.75rem;
+$pad-y: 0.85rem;
+
+.was-validated select.form-control:valid,
+.was-validated select.form-control:invalid {
+    background: #ffffff url("../images/down.svg") no-repeat 98% center;
+}
+
+.form-label-group {
+    position: relative;
+
+    .dropdown .dropdown-toggle:after {
+        top: 12px;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .form-control {
+        height: inherit;
+        border: 2px solid $grey-200;
+
+        &:focus {
+            border-color: inherit;
+            box-shadow: inherit;
+        }
+
+        .explorer11 & {
+
+            &:focus ~ label,
+            &:valid ~ label,
+            & ~ label {
+                display: inline-block !important;
+                width: auto;
+                background: $c-white;
+                margin-top: -12px;
+                font-size: 12px;
+                color: #777;
+                padding: 1px 4px;
+                margin-left: 7px;
+                border-radius: 5px;
+                transform: translate(0px, 0px) !important;
+            }
+
+            &::-ms-clear {
+                display: none;
+            }
+
+            & ~ label.error {
+                position: static;
+                margin: 0;
+                padding: 5px 0;
+                color: #d10000;
+                font-size: 14px;
+                background: none;
+            }
+
+        }
+    }
+
+    > label,
+    > input,
+    textarea {
+        padding: $pad-y $pad-x;
+    }
+
+    > input.search {
+        background: url(../images/svg/search.svg) no-repeat 98% center;
+    }
+
+    > label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+        /* Override default `<label>` margin */
+        line-height: 1.5;
+        color: $brownish-grey;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        transition: all 0.1s ease-in-out;
+    }
+
+    input::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    input:-ms-input-placeholder {
+        color: transparent;
+    }
+
+    input::-ms-input-placeholder,
+    input::-moz-placeholder {
+        color: transparent;
+    }
+
+    input::placeholder {
+        color: transparent;
+    }
+
+    // input:-ms-input-placeholder~label {
+    //   color: transparent;
+    // }
+
+    input:not(:placeholder-shown),
+    textarea:not(:placeholder-shown) {
+        padding-top: calc($pad-y + $pad-y * (2 / 3));
+        padding-bottom: calc($pad-y / 3);
+    }
+
+    input:not(:placeholder-shown) ~ label,
+    textarea:not(:placeholder-shown) ~ label {
+        font-size: 12px;
+        color: #777;
+        background: #fff;
+        border-radius: 0px;
+        display: inline-block;
+        width: auto;
+        padding: 1px 4px;
+        margin-left: 7px;
+        margin-top: -10px;
+        border-radius: 5px;
+    }
+
+    label {
+        &.form-control-placeholder {
+            //font-size: 15px;
+            color: #777;
+            display: inline-block;
+            width: auto;
+            //margin-left: 7px;
+            //margin-top: 0px;
+            transition: all 0.3s;
+
+            &.float {
+                transform: translate(0, -1.1em);
+                font-size: 75%;
+                background: #fff;
+                padding: 1px 4px;
+                margin-left: 7px;
+                transition: 0.2s ease-in-out;
+            }
+
+            &.changefloat {
+                transform: translate(0, -1.1em);
+                background: #fff;
+                padding: 1px 4px;
+                font-size: 75%;
+                margin-left: 7px;
+            }
+        }
+    }
+
+    .form-control-placeholder {
+        pointer-events: none;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background: $grey-200;
+    }
+
+    .bootstrap-select.show > .btn-light.dropdown-toggle,
+    .bootstrap-select .dropdown-menu.show {
+        // color: #495057;
+    }
+
+    .bootstrap-select.show > .btn-light.dropdown-toggle {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    .bootstrap-select > .btn,
+    .bootstrap-select > .btn-light {
+        //padding-left: 1.5rem;
+        //font-size: 15px;
+        padding: $pad-y $pad-x;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #fff;
+        border: 0;
+        //border: 1px solid #1d3147 !important;
+        line-height: 1.5;
+        color: #495057;
+    }
+
+    .bootstrap-select > .btn-light:focus,
+    .bootstrap-select > .btn-light:hover,
+    .bootstrap-select .dropdown-toggle:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        color: #495057;
+    }
+
+    .bootstrap-select > .dropdown-menu {
+        // border: 1px solid #1d3147;
+    }
+
+    /* :active works but when replace with :focus, it doesn't work */
+}
+
+/* Custom radio button */
+.custom-control {
+    &.default {
+        .custom-control-label::before {
+            border: solid 2px $c-black;
+            border-radius: 0px;
+        }
+
+        .custom-control-input:checked ~ .custom-control-label::before {
+            color: #fff;
+            border-color: $c-black;
+            background-color: $c-black;
+            border-color: $c-black;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+            border-color: $c-black;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            background-color: rgba($c-black, 0.6);
+            border-color: rgba($c-black, 0.6);
+        }
+    }
+
+    &.red {
+        .custom-control-label::before {
+            border: solid 2px $c-red;
+            border-radius: 0px;
+        }
+
+        .custom-control-input:checked ~ .custom-control-label::before {
+            color: #fff;
+            border-color: $c-red;
+            background-color: $c-red;
+            border-color: $c-red;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+            border-color: $c-red;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            background-color: rgba($c-red, 0.6);
+            border-color: rgba($c-red, 0.6);
+        }
+    }
+
+    &.green {
+        .custom-control-label::before {
+            border: solid 2px $grey-200;
+            border-radius: 0px;
+        }
+
+        .custom-control-input:checked ~ .custom-control-label::before {
+            color: #fff;
+            border-color: $c-green;
+            background-color: $c-green;
+            border-color: $c-green;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            border-color: $c-green;
+            box-shadow: inherit;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            background-color: rgba($c-green, 0.6);
+            border-color: rgba($c-green, 0.6);
+        }
+    }
+
+    &.custom-radio {
+
+        &.default,
+        &.red,
+        &.green {
+            .custom-control-label {
+                padding-left: 10px;
+            }
+
+            .custom-control-label::before {
+                border-radius: 50%;
+                height: 28px;
+                width: 28px;
+                top: -4px;
+            }
+
+            .custom-control-label::after {
+                border-radius: 50%;
+                height: 28px;
+                width: 28px;
+                top: -4px;
+            }
+        }
+    }
+}
+
+/* Newsroom page form update start */
+.form1,
+.form2 {
+    .form-label-group {
+
+        label.form-control-placeholder.float,
+        label.form-control-placeholder.changefloat,
+        input:not(:placeholder-shown) ~ label {
+            background: $grey-100;
+        }
+
+        .form-control.hasDatepicker {
+            background: none;
+        }
+
+        > label {
+            color: $grey-400;
+            font-weight: 700;
+        }
+
+        .bootstrap-select {
+
+            > .btn,
+            > .btn-light {
+                background: none;
+            }
+        }
+
+        .icon-date {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            font-size: 24px;
+        }
+    }
+
+    .date-bx {
+        display: flex;
+        align-items: center;
+    }
+
+    @include breakpoint($mxw768) {
+        .form-label-group {
+            margin-bottom: 30px;
+
+        }
+
+        .date-bx {
+            flex-direction: column;
+            align-items: flex-start;
+
+            span {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+/* Newsroom page form update End */
+
+
+.form2 {
+    .form-label-group {
+
+        label.form-control-placeholder.float,
+        label.form-control-placeholder.changefloat,
+        input:not(:placeholder-shown) ~ label {
+            background: $c-white;
+        }
+
+        > label {
+            font-weight: 400;
+        }
+    }
+}
+
+/*custom check box*/
+.custom-control-label::before,
+.custom-control-label::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -2.3rem;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background: url(../images/svg/checkbox.svg) no-repeat;
+}
+
+.custom-control {
+    padding-left: 2.4rem;
+}
+
+/*custom check box end*/
+
+.normal-select-box {
+    &.selected:not(:placeholder-shown) ~ label {
+        font-size: 12px;
+        color: #777;
+        background: #fff;
+        border-radius: 0px;
+        display: inline-block;
+        width: auto;
+        padding: 1px 4px;
+        margin-left: 7px;
+        margin-top: -10px;
+        border-radius: 5px;
+    }
+}
+
+.selec-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    @include breakpoint($mxw1000) {
+        width: 100% !important;
+        padding-right: 30px !important;
+    }
+}

@@ -1,0 +1,316 @@
+.offer-detail-banner.awards-banner {
+    .awards-hd {
+        max-width: 400px;
+
+        .hd {
+            margin-bottom: 0;
+            line-height: 1.12;
+        }
+
+        @include breakpoint($mxw992) {
+            max-width: 100%;
+        }
+    }
+}
+
+.awards-dtl {
+    background: $grey-50;
+    padding-top: 80px;
+
+    + .service-box::before {
+        background: $grey-50;
+    }
+
+    @include breakpoint($mxw992) {
+        padding-top: 60px;
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 40px 20px 0;
+    }
+}
+
+.awards {
+    background: $grey-50;
+    padding-top: 60px;
+
+    + .service-box::before {
+        background: $grey-50;
+    }
+
+    .explorer11 & {
+        overflow: hidden;
+    }
+
+    .tab_ctnter {
+        .tab-ctnt {
+            display: none;
+
+            &.act {
+                display: block;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding-top: 40px;
+    }
+}
+
+.about-gallery {
+    margin-top: 40px;
+
+    &.op1 {
+        .media-card {
+            margin: 0 0 30px;
+            position: relative;
+        }
+
+        @include breakpoint($mxw768) {
+            margin: 30px 0 0;
+        }
+    }
+
+    .media-card {
+        margin: 2px;
+
+        .tag {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 5px 3px 3px 3px;
+            padding: 5px 10px;
+            background: $c-yellow;
+        }
+
+        .mcard-body {
+            padding: 20px 30px;
+
+            .f16b {
+                min-height: 60px;
+                margin-bottom: 16px;
+
+                + .f12 {
+                    margin-bottom: 0;
+                    color: $brownish-grey-two;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .link {
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+
+            .arrow.yellow span::before {
+                color: $c-black;
+            }
+        }
+    }
+
+    .owl-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        span {
+            font-size: 16px;
+        }
+
+        .owl-prev,
+        .owl-next {
+            position: static;
+            display: flex;
+            align-items: center;
+            opacity: .5;
+            margin: 0 52px;
+        }
+
+        .owl-next {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .owl-dots {
+        counter-reset: slides-num;
+        position: absolute;
+        @include center(x);
+        bottom: 0;
+        font-weight: $font-bold;
+
+        &:after {
+            content: "/ "counter(slides-num);
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .owl-dot {
+        display: inline-block;
+        counter-increment: slides-num;
+        margin-right: 5px;
+
+        span {
+            display: none;
+        }
+
+        &.active {
+            &:before {
+                content: counter(slides-num);
+                display: inline-block;
+                vertical-align: middle;
+
+                position: absolute;
+                left: 4px;
+                top: 1px;
+            }
+        }
+    }
+
+    .slider-counter {
+        text-align: center;
+        margin-top: -18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    @include breakpoint($mxw992) {
+        .owl-dot.active:before {
+            left: 11px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        margin: 30px -15px 0;
+
+        .owl-stage {
+            left: -30px;
+            margin-left: 15px;
+        }
+
+        .owl-dots {
+            width: 50px;
+
+            .owl-dot.active:before {
+                top: 21px;
+                left: 4px;
+            }
+        }
+    }
+}
+
+.timeline-carousel.owl-carousel {
+    position: relative;
+    padding: 0 50px;
+
+    &.owl-carousel .owl-stage {
+        margin: 0 auto;
+    }
+
+    span {
+        color: rgba($c-black, .5);
+        text-align: center;
+        margin-top: 5px;
+
+        @include breakpoint($mxw992) {
+            font-size: 12px;
+        }
+
+        &.circle {
+            width: 10px;
+            height: 10px;
+            background: $grey-200;
+            border: 1px solid $grey-200;
+            border-radius: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .year-btn {
+        position: relative;
+        text-align: center;
+
+        .year {
+            @extend %flexbox;
+            @include align-items(center);
+            @include flex-direction(column);
+            padding-bottom: 0px;
+            min-height: 80px;
+            cursor: pointer;
+        }
+    }
+
+    .owl-nav .owl-prev,
+    .owl-nav .owl-next {
+        top: 32px;
+        height: 32px;
+        width: 32px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        color: $c-red;
+        background: $c-red;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+        border-radius: 50%;
+
+        span {
+            font-size: 18px;
+            margin: 0;
+
+            &::before {
+                color: $c-white;
+            }
+        }
+    }
+
+    .owl-prev {
+        left: 0px;
+    }
+
+    .owl-next {
+        right: 0px;
+    }
+
+    .owl-item {
+        &.selected {
+            .year-btn {
+                .year {
+                    span {
+                        color: $c-red;
+                        font-size: 36px;
+                        font-weight: 300;
+
+                        &.circle {
+                            width: 15px;
+                            height: 15px;
+                            border: 1px solid $c-red;
+                            background: $c-red;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:before {
+        content: '';
+        width: 94%;
+        border-bottom: 1px dashed $grey-200;
+        height: 1px;
+        position: absolute;
+        top: 49px;
+        @include center(x);
+
+        @include breakpoint($mxw992) {
+            height: 3px;
+        }
+
+        @include breakpoint($mxw768) {
+            width: 85%;
+        }
+    }
+}

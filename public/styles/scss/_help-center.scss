@@ -1,0 +1,526 @@
+.product-banner.help-center {
+    background: rgb(216, 216, 216);
+    background: linear-gradient(150deg, rgba(216, 216, 216, 1) 0%, rgba(238, 238, 238, 1) 100%);
+
+    figure {
+        margin-left: 120px;
+
+        img {
+            width: auto;
+            margin: 0 auto;
+            //max-height: 360px;
+        }
+    }
+
+    .nearby-search {
+        margin-top: 20px;
+        display: block;
+        width: 400px;
+
+        input {
+            border-radius: 4px;
+            width: 80%;
+        }
+
+        .invalid-feedback {
+            left: 0;
+            padding: 0 18px;
+        }
+    }
+
+    .banner-form {
+        padding: 20px 50px 30px;
+        margin-bottom: -60px;
+
+        .form-label-group {
+            margin: 25px 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        figure {
+            margin-left: -50px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        figure {
+            margin-left: -30px;
+            min-height: 360px;
+            padding-top: 40px;
+
+            img {
+                height: 320px;
+            }
+        }
+
+        .banner-form {
+            padding: 0px 30px 10px;
+            margin-left: 20px;
+        }
+
+        .banner-wrapper .banner-ctnt .needs-validation .form-control {
+            width: 195px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        figure {
+            margin-left: 0;
+            min-height: inherit;
+            padding-top: 0;
+
+            img {
+                height: auto;
+            }
+        }
+
+        .banner-wrapper {
+            margin-bottom: 250px;
+
+            .banner-ctnt .needs-validation .form-control {
+                width: 100%;
+            }
+        }
+
+        .banner-ctnt {
+            top: 50px;
+
+            .row {
+                flex-direction: column;
+                min-height: 650px;
+            }
+        }
+
+        .banner-form {
+            padding: 6px 20px 10px;
+            margin-left: 0;
+        }
+
+        figure img {
+            width: 100%;
+        }
+
+        .nearby-search {
+            width: 100%;
+        }
+    }
+}
+
+.help-body {
+    .progress-list {
+        width: auto;
+        border-right: 1px solid $grey-200;
+        padding: 50px 0;
+        margin-right: 30px;
+        height: 100%;
+
+        ul.nav {
+            display: block;
+
+            li {
+                display: block;
+                padding: 0;
+                font-weight: $font-normal;
+                margin: 0;
+                line-height: 30px;
+
+                a {
+                    padding: 10px 40px;
+                    border-radius: 25px 0 0 25px;
+                    display: block;
+
+                    &.active {
+                        background: #F9EAEC;
+                        font-size: 20px;
+                        font-weight: $font-bold;
+                    }
+                }
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            margin-right: 0;
+
+            ul.nav li a {
+                padding: 10px 15px 10px 25px;
+
+                &.active {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 0;
+            margin-top: 40px;
+            border-right: 0;
+
+            ul.nav {
+                display: flex;
+                flex-wrap: nowrap;
+                overflow: auto;
+
+                li {
+                    display: inline-block;
+                    flex: none;
+                    width: auto;
+
+                    a {
+                        &.active {
+                            padding: 10px 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.help-ctnt {
+    padding: 0 0 80px;
+
+    p {
+        margin: 30px 0 0;
+        line-height: 1.4;
+    }
+
+    figure {
+        margin: 40px 0 0;
+        position: relative;
+
+        .info-txt {
+            left: 40px;
+            bottom: 34px;
+
+            small {
+                display: block;
+                font-size: 12px;
+                color: $very-light-pink;
+            }
+        }
+
+        .star {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+
+            .icon-star {
+                font-size: 20px;
+
+                &::before {
+                    color: $c-white;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        figure {
+            .info-txt {
+                left: 20px;
+                bottom: 14px;
+            }
+
+            .play-box {
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+}
+
+.helpful-box {
+    border-top: 1px solid $grey-200;
+    border-bottom: 1px solid $grey-200;
+    padding: 34px 0;
+    margin-top: 30px;
+
+    .btn-box {
+        margin-top: 20px;
+        font-size: 14px;
+
+        [class^="icon-"] {
+            font-size: 14px;
+        }
+
+        span {
+            margin-right: 10px;
+        }
+
+        .icon-close:before {
+            color: $c-red;
+        }
+
+        @include breakpoint($mxw768) {
+            display: flex;
+            justify-content: space-between;
+
+            &.opn1 {
+                justify-content: flex-start;
+
+                .btn-white.MR25 {
+                    margin-right: 20px;
+                }
+            }
+
+            .btn-white {
+                line-height: 3.3;
+
+                &.MR25 {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.related-box {
+    margin-top: 30px;
+
+    .d-flex {
+        justify-content: space-between;
+
+        ul.with-circle {
+            width: 48%;
+            padding-left: 1%;
+
+            li {
+                padding: 0 0 0 20px;
+                line-height: 24px;
+
+                &::before {
+                    top: 0;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            flex-direction: column;
+
+            ul.with-circle {
+                width: 99%;
+            }
+        }
+    }
+}
+
+.stab-wraper.brdb {
+    .secondary-tab {
+        border-bottom: 1px solid $grey-200;
+    }
+}
+
+.help-card {
+    margin-top: 40px;
+
+    .card-look.full {
+        width: 100%;
+        border: 2px solid $maroon;
+        justify-content: space-between;
+
+        figure {
+            margin: 15px 24px 0;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .app-info {
+            width: 32%;
+            margin-right: 2%;
+
+            .hd3b {
+                margin-bottom: 8px;
+            }
+        }
+
+        .app-icons {
+            margin-right: 44px;
+            width: auto;
+        }
+
+        @include breakpoint($mxw1000) {
+            figure {
+                margin: 15px 14px 0 20px;
+
+                img {
+                    width: 170px;
+                }
+            }
+
+            .app-info {
+                width: 34%;
+                margin-right: 0;
+            }
+
+            .app-icons {
+                margin-right: 20px;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            figure {
+                margin: -70px 0 0;
+                width: 100%;
+                text-align: right;
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .app-info {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            figure {
+                margin: 15px 0 0;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.trans-issue {
+    @extend .pad2;
+}
+
+.circle-bx {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: $grey-100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+ul.with-circle.op1 {
+    li {
+        padding: 0 0 0 20px;
+        line-height: 24px;
+
+        &::before {
+            top: 0;
+            font-size: 16px;
+        }
+    }
+}
+
+
+.service-top {
+    padding: 60px 0 20px;
+    border-bottom: 1px solid $grey-200;
+
+    .d-flex {
+        align-items: center;
+    }
+
+    @include breakpoint($mxw768) {
+        border-bottom: 0;
+        padding: 34px 0 0px;
+        //background: $grey-50;
+
+        .d-flex {
+            padding: 0 20px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .circle-bx {
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
+.service-mid {
+    background: $grey-50;
+    padding-bottom: 80px;
+
+    ul.with-circle.op1 li {
+        line-height: 30px;
+    }
+
+    @include breakpoint($mxw768) {
+        background: $c-white;
+        //padding: 0 20px;
+
+        .row.PT35 {
+            padding-top: 0;
+
+            .with-circle {
+                margin: 24px 20px 0;
+            }
+        }
+    }
+}
+
+.page-breaker-1.serv {
+    margin: 80px 0;
+
+    .card-image {
+        margin: 0 20px 0 30px;
+    }
+
+    .card-btn {
+        margin: 0 40px;
+    }
+
+    .card-image img {
+        max-width: 310px;
+        margin-top: 10px;
+    }
+
+    @include breakpoint($mxw768) {
+        margin: 50px 0;
+        padding-bottom: 0;
+
+        .card-txt {
+            margin: 32px 40px;
+        }
+
+        .card-btn .btn-box {
+            text-align: left;
+        }
+
+        .card-image {
+            display: block;
+            order: 1;
+            margin: 0 20px;
+
+            img {
+                max-width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.help-topic {
+    .hdr + hr {
+        margin: 30px 0 0;
+    }
+
+    .MT20 a {
+        text-decoration: underline;
+    }
+
+    @include breakpoint($mxw768) {
+        margin: 0 20px;
+    }
+}

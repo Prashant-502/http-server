@@ -1,0 +1,411 @@
+.csr-banner.webm figure img {
+    width: 100%;
+}
+
+.csr-banner.webm .f14 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.csr-banner.webm .f14 strong {
+    font-weight: 600;
+}
+
+.csr-banner.webm .btn-box .btn-white {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    .csr-banner.webm .banner-wrapper .banner-ctnt {
+        top: 45px;
+    }
+
+    .csr-banner.webm .banner-wrapper .banner-ctnt .hd48 {
+        font-size: 36px;
+    }
+
+    .csr-banner.webm .banner-wrapper .banner-ctnt .hd48+.f14 br {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .csr-banner.webm .banner-wrapper .banner-ctnt {
+        top: 30px;
+    }
+}
+
+.f16 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.hd48l {
+    font-weight: 200;
+    font-size: 48px;
+    color: #54565B;
+    letter-spacing: -0.75px;
+}
+
+.media-kit.webm .media-list .card-media {
+    padding: 14px 10px 0;
+}
+
+.media-kit.webm .media-list .card-media figure {
+    margin-bottom: 0;
+}
+
+.media-kit.webm .media-list .card-media figure+p {
+    font-size: 16px;
+    letter-spacing: -0.33px;
+}
+
+.media-kit.webm .media-list .card-media figure+p strong {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.media-kit.webm .media-right {
+    margin: 30px 0 0 30px;
+}
+
+.media-kit.webm .media-right figure {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+    display: inline-block;
+    margin: 30px 0 0;
+}
+
+@media (max-width: 1024px) {
+    .media-kit.webm .media-right {
+        margin-left: 0;
+    }
+
+    .media-kit.webm .media-right .hd48l {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 991px) {
+    .media-kit.webm .media-list .card-media figure img.svg {
+        height: auto;
+    }
+
+    .media-kit.webm .media-list .card-media figure+p {
+        font-size: 14px;
+    }
+
+    .media-kit.webm .media-list .card-media figure+p strong {
+        font-size: 18px;
+    }
+
+    .media-kit.webm .media-right {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .media-kit.webm .media-right .hd48l {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .media-kit.webm .media-right {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .media-kit.webm .media-right .hd48l {
+        margin-right: 0;
+        text-align: center;
+    }
+}
+
+.app-usps {
+    padding-bottom: 50px;
+}
+
+.app-usps .uspsIn {
+    background: url(../images/webm/key-uspBg.jpg) no-repeat center center/cover;
+    box-shadow: 0 4px 8px 0 rgba(37, 36, 59, 0.1);
+    border-radius: 20px;
+    padding: 30px 120px;
+}
+
+.app-usps .uspsIn .hdr {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+.app-usps .uspsIn .usp-bx {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+.app-usps .uspsIn .usp-bx img {
+    margin-top: 4px;
+}
+
+.app-usps .uspsIn .usp-bx .hd5 {
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.app-usps .uspsIn .usp-bx .hd5+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.app-usps .uspsIn .btn-box .btn-white {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #25243B;
+}
+
+@media (max-width: 1024px) {
+    .app-usps .uspsIn {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-usps .uspsIn {
+        padding: 30px;
+    }
+
+    .app-usps .uspsIn .usp-bx span {
+        -ms-flex: 0 0 48px;
+        flex: 0 0 48px;
+    }
+}
+
+.new-comp.webm {
+    padding: 50px 0;
+}
+
+.new-comp.webm .hd5 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.new-comp.webm .whiteBx .ltCol .nav li a {
+    font-weight: 600;
+}
+
+.new-comp.webm .whiteBx .ltCol .nav li a.active {
+    letter-spacing: -0.5px;
+}
+
+.new-comp.webm .sec-ctnt .seclt {
+    color: #54565B;
+}
+
+.new-comp.webm .sec-ctnt .seclt .hdr {
+    letter-spacing: -0.6px;
+}
+
+@media (max-width: 991px) {
+    .new-comp.webm .sec-ctnt .seclt .btn-box .btn-white {
+        line-height: 1.5;
+    }
+
+    .new-comp.webm .btn-box .btn-red {
+        height: 50px;
+    }
+}
+
+.earn-points.webm {
+    background: #FFFFFF;
+}
+
+.earn-points.webm .media-card .mcard-body h3+p {
+    margin-top: 12px;
+    min-height: 60px;
+}
+
+@media (max-width: 991px) {
+    .earn-points.webm .media-card .mcard-body h3 {
+        font-size: 18px;
+    }
+}
+
+.customer-speak.webm .container.shape {
+    background: url(../images/webm/comma.svg) no-repeat 10px 0;
+}
+
+.customer-speak.webm .container.shape .hd {
+    color: #54565B;
+}
+
+.customer-speak.webm .white-box,
+.customer-speak.webm .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .customer-speak.webm .ad-card,
+.customer-speak.webm .accordian .trgr,
+.accordian .customer-speak.webm .trgr,
+.customer-speak.webm .accordian .tog_cont,
+.accordian .customer-speak.webm .tog_cont,
+.customer-speak.webm .card-look,
+.customer-speak.webm .media-card,
+.customer-speak.webm .pr-list>li .card-bx,
+.pr-list>li .customer-speak.webm .card-bx,
+.customer-speak.webm .trgr1,
+.customer-speak.webm .trgr2,
+.customer-speak.webm .trgr3,
+.customer-speak.webm .tog_cont1,
+.customer-speak.webm .tog_cont2,
+.customer-speak.webm .tog_cont3,
+.customer-speak.webm .mf-invest .start-box,
+.mf-invest .customer-speak.webm .start-box,
+.customer-speak.webm .more-box,
+.customer-speak.webm .media-kit .media-list .card-media,
+.media-kit .media-list .customer-speak.webm .card-media,
+.customer-speak.webm .ebc-loan-banner .lawbx,
+.ebc-loan-banner .customer-speak.webm .lawbx {
+    min-height: inherit;
+}
+
+.customer-speak.webm .white-box .f16,
+.customer-speak.webm .search-bxIn .search-ad .ad-card .f16,
+.search-bxIn .search-ad .customer-speak.webm .ad-card .f16,
+.customer-speak.webm .accordian .trgr .f16,
+.accordian .customer-speak.webm .trgr .f16,
+.customer-speak.webm .accordian .tog_cont .f16,
+.accordian .customer-speak.webm .tog_cont .f16,
+.customer-speak.webm .card-look .f16,
+.customer-speak.webm .media-card .f16,
+.customer-speak.webm .pr-list>li .card-bx .f16,
+.pr-list>li .customer-speak.webm .card-bx .f16,
+.customer-speak.webm .trgr1 .f16,
+.customer-speak.webm .trgr2 .f16,
+.customer-speak.webm .trgr3 .f16,
+.customer-speak.webm .tog_cont1 .f16,
+.customer-speak.webm .tog_cont2 .f16,
+.customer-speak.webm .tog_cont3 .f16,
+.customer-speak.webm .mf-invest .start-box .f16,
+.mf-invest .customer-speak.webm .start-box .f16,
+.customer-speak.webm .more-box .f16,
+.customer-speak.webm .media-kit .media-list .card-media .f16,
+.media-kit .media-list .customer-speak.webm .card-media .f16,
+.customer-speak.webm .ebc-loan-banner .lawbx .f16,
+.ebc-loan-banner .customer-speak.webm .lawbx .f16 {
+    color: #54565B;
+    margin-bottom: 4px;
+    line-height: 1;
+}
+
+.customer-speak.webm .white-box .f12,
+.customer-speak.webm .search-bxIn .search-ad .ad-card .f12,
+.search-bxIn .search-ad .customer-speak.webm .ad-card .f12,
+.customer-speak.webm .accordian .trgr .f12,
+.accordian .customer-speak.webm .trgr .f12,
+.customer-speak.webm .accordian .tog_cont .f12,
+.accordian .customer-speak.webm .tog_cont .f12,
+.customer-speak.webm .card-look .f12,
+.customer-speak.webm .media-card .f12,
+.customer-speak.webm .pr-list>li .card-bx .f12,
+.pr-list>li .customer-speak.webm .card-bx .f12,
+.customer-speak.webm .trgr1 .f12,
+.customer-speak.webm .trgr2 .f12,
+.customer-speak.webm .trgr3 .f12,
+.customer-speak.webm .tog_cont1 .f12,
+.customer-speak.webm .tog_cont2 .f12,
+.customer-speak.webm .tog_cont3 .f12,
+.customer-speak.webm .mf-invest .start-box .f12,
+.mf-invest .customer-speak.webm .start-box .f12,
+.customer-speak.webm .more-box .f12,
+.customer-speak.webm .media-kit .media-list .card-media .f12,
+.media-kit .media-list .customer-speak.webm .card-media .f12,
+.customer-speak.webm .ebc-loan-banner .lawbx .f12,
+.ebc-loan-banner .customer-speak.webm .lawbx .f12,
+.customer-speak.webm .white-box .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .white-box .blog-by,
+.customer-speak.webm .search-bxIn .search-ad .ad-card .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .search-bxIn .search-ad .ad-card .blog-by,
+.search-bxIn .search-ad .customer-speak.webm .ad-card .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .search-bxIn .search-ad .customer-speak.webm .ad-card .blog-by,
+.customer-speak.webm .accordian .trgr .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .accordian .trgr .blog-by,
+.accordian .customer-speak.webm .trgr .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .accordian .customer-speak.webm .trgr .blog-by,
+.customer-speak.webm .accordian .tog_cont .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .accordian .tog_cont .blog-by,
+.accordian .customer-speak.webm .tog_cont .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .accordian .customer-speak.webm .tog_cont .blog-by,
+.customer-speak.webm .card-look .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .card-look .blog-by,
+.customer-speak.webm .media-card .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .media-card .blog-by,
+.customer-speak.webm .pr-list>li .card-bx .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .pr-list>li .card-bx .blog-by,
+.pr-list>li .customer-speak.webm .card-bx .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .pr-list>li .customer-speak.webm .card-bx .blog-by,
+.customer-speak.webm .trgr1 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .trgr1 .blog-by,
+.customer-speak.webm .trgr2 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .trgr2 .blog-by,
+.customer-speak.webm .trgr3 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .trgr3 .blog-by,
+.customer-speak.webm .tog_cont1 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .tog_cont1 .blog-by,
+.customer-speak.webm .tog_cont2 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .tog_cont2 .blog-by,
+.customer-speak.webm .tog_cont3 .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .tog_cont3 .blog-by,
+.customer-speak.webm .mf-invest .start-box .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .mf-invest .start-box .blog-by,
+.mf-invest .customer-speak.webm .start-box .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .mf-invest .customer-speak.webm .start-box .blog-by,
+.customer-speak.webm .more-box .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .more-box .blog-by,
+.customer-speak.webm .media-kit .media-list .card-media .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .media-kit .media-list .card-media .blog-by,
+.media-kit .media-list .customer-speak.webm .card-media .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .media-kit .media-list .customer-speak.webm .card-media .blog-by,
+.customer-speak.webm .ebc-loan-banner .lawbx .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .customer-speak.webm .ebc-loan-banner .lawbx .blog-by,
+.ebc-loan-banner .customer-speak.webm .lawbx .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .ebc-loan-banner .customer-speak.webm .lawbx .blog-by {
+    margin-bottom: 0;
+}
+
+.customer-speak.webm .customer-speak-carousel .owl-nav {
+    top: 120px;
+}
+
+.faqs-bx {
+    background: #f3f3f3;
+    padding-top: 50px;
+    color: #54565B;
+}
+
+.accordian.opn1 {
+    font-size: 16px;
+}
+
+.accordian.opn1 .trgr.act::before {
+    content: "\e905";
+    color: #787878;
+}
+
+.accordian.opn1 .trgr::before {
+    content: "\e906";
+    font-size: 20px;
+}
+
+.accordian.opn1 .tog_cont {
+    background: #F5F5F5;
+    border-top-width: 2px;
+}

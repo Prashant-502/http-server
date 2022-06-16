@@ -1,0 +1,464 @@
+.was-validated select.form-control:valid,
+.was-validated select.form-control:invalid {
+  background: #ffffff url("../images/down.svg") no-repeat 98% center;
+}
+
+.form-label-group {
+  position: relative;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+  /* :active works but when replace with :focus, it doesn't work */
+}
+
+.form-label-group .dropdown .dropdown-toggle:after {
+  top: 12px;
+}
+
+.form-label-group input[type=number]::-webkit-outer-spin-button,
+.form-label-group input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form-label-group input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-label-group .form-control[readonly] {
+  border: 2px solid #d8d8d8 !important;
+}
+
+.form-label-group .form-control {
+  height: inherit;
+  border: 2px solid #d8d8d8;
+}
+
+.form-label-group .form-control:focus {
+  border-color: inherit;
+  box-shadow: inherit;
+}
+
+.form-label-group .form-control .explorer11 .need-assistance,
+.explorer11 .selBgNo .form-label-group .form-control {
+  background-color: #f3f3f3;
+}
+
+.form-label-group .form-control .explorer11 .need-assistance:focus~label,
+.form-label-group .form-control .explorer11 .need-assistance:valid~label,
+.form-label-group .form-control .explorer11 .need-assistance~label,
+.explorer11 .selBgNo .form-label-group .form-control:focus~label,
+.explorer11 .selBgNo .form-label-group .form-control:valid~label,
+.explorer11 .selBgNo .form-label-group .form-control~label {
+  background: #f3f3f3;
+}
+
+.explorer11 .selBgNo1 .form-label-group .form-control {
+  background-color: #fafafa;
+}
+
+.explorer11 .selBgNo1 .form-label-group .form-control:focus~label,
+.explorer11 .selBgNo1 .form-label-group .form-control:valid~label,
+.explorer11 .selBgNo1 .form-label-group .form-control~label {
+  background: #fafafa;
+}
+
+.explorer11 .form-label-group .form-control:focus~label,
+.explorer11 .form-label-group .form-control:valid~label,
+.explorer11 .form-label-group .form-control~label {
+  display: inline-block !important;
+  width: auto;
+  background: #FFFFFF;
+  margin-top: -12px;
+  font-size: 12px;
+  color: #777;
+  padding: 1px 4px;
+  margin-left: 7px;
+  border-radius: 5px;
+  transform: translate(0px, 0px) !important;
+}
+
+.explorer11 .form-label-group .form-control::-ms-clear {
+  display: none;
+}
+
+.explorer11 .form-label-group .form-control~label.error {
+  position: static;
+  margin: 0;
+  padding: 5px 0;
+  color: #d10000;
+  font-size: 14px;
+  background: none;
+}
+
+.selBgNo .form-label-group .form-control,
+.selBgNo .form-label-group input:not(:placeholder-shown)~label {
+  background-color: #f3f3f3;
+}
+
+.selBgNo1 .form-label-group .form-control,
+.selBgNo1 .form-label-group input:not(:placeholder-shown)~label {
+  background-color: #fafafa;
+}
+
+.form-label-group>label,
+.form-label-group>input,
+.form-label-group textarea {
+  padding: 0.85rem 0.75rem;
+}
+
+.form-label-group>input.search,
+.form-label-group>input.search1 {
+  background: url(../images/svg/search.svg) no-repeat 98% center;
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #787878;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown),
+.form-label-group textarea:not(:placeholder-shown) {
+  padding-top: calc($pad-y + $pad-y * (2 / 3));
+  padding-bottom: calc($pad-y / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label,
+.form-label-group textarea:not(:placeholder-shown)~label {
+  font-size: 12px;
+  color: #777;
+  background: #fff;
+  border-radius: 0px;
+  display: inline-block;
+  width: auto;
+  padding: 1px 4px;
+  margin-left: 7px;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+
+.form-label-group label.form-control-placeholder {
+  color: #777;
+  display: inline-block;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.form-label-group label.form-control-placeholder.float {
+  transform: translate(0, -1.1em);
+  font-size: 75%;
+  background: #fff;
+  padding: 1px 4px;
+  margin-left: 7px;
+  transition: 0.2s ease-in-out;
+}
+
+.form-label-group label.form-control-placeholder.changefloat {
+  transform: translate(0, -1.1em);
+  background: #fff;
+  padding: 1px 4px;
+  font-size: 75%;
+  margin-left: 7px;
+}
+
+.form-label-group .form-control-placeholder {
+  pointer-events: none;
+}
+
+.form-label-group .dropdown-item.active,
+.form-label-group .dropdown-item:active {
+  background: #d8d8d8;
+}
+
+.form-label-group .bootstrap-select.show>.btn-light.dropdown-toggle {
+  background-color: #fff;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.form-label-group .bootstrap-select>.btn,
+.form-label-group .bootstrap-select>.btn-light {
+  padding: 0.85rem 0.75rem;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 0;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.form-label-group .bootstrap-select>.btn-light:focus,
+.form-label-group .bootstrap-select>.btn-light:hover,
+.form-label-group .bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #495057;
+}
+
+.form-label-group select.normal-select-box {
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 15px 5px;
+  background: #ffffff url("../images/down.svg") no-repeat right center;
+  background-position: 97% center;
+  padding: 0.85rem 0.75rem;
+  border: 0;
+  border: 2px solid #d8d8d8;
+  border-radius: 0.25rem;
+  color: #787878;
+}
+
+.form-label-group select.normal-select-box::-ms-expand {
+  display: none;
+}
+
+.form-label-group select.normal-select-box.is-invalid {
+  border-color: #d10000;
+}
+
+/* Custom radio button */
+.custom-control.default .custom-control-label::before {
+  border: solid 2px #54565B;
+  border-radius: 0px;
+}
+
+.custom-control.default .custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #54565B;
+  background-color: #54565B;
+  border-color: #54565B;
+  box-shadow: inherit;
+}
+
+.custom-control.default .custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  border-color: #54565B;
+  box-shadow: inherit;
+}
+
+.custom-control.default .custom-control-input:not(:disabled):active~.custom-control-label::before {
+  background-color: rgba(84, 86, 91, 0.6);
+  border-color: rgba(84, 86, 91, 0.6);
+}
+
+.custom-control.red .custom-control-label::before {
+  border: solid 2px #9D1D27;
+  border-radius: 0px;
+}
+
+.custom-control.red .custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #9D1D27;
+  background-color: #9D1D27;
+  border-color: #9D1D27;
+  box-shadow: inherit;
+}
+
+.custom-control.red .custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  border-color: #9D1D27;
+  box-shadow: inherit;
+}
+
+.custom-control.red .custom-control-input:not(:disabled):active~.custom-control-label::before {
+  background-color: rgba(157, 29, 39, 0.6);
+  border-color: rgba(157, 29, 39, 0.6);
+}
+
+.custom-control.green .custom-control-label::before {
+  border: solid 2px #d8d8d8;
+  border-radius: 0px;
+}
+
+.custom-control.green .custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #00a07a;
+  background-color: #00a07a;
+  border-color: #00a07a;
+  box-shadow: inherit;
+}
+
+.custom-control.green .custom-control-input:focus~.custom-control-label::before {
+  border-color: #00a07a;
+  box-shadow: inherit;
+}
+
+.custom-control.green .custom-control-input:not(:disabled):active~.custom-control-label::before {
+  background-color: rgba(0, 160, 122, 0.6);
+  border-color: rgba(0, 160, 122, 0.6);
+}
+
+.custom-control.custom-radio.default .custom-control-label,
+.custom-control.custom-radio.red .custom-control-label,
+.custom-control.custom-radio.green .custom-control-label {
+  padding-left: 10px;
+}
+
+.custom-control.custom-radio.default .custom-control-label::before,
+.custom-control.custom-radio.red .custom-control-label::before,
+.custom-control.custom-radio.green .custom-control-label::before {
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  top: -4px;
+}
+
+.custom-control.custom-radio.default .custom-control-label::after,
+.custom-control.custom-radio.red .custom-control-label::after,
+.custom-control.custom-radio.green .custom-control-label::after {
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  top: -4px;
+}
+
+/* Newsroom page form update start */
+.form1 .form-label-group label.form-control-placeholder.float,
+.form1 .form-label-group label.form-control-placeholder.changefloat,
+.form1 .form-label-group input:not(:placeholder-shown)~label,
+.form2 .form-label-group label.form-control-placeholder.float,
+.form2 .form-label-group label.form-control-placeholder.changefloat,
+.form2 .form-label-group input:not(:placeholder-shown)~label {
+  background: #f3f3f3;
+}
+
+.form1 .form-label-group .form-control.hasDatepicker,
+.form2 .form-label-group .form-control.hasDatepicker {
+  background: url(../images/date.svg) no-repeat 96% center;
+  background-size: 25px;
+}
+
+.form1 .form-label-group>label,
+.form2 .form-label-group>label {
+  color: #737373;
+  font-weight: 700;
+}
+
+.form1 .form-label-group .bootstrap-select>.btn,
+.form1 .form-label-group .bootstrap-select>.btn-light,
+.form2 .form-label-group .bootstrap-select>.btn,
+.form2 .form-label-group .bootstrap-select>.btn-light {
+  background: none;
+}
+
+.form1 .form-label-group .icon-date,
+.form2 .form-label-group .icon-date {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 24px;
+}
+
+.form1 .date-bx,
+.form2 .date-bx {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+
+  .form1 .form-label-group,
+  .form2 .form-label-group {
+    margin-bottom: 30px;
+  }
+
+  .form1 .date-bx,
+  .form2 .date-bx {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .form1 .date-bx span,
+  .form2 .date-bx span {
+    margin-bottom: 10px;
+  }
+}
+
+/* Newsroom page form update End */
+.form2 .form-label-group label.form-control-placeholder.float,
+.form2 .form-label-group label.form-control-placeholder.changefloat,
+.form2 .form-label-group input:not(:placeholder-shown)~label {
+  background: #FFFFFF;
+}
+
+.form2 .form-label-group>label {
+  font-weight: 400;
+}
+
+/*custom check box*/
+.custom-control-label::before,
+.custom-control-label::after {
+  width: 1.5rem;
+  height: 1.5rem;
+  left: -2.3rem;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+  background: url(../images/svg/checkbox.svg) no-repeat;
+}
+
+.custom-control {
+  padding-left: 2.4rem;
+}
+
+.custom-checkbox .custom-control-input.active+.custom-control-label::after {
+  background: url(../images/svg/checkbox.svg) no-repeat;
+  cursor: not-allowed;
+}
+
+/*custom check box end*/
+.normal-select-box.selected:not(:placeholder-shown)~label {
+  font-size: 12px;
+  color: #777;
+  background: #fff;
+  border-radius: 0px;
+  display: inline-block;
+  width: auto;
+  padding: 1px 4px;
+  margin-left: 7px;
+  margin-top: -10px;
+  border-radius: 5px;
+}
+
+.selec-nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+  .selec-nowrap {
+    width: 100% !important;
+    padding-right: 30px !important;
+  }
+}
+
+.hide-error .error {
+  display: none !important;
+}
+
+@media (max-width: 991px) {
+  .MT30T {
+    margin-top: 30px;
+  }
+}

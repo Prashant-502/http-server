@@ -1,0 +1,97 @@
+.looking-for {
+    padding: 75px 0;
+    background: $grey-100;
+
+    @include breakpoint($mxw768) {
+        padding: 40px 0;
+    }
+}
+
+.hero-know-more {
+    color: $c-white;
+    margin-left: 30px;
+}
+
+.play-box {
+    background: $marigold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon-play {
+        font-size: 35px;
+
+        &:before {
+            color: $c-black;
+        }
+    }
+}
+
+.nav {
+    &.opt1 {
+        justify-content: space-between;
+
+        li {
+            margin: 0 15px;
+
+            a {
+                padding: 14px 30px;
+                font-weight: $font-bold;
+                border: 2px solid transparent;
+                display: block;
+
+                &.active {
+                    border-color: $grey-200;
+                    border-radius: 26px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            justify-content: flex-start;
+
+            li {
+                margin: 0 8px;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            flex-direction: row;
+        }
+    }
+}
+
+.blog-home {
+    background: $grey-100;
+    padding: 50px 0 0;
+
+    .blog-card .card-right {
+        padding: 36px 30px 16px 48px;
+
+        .list-img {
+            li {
+                margin-bottom: 36px;
+
+                &:last-child {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        @include breakpoint($mxw992) {
+            padding: 30px 30px 16px 30px;
+        }
+    }
+}

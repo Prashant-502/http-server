@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p><button>IDFC Share Button Test</button></p>
+    <p class="result"></p>
+    <script>
+        const shareData = {
+            title: 'Test',
+            text: 'Uncomplicated and simple is how a friendship is...so is your FIRST Millennia Credit Card! Copy and share this link http://idfcfir.st/tvv2pf to refer the credit card to your pals and bring them in. Psst, there\'s more. You get 2000 and your friends get 2000 reward points too! Read T&Cs here https://idfcfir.st/fv2zsi -Team IDFC FIRST Bank'
+        }
+
+        const btn = document.querySelector('button');
+        const resultPara = document.querySelector('.result');
+
+        // Share must be triggered by "user activation"
+        btn.addEventListener('click', async () => {
+            try {
+                await navigator.share(shareData)
+                resultPara.textContent = 'MDN shared successfully'
+            } catch (err) {
+                resultPara.textContent = 'Error: ' + err
+            }
+        });
+    </script>
+</body>
+
+</html>

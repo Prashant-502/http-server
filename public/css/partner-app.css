@@ -1,0 +1,214 @@
+@media (max-width: 767px) {
+    .payment-card.op2 {
+        text-align: center;
+    }
+
+    .payment-card.op2 .with-circle {
+        text-align: left;
+    }
+
+    .payment-card.op2 .btn-box {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .payment-card.op2 .btn-box a {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .payment-card.op2 .f24,
+    .payment-card.op2 .page-breaker-1 .card-text,
+    .page-breaker-1 .payment-card.op2 .card-text {
+        font-size: 20px;
+    }
+}
+
+.payment-card.op2 .colR {
+    min-height: auto;
+    width: 75%;
+}
+
+@media (max-width: 767px) {
+    .payment-card.op2 .colR {
+        width: 100%;
+    }
+}
+
+.payment-card.op2 .colL {
+    width: 25%;
+}
+
+@media (max-width: 767px) {
+    .payment-card.op2 .colL {
+        width: 100%;
+    }
+}
+
+.payment-card.op2 .colL figure img {
+    width: 200px;
+}
+
+@media (max-width: 1024px) {
+    .payment-card.op2 .colL figure img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .payment-card.op2 .colL figure img {
+        width: 70%;
+    }
+}
+
+.startup-acctount.op2 .new-comp .whiteBx .rtCol {
+    min-height: 400px;
+    padding: 60px 40px 60px 80px;
+}
+
+@media (max-width: 767px) {
+    .startup-acctount.op2 .new-comp .whiteBx .rtCol {
+        min-height: auto;
+        padding: 0px;
+    }
+}
+
+.startup-acctount.op2 .new-comp .whiteBx .rtCol .sec-ctnt .seclt {
+    width: auto;
+}
+
+.startup-acctount.op2 .new-comp .whiteBx .rtCol p {
+    line-height: 1.6;
+}
+
+.startup-acctount.op2::before {
+    background: #f3f3f3;
+}
+
+.bg-grey-100 {
+    background: #f3f3f3;
+}
+
+@media (min-width: 767px) {
+    .resposiveTabAcord.new-comp .card {
+        border: none;
+    }
+
+    .resposiveTabAcord.new-comp .card .card-header {
+        display: none;
+    }
+
+    .resposiveTabAcord.new-comp .card .collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .resposiveTabAcord.new-comp .tab-content>.tab-pane {
+        display: block !important;
+        opacity: 1;
+        margin-bottom: 10px;
+    }
+
+    .resposiveTabAcord.new-comp .card-header h5 a {
+        display: block;
+    }
+}
+
+.resposiveTabAcord.new-comp .nav-tabs {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .resposiveTabAcord.new-comp .nav-tabs {
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.resposiveTabAcord.new-comp .whiteBx .ltCol .nav-tabs a {
+    border-bottom: solid 1px #eaeaea;
+}
+
+@media (max-width: 767px) {
+    .resposiveTabAcord.new-comp .whiteBx .ltCol {
+        display: none;
+    }
+}
+
+.resposiveTabAcord.new-comp .whiteBx .rtCol .card-body {
+    padding: 0;
+    border-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .resposiveTabAcord.new-comp .whiteBx .rtCol {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card {
+        border: 0px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card.act,
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card.act .card-header,
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card .card-body {
+        background: #fafafa;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card.act .card-header::before {
+        content: "\e905";
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card-body {
+        border-bottom: solid 3px #9D1D27;
+        border-radius: 0 0 5px 5px;
+        padding: 20px;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card-header {
+        border: 0px;
+        border-radius: 0px;
+        border-bottom: 1px solid #eaeaea;
+        padding: 20px 50px 20px 20px;
+        font-weight: 700;
+        position: relative;
+        transition: all .3s linear;
+        background: #FFFFFF;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card-header a {
+        font-weight: 700;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .card-header::before {
+        position: absolute;
+        font-family: icomoon;
+        content: "\e906";
+        right: 20px;
+        top: 20px;
+        color: #9D1D27;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .sec-ctnt .seclt {
+        width: 100%;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .sec-ctnt .seclt .btn-box a {
+        padding: 0 25px;
+    }
+
+    .resposiveTabAcord.new-comp .whiteBx .rtCol .sec-ctnt .seclt p {
+        line-height: 1.3;
+    }
+}

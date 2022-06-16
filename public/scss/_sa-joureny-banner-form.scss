@@ -1,0 +1,286 @@
+/*Sa joureny banner*/
+.sa-banner.common-apply {
+    .hd7 {
+        line-height: 1.1
+    }
+
+    .list-item {
+        margin-right: 30%;
+    }
+
+    .sa-left {
+        align-self: flex-end;
+    }
+
+    &.op1 {
+        background: linear-gradient(90deg, #eeeeee 0%, #d8d8d8 35%, white 35%, white 100%);
+
+        .custom-control.custom-radio.green .custom-control-label {
+            padding-left: 0;
+        }
+
+        .sa-left {
+            align-self: flex-end;
+        }
+
+        @include breakpoint($mxw768) {
+            .sa-left {
+                padding: 0;
+            }
+
+            .sa-right {
+                background: $c-white;
+
+                .radio-option h5 {
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-device-width: 1820px) and (max-device-width: 2048px) {
+        background: linear-gradient(90deg, #eeeeee 0%, #d8d8d8 59%, white 59%, white 100%);
+    }
+
+    @include breakpoint($mxw1000) {
+        .list-item {
+            margin-right: 10%;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        background: linear-gradient(90deg, #eeeeee 0%, #d8d8d8 58%, white 58%, white 100%);
+
+        .list-item {
+            margin-right: 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background: $c-white;
+        padding-top: 0;
+
+        .sa-left {
+            background: rgb(238, 238, 238);
+            background: linear-gradient(42deg, rgba(238, 238, 238, 1) 0%, rgba(216, 216, 216, 1) 100%);
+            padding: 50px 15px 30px;
+        }
+
+        .sa-right {
+            padding: 20px 15px 50px;
+        }
+    }
+}
+
+.hero-from {
+    padding-left: 70px;
+
+    @include breakpoint($mxw1000) {
+        padding-left: 40px;
+    }
+
+    @include breakpoint($mxw992) {
+        padding-left: 20px;
+    }
+
+    @include breakpoint($mxw768) {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .hd6 {
+        color: $c-black;
+
+        strong {
+            display: block;
+            margin-bottom: 3px;
+        }
+    }
+
+    .skip {
+        margin-left: 45px;
+
+        @include breakpoint($mxw1000) {
+            margin-left: 15px;
+        }
+    }
+
+    .form-list {
+        margin-top: 20px;
+
+        .notes {
+            margin-top: 8px;
+            text-align: center;
+            @extend .clr-grey;
+        }
+
+        .otp,
+        .btn-box .op2 {
+            display: none;
+        }
+
+        .w200 {
+            width: 200px;
+            margin-left: 20px;
+        }
+
+        &.act {
+            .mobile-otp {
+
+                .notes,
+                .clr-grey {
+                    display: none;
+                }
+
+                .otp-sent {
+                    display: flex;
+                }
+
+                .otp-sent .clr-grey {
+                    display: block;
+                }
+            }
+
+            .btn-box {
+                .op1 {
+                    display: none;
+                }
+
+                .op2 {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .otp-sent {
+            display: none;
+            justify-content: space-between;
+            margin-top: 8px;
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .f14l {
+                width: 60%;
+            }
+        }
+
+        .bootstrap-select .dropdown-menu li {
+            margin-bottom: 0;
+        }
+
+        .combo {
+            display: flex;
+
+            .w25 {
+                width: 25%;
+
+                &.form-label-group {
+                    .form-control {
+                        border-right: 0;
+                        border-bottom-right-radius: 0;
+                        border-top-right-radius: 0;
+                    }
+
+                    //                    .bootstrap-select > .btn,
+                    //                    .bootstrap-select > .btn-light {
+                    //                        height: auto;
+                    //                    }
+                    //
+                    //                    .dropdown .dropdown-toggle:after {
+                    //                        right: 10px;
+                    //                        top: 14px;
+                    //                    }
+                    .explorer11 & {
+                        select.normal-select-box {
+                            padding: 12.6px 0.75rem
+                        }
+                    }
+
+                    select.normal-select-box {
+                        background-position: 90% center;
+                    }
+                }
+            }
+
+            .w75 {
+                width: 75%;
+
+                &.form-label-group {
+                    .form-control {
+                        border-left-width: 1px;
+                        border-bottom-left-radius: 0;
+                        border-top-left-radius: 0;
+                    }
+                }
+            }
+
+        }
+
+        select.normal-select-box {
+            box-shadow: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-size: 15px 5px;
+            background: $white url('../images/down.svg') no-repeat right center;
+            background-position: 97% center;
+            padding: 0.85rem 0.75rem;
+            border: 0;
+            border: 2px solid $grey-200;
+            border-radius: 0.25rem;
+            color: $brownish-grey;
+
+            //height: 40px;
+            &::-ms-expand {
+                display: none;
+            }
+
+            &.is-invalid {
+                border-color: $red;
+            }
+        }
+    }
+
+    .jvalidation .form-list .form-control.is-invalid {
+        border-color: $red;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .form-list li {
+            margin-bottom: 15px;
+        }
+    }
+
+}
+
+/*Sa joureny banner end*/
+
+.thank-you {
+    @extend .pad2;
+    text-align: center;
+    display: none;
+}
+
+.ui-autocomplete {
+    //background: $grey-50;
+    //border: 1px solid $grey-200;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+    width: 100%;
+
+    li .ui-menu-item-wrapper {
+        padding: 10px;
+    }
+
+    .ui-state-active {
+        background: $grey-100
+    }
+}

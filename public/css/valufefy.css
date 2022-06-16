@@ -1,0 +1,162 @@
+.valuefy {
+    display: none;
+    color: #54565B;
+    min-height: 520px;
+}
+
+.valuefy.active {
+    display: block;
+}
+
+.new .valuefy .btn-box .btn-red {
+    line-height: 2;
+}
+
+@media (max-width: 991px) {
+    .new .valuefy .btn-box .btn-red {
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    #terms .btn-box {
+        text-align: right;
+    }
+
+    #terms .btn-box .btn-red {
+        padding: 10px 30px;
+    }
+}
+
+.sbold {
+    font-weight: 500;
+}
+
+.fund-box {
+    background: #E4E5E6;
+    color: #111111;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 40px 0 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .fund-box {
+        padding: 10px;
+    }
+
+    .fund-box .sbold {
+        font-size: 14px;
+    }
+
+    .fund-box .sbold+.f12,
+    .fund-box .blog-detail .blog-ctnt .sbold+.blog-by,
+    .blog-detail .blog-ctnt .fund-box .sbold+.blog-by {
+        font-size: 10px;
+    }
+}
+
+hr.op3 {
+    margin: 0;
+}
+
+.f21r {
+    font-size: 21px;
+}
+
+.PA30a {
+    padding: 20px 30px;
+}
+
+.vbox1 {
+    padding: 80px 0 30px;
+}
+
+@media (max-width: 767px) {
+    .vbox1 {
+        padding-top: 40px;
+    }
+}
+
+.vbox2 {
+    padding: 50px 0 80px;
+    background: #fafafa;
+    font-size: 16px;
+}
+
+.vbox2 .w50 {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .vbox2 {
+        padding: 30px 0 40px;
+    }
+
+    .vbox2 .w50 {
+        width: 100%;
+    }
+}
+
+.valuefy-success {
+    text-align: center;
+}
+
+.valuefy-success .hd3b {
+    font-weight: 600;
+}
+
+.fund-list {
+    padding: 20px 0;
+    border-bottom: 1px solid #979797;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+}
+
+.fund-list .int {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #d8d8d8;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+.fund-list .f12,
+.fund-list .blog-detail .blog-ctnt .blog-by,
+.blog-detail .blog-ctnt .fund-list .blog-by {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.fund-list .f12 span,
+.fund-list .blog-detail .blog-ctnt .blog-by span,
+.blog-detail .blog-ctnt .fund-list .blog-by span {
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    margin-top: 4px;
+}
+
+.fund-list .f10 {
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.fund-list .f10 strong {
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .fund-list .f10 {
+        width: 25%;
+    }
+}

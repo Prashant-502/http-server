@@ -1,0 +1,126 @@
+/* start Blog Tab */
+
+.blog-tab {
+    padding: 90px 0;
+    @include breakpoint($mxw769) {
+        padding: 55px 0;
+    }
+}
+.blog-tab-scroll {
+    width: 100%;
+    @include breakpoint($mxw992) {
+        overflow-x: auto;
+    }
+}
+.b-tab-list {
+    margin-right: -2px;
+    position: relative;
+    z-index: 1;
+    li {
+        width: 100%;
+        @include breakpoint($mxw769) {
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            // flex-grow: 1;
+            // max-width: 100%;
+            margin-right: 25px;
+            margin-bottom: 0px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+            @include breakpoint($mxw769) {
+                // margin-bottom: 0;
+            }
+        }
+        a {
+            display: flex;
+            align-items: center;
+            // padding-right: 40px;
+            width: 100%;
+            @include breakpoint($mxw769) {
+                padding-bottom: 30px;
+                border-bottom: solid 3px transparent;
+            }
+            &.active {
+                border-right: solid 3px $c-red;
+                @include breakpoint($mxw769) {
+                    border-right: 0;
+                    border-bottom: solid 3px $c-red;
+                }
+                h4 {
+                    font-weight: $font-bold;
+                    color: $c-black;
+                }
+            }
+        }
+        .img-box {
+            @include breakpoint($mxw1000) {
+                margin-right: 7px;
+            }
+        }
+        .img-cont {
+            width: inherit;
+            @include breakpoint($mxw769) {
+                padding: 0 15px;
+            }
+            h4 {
+                font-size: 20px;
+                line-height: 1.1;
+                @include breakpoint($mxw769) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.blog-card-2 {
+    display: flex;
+    padding: 30px 0 30px 55px;
+    border-left: solid 1px $grey-200;
+    @include breakpoint($mxw769) {
+        flex-direction: column;
+        border-left: 0px;
+        border-top: solid 1px $grey-200;
+        padding: 40px 30px 0;
+
+        .btn-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            a{
+                &:last-child{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .card-left {
+        padding-left: 48px;
+        padding-top: 15px;
+        @include breakpoint($mxw769) {
+            padding-left: 0;
+        }
+        p {
+            margin-top: 25px;
+        }
+    }
+}
+
+ul.with-circle {
+    li {
+        padding: 10px 0;
+        position: relative;
+        padding-left: 15px;
+        &::before {
+            content: "•";
+            font-size: 22px;
+            position: absolute;
+            left: 0px;
+            top: 12px;
+        }
+    }
+}
+
+/* end */

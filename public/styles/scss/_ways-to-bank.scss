@@ -1,0 +1,82 @@
+/* Ways to bank element*/
+
+.way-to-bank {
+    padding: 50px 0;
+
+    .hd1.black + p {
+        color: $grey-400;
+        margin: 10px 0 20px;
+    }
+
+    &.overlap-above {
+        margin-top: -65px;
+    }
+
+    .way-img {
+        text-align: center;
+
+        img,
+        video {
+            margin-top: -40px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .hd1 {
+            font-size: 48px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding: 50px 0;
+
+        .row {
+            align-items: center;
+        }
+
+        &.overlap-above {
+            margin-top: 0;
+        }
+
+        .hd1.black {
+            margin: 12px 0;
+        }
+
+        .download-btn {
+            margin-bottom: 32px;
+
+            a {
+                display: block;
+                margin-top: 12px;
+            }
+        }
+
+        .btn-box {
+            margin-bottom: 32px;
+        }
+
+        .way-img img,
+        .way-img video {
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .way-img {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Ways to bank element end*/
+
+.listing-video {
+    text-align: center;
+
+    @include breakpoint($mxw992) {
+        video {
+            width: 100%;
+        }
+    }
+}

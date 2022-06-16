@@ -1,0 +1,321 @@
+.payments {
+    background: $grey-100;
+    padding: 80px 0 4px;
+
+    @include breakpoint($mxw768) {
+        padding-top: 40px;
+    }
+}
+
+.scroll-pane {
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.payment-card {
+    //margin-top: 80px;
+
+    .flex-card {
+        display: flex;
+        align-items: center;
+
+        &.even {
+            flex-direction: row-reverse;
+
+            .colR {
+                border-left: 0;
+                border-right: 1px solid $c-grey-6;
+            }
+        }
+    }
+
+    .colL {
+        padding: 25px;
+        text-align: center;
+        width: 35%;
+
+        figure {
+            margin: 0;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .colR {
+        padding: 40px 20px 40px 40px;
+        width: 64%;
+        border-left: 1px solid $c-grey-6;
+        min-height: 450px;
+
+        .scroll-txt {
+            width: 100%;
+            height: 290px;
+            overflow: auto;
+        }
+    }
+
+    .btn-box {
+        display: flex;
+
+        .btn-white {
+            line-height: 26px;
+            color: $brownish-grey-two;
+        }
+    }
+
+    .more-txt {
+        display: none;
+
+        a {
+            @extend .f16br;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .colL {
+            width: 40%;
+        }
+
+        .colR {
+            width: 60%;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .btn-box .btn-white {
+            line-height: 2.8;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        margin-top: 30px;
+
+        .flex-card {
+            flex-direction: column;
+
+            &.even {
+                flex-direction: column;
+
+                .colR {
+                    border-right: 0;
+                }
+            }
+        }
+
+        .colL {
+            width: 100%;
+
+            figure img {
+                width: 250px;
+            }
+        }
+
+        .colR {
+            width: 100%;
+            padding: 0 20px 30px;
+            min-height: inherit;
+            border-left: 0;
+
+            .scroll-txt,
+            .txt {
+                height: 300px;
+                overflow-y: hidden;
+
+                &.auto {
+                    overflow-y: auto;
+                    height: inherit;
+                }
+            }
+        }
+
+        .more-txt {
+            display: block;
+            margin: 10px 0 0 10px;
+        }
+    }
+
+}
+
+.new-comp {
+    @extend .pad2;
+    background: $grey-100;
+
+    .whiteBx {
+        background: $c-white;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.07);
+        border-radius: 2px;
+        display: flex;
+
+        .ltCol {
+            width: 30%;
+
+            .nav {
+                flex-direction: column;
+                height: 100%;
+
+                li {
+                    border-bottom: 1px solid #eaeaea;
+                    flex: 1;
+
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+
+                    a {
+                        display: flex;
+                        flex: 1;
+                        align-items: center;
+                        height: 100%;
+                        background: $c-white;
+                        border-right: 8px solid transparent;
+                        transition: all .3s linear;
+
+                        &.active {
+                            color: $c-red;
+                            transform: scaleX(1.2);
+                            border-right-color: $c-red;
+                            //border: 1px solid #E7E7E7;
+                            box-shadow: 12px 27px 38px 0 rgba(0, 0, 0, 0.09);
+                            border-radius: 3px;
+                        }
+                    }
+                }
+
+                a {
+                    padding: 20px 40px;
+                    display: block;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .rtCol {
+            width: 70%;
+            border-left: 1px solid #eaeaea;
+            padding: 60px 0 60px 100px;
+            min-height: 504px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .whiteBx .rtCol {
+            padding-left: 60px;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .whiteBx .ltCol .nav li a {
+            padding: 20px 10px 20px 20px;
+        }
+    }
+}
+
+.sec-ctnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .seclt {
+        width: 375px;
+
+        .btn-box {
+            display: flex;
+
+            .btn-white {
+                line-height: 26px;
+                color: $brownish-grey-two;
+            }
+        }
+    }
+
+    figure {
+        margin: 0 -100px 0 0;
+    }
+
+    @include breakpoint($mxw992) {
+        .seclt {
+            .btn-box .btn-white {
+                line-height: 2.8;
+            }
+        }
+
+        figure {
+            display: none;
+        }
+    }
+}
+
+@include breakpoint($mxw768) {
+    .tabComp {
+        background: $c-white;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+
+        .fhd {
+            border-top: 1px solid #eaeaea;
+            padding: 20px 50px 20px 20px;
+            font-weight: 700;
+            position: relative;
+            transition: all .3s linear;
+            background: $c-white;
+
+            &:first-child {
+                border-top: 0;
+            }
+
+            &::before {
+                position: absolute;
+                font-family: icomoon;
+                content: "\e906";
+                right: 20px;
+                top: 20px;
+                color: $c-red;
+                font-size: 20px;
+            }
+
+            &.act {
+                background: $grey-50;
+                border-radius: 5px 5px 0 0;
+
+                + .flist {
+                    background: $grey-50;
+                    border-bottom-color: $c-red;
+                    border-radius: 0 0 5px 5px;
+                }
+
+                &::before {
+                    content: "\e905";
+                }
+            }
+        }
+
+        .flist {
+            padding: 20px;
+            display: none;
+            border-top: 1px solid #eaeaea;
+            border-bottom: 3px solid transparent;
+            background: $c-white;
+
+            figure {
+                text-align: center;
+
+                img {
+                    width: 60%;
+                    height: auto;
+                }
+            }
+        }
+
+        .btn-box {
+            display: flex;
+
+            .btn-white {
+                line-height: 2.8;
+                color: $brownish-grey-two;
+            }
+        }
+    }
+}

@@ -1,0 +1,463 @@
+@import "_var";
+@import "_mixins";
+// bower:scss
+@import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../../bower_components/compass-breakpoint/stylesheets/_breakpoint.scss";
+@import "bower_components/sass-flex-mixin/_flex.scss";
+// endbower
+
+/* global css */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.bold {
+    font-weight: $font-bold;
+}
+
+a {
+    text-decoration: none;
+    color: $c-black;
+    //transition: color 0.5s linear;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $c-black;
+}
+
+a:focus {
+    text-decoration: none;
+    color: $c-black;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.ohidden {
+    overflow: hidden;
+}
+
+.FL {
+    float: left;
+}
+
+.FR {
+    float: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.CTR {
+    text-align: center;
+}
+
+.TAR {
+    text-align: right;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.UC {
+    text-transform: uppercase;
+}
+
+.tCap {
+    text-transform: capitalize !important;
+}
+
+:focus,
+button:focus {
+    outline: 0;
+}
+
+.PR {
+    position: relative;
+}
+
+.PA0 {
+    padding: 0;
+}
+
+.PA5 {
+    padding: 5px;
+}
+
+.PA7 {
+    padding: 7px;
+}
+
+.PA10 {
+    padding: 10px;
+}
+
+.PA12 {
+    padding: 12px;
+}
+
+.PA15 {
+    padding: 15px;
+}
+
+.PA20 {
+    padding: 20px;
+}
+
+.PT3 {
+    padding-top: 3px;
+}
+
+.PT5 {
+    padding-top: 5px;
+}
+
+.PT7 {
+    padding-top: 7px;
+}
+
+.PT8 {
+    padding-top: 8px;
+}
+
+.PT10 {
+    padding-top: 10px;
+}
+
+.PT15 {
+    padding-top: 15px;
+}
+
+.PT20 {
+    padding-top: 20px;
+}
+
+.PT25 {
+    padding-top: 25px;
+}
+
+.PT30 {
+    padding-top: 30px;
+}
+
+.PT35 {
+    padding-top: 35px;
+}
+
+.PT40 {
+    padding-top: 40px;
+}
+
+.PT75 {
+    padding-top: 75px;
+}
+
+.PT80 {
+    padding-top: 75px;
+}
+
+.PB5 {
+    padding-bottom: 5px;
+}
+
+.PB7 {
+    padding-bottom: 7px;
+}
+
+.PB10 {
+    padding-bottom: 10px;
+}
+
+.PB15 {
+    padding-bottom: 15px;
+}
+
+.PB20 {
+    padding-bottom: 20px;
+}
+
+.PB25 {
+    padding-bottom: 25px;
+}
+
+.PB30 {
+    padding-bottom: 30px;
+}
+
+.PB35 {
+    padding-bottom: 50px;
+}
+
+.PB40 {
+    padding-bottom: 40px;
+}
+
+.PB45 {
+    padding-bottom: 45px;
+}
+
+.PB50 {
+    padding-bottom: 50px;
+}
+
+.PB55 {
+    padding-bottom: 55px;
+}
+
+.PB60 {
+    padding-bottom: 60px;
+}
+
+.PL5 {
+    padding-left: 5px;
+}
+
+.PL10 {
+    padding-left: 10px;
+}
+
+.PL15 {
+    padding-left: 15px;
+}
+
+.PL20 {
+    padding-left: 20px;
+}
+
+.PL25 {
+    padding-left: 25px;
+}
+
+.PR5 {
+    padding-right: 5px;
+}
+
+.PR10 {
+    padding-right: 10px;
+}
+
+.PR15 {
+    padding-right: 15px;
+}
+
+.PR20 {
+    padding-right: 20px;
+}
+
+.PL50 {
+    padding-left: 50px;
+}
+
+.PR50 {
+    padding-right: 50px;
+}
+
+.p0 {
+    padding: 0px !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.MR5 {
+    margin-right: 5px;
+}
+
+.MR7 {
+    margin-right: 7px;
+}
+
+.MR10 {
+    margin-right: 10px;
+}
+
+.MR15 {
+    margin-right: 15px;
+}
+
+.MR20 {
+    margin-right: 20px;
+}
+
+.MR25 {
+    margin-right: 25px;
+}
+
+.MR30 {
+    margin-right: 30px;
+}
+
+.MR0 {
+    margin-right: 0 !important;
+}
+
+.ML2 {
+    margin-left: 2px;
+}
+
+.ML5 {
+    margin-left: 5px;
+}
+
+.ML7 {
+    margin-left: 7px;
+}
+
+.ML10 {
+    margin-left: 10px;
+}
+
+.ML15 {
+    margin-left: 15px;
+}
+
+.ML20 {
+    margin-left: 20px;
+}
+
+.ML30 {
+    margin-left: 30px;
+}
+
+.MT3 {
+    margin-top: 3px;
+}
+
+.MT5 {
+    margin-top: 5px;
+}
+
+.MT7 {
+    margin-top: 7px;
+}
+
+.MT10 {
+    margin-top: 10px;
+}
+
+.MT12 {
+    margin-top: 12px;
+}
+
+.MT15 {
+    margin-top: 15px;
+}
+
+.MT20 {
+    margin-top: 20px;
+}
+
+.MT25 {
+    margin-top: 25px;
+}
+
+.MT30 {
+    margin-top: 30px;
+}
+
+.MT35 {
+    margin-top: 35px;
+}
+
+.MT40 {
+    margin-top: 40px;
+}
+
+.MT45 {
+    margin-top: 45px;
+}
+
+.MT50 {
+    margin-top: 50px;
+}
+
+.MT70 {
+    margin-top: 70px;
+}
+
+.MB5 {
+    margin-bottom: 5px;
+}
+
+.MB10 {
+    margin-bottom: 10px;
+}
+
+.MB15 {
+    margin-bottom: 15px;
+}
+
+.MB20 {
+    margin-bottom: 20px;
+}
+
+.MB30 {
+    margin-bottom: 30px;
+}
+
+.MB40 {
+    margin-bottom: 40px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+@include breakpoint($mxw768) {
+    [class*="col-"] {
+        .no-pad-right {
+            padding-right: 15px;
+        }
+    }
+}
+
+
+/* End */
+
+@import "_type";
+@import "_common";
+@import "_icon";
+@import "_animate";
+@import "header-n1";
+@import "_search";
+@import "_footer";
+@import "_notification";
+@import "_form-new";
+@import "_first-private";
+@import "_first-wealth";
+@import "_first-select";

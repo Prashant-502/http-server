@@ -1,0 +1,119 @@
+.compare-grid {
+  margin: 36px 0 80px;
+}
+
+.compare-grid table {
+  width: 100%;
+}
+
+.compare-grid table td {
+  width: 27%;
+  padding: 48px 25px;
+  vertical-align: top;
+  border: 1px solid #d8d8d8;
+  position: relative;
+}
+
+.compare-grid table td:first-child {
+  text-align: right;
+  border-left: 0;
+  width: 19%;
+}
+
+.compare-grid table td:last-child {
+  border-right: 0;
+}
+
+.compare-grid table td p {
+  margin-bottom: 24px;
+}
+
+.compare-grid table td p:last-child {
+  margin-bottom: 0;
+}
+
+.compare-grid table td .btn-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.compare-grid table td .btn-box .btn-red {
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .compare-grid table td .btn-box .btn-red {
+    min-width: inherit;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .compare-grid table td {
+    padding: 24px 15px;
+    text-align: center;
+  }
+
+  .compare-grid table td:first-child,
+  .compare-grid table td:last-child {
+    display: none;
+  }
+
+  .compare-grid table td:nth-child(2) {
+    border-left: 0;
+  }
+
+  .compare-grid table td:nth-child(3) {
+    border-right: 0;
+  }
+
+  .compare-grid table td p.d-lg-none {
+    margin-bottom: 16px;
+  }
+
+  .compare-grid table td .btn-box {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .compare-grid table td .btn-box .btn-red {
+    padding: 0 20px;
+    min-width: auto;
+    height: 40px;
+    line-height: 36px;
+    margin: 0 0 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .compare-grid table td {
+    width: 50%;
+  }
+
+  .compare-grid table thead tr:first-child td {
+    border-top: 0;
+  }
+
+  .compare-grid table tbody tr:last-child td {
+    border-bottom: 0;
+  }
+}
+
+.compare-grid .collapsed-tr {
+  display: none;
+}
+
+.compare-grid .btn-box.show-collapsed-tr {
+  padding: 15px 20px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+@media (max-width: 991px) {
+  .compare-grid .btn-box.show-collapsed-tr.minus {
+    border-top: 1px solid #d8d8d8;
+  }
+}

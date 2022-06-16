@@ -1,0 +1,383 @@
+.stab-wraper-scroll {
+    margin-top: 30px;
+    @include breakpoint($mxw992) {
+        background: $c-white;
+        border-radius: 100px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    @include breakpoint($mxw768) {
+        margin-top: 0px;
+    }
+}
+
+.newblgHead {
+    &.heading-box {
+        .hd7 {
+            @include breakpoint($mxw768) {
+                font-size: 20px;
+            }
+        }
+        .ml-auto {
+            min-width: 220px;
+            @include breakpoint($mxw768) {
+                min-width: 180px;
+            }
+        }
+        .form-label-group label.form-control-placeholder.changefloat,
+        .form-label-group label.form-control-placeholder.float {
+            display: none;
+        }
+        .form-label-group .bootstrap-select>.btn,
+        .form-label-group .bootstrap-select>.btn-light {
+            color: $c-red;
+        }
+    }
+    @include breakpoint($mxw1000) {
+        display: flex;
+    }
+}
+
+.third-tab {
+    background: $c-white;
+    border-radius: 100px;
+    font-size: 14px;
+    li {
+        margin-right: 12px;
+        @include breakpoint($mxw1000) {
+            margin-right: 0px;
+        }
+        a {
+            padding: 12px;
+            display: block;
+            border-radius: 100px;
+            @include breakpoint($mxw1000) {
+                padding: 10px;
+            }
+            &:hover {
+                background: rgba($c-red, .1);
+            }
+            &:focus {
+                background: $c-red;
+                font-weight: $font-semi;
+                color: $c-white;
+            }
+            &.active {
+                background: $c-yellow;
+                font-weight: $font-semi;
+                color: $c-black2;
+            }
+        }
+    }
+}
+
+.grey-bg3 {
+    background: $grey-100;
+    @include breakpoint($mxw768) {
+        padding-top: 30px;
+    }
+}
+
+body.new {
+    .grey-bg3 {
+        .breadcrumb-wrap nav .breadcrumb {
+            background: $c-grey-6;
+            color: $grey-400;
+            font-size: 12px;
+        }
+    }
+}
+
+.grey-bg3 {
+    .hd7 {
+        color: #686873;
+    }
+    .form-label-group .form-control {
+        border-color: rgba(0, 0, 0, 0);
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.05);
+    }
+    .form-label-group label.form-control-placeholder {
+        color: $c-red;
+    }
+    .form-label-group .dropdown .dropdown-toggle:after {
+        color: $c-red;
+    }
+}
+
+.newblg {
+    .blog-head {
+        .category {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .blog-ctnt {
+        padding-top: 0px;
+        margin: 30px 0px 60px 0;
+        @include breakpoint($mxw769) {
+            margin: 30px 0px 0 0;
+        }
+        .blog-next {
+            margin-top: 40px;
+        }
+        .blog-head .my-links {
+            margin-top: 0px;
+        }
+        .subTitle {
+            margin-top: 16px;
+            line-height: 30px;
+            font-size: 21px;
+            letter-spacing: -0.6px;
+        }
+        .blog-by .author {
+            @include breakpoint($mxw768) {
+                margin: 0 4px;
+                padding-left: 5px;
+            }
+            strong {
+                font-size: 14px;
+                @include breakpoint($mxw768) {
+                    font-size: 12px;
+                }
+            }
+        }
+        .hd-box {
+            margin: 20px 0 0px;
+        }
+        .blog-head {
+            margin-bottom: 15px;
+        }
+        .share-box {
+            margin-left: 16px;
+        }
+        .blog-body {
+            .blockquote p {
+                line-height: 1.2;
+            }
+            p {
+                line-height: 24px;
+            }
+            .blog-img.right-cnt {
+                float: left;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                @include breakpoint($mxw768) {
+                    width: inherit;
+                    float: inherit;
+                    margin: 0 -15px 40px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            h4 {
+                font-weight: $font-bold;
+            }
+            ul:not(.tag-list):not(.social) {
+                padding-left: 20px;
+            }
+            ul:not(.tag-list):not(.social) li {
+                margin-bottom: 16px;
+                line-height: 24px;
+                &::before {
+                    left: -25px;
+                    font-size: 60px;
+                    line-height: .3;
+                }
+            }
+        }
+    }
+    .blog-right {
+        margin: 72px 0 0 0;
+        padding: 0px;
+        padding-left: 24px;
+        border-left: 1px solid $grey-200;
+        @include breakpoint($mxw769) {
+            margin: 0 0 0 0;
+            padding: 0px;
+            padding-left: 0;
+            border-left: 0px;
+        }
+        h3 {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 300;
+        }
+        .tag-list.nBLog li {
+            margin: 0 5px 5px 0;
+            a {
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: -0.5px;
+                padding: 6px 7px;
+            }
+        }
+    }
+    .col-lg-9 {
+        // border-right: 1px solid $grey-200;
+    }
+    .list-img li {
+        .img-box {
+            margin-right: 12px;
+        }
+        .img-cont {
+            width: 100%;
+            @include breakpoint($mxw768) {
+                width: 220px;
+            }
+        }
+    }
+}
+
+.news-more-card {
+    display: flex;
+    @include breakpoint($mxw768) {
+        flex-direction: column;
+    }
+    .media {
+        background: $c-white;
+        box-shadow: 0px 0px 10px 5px #eee;
+        padding: 0px;
+        align-items: center;
+        margin-right: 50px;
+        width: 100%;
+        @include breakpoint($mxw768) {
+            margin-right: 0px;
+            margin-bottom: 25px;
+        }
+        figure {
+            margin-bottom: 0px;
+            padding-right: 16px;
+        }
+        .media-body {
+            a {
+                color: $c-red;
+                line-height: 20px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.text-red {
+    color: $c-red;
+}
+
+.tag-list {
+    &.nBLog {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        li {
+            a {
+                font-size: 17px;
+                line-height: 24px;
+                letter-spacing: -0.5px;
+                padding: 10px 15px;
+            }
+        }
+    }
+}
+
+.ctaLink {
+    li {
+        margin-bottom: 32px;
+        align-items: flex-start;
+        img {
+            width: auto
+        }
+        .img-cont {
+            a.link-txt {
+                color: $c-red;
+                &:hover {
+                    color: $c-black;
+                }
+            }
+            h4 {
+                font-size: 17px;
+                line-height: 24px;
+                font-weight: $font-bold;
+                white-space: nowrap;
+                overflow: hidden !important;
+                text-overflow: ellipsis;
+                a {
+                    color: $c-black2;
+                }
+            }
+            @include breakpoint($mxw768) {
+                width: 200px;
+            }
+        }
+    }
+}
+
+.storeIcon {
+    img {
+        width: 118px;
+    }
+}
+
+.mbFixedbt {
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    background: $c-white;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    display: none;
+    @include breakpoint($mxw768) {
+        display: block;
+    }
+    .reTitle {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        justify-content: space-between;
+        a.updownbx span {
+            &:before {
+                color: $c-red;
+            }
+            &.icon-Down.up {
+                &:before {
+                    content: '\e903';
+                }
+            }
+        }
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+        padding: 20px;
+        padding-left: 30px;
+    }
+    .list-img.ctaLink {
+        display: flex;
+        overflow-x: scroll;
+        padding: 30px;
+        padding-top: 0px;
+        padding-bottom: 0;
+        li {
+            min-width: 100%;
+            .img-cont {
+                //width: 100%;
+            }
+        }
+    }
+}
+
+.reTitle {
+    a.updownbx span {
+        &:before {
+            color: $c-red;
+        }
+        &.icon-Down.up {
+            &:before {
+                content: '\e903';
+            }
+        }
+    }
+}

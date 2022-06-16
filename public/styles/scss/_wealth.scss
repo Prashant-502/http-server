@@ -1,0 +1,1180 @@
+/* Product listing banner start */
+.hero-banner {
+    &.wealth-page {
+        .banner-ctnt {
+            margin-top: 0px;
+
+            .hd1 {
+                color: $c-white;
+                letter-spacing: -1px;
+            }
+
+            .desc {
+                color: $c-white;
+            }
+
+            .btn-box {
+                .btn-red {
+                    background: $c-white;
+                    color: $c-red;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                .btn-red1 {
+                    color: $c-white;
+                    border-color: $c-white;
+                }
+            }
+
+            @include breakpoint($mxw769) {
+                margin-top: 50px;
+
+                .btn-box {
+                    display: flex;
+
+                    .btn-red {
+                        margin-right: 10px;
+                        line-height: 50px;
+                    }
+                }
+            }
+
+            @include breakpoint($mxw768) {
+                margin-top: 0;
+
+                .btn-box {
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .btn-red {
+                        margin: 0 0 16px;
+                    }
+                }
+            }
+        }
+
+        .owl-dots .owl-dot span {
+            background: $c-white;
+        }
+    }
+}
+
+.looking-for.hover-card {
+    .wcard {
+        .card-look > a {
+            min-height: 90px;
+            padding: 20px 25px;
+        }
+
+        @include breakpoint($mxw1000) {
+            .card-look {
+                min-height: inherit;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .card-look {
+                figure {
+                    margin-bottom: 8px;
+                }
+
+                > a {
+                    min-height: 116px;
+                }
+            }
+        }
+    }
+}
+
+.insurance-didyou1 {
+    &.customer-speak {
+        background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+
+        .container {
+            &.shape {
+                background: url("../images/svg/qst-icon.svg") no-repeat 80px -2px;
+                padding: 120px 15px 120px 15px;
+
+                @include breakpoint($mxw768) {
+                    padding: 80px 15px 0 15px;
+                    background: url("../images/svg/qst-icon.svg") no-repeat center -2px;
+                }
+            }
+        }
+
+        .hd2 {
+            color: $c-black;
+        }
+
+        .hd {
+            color: $c-white;
+
+            @include breakpoint($mxw1000) {
+                font-size: 34px;
+            }
+
+            @include breakpoint($mxw769) {
+                font-size: 30px;
+            }
+        }
+
+        .customer-speak-carousel .owl-nav {
+            left: -285px;
+            top: 140px;
+
+            @include breakpoint($mxw1000) {
+                left: -235px;
+            }
+
+            @include breakpoint($mxw992) {
+                left: -190px;
+            }
+
+            @include breakpoint($mxw768) {
+                position: static;
+                text-align: center;
+                padding: 30px 0;
+            }
+
+            button {
+                background: $c-white;
+            }
+        }
+    }
+}
+
+.customer-speak.wealth {
+    background-image: linear-gradient(134deg, #866628 0%, #DCB526 97%);
+
+    .cs-title-box {
+        padding-top: 0px;
+
+        .hd {
+            color: $c-white;
+            line-height: 42px;
+        }
+    }
+
+    .container.shape {
+        background: url("../images/wealth/exm-icon.svg") no-repeat 170px 0;
+    }
+
+    .hd2 {
+        font-size: 16px;
+        font-weight: $font-bold;
+        margin-bottom: 6px;
+        color: $c-black;
+
+        + div {
+            font-size: 12px;
+            line-height: 1.4;
+        }
+    }
+
+    .white-box {
+        font-size: 14px;
+        min-height: 160px;
+
+        @include breakpoint($mxw1000) {
+            min-height: 185px;
+        }
+    }
+
+    .customer-speak-carousel .owl-nav {
+        left: -278px;
+        top: 115px;
+
+        @include breakpoint($mxw1000) {
+            left: -235px;
+        }
+
+        @include breakpoint($mxw992) {
+            left: -190px;
+            margin-top: 20px;
+        }
+
+        @include breakpoint($mxw768) {
+            position: static;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 0;
+        }
+
+        button {
+            background: $c-white;
+            font-size: 22px;
+
+            &::before {
+                color: $c-black;
+            }
+        }
+    }
+}
+
+.wealth-benefits {
+    background: #4B4B4B;
+    background-image: linear-gradient(180deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, $grey-50 100%);
+    padding: 60px 0 20px;
+
+    .subhd {
+        color: $c-white;
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+    .hdr {
+        color: $c-white;
+        text-align: center;
+    }
+
+    .owl-carousel .owl-item img {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .owl-carousel .owl-nav {
+
+        button.owl-prev,
+        button.owl-next {
+            width: 36px;
+            height: 36px;
+            background: $c-white !important;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+            margin: 0 10px;
+
+            span {
+                display: none;
+            }
+        }
+
+        .owl-prev {
+            left: -80px;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e901";
+                color: $brownish-grey;
+            }
+        }
+
+        .owl-next {
+            right: -80px;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e902";
+                color: $brownish-grey;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .owl-carousel .owl-nav {
+            .owl-prev {
+                left: -48px;
+            }
+
+            .owl-next {
+                right: -48px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding-bottom: 0;
+
+        .card.opt1 {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        background-image: linear-gradient(231deg, #4B4B4B 0%, #0D0D0D 100%);
+        padding-bottom: 40px;
+
+        .col-xl-9 {
+            padding: 0;
+        }
+    }
+}
+
+.benefit-card {
+    background: $c-white;
+    border: 1px solid $grey-200;
+    border-radius: 5px;
+    padding: 24px;
+    min-height: 400px;
+
+    hr {
+        width: 36px;
+        border: $c-black solid 1px;
+        display: inline-block;
+        margin: 12px 0 20px;
+    }
+
+    .ctnt-btm {
+        margin-top: 20px;
+    }
+
+    @include breakpoint($mxw992) {
+        min-height: 420px;
+    }
+}
+
+.with-circle.op2 {
+    font-size: 12px;
+    line-height: 17px;
+
+    li {
+        padding: 0 0 16px 20px;
+
+        &::before {
+            content: "";
+            background: url(../images/wealth/tick.svg) no-repeat;
+            width: 12px;
+            height: 9px;
+            top: 4px;
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.sec-offering {
+    padding: 40px 0 80px;
+    background-image: linear-gradient(180deg, #FAFAFA 0%, #D6D6D6 85%);
+
+    .gallery {
+        background: none;
+        padding: 0;
+    }
+}
+
+.sec-offering1 {
+    background: rgba(127, 127, 127, 0.42);
+    background-image: linear-gradient(231deg, #0D0D0D 0%, #4B4B4B 100%);
+    padding-top: 40px;
+
+    .hd48 {
+        color: $c-white;
+        margin-top: 60px;
+
+        + p {
+            color: $c-white;
+            margin: 10px 0 0;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .hd48 {
+            margin-top: 0;
+        }
+
+        .CTR img {
+            width: 100%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .CTR {
+            margin-top: 40px;
+        }
+    }
+}
+
+.obx {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    //margin: 0 1%;
+
+    .ctnt {
+        margin: 0 24px;
+    }
+
+    .hd3b {
+        margin-bottom: 6px;
+
+        + p {
+            margin-bottom: 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        padding: 20px;
+
+        .ctnt {
+            margin: 0 16px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        flex-direction: column;
+
+        .ctnt {
+            text-align: center;
+            margin: 16px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        &.MT20-xs {
+            margin-top: 20px;
+        }
+    }
+}
+
+.customer-speak.op1 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, $c-white 40%, #866628 40%, #DCB526 100%);
+
+    .container.shape {
+        background-image: url(../images/wealth/shape.svg);
+    }
+
+    .white-box {
+        min-height: 180px;
+    }
+
+    @include breakpoint($mxw768) {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg,
+                $c-white 48%,
+                #866628 48%,
+                #DCB526 100%);
+    }
+}
+
+.sec-awards {
+    background-image: linear-gradient(180deg, #1E1E1E 0%, #0D0D0D 73.65%, $c-grey-1 73.65%, $c-grey-1 100%);
+
+    .container {
+        &.shape {
+            background: url("../images/wealth/award-bg.svg") no-repeat 0 0;
+            padding: 50px 0;
+            margin-bottom: 40px;
+
+            .row {
+                align-items: center;
+            }
+
+            .hd3b {
+                font-size: 90px;
+                line-height: 1;
+                color: $c-white;
+                text-align: right;
+
+                strong {
+                    font-size: 100px;
+                    letter-spacing: 2px;
+                }
+            }
+
+            .vertical-slider {
+                .txt {
+                    margin-bottom: 0;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: $c-white;
+                    text-align: center;
+                    padding: 16px 0 16px 50px;
+                    position: relative;
+
+                    img {
+                        width: 77px;
+                        height: 77px;
+                        position: absolute;
+                        left: 20px;
+                        top: -12px;
+                        display: none;
+                    }
+
+                    &.slick-current {
+                        opacity: 1;
+                        background: #1F1F1F;
+                        border-radius: 6px;
+
+                        img {
+                            display: block;
+                        }
+
+                        &::after {
+                            font-family: icomoon;
+                            content: "\e902";
+                            color: $c-yellow;
+                            font-size: 20px;
+                            position: absolute;
+                            right: 30px;
+                            top: 16px;
+                        }
+                    }
+                }
+            }
+
+            @include breakpoint($mxw1000) {
+                background-size: 50%;
+
+                .hd3b {
+                    font-size: 74px;
+
+                    strong {
+                        font-size: 80px;
+                    }
+                }
+
+                .vertical-slider {
+                    .txt {
+                        font-size: 18px;
+                        margin: 0;
+                    }
+
+                    &.slick-current {
+                        &::after {
+                            right: 15px;
+                        }
+                    }
+                }
+            }
+
+            @include breakpoint($mxw992) {
+                padding: 80px 15px 0 15px;
+                background: url("../images/wealth/award-bg.svg") no-repeat center -132px;
+
+                .hd3b {
+                    font-size: 56px;
+                    text-align: center;
+                    margin-bottom: 30px;
+
+                    strong {
+                        font-size: 60px;
+                    }
+                }
+
+                .vertical-slider {
+                    margin-bottom: 40px;
+
+                    .txt {
+                        padding: 16px;
+                        font-size: 16px;
+                    }
+
+                    .txt.slick-current {
+                        img {
+                            display: none;
+                        }
+
+                        &::after {
+                            right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-list {
+        margin-top: 40px;
+    }
+
+    .gallery {
+        background: none;
+        padding: 0;
+
+        .media-card {
+            margin: 35px 2px 2px;
+        }
+    }
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-prev,
+.slick-next {
+    border: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: $c-white;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.22);
+    font-size: 0;
+    position: absolute;
+    right: 0;
+    //z-index: 1;
+
+    &::before {
+        font-family: icomoon;
+        color: $c-black;
+        font-size: 20px;
+    }
+}
+
+.slick-prev {
+    top: -40px;
+}
+
+.slick-prev:before {
+    content: "\e903";
+}
+
+.slick-next:before {
+    content: "\e900";
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+
+
+/* Slider */
+.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+// VKYC css
+.vkyc-bx {
+    display: flex;
+    position: relative;
+
+    .vkyc-img {
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        margin: -130px 0 0 -110px;
+        width: 230px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    .card-left {
+        padding: 70px 120px 70px 180px;
+        background-image: linear-gradient(133deg, #866628 0%, #DCB526 84%);
+        border-radius: 2px 0 0 2px;
+        width: 64%;
+
+        .f14 {
+            color: #303030;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+
+        .hd2 {
+            line-height: 1.25;
+        }
+
+        .form-list {
+            width: 80%;
+        }
+
+        .btn-box .btn-red1 {
+            color: $c-white;
+            border-color: $c-white;
+        }
+
+    }
+
+    .card-right {
+        padding: 55px;
+        background-image: linear-gradient(90deg, #4B4B4B 0%, #000000 100%);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+        border-radius: 0 2px 2px 0;
+        width: 36%;
+        color: $c-white;
+        display: flex;
+        align-items: center;
+
+        .f14 {
+            color: #a6a6a6;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .card-left {
+            padding-right: 60px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        margin-top: 100px;
+
+        .vkyc-img {
+            top: -20px;
+            margin-left: 50px;
+            width: 200px;
+        }
+
+        .card-left {
+            padding: 100px 60px 40px;
+            width: 60%;
+        }
+
+        .card-right {
+            padding: 30px;
+            width: 40%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 -15px;
+
+        .card-left,
+        .card-right {
+            width: 100%;
+        }
+
+        .card-left {
+            padding: 100px 40px 30px;
+
+            .hd2,
+            .f14 {
+                text-align: center;
+            }
+
+            .form-list {
+                width: 100%;
+            }
+
+            .btn-box {
+                text-align: center;
+
+                .btn-red1 {
+                    min-width: 160px;
+                }
+            }
+        }
+
+        .vkyc-img {
+            position: inherit;
+            margin: 0 auto -80px;
+            width: 40%;
+        }
+    }
+}
+
+.list-1 {
+    li {
+        background: url(../images/wealth/icon1.svg) no-repeat left center;
+        padding: 15px 0 15px 45px;
+    }
+}
+
+.form-control {
+    &.date1 {
+        background: $c-white url(../images/wealth/calendar.svg) no-repeat 94% center;
+    }
+
+    &.time {
+        background: $c-white url(../images/wealth/time.svg) no-repeat 94% center;
+    }
+}
+
+.peshoB {
+    height: 160px;
+    width: auto;
+    margin-bottom: 20px;
+
+    @include breakpoint($mxw768) {
+        height: auto;
+    }
+}
+
+.our-research {
+    @extend .pad1;
+
+    .resrchIn {
+        padding: 50px 0 40px 50px;
+        background-image: linear-gradient(90deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, #FFF 100%);
+        min-height: 500px;
+
+        .hd {
+            color: $c-white;
+
+            + p {
+                color: $c-white;
+            }
+        }
+
+        .media-card {
+            margin: 0 2px 2px;
+
+            .mcard-body {
+                padding: 20px;
+                min-height: 132px;
+            }
+        }
+    }
+
+    .PR0 {
+        padding-right: 0;
+    }
+
+    .MT50 {
+        margin: 56px 0 0 15px;
+    }
+
+    .research-carousel .owl-nav {
+        position: absolute;
+        top: -60px;
+        right: 0;
+
+        .owl-prev,
+        .owl-next {
+            width: 36px;
+            height: 36px;
+            background: $c-white;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+            margin: 0 10px;
+
+            @include breakpoint($mxw768) {
+                background: $c-white !important;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        .owl-prev {
+            position: static;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e901";
+            }
+        }
+
+        .owl-next {
+            position: static;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e902";
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .resrchIn {
+            background-image: linear-gradient(180deg, #0D0D0D 0%, #4B4B4B 70%, #FFF 70%, #FFF 100%);
+            padding: 50px 6% 0;
+        }
+
+        .PR0 {
+            padding-right: 15px;
+        }
+
+        .MT50 {
+            margin: 25px 0 0;
+        }
+    }
+}
+
+.invest-withUs {
+    position: relative;
+    background-image: linear-gradient(134deg, #866628 0%, #DCB526 97%);
+    @extend .pad1;
+
+    &::before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 20%;
+        background: url("../images/wealth/exm-icon.svg") no-repeat;
+        background-size: contain;
+        top: 0;
+        left: 12%;
+    }
+
+    .hdb {
+        color: $c-white;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .investIn {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+
+        .white-box {
+            width: 24%;
+            padding: 30px 24px;
+            min-height: 165px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-bottom: 15px;
+
+            .f14 {
+                display: none;
+            }
+
+            .f20 {
+                font-size: 22px;
+                line-height: 1.2;
+                margin-bottom: 0;
+            }
+
+            figure {
+                margin-bottom: 0;
+                margin-left: 10px;
+            }
+
+            &:hover {
+                background-image: linear-gradient(90deg, #4B4B4B 0%, #000000 100%);
+                font-size: 12px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 16px;
+
+                .f20,
+                figure {
+                    display: none;
+                }
+
+                .f14 {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .btn-box {
+        text-align: center;
+
+        .btn-white {
+            color: $c-white;
+            border-color: $c-white;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .investIn .white-box .f20 {
+            font-size: 18px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .investIn .white-box {
+            width: 49%;
+            min-height: 105px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .investIn .white-box {
+            width: 100%;
+            min-height: 105px;
+        }
+    }
+}
+
+
+//Time Picker start
+
+.ui-timepicker-container {
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box
+}
+
+.ui-timepicker,
+.ui-timepicker-viewport {
+    box-sizing: content-box;
+    height: 205px;
+    display: block;
+    margin: 0
+}
+
+.ui-timepicker {
+    list-style: none;
+    padding: 0 1px;
+    text-align: center
+}
+
+.ui-timepicker-viewport {
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.ui-timepicker-standard {
+    background-color: #FFF;
+    border: 1px solid #AAA;
+    color: #222;
+    margin: 0;
+    padding: 2px
+}
+
+.ui-timepicker-standard a {
+    border: 1px solid transparent;
+    color: #222;
+    display: block;
+    padding: .2em .4em;
+    text-decoration: none
+}
+
+.ui-timepicker-standard .ui-state-hover {
+    background-color: #DADADA;
+    border: 1px solid #999;
+    font-weight: 400;
+    color: #212121
+}
+
+.ui-timepicker-standard .ui-menu-item {
+    margin: 0;
+    padding: 0
+}
+
+.ui-timepicker-corners,
+.ui-timepicker-corners .ui-corner-all {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px
+}
+
+.ui-timepicker-hidden {
+    display: none
+}
+
+.ui-timepicker-no-scrollbar .ui-timepicker {
+    border: none
+}
+
+//Time Picker end

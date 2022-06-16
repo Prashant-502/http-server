@@ -1,0 +1,1098 @@
+.looking-for.inv {
+    background: $grey-50;
+    padding-bottom: 0;
+    .sub-title {
+        margin-bottom: 30px;
+    }
+    .card-look {
+        >a {
+            padding: 25px 20px;
+            min-height: 90px;
+        }
+        .title {
+            margin-bottom: 0;
+        }
+    }
+    .product-banner {
+        margin-top: 60px;
+        .play-box {
+            background: $c-white;
+            left: auto;
+            right: 20%;
+        }
+    }
+    .inv1 {
+        background: $grey-100;
+        padding: 70px 0 50px;
+        .hd {
+            margin-bottom: 24px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .sub-title {
+            margin: 0 0 20px 5px;
+            line-height: 1.1;
+        }
+        .card-look {
+            >a {
+                min-height: 160px;
+            }
+            .title {
+                font-size: 14px;
+            }
+        }
+        .product-banner .play-box {
+            right: 30%;
+            top: auto;
+            bottom: 10%;
+        }
+    }
+}
+
+.our-products {
+    @extend .pad2;
+    .my-links {
+        position: absolute;
+        @include center(x);
+        bottom: 4px;
+        margin-left: 60px;
+        .share-box {
+            margin-left: 0;
+        }
+        a span {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 0;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+            font-weight: 700;
+        }
+        @include breakpoint($mxw992) {
+            .share-box {
+                .share-positon-box {
+                    right: -4px;
+                    left: auto;
+                }
+                .share-bubble:after {
+                    right: 20px;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+
+.banner2.why-bank {
+    background: #F5E7E8;
+    @extend .pad1;
+    figure {
+        margin-top: 0;
+    }
+    .list-item.opt1 {
+        border-top: 0;
+        li span {
+            background: $c-white;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .banner-wrapper .banner-ctnt {
+            top: 0;
+        }
+    }
+}
+
+.customer-speak {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(196, 119, 125, 1) 40%, rgba(157, 29, 29, 1) 100%);
+    @include breakpoint($mxw768) {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 48%, rgba(196, 119, 125, 1) 48%, rgba(157, 29, 39, 1) 100%);
+    }
+    .container {
+        &.shape {
+            background: url(../images/shape.svg) no-repeat 0 -2px;
+            padding: 100px 15px;
+            @include breakpoint($mxw768) {
+                padding: 80px 15px 0 15px;
+                background: url(../images/shape.svg) no-repeat center -2px;
+            }
+        }
+    }
+    .white-box {
+        padding: 24px 28px;
+        margin: 2px;
+        // min-height: 320px;
+        .f12 {
+            color: $brownish-grey-two;
+            margin-bottom: 8px;
+        }
+    }
+    .cs-title-box {
+        padding: 30px 0 0 20px;
+        @include breakpoint($mxw992) {
+            padding: 30px 0 0 0;
+        }
+        @include breakpoint($mxw768) {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.customer-speak-carousel,
+.customer-speak-carousel-op2 {
+    .owl-nav {
+        position: absolute;
+        left: -270px;
+        top: 150px;
+        @include breakpoint($mxw992) {
+            left: -190px;
+        }
+        @include breakpoint($mxw768) {
+            position: static;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .owl-prev,
+        .owl-next {
+            width: 48px;
+            height: 48px;
+            background: $c-white;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+            margin: 0 10px;
+            @include breakpoint($mxw768) {
+                background: $c-white !important;
+            }
+            span {
+                display: none;
+            }
+        }
+        .owl-prev {
+            position: static;
+            &::before {
+                font-family: icomoon;
+                content: "\e901";
+                color: $c-red;
+            }
+        }
+        .owl-next {
+            position: static;
+            &::before {
+                font-family: icomoon;
+                content: "\e902";
+                color: $c-red;
+            }
+        }
+    }
+}
+
+.customer-speak-carousel-op2 {
+    .owl-stage {
+        left: -170px;
+        // display: flex;
+        .white-box {
+            // height: 100%;
+        }
+        @include breakpoint($mxw992) {
+            left: 0px;
+        }
+    }
+}
+
+.learn-inv {
+    background: $grey-100;
+    padding: 80px 0 30px;
+    .owl-dots {
+        margin-top: 30px;
+    }
+    @include breakpoint($mxw992) {
+        .owl-dots {
+            margin-top: 0px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        padding: 50px 0 0;
+    }
+}
+
+//Mutual Fund CSS
+.mf-banner {
+    figure img {
+        //margin: 0 auto;
+        width: 100%;
+        height: 550px;
+    }
+    .banner-form {
+        margin-bottom: -112px;
+        margin-left: 30px;
+        .hd3b {
+            border-bottom: 1px solid $c-grey-6;
+            padding: 20px 36px;
+            line-height: 1;
+        }
+        .sipResult {
+            padding: 20px 36px;
+            text-align: center;
+            background: $c-yellow;
+            line-height: 1;
+            margin: 10px 0 0;
+            border-radius: 0 0 5px 5px;
+            strong {
+                font-size: 36px;
+                vertical-align: middle;
+                margin: 0 5px;
+            }
+        }
+        .form-body {
+            padding: 32px 36px;
+            .radio-option {
+                margin-top: 0;
+            }
+            .loan-cal {
+                margin-right: 0;
+            }
+        }
+        .loan-cal {
+            >.row.MT10 {
+                margin-top: 40px;
+            }
+            .slider-wraper {
+                margin-right: 0;
+            }
+            .ui-slider {
+                width: 100% !important;
+                margin-right: 30px;
+            }
+        }
+    }
+    @include breakpoint($mxw1000) {
+        .banner-form {
+            margin-left: 0;
+        }
+    }
+    @include breakpoint($mxw992) {
+        figure img {
+            height: auto;
+        }
+        .banner-wrapper {
+            margin-bottom: 70%;
+            .banner-ctnt {
+                top: 64px;
+            }
+        }
+        .banner-form {
+            margin-top: 60px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .banner-wrapper {
+            margin-bottom: 540px;
+            .banner-ctnt {
+                top: 24px;
+            }
+        }
+        .banner-form {
+            margin-top: 30px;
+            .hd3b {
+                padding: 20px;
+            }
+            .form-body {
+                padding: 20px;
+                .form-label-group.MT20 {
+                    margin-top: 30px;
+                }
+            }
+            .custom-control.custom-radio.green .custom-control-label {
+                padding-left: 0;
+            }
+            .custom-control-inline:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.our-vision.mf {
+    padding-top: 140px;
+    .nav-list1 a {
+        color: $c-black;
+        letter-spacing: .5px;
+        &.active,
+        &:hover {
+            color: $c-red;
+        }
+    }
+    .corp-govns {
+        padding: 20px 0 0;
+        .copgov-carousel {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.plan-breaker {
+    background: $grey-200;
+    .card-bx {
+        display: flex;
+        align-items: center;
+        figure {
+            margin-bottom: 0;
+        }
+        .card-text {
+            margin-left: 20px;
+        }
+    }
+    @include breakpoint($mxw992) {
+        overflow: hidden;
+        .card-bx {
+            flex-direction: column-reverse;
+            .card-text {
+                margin: 30px 20px;
+            }
+        }
+    }
+}
+
+.expt-sugg {
+    background: $grey-100;
+    padding: 80px 0 0;
+    .card-look {
+        >a {
+            padding: 25px 20px;
+            min-height: 90px;
+        }
+        .title {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.blog-home.helpful {
+    padding-bottom: 30px;
+}
+
+// Investing Page
+.your-goal {
+    padding: 40px 0 80px;
+    .age-sel {
+        margin: 40px 0;
+        justify-content: center;
+        .form-label-group {
+            width: 100%;
+        }
+    }
+}
+
+.sel-prod {
+    .choose-product.op1 {
+        justify-content: center;
+        label {
+            width: 160px;
+            margin: 30px 30px 0;
+            img {
+                margin: 0;
+                height: 55px;
+                width: auto;
+            }
+            .design {
+                width: 160px;
+                height: 161px;
+                background-image: url(../images/invt/oval.svg);
+            }
+            input:checked+.design {
+                background-image: url(../images/invt/oval-hov.svg);
+            }
+        }
+        @include breakpoint($mxw992) {
+            label {
+                margin: 30px 5px 0;
+            }
+        }
+        @include breakpoint($mxw768) {
+            justify-content: space-around;
+            label {
+                margin: 20px 0 0;
+            }
+        }
+    }
+}
+
+.sel-prod1 {
+    .choose-product.op1 {
+        justify-content: center;
+        label {
+            //width: 160px;
+            margin: 30px 30px 0;
+            img {
+                margin: 0;
+                height: 50px;
+                width: auto;
+            }
+            .design {
+                width: 130px;
+                height: 130px;
+                background-image: url(../images/invt/oval1.svg);
+            }
+            input:checked+.design {
+                background-image: url(../images/invt/oval-hov1.svg);
+            }
+        }
+        @include breakpoint($mxw992) {
+            label {
+                margin: 30px 5px 0;
+            }
+        }
+        @include breakpoint($mxw768) {
+            justify-content: space-around;
+            label {
+                margin: 20px 0 0;
+            }
+        }
+    }
+}
+
+.need-assistance {
+    background: $grey-100;
+    @extend .pad1;
+    .need-pad {
+        padding-left: 40px;
+    }
+    .form-list {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        .form-control,
+        .form-label-group input:not(:placeholder-shown)~label {
+            background-color: $grey-100;
+        }
+        li {
+            &.w50 {
+                width: 44%;
+                margin-right: 4%;
+            }
+        }
+        .btn-box strong {
+            margin-left: 30px;
+            color: $very-light-pink;
+        }
+    }
+    @include breakpoint($mxw1000) {
+        .need-pad {
+            padding-left: 0;
+        }
+    }
+    @include breakpoint($mxw768) {
+        padding: 40px 20px;
+        .form-list {
+            flex-direction: column;
+            margin-top: 30px;
+            li.w50 {
+                width: 100%;
+                margin-right: 0;
+            }
+            .btn-box {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.recom-goals {
+    background: rgb(250, 235, 231);
+    background: linear-gradient(60deg, rgba(209, 180, 172, 1) 30%, rgba(250, 235, 231, 1) 90%);
+    @extend .pad1;
+    display: none;
+    &.open {
+        display: block;
+        .hd {
+            color: $c-black;
+        }
+    }
+    .hd {
+        text-align: center;
+        color: $c-white;
+        margin-bottom: 30px;
+    }
+    .btn-box .btn-red {
+        box-shadow: none;
+        padding: 10px 50px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .card-look {
+        >a {
+            padding: 25px 20px;
+            min-height: 90px;
+        }
+        .title {
+            margin-bottom: 0;
+        }
+    }
+    @include breakpoint($mxw992) {
+        .btn-box .btn-red {
+            line-height: 2;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .list-looking {
+            padding: 0 20px;
+            li {
+                width: 100%;
+            }
+        }
+        .card-look>a {
+            flex-direction: row;
+            justify-content: flex-start;
+            figure {
+                margin: 0 20px 0 0;
+            }
+            div {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.form-label-group {
+    &.g1 {
+        .form-control,
+        input:not(:placeholder-shown)~label,
+        .normal-select-box.selected:not(:placeholder-shown)~label {
+            background-color: $grey-50;
+        }
+    }
+}
+
+.first-crore {
+    padding: 40px 0 60px;
+    .clr-grey {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon-Left {
+            margin-right: 4px;
+            &:before {
+                color: $c-grey-3;
+            }
+        }
+    }
+    @include breakpoint($mxw768) {
+        padding: 40px 20px;
+    }
+}
+
+.investment-option {
+    .f12 {
+        color: $c-grey-3;
+    }
+    .white-box {
+        margin-bottom: 20px;
+    }
+    .box-in {
+        padding: 32px 44px;
+        .box-data {
+            display: flex;
+            margin-top: 8px;
+            .first {
+                width: 40%;
+                font-size: 14px;
+                p {
+                    margin-bottom: 0;
+                }
+                .more {
+                    margin-top: 8px;
+                    a {
+                        color: $c-red;
+                        .icon-plus {
+                            font-size: 10px;
+                            font-weight: 700;
+                            &:before {
+                                color: $c-red;
+                            }
+                        }
+                    }
+                    strong::before {
+                        content: 'Know More';
+                    }
+                    &.act {
+                        a .icon-plus:before {
+                            content: '\e905';
+                        }
+                        strong::before {
+                            content: 'Know Less';
+                        }
+                    }
+                }
+            }
+            .yrs {
+                width: 30%;
+                margin: 0 5%;
+                text-align: center;
+                strong {
+                    display: block;
+                    font-size: 18px;
+                    margin-top: 4px;
+                }
+            }
+        }
+        &.more-dtl {
+            font-size: 14px;
+            border-top: 1px solid $grey-200;
+            display: none;
+            ul.with-circle li {
+                padding: 0 0 0 10px;
+                &::before {
+                    font-size: 14px;
+                    top: 2px;
+                }
+            }
+        }
+        @include breakpoint($mxw992) {
+            padding: 24px 32px;
+            .box-data .yrs {
+                width: 32%;
+                margin: 0 3%;
+            }
+        }
+        @include breakpoint($mxw992) {
+            padding: 20px 24px;
+            .box-data {
+                flex-direction: column;
+                .first {
+                    width: 100%;
+                }
+                .yrs {
+                    width: 100%;
+                    margin: 20px 0;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint($mxw768) {
+    .grey-bg2.PB60 {
+        padding-bottom: 16px;
+    }
+    .mt-20-xs {
+        margin-top: 20px;
+    }
+}
+
+// Page 3
+.mf-inv {
+    padding: 30px 0 50px;
+}
+
+.annual-report.invt {
+    @extend .pad1;
+    .white-box {
+        padding: 52px 0;
+        strong {
+            display: block;
+            margin: 8px 0 32px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .graph-box {
+            min-height: 200px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.graph-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.faq-grey {
+    background: $grey-50;
+    @extend .pad1;
+    @include breakpoint($mxw768) {
+        min-height: 240px;
+        margin-bottom: 20px;
+    }
+}
+
+// Page 4
+.mf-invest {
+    background: #F5E7E8;
+    padding-bottom: 80px;
+    .first-crore {
+        padding: 20px 0 80px;
+    }
+    .start-box {
+        @extend .white-box;
+        padding: 16px 28px;
+        display: flex;
+        align-items: center;
+        figure {
+            margin: 0 20px 0 0;
+            img {
+                height: 45px;
+            }
+        }
+        .link {
+            margin-left: auto;
+            font-weight: bold;
+            color: $c-red;
+        }
+    }
+    .accordian.op1 {
+        .trgr,
+        .tog_cont {
+            background: none;
+        }
+        .trgr {
+            &::before {
+                top: 18px;
+            }
+            strong {
+                font-size: 16px;
+                display: block;
+                margin: 10px 0 0 5px;
+            }
+        }
+        .tog_cont {
+            padding-left: 0;
+            ul.with-circle li {
+                list-style: none;
+                margin-bottom: 5px;
+                padding: 0 0 0 10px;
+                &::before {
+                    top: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    @include breakpoint($mxw992) {
+        .graph-box {
+            min-height: 240px;
+            margin-top: 20px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        padding-bottom: 40px;
+        .first-crore {
+            padding: 40px 0;
+        }
+        .start-box {
+            padding: 12px 15px;
+        }
+    }
+}
+
+ul.with-circle.op1 li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0 0 0 12px;
+    &::before {
+        top: 0;
+        font-size: 14px;
+    }
+}
+
+// Page 5
+.model-pp {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 38%, rgba(250, 250, 250, 1) 38%, rgba(250, 250, 250, 1) 100%);
+    .graph-box {
+        min-height: 240px;
+    }
+}
+
+.open-account-banner {
+    background: $grey-50;
+    @extend .pad2;
+    .btn-box .btn-red {
+        min-width: 200px;
+    }
+    @include breakpoint($mxw992) {
+        .hd2v {
+            padding-left: 30px;
+        }
+    }
+    @include breakpoint($mxw768) {
+        .hd2v {
+            padding: 30px;
+        }
+        .card.page-breaker .btn-box {
+            align-items: center;
+            .f14br {
+                margin: 10px 0 5px;
+            }
+        }
+    }
+}
+
+.accordian.op2 {
+    .trgr {
+        display: flex;
+        align-items: center;
+        padding: 30px 60px;
+        &.act::before {
+            content: "\e905";
+        }
+        &::before {
+            content: "\e906";
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background: $grey-100;
+            font-size: 24px;
+            color: $c-black;
+            text-align: center;
+            line-height: 62px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 60px;
+        }
+        p {
+            margin-bottom: 0;
+            margin-right: 60px;
+            span {
+                font-size: 24px;
+                display: block;
+                margin-top: 4px;
+            }
+        }
+    }
+    .comp-info {
+        display: flex;
+        align-items: center;
+        width: 40%;
+        img {
+            margin-right: 40px;
+        }
+        div {
+            font-size: 14px;
+            strong {
+                display: block;
+                font-size: 16px;
+            }
+        }
+    }
+    .tog_cont {
+        border-top: 0;
+        position: relative;
+        padding: 0 40px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .tog_contIn {
+            border-top: 1px solid $grey-200;
+            padding: 28px 30px 40px 120px;
+            .star-ratting span {
+                font-size: 22px;
+                &.icon-star:hover::before,
+                &.icon-star.active::before {
+                    content: "\e908";
+                    color: #787878;
+                }
+            }
+        }
+    }
+    @include breakpoint($mxw1000) {
+        .trgr {
+            padding: 30px;
+            &::before {
+                right: 30px;
+            }
+        }
+        .tog_cont .tog_contIn {
+            padding-left: 95px;
+        }
+    }
+    @include breakpoint($mxw992) {
+        .trgr {
+            padding: 24px 20px;
+            &::before {
+                right: 20px;
+                width: 36px;
+                height: 36px;
+                font-size: 16px;
+                line-height: 36px;
+                transform: none;
+                top: 35px;
+            }
+            p {
+                margin-right: 24px;
+                font-size: 14px;
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+        .comp-info img {
+            margin-right: 10px;
+        }
+        .tog_cont {
+            padding: 0 20px;
+            .tog_contIn {
+                padding: 20px 0;
+            }
+        }
+    }
+    @include breakpoint($mxw768) {
+        .trgr {
+            flex-wrap: wrap;
+            p {
+                width: 50%;
+                margin-right: 0;
+                margin-top: 24px;
+            }
+        }
+        .comp-info {
+            width: 100%;
+        }
+        .tog_cont {
+            .graph-box {
+                min-height: 160px;
+            }
+        }
+    }
+}
+
+.media-kit.mpp {
+    background: #c4777d;
+    background: linear-gradient(90deg, #c4777d 0%, #9d1d27 100%);
+    @extend .pad1;
+    .media-list {
+        justify-content: center;
+        margin: 0;
+        .card-media {
+            margin: 0 15px;
+            figure {
+                height: 75px;
+            }
+        }
+        @include breakpoint($mxw992) {
+            .card-media figure {
+                height: 50px;
+                +h4 {
+                    font-size: 14px;
+                }
+            }
+        }
+        @include breakpoint($mxw768) {
+            .card-media {
+                margin: 0 10px;
+                &:first-child {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+// personality finder
+.invest-result {
+    padding: 40px 0 80px;
+    display: none;
+    .your-pers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        figure {
+            background: url(../images/invt/res-bg.svg) no-repeat;
+            width: 216px;
+            height: 216px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 80px 0 0;
+            flex: 0 0 216px;
+            img {
+                height: 100px;
+            }
+        }
+        .hd7 strong {
+            display: block;
+        }
+        .btn-box.MT30 {
+            display: flex;
+        }
+        @include breakpoint($mxw768) {
+            flex-direction: column;
+            figure {
+                margin: 0 0 30px;
+            }
+            .btn-box.MT30 .MR30 {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.invest-pers {
+    padding-top: 40px;
+    position: relative;
+    .pers-exp {
+        padding: 40px 0 120px;
+        display: none;
+        &.active {
+            display: block;
+        }
+        @include breakpoint($mxw1366) {
+            padding-bottom: 80px;
+        }
+    }
+    .sel-prod {
+        .choose-product.op1 label:hover input+.design {
+            background: url(../images/invt/oval-hov.svg);
+        }
+        &.s1 .choose-product.op1 label img {
+            height: 86px;
+        }
+        &.s2 .choose-product.op1 label img {
+            height: 70px;
+        }
+        &.s3 .choose-product.op1 label img {
+            height: 45px;
+        }
+        &.txt .choose-product.op1 label .design {
+            font-size: 36px;
+            font-weight: 700;
+            color: $brownish-grey;
+            small {
+                font-size: 20px;
+                font-weight: 700;
+                margin: 8px 0 0 2px;
+            }
+            sup {
+                position: absolute;
+                top: 54px;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .progress-line {
+        height: 4px;
+        background: $c-red;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        &.w20 {
+            width: 20%;
+        }
+        &.w40 {
+            width: 40%;
+        }
+        &.w60 {
+            width: 60%;
+        }
+        &.w80 {
+            width: 80%;
+        }
+        &.w100 {
+            width: 100%;
+        }
+    }
+}

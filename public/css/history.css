@@ -1,0 +1,923 @@
+.history-banner {
+  background: #f3f3f3;
+  background-image: linear-gradient(90deg, #9D1D27 0%, #C4777D 40%, #f3f3f3 40%, #f3f3f3 100%);
+  padding: 100px 0;
+}
+
+.history-banner .row {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.history-banner figure {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.history-banner .hdr {
+  color: #FFFFFF;
+}
+
+.history-banner .hdr+p {
+  color: #FFFFFF;
+  margin: 16px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .history-banner {
+    background-image: linear-gradient(90deg, #9D1D27 0%, #C4777D 28%, #f3f3f3 28%, #f3f3f3 100%);
+  }
+}
+
+@media (max-width: 991px) {
+  .history-banner {
+    background-image: linear-gradient(180deg, #9D1D27 0%, #C4777D 58%, #f3f3f3 58%, #f3f3f3 100%);
+    padding: 0;
+  }
+
+  .history-banner .col-lg-3 {
+    padding: 40px 0;
+  }
+
+  .history-banner .col-lg-9 {
+    padding: 20px 0;
+  }
+
+  .history-banner .col-lg-9 figure {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .history-banner {
+    padding: 0 20px;
+    background-image: linear-gradient(180deg, #9D1D27 0%, #C4777D 64%, #f3f3f3 64%, #f3f3f3 100%);
+  }
+
+  .history-banner figure img {
+    width: 100%;
+  }
+}
+
+.the-founding .white-box.outer,
+.the-founding .search-bxIn .search-ad .outer.ad-card,
+.search-bxIn .search-ad .the-founding .outer.ad-card,
+.the-founding .accordian .outer.trgr,
+.accordian .the-founding .outer.trgr,
+.the-founding .accordian .outer.tog_cont,
+.accordian .the-founding .outer.tog_cont,
+.the-founding .outer.card-look,
+.the-founding .outer.media-card,
+.the-founding .pr-list>li .outer.card-bx,
+.pr-list>li .the-founding .outer.card-bx,
+.the-founding .outer.trgr1,
+.the-founding .outer.trgr2,
+.the-founding .outer.trgr3,
+.the-founding .outer.tog_cont1,
+.the-founding .outer.tog_cont2,
+.the-founding .outer.tog_cont3,
+.the-founding .mf-invest .outer.start-box,
+.mf-invest .the-founding .outer.start-box,
+.the-founding .media-kit .media-list .outer.card-media,
+.media-kit .media-list .the-founding .outer.card-media {
+  padding: 80px 40px 40px;
+  margin-top: 80px;
+}
+
+.the-founding .white-box.outer .white-box.inner,
+.the-founding .search-bxIn .search-ad .outer.ad-card .white-box.inner,
+.search-bxIn .search-ad .the-founding .outer.ad-card .white-box.inner,
+.the-founding .accordian .outer.trgr .white-box.inner,
+.accordian .the-founding .outer.trgr .white-box.inner,
+.the-founding .accordian .outer.tog_cont .white-box.inner,
+.accordian .the-founding .outer.tog_cont .white-box.inner,
+.the-founding .outer.card-look .white-box.inner,
+.the-founding .outer.media-card .white-box.inner,
+.the-founding .pr-list>li .outer.card-bx .white-box.inner,
+.pr-list>li .the-founding .outer.card-bx .white-box.inner,
+.the-founding .outer.trgr1 .white-box.inner,
+.the-founding .outer.trgr2 .white-box.inner,
+.the-founding .outer.trgr3 .white-box.inner,
+.the-founding .outer.tog_cont1 .white-box.inner,
+.the-founding .outer.tog_cont2 .white-box.inner,
+.the-founding .outer.tog_cont3 .white-box.inner,
+.the-founding .mf-invest .outer.start-box .white-box.inner,
+.mf-invest .the-founding .outer.start-box .white-box.inner,
+.the-founding .media-kit .media-list .outer.card-media .white-box.inner,
+.media-kit .media-list .the-founding .outer.card-media .white-box.inner,
+.the-founding .white-box.outer .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .white-box.outer .inner.ad-card,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.ad-card,
+.the-founding .accordian .outer.trgr .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .accordian .outer.trgr .inner.ad-card,
+.accordian .the-founding .outer.trgr .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .accordian .the-founding .outer.trgr .inner.ad-card,
+.the-founding .accordian .outer.tog_cont .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .accordian .outer.tog_cont .inner.ad-card,
+.accordian .the-founding .outer.tog_cont .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .accordian .the-founding .outer.tog_cont .inner.ad-card,
+.the-founding .outer.card-look .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.card-look .inner.ad-card,
+.the-founding .outer.media-card .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.media-card .inner.ad-card,
+.the-founding .pr-list>li .outer.card-bx .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .pr-list>li .outer.card-bx .inner.ad-card,
+.pr-list>li .the-founding .outer.card-bx .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .pr-list>li .the-founding .outer.card-bx .inner.ad-card,
+.the-founding .outer.trgr1 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.trgr1 .inner.ad-card,
+.the-founding .outer.trgr2 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.trgr2 .inner.ad-card,
+.the-founding .outer.trgr3 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.trgr3 .inner.ad-card,
+.the-founding .outer.tog_cont1 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.tog_cont1 .inner.ad-card,
+.the-founding .outer.tog_cont2 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.tog_cont2 .inner.ad-card,
+.the-founding .outer.tog_cont3 .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .outer.tog_cont3 .inner.ad-card,
+.the-founding .mf-invest .outer.start-box .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .mf-invest .outer.start-box .inner.ad-card,
+.mf-invest .the-founding .outer.start-box .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .mf-invest .the-founding .outer.start-box .inner.ad-card,
+.the-founding .media-kit .media-list .outer.card-media .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .the-founding .media-kit .media-list .outer.card-media .inner.ad-card,
+.media-kit .media-list .the-founding .outer.card-media .search-bxIn .search-ad .inner.ad-card,
+.search-bxIn .search-ad .media-kit .media-list .the-founding .outer.card-media .inner.ad-card,
+.the-founding .white-box.outer .accordian .inner.trgr,
+.accordian .the-founding .white-box.outer .inner.trgr,
+.the-founding .search-bxIn .search-ad .outer.ad-card .accordian .inner.trgr,
+.accordian .the-founding .search-bxIn .search-ad .outer.ad-card .inner.trgr,
+.search-bxIn .search-ad .the-founding .outer.ad-card .accordian .inner.trgr,
+.accordian .search-bxIn .search-ad .the-founding .outer.ad-card .inner.trgr,
+.the-founding .accordian .outer.trgr .inner.trgr,
+.accordian .the-founding .outer.trgr .inner.trgr,
+.the-founding .accordian .outer.tog_cont .inner.trgr,
+.accordian .the-founding .outer.tog_cont .inner.trgr,
+.the-founding .outer.card-look .accordian .inner.trgr,
+.accordian .the-founding .outer.card-look .inner.trgr,
+.the-founding .outer.media-card .accordian .inner.trgr,
+.accordian .the-founding .outer.media-card .inner.trgr,
+.the-founding .pr-list>li .outer.card-bx .accordian .inner.trgr,
+.accordian .the-founding .pr-list>li .outer.card-bx .inner.trgr,
+.pr-list>li .the-founding .outer.card-bx .accordian .inner.trgr,
+.accordian .pr-list>li .the-founding .outer.card-bx .inner.trgr,
+.the-founding .outer.trgr1 .accordian .inner.trgr,
+.accordian .the-founding .outer.trgr1 .inner.trgr,
+.the-founding .outer.trgr2 .accordian .inner.trgr,
+.accordian .the-founding .outer.trgr2 .inner.trgr,
+.the-founding .outer.trgr3 .accordian .inner.trgr,
+.accordian .the-founding .outer.trgr3 .inner.trgr,
+.the-founding .outer.tog_cont1 .accordian .inner.trgr,
+.accordian .the-founding .outer.tog_cont1 .inner.trgr,
+.the-founding .outer.tog_cont2 .accordian .inner.trgr,
+.accordian .the-founding .outer.tog_cont2 .inner.trgr,
+.the-founding .outer.tog_cont3 .accordian .inner.trgr,
+.accordian .the-founding .outer.tog_cont3 .inner.trgr,
+.the-founding .mf-invest .outer.start-box .accordian .inner.trgr,
+.accordian .the-founding .mf-invest .outer.start-box .inner.trgr,
+.mf-invest .the-founding .outer.start-box .accordian .inner.trgr,
+.accordian .mf-invest .the-founding .outer.start-box .inner.trgr,
+.the-founding .media-kit .media-list .outer.card-media .accordian .inner.trgr,
+.accordian .the-founding .media-kit .media-list .outer.card-media .inner.trgr,
+.media-kit .media-list .the-founding .outer.card-media .accordian .inner.trgr,
+.accordian .media-kit .media-list .the-founding .outer.card-media .inner.trgr,
+.the-founding .white-box.outer .accordian .inner.tog_cont,
+.accordian .the-founding .white-box.outer .inner.tog_cont,
+.the-founding .search-bxIn .search-ad .outer.ad-card .accordian .inner.tog_cont,
+.accordian .the-founding .search-bxIn .search-ad .outer.ad-card .inner.tog_cont,
+.search-bxIn .search-ad .the-founding .outer.ad-card .accordian .inner.tog_cont,
+.accordian .search-bxIn .search-ad .the-founding .outer.ad-card .inner.tog_cont,
+.the-founding .accordian .outer.trgr .inner.tog_cont,
+.accordian .the-founding .outer.trgr .inner.tog_cont,
+.the-founding .accordian .outer.tog_cont .inner.tog_cont,
+.accordian .the-founding .outer.tog_cont .inner.tog_cont,
+.the-founding .outer.card-look .accordian .inner.tog_cont,
+.accordian .the-founding .outer.card-look .inner.tog_cont,
+.the-founding .outer.media-card .accordian .inner.tog_cont,
+.accordian .the-founding .outer.media-card .inner.tog_cont,
+.the-founding .pr-list>li .outer.card-bx .accordian .inner.tog_cont,
+.accordian .the-founding .pr-list>li .outer.card-bx .inner.tog_cont,
+.pr-list>li .the-founding .outer.card-bx .accordian .inner.tog_cont,
+.accordian .pr-list>li .the-founding .outer.card-bx .inner.tog_cont,
+.the-founding .outer.trgr1 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.trgr1 .inner.tog_cont,
+.the-founding .outer.trgr2 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.trgr2 .inner.tog_cont,
+.the-founding .outer.trgr3 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.trgr3 .inner.tog_cont,
+.the-founding .outer.tog_cont1 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.tog_cont1 .inner.tog_cont,
+.the-founding .outer.tog_cont2 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.tog_cont2 .inner.tog_cont,
+.the-founding .outer.tog_cont3 .accordian .inner.tog_cont,
+.accordian .the-founding .outer.tog_cont3 .inner.tog_cont,
+.the-founding .mf-invest .outer.start-box .accordian .inner.tog_cont,
+.accordian .the-founding .mf-invest .outer.start-box .inner.tog_cont,
+.mf-invest .the-founding .outer.start-box .accordian .inner.tog_cont,
+.accordian .mf-invest .the-founding .outer.start-box .inner.tog_cont,
+.the-founding .media-kit .media-list .outer.card-media .accordian .inner.tog_cont,
+.accordian .the-founding .media-kit .media-list .outer.card-media .inner.tog_cont,
+.media-kit .media-list .the-founding .outer.card-media .accordian .inner.tog_cont,
+.accordian .media-kit .media-list .the-founding .outer.card-media .inner.tog_cont,
+.the-founding .white-box.outer .inner.card-look,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.card-look,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.card-look,
+.the-founding .accordian .outer.trgr .inner.card-look,
+.accordian .the-founding .outer.trgr .inner.card-look,
+.the-founding .accordian .outer.tog_cont .inner.card-look,
+.accordian .the-founding .outer.tog_cont .inner.card-look,
+.the-founding .outer.card-look .inner.card-look,
+.the-founding .outer.media-card .inner.card-look,
+.the-founding .pr-list>li .outer.card-bx .inner.card-look,
+.pr-list>li .the-founding .outer.card-bx .inner.card-look,
+.the-founding .outer.trgr1 .inner.card-look,
+.the-founding .outer.trgr2 .inner.card-look,
+.the-founding .outer.trgr3 .inner.card-look,
+.the-founding .outer.tog_cont1 .inner.card-look,
+.the-founding .outer.tog_cont2 .inner.card-look,
+.the-founding .outer.tog_cont3 .inner.card-look,
+.the-founding .mf-invest .outer.start-box .inner.card-look,
+.mf-invest .the-founding .outer.start-box .inner.card-look,
+.the-founding .media-kit .media-list .outer.card-media .inner.card-look,
+.media-kit .media-list .the-founding .outer.card-media .inner.card-look,
+.the-founding .white-box.outer .inner.media-card,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.media-card,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.media-card,
+.the-founding .accordian .outer.trgr .inner.media-card,
+.accordian .the-founding .outer.trgr .inner.media-card,
+.the-founding .accordian .outer.tog_cont .inner.media-card,
+.accordian .the-founding .outer.tog_cont .inner.media-card,
+.the-founding .outer.card-look .inner.media-card,
+.the-founding .outer.media-card .inner.media-card,
+.the-founding .pr-list>li .outer.card-bx .inner.media-card,
+.pr-list>li .the-founding .outer.card-bx .inner.media-card,
+.the-founding .outer.trgr1 .inner.media-card,
+.the-founding .outer.trgr2 .inner.media-card,
+.the-founding .outer.trgr3 .inner.media-card,
+.the-founding .outer.tog_cont1 .inner.media-card,
+.the-founding .outer.tog_cont2 .inner.media-card,
+.the-founding .outer.tog_cont3 .inner.media-card,
+.the-founding .mf-invest .outer.start-box .inner.media-card,
+.mf-invest .the-founding .outer.start-box .inner.media-card,
+.the-founding .media-kit .media-list .outer.card-media .inner.media-card,
+.media-kit .media-list .the-founding .outer.card-media .inner.media-card,
+.the-founding .white-box.outer .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .white-box.outer .inner.card-bx,
+.the-founding .search-bxIn .search-ad .outer.ad-card .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .search-bxIn .search-ad .outer.ad-card .inner.card-bx,
+.search-bxIn .search-ad .the-founding .outer.ad-card .pr-list>li .inner.card-bx,
+.pr-list>li .search-bxIn .search-ad .the-founding .outer.ad-card .inner.card-bx,
+.the-founding .accordian .outer.trgr .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .accordian .outer.trgr .inner.card-bx,
+.accordian .the-founding .outer.trgr .pr-list>li .inner.card-bx,
+.pr-list>li .accordian .the-founding .outer.trgr .inner.card-bx,
+.the-founding .accordian .outer.tog_cont .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .accordian .outer.tog_cont .inner.card-bx,
+.accordian .the-founding .outer.tog_cont .pr-list>li .inner.card-bx,
+.pr-list>li .accordian .the-founding .outer.tog_cont .inner.card-bx,
+.the-founding .outer.card-look .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.card-look .inner.card-bx,
+.the-founding .outer.media-card .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.media-card .inner.card-bx,
+.the-founding .pr-list>li .outer.card-bx .inner.card-bx,
+.pr-list>li .the-founding .outer.card-bx .inner.card-bx,
+.the-founding .outer.trgr1 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.trgr1 .inner.card-bx,
+.the-founding .outer.trgr2 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.trgr2 .inner.card-bx,
+.the-founding .outer.trgr3 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.trgr3 .inner.card-bx,
+.the-founding .outer.tog_cont1 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.tog_cont1 .inner.card-bx,
+.the-founding .outer.tog_cont2 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.tog_cont2 .inner.card-bx,
+.the-founding .outer.tog_cont3 .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .outer.tog_cont3 .inner.card-bx,
+.the-founding .mf-invest .outer.start-box .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .mf-invest .outer.start-box .inner.card-bx,
+.mf-invest .the-founding .outer.start-box .pr-list>li .inner.card-bx,
+.pr-list>li .mf-invest .the-founding .outer.start-box .inner.card-bx,
+.the-founding .media-kit .media-list .outer.card-media .pr-list>li .inner.card-bx,
+.pr-list>li .the-founding .media-kit .media-list .outer.card-media .inner.card-bx,
+.media-kit .media-list .the-founding .outer.card-media .pr-list>li .inner.card-bx,
+.pr-list>li .media-kit .media-list .the-founding .outer.card-media .inner.card-bx,
+.the-founding .white-box.outer .inner.trgr1,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.trgr1,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.trgr1,
+.the-founding .accordian .outer.trgr .inner.trgr1,
+.accordian .the-founding .outer.trgr .inner.trgr1,
+.the-founding .accordian .outer.tog_cont .inner.trgr1,
+.accordian .the-founding .outer.tog_cont .inner.trgr1,
+.the-founding .outer.card-look .inner.trgr1,
+.the-founding .outer.media-card .inner.trgr1,
+.the-founding .pr-list>li .outer.card-bx .inner.trgr1,
+.pr-list>li .the-founding .outer.card-bx .inner.trgr1,
+.the-founding .outer.trgr1 .inner.trgr1,
+.the-founding .outer.trgr2 .inner.trgr1,
+.the-founding .outer.trgr3 .inner.trgr1,
+.the-founding .outer.tog_cont1 .inner.trgr1,
+.the-founding .outer.tog_cont2 .inner.trgr1,
+.the-founding .outer.tog_cont3 .inner.trgr1,
+.the-founding .mf-invest .outer.start-box .inner.trgr1,
+.mf-invest .the-founding .outer.start-box .inner.trgr1,
+.the-founding .media-kit .media-list .outer.card-media .inner.trgr1,
+.media-kit .media-list .the-founding .outer.card-media .inner.trgr1,
+.the-founding .white-box.outer .inner.trgr2,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.trgr2,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.trgr2,
+.the-founding .accordian .outer.trgr .inner.trgr2,
+.accordian .the-founding .outer.trgr .inner.trgr2,
+.the-founding .accordian .outer.tog_cont .inner.trgr2,
+.accordian .the-founding .outer.tog_cont .inner.trgr2,
+.the-founding .outer.card-look .inner.trgr2,
+.the-founding .outer.media-card .inner.trgr2,
+.the-founding .pr-list>li .outer.card-bx .inner.trgr2,
+.pr-list>li .the-founding .outer.card-bx .inner.trgr2,
+.the-founding .outer.trgr1 .inner.trgr2,
+.the-founding .outer.trgr2 .inner.trgr2,
+.the-founding .outer.trgr3 .inner.trgr2,
+.the-founding .outer.tog_cont1 .inner.trgr2,
+.the-founding .outer.tog_cont2 .inner.trgr2,
+.the-founding .outer.tog_cont3 .inner.trgr2,
+.the-founding .mf-invest .outer.start-box .inner.trgr2,
+.mf-invest .the-founding .outer.start-box .inner.trgr2,
+.the-founding .media-kit .media-list .outer.card-media .inner.trgr2,
+.media-kit .media-list .the-founding .outer.card-media .inner.trgr2,
+.the-founding .white-box.outer .inner.trgr3,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.trgr3,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.trgr3,
+.the-founding .accordian .outer.trgr .inner.trgr3,
+.accordian .the-founding .outer.trgr .inner.trgr3,
+.the-founding .accordian .outer.tog_cont .inner.trgr3,
+.accordian .the-founding .outer.tog_cont .inner.trgr3,
+.the-founding .outer.card-look .inner.trgr3,
+.the-founding .outer.media-card .inner.trgr3,
+.the-founding .pr-list>li .outer.card-bx .inner.trgr3,
+.pr-list>li .the-founding .outer.card-bx .inner.trgr3,
+.the-founding .outer.trgr1 .inner.trgr3,
+.the-founding .outer.trgr2 .inner.trgr3,
+.the-founding .outer.trgr3 .inner.trgr3,
+.the-founding .outer.tog_cont1 .inner.trgr3,
+.the-founding .outer.tog_cont2 .inner.trgr3,
+.the-founding .outer.tog_cont3 .inner.trgr3,
+.the-founding .mf-invest .outer.start-box .inner.trgr3,
+.mf-invest .the-founding .outer.start-box .inner.trgr3,
+.the-founding .media-kit .media-list .outer.card-media .inner.trgr3,
+.media-kit .media-list .the-founding .outer.card-media .inner.trgr3,
+.the-founding .white-box.outer .inner.tog_cont1,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.tog_cont1,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.tog_cont1,
+.the-founding .accordian .outer.trgr .inner.tog_cont1,
+.accordian .the-founding .outer.trgr .inner.tog_cont1,
+.the-founding .accordian .outer.tog_cont .inner.tog_cont1,
+.accordian .the-founding .outer.tog_cont .inner.tog_cont1,
+.the-founding .outer.card-look .inner.tog_cont1,
+.the-founding .outer.media-card .inner.tog_cont1,
+.the-founding .pr-list>li .outer.card-bx .inner.tog_cont1,
+.pr-list>li .the-founding .outer.card-bx .inner.tog_cont1,
+.the-founding .outer.trgr1 .inner.tog_cont1,
+.the-founding .outer.trgr2 .inner.tog_cont1,
+.the-founding .outer.trgr3 .inner.tog_cont1,
+.the-founding .outer.tog_cont1 .inner.tog_cont1,
+.the-founding .outer.tog_cont2 .inner.tog_cont1,
+.the-founding .outer.tog_cont3 .inner.tog_cont1,
+.the-founding .mf-invest .outer.start-box .inner.tog_cont1,
+.mf-invest .the-founding .outer.start-box .inner.tog_cont1,
+.the-founding .media-kit .media-list .outer.card-media .inner.tog_cont1,
+.media-kit .media-list .the-founding .outer.card-media .inner.tog_cont1,
+.the-founding .white-box.outer .inner.tog_cont2,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.tog_cont2,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.tog_cont2,
+.the-founding .accordian .outer.trgr .inner.tog_cont2,
+.accordian .the-founding .outer.trgr .inner.tog_cont2,
+.the-founding .accordian .outer.tog_cont .inner.tog_cont2,
+.accordian .the-founding .outer.tog_cont .inner.tog_cont2,
+.the-founding .outer.card-look .inner.tog_cont2,
+.the-founding .outer.media-card .inner.tog_cont2,
+.the-founding .pr-list>li .outer.card-bx .inner.tog_cont2,
+.pr-list>li .the-founding .outer.card-bx .inner.tog_cont2,
+.the-founding .outer.trgr1 .inner.tog_cont2,
+.the-founding .outer.trgr2 .inner.tog_cont2,
+.the-founding .outer.trgr3 .inner.tog_cont2,
+.the-founding .outer.tog_cont1 .inner.tog_cont2,
+.the-founding .outer.tog_cont2 .inner.tog_cont2,
+.the-founding .outer.tog_cont3 .inner.tog_cont2,
+.the-founding .mf-invest .outer.start-box .inner.tog_cont2,
+.mf-invest .the-founding .outer.start-box .inner.tog_cont2,
+.the-founding .media-kit .media-list .outer.card-media .inner.tog_cont2,
+.media-kit .media-list .the-founding .outer.card-media .inner.tog_cont2,
+.the-founding .white-box.outer .inner.tog_cont3,
+.the-founding .search-bxIn .search-ad .outer.ad-card .inner.tog_cont3,
+.search-bxIn .search-ad .the-founding .outer.ad-card .inner.tog_cont3,
+.the-founding .accordian .outer.trgr .inner.tog_cont3,
+.accordian .the-founding .outer.trgr .inner.tog_cont3,
+.the-founding .accordian .outer.tog_cont .inner.tog_cont3,
+.accordian .the-founding .outer.tog_cont .inner.tog_cont3,
+.the-founding .outer.card-look .inner.tog_cont3,
+.the-founding .outer.media-card .inner.tog_cont3,
+.the-founding .pr-list>li .outer.card-bx .inner.tog_cont3,
+.pr-list>li .the-founding .outer.card-bx .inner.tog_cont3,
+.the-founding .outer.trgr1 .inner.tog_cont3,
+.the-founding .outer.trgr2 .inner.tog_cont3,
+.the-founding .outer.trgr3 .inner.tog_cont3,
+.the-founding .outer.tog_cont1 .inner.tog_cont3,
+.the-founding .outer.tog_cont2 .inner.tog_cont3,
+.the-founding .outer.tog_cont3 .inner.tog_cont3,
+.the-founding .mf-invest .outer.start-box .inner.tog_cont3,
+.mf-invest .the-founding .outer.start-box .inner.tog_cont3,
+.the-founding .media-kit .media-list .outer.card-media .inner.tog_cont3,
+.media-kit .media-list .the-founding .outer.card-media .inner.tog_cont3,
+.the-founding .white-box.outer .mf-invest .inner.start-box,
+.mf-invest .the-founding .white-box.outer .inner.start-box,
+.the-founding .search-bxIn .search-ad .outer.ad-card .mf-invest .inner.start-box,
+.mf-invest .the-founding .search-bxIn .search-ad .outer.ad-card .inner.start-box,
+.search-bxIn .search-ad .the-founding .outer.ad-card .mf-invest .inner.start-box,
+.mf-invest .search-bxIn .search-ad .the-founding .outer.ad-card .inner.start-box,
+.the-founding .accordian .outer.trgr .mf-invest .inner.start-box,
+.mf-invest .the-founding .accordian .outer.trgr .inner.start-box,
+.accordian .the-founding .outer.trgr .mf-invest .inner.start-box,
+.mf-invest .accordian .the-founding .outer.trgr .inner.start-box,
+.the-founding .accordian .outer.tog_cont .mf-invest .inner.start-box,
+.mf-invest .the-founding .accordian .outer.tog_cont .inner.start-box,
+.accordian .the-founding .outer.tog_cont .mf-invest .inner.start-box,
+.mf-invest .accordian .the-founding .outer.tog_cont .inner.start-box,
+.the-founding .outer.card-look .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.card-look .inner.start-box,
+.the-founding .outer.media-card .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.media-card .inner.start-box,
+.the-founding .pr-list>li .outer.card-bx .mf-invest .inner.start-box,
+.mf-invest .the-founding .pr-list>li .outer.card-bx .inner.start-box,
+.pr-list>li .the-founding .outer.card-bx .mf-invest .inner.start-box,
+.mf-invest .pr-list>li .the-founding .outer.card-bx .inner.start-box,
+.the-founding .outer.trgr1 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.trgr1 .inner.start-box,
+.the-founding .outer.trgr2 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.trgr2 .inner.start-box,
+.the-founding .outer.trgr3 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.trgr3 .inner.start-box,
+.the-founding .outer.tog_cont1 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.tog_cont1 .inner.start-box,
+.the-founding .outer.tog_cont2 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.tog_cont2 .inner.start-box,
+.the-founding .outer.tog_cont3 .mf-invest .inner.start-box,
+.mf-invest .the-founding .outer.tog_cont3 .inner.start-box,
+.the-founding .mf-invest .outer.start-box .inner.start-box,
+.mf-invest .the-founding .outer.start-box .inner.start-box,
+.the-founding .media-kit .media-list .outer.card-media .mf-invest .inner.start-box,
+.mf-invest .the-founding .media-kit .media-list .outer.card-media .inner.start-box,
+.media-kit .media-list .the-founding .outer.card-media .mf-invest .inner.start-box,
+.mf-invest .media-kit .media-list .the-founding .outer.card-media .inner.start-box,
+.the-founding .white-box.outer .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .white-box.outer .inner.card-media,
+.the-founding .search-bxIn .search-ad .outer.ad-card .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .search-bxIn .search-ad .outer.ad-card .inner.card-media,
+.search-bxIn .search-ad .the-founding .outer.ad-card .media-kit .media-list .inner.card-media,
+.media-kit .media-list .search-bxIn .search-ad .the-founding .outer.ad-card .inner.card-media,
+.the-founding .accordian .outer.trgr .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .accordian .outer.trgr .inner.card-media,
+.accordian .the-founding .outer.trgr .media-kit .media-list .inner.card-media,
+.media-kit .media-list .accordian .the-founding .outer.trgr .inner.card-media,
+.the-founding .accordian .outer.tog_cont .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .accordian .outer.tog_cont .inner.card-media,
+.accordian .the-founding .outer.tog_cont .media-kit .media-list .inner.card-media,
+.media-kit .media-list .accordian .the-founding .outer.tog_cont .inner.card-media,
+.the-founding .outer.card-look .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.card-look .inner.card-media,
+.the-founding .outer.media-card .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.media-card .inner.card-media,
+.the-founding .pr-list>li .outer.card-bx .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .pr-list>li .outer.card-bx .inner.card-media,
+.pr-list>li .the-founding .outer.card-bx .media-kit .media-list .inner.card-media,
+.media-kit .media-list .pr-list>li .the-founding .outer.card-bx .inner.card-media,
+.the-founding .outer.trgr1 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.trgr1 .inner.card-media,
+.the-founding .outer.trgr2 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.trgr2 .inner.card-media,
+.the-founding .outer.trgr3 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.trgr3 .inner.card-media,
+.the-founding .outer.tog_cont1 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.tog_cont1 .inner.card-media,
+.the-founding .outer.tog_cont2 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.tog_cont2 .inner.card-media,
+.the-founding .outer.tog_cont3 .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .outer.tog_cont3 .inner.card-media,
+.the-founding .mf-invest .outer.start-box .media-kit .media-list .inner.card-media,
+.media-kit .media-list .the-founding .mf-invest .outer.start-box .inner.card-media,
+.mf-invest .the-founding .outer.start-box .media-kit .media-list .inner.card-media,
+.media-kit .media-list .mf-invest .the-founding .outer.start-box .inner.card-media,
+.the-founding .media-kit .media-list .outer.card-media .inner.card-media,
+.media-kit .media-list .the-founding .outer.card-media .inner.card-media {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  right: auto;
+  -khtml-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.the-founding .white-box.outer .hd3b,
+.the-founding .search-bxIn .search-ad .outer.ad-card .hd3b,
+.search-bxIn .search-ad .the-founding .outer.ad-card .hd3b,
+.the-founding .accordian .outer.trgr .hd3b,
+.accordian .the-founding .outer.trgr .hd3b,
+.the-founding .accordian .outer.tog_cont .hd3b,
+.accordian .the-founding .outer.tog_cont .hd3b,
+.the-founding .outer.card-look .hd3b,
+.the-founding .outer.media-card .hd3b,
+.the-founding .pr-list>li .outer.card-bx .hd3b,
+.pr-list>li .the-founding .outer.card-bx .hd3b,
+.the-founding .outer.trgr1 .hd3b,
+.the-founding .outer.trgr2 .hd3b,
+.the-founding .outer.trgr3 .hd3b,
+.the-founding .outer.tog_cont1 .hd3b,
+.the-founding .outer.tog_cont2 .hd3b,
+.the-founding .outer.tog_cont3 .hd3b,
+.the-founding .mf-invest .outer.start-box .hd3b,
+.mf-invest .the-founding .outer.start-box .hd3b,
+.the-founding .media-kit .media-list .outer.card-media .hd3b,
+.media-kit .media-list .the-founding .outer.card-media .hd3b {
+  margin-bottom: 24px;
+}
+
+.the-founding .white-box.outer .hd3b+p,
+.the-founding .search-bxIn .search-ad .outer.ad-card .hd3b+p,
+.search-bxIn .search-ad .the-founding .outer.ad-card .hd3b+p,
+.the-founding .accordian .outer.trgr .hd3b+p,
+.accordian .the-founding .outer.trgr .hd3b+p,
+.the-founding .accordian .outer.tog_cont .hd3b+p,
+.accordian .the-founding .outer.tog_cont .hd3b+p,
+.the-founding .outer.card-look .hd3b+p,
+.the-founding .outer.media-card .hd3b+p,
+.the-founding .pr-list>li .outer.card-bx .hd3b+p,
+.pr-list>li .the-founding .outer.card-bx .hd3b+p,
+.the-founding .outer.trgr1 .hd3b+p,
+.the-founding .outer.trgr2 .hd3b+p,
+.the-founding .outer.trgr3 .hd3b+p,
+.the-founding .outer.tog_cont1 .hd3b+p,
+.the-founding .outer.tog_cont2 .hd3b+p,
+.the-founding .outer.tog_cont3 .hd3b+p,
+.the-founding .mf-invest .outer.start-box .hd3b+p,
+.mf-invest .the-founding .outer.start-box .hd3b+p,
+.the-founding .media-kit .media-list .outer.card-media .hd3b+p,
+.media-kit .media-list .the-founding .outer.card-media .hd3b+p {
+  line-height: 22px;
+  height: 285px;
+  overflow: hidden;
+}
+
+.the-founding .white-box.outer .hd3b+p.auto,
+.the-founding .search-bxIn .search-ad .outer.ad-card .hd3b+p.auto,
+.search-bxIn .search-ad .the-founding .outer.ad-card .hd3b+p.auto,
+.the-founding .accordian .outer.trgr .hd3b+p.auto,
+.accordian .the-founding .outer.trgr .hd3b+p.auto,
+.the-founding .accordian .outer.tog_cont .hd3b+p.auto,
+.accordian .the-founding .outer.tog_cont .hd3b+p.auto,
+.the-founding .outer.card-look .hd3b+p.auto,
+.the-founding .outer.media-card .hd3b+p.auto,
+.the-founding .pr-list>li .outer.card-bx .hd3b+p.auto,
+.pr-list>li .the-founding .outer.card-bx .hd3b+p.auto,
+.the-founding .outer.trgr1 .hd3b+p.auto,
+.the-founding .outer.trgr2 .hd3b+p.auto,
+.the-founding .outer.trgr3 .hd3b+p.auto,
+.the-founding .outer.tog_cont1 .hd3b+p.auto,
+.the-founding .outer.tog_cont2 .hd3b+p.auto,
+.the-founding .outer.tog_cont3 .hd3b+p.auto,
+.the-founding .mf-invest .outer.start-box .hd3b+p.auto,
+.mf-invest .the-founding .outer.start-box .hd3b+p.auto,
+.the-founding .media-kit .media-list .outer.card-media .hd3b+p.auto,
+.media-kit .media-list .the-founding .outer.card-media .hd3b+p.auto {
+  overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+  .the-founding .hdr {
+    margin-bottom: 20px;
+  }
+
+  .the-founding .white-box.outer,
+  .the-founding .search-bxIn .search-ad .outer.ad-card,
+  .search-bxIn .search-ad .the-founding .outer.ad-card,
+  .the-founding .accordian .outer.trgr,
+  .accordian .the-founding .outer.trgr,
+  .the-founding .accordian .outer.tog_cont,
+  .accordian .the-founding .outer.tog_cont,
+  .the-founding .outer.card-look,
+  .the-founding .outer.media-card,
+  .the-founding .pr-list>li .outer.card-bx,
+  .pr-list>li .the-founding .outer.card-bx,
+  .the-founding .outer.trgr1,
+  .the-founding .outer.trgr2,
+  .the-founding .outer.trgr3,
+  .the-founding .outer.tog_cont1,
+  .the-founding .outer.tog_cont2,
+  .the-founding .outer.tog_cont3,
+  .the-founding .mf-invest .outer.start-box,
+  .mf-invest .the-founding .outer.start-box,
+  .the-founding .media-kit .media-list .outer.card-media,
+  .media-kit .media-list .the-founding .outer.card-media {
+    padding: 80px 20px 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .the-founding .white-box.outer .hd3b+p,
+  .the-founding .search-bxIn .search-ad .outer.ad-card .hd3b+p,
+  .search-bxIn .search-ad .the-founding .outer.ad-card .hd3b+p,
+  .the-founding .accordian .outer.trgr .hd3b+p,
+  .accordian .the-founding .outer.trgr .hd3b+p,
+  .the-founding .accordian .outer.tog_cont .hd3b+p,
+  .accordian .the-founding .outer.tog_cont .hd3b+p,
+  .the-founding .outer.card-look .hd3b+p,
+  .the-founding .outer.media-card .hd3b+p,
+  .the-founding .pr-list>li .outer.card-bx .hd3b+p,
+  .pr-list>li .the-founding .outer.card-bx .hd3b+p,
+  .the-founding .outer.trgr1 .hd3b+p,
+  .the-founding .outer.trgr2 .hd3b+p,
+  .the-founding .outer.trgr3 .hd3b+p,
+  .the-founding .outer.tog_cont1 .hd3b+p,
+  .the-founding .outer.tog_cont2 .hd3b+p,
+  .the-founding .outer.tog_cont3 .hd3b+p,
+  .the-founding .mf-invest .outer.start-box .hd3b+p,
+  .mf-invest .the-founding .outer.start-box .hd3b+p,
+  .the-founding .media-kit .media-list .outer.card-media .hd3b+p,
+  .media-kit .media-list .the-founding .outer.card-media .hd3b+p {
+    height: auto;
+  }
+
+  .the-founding .white-box.outer p.mb-0,
+  .the-founding .search-bxIn .search-ad .outer.ad-card p.mb-0,
+  .search-bxIn .search-ad .the-founding .outer.ad-card p.mb-0,
+  .the-founding .accordian .outer.trgr p.mb-0,
+  .accordian .the-founding .outer.trgr p.mb-0,
+  .the-founding .accordian .outer.tog_cont p.mb-0,
+  .accordian .the-founding .outer.tog_cont p.mb-0,
+  .the-founding .outer.card-look p.mb-0,
+  .the-founding .outer.media-card p.mb-0,
+  .the-founding .pr-list>li .outer.card-bx p.mb-0,
+  .pr-list>li .the-founding .outer.card-bx p.mb-0,
+  .the-founding .outer.trgr1 p.mb-0,
+  .the-founding .outer.trgr2 p.mb-0,
+  .the-founding .outer.trgr3 p.mb-0,
+  .the-founding .outer.tog_cont1 p.mb-0,
+  .the-founding .outer.tog_cont2 p.mb-0,
+  .the-founding .outer.tog_cont3 p.mb-0,
+  .the-founding .mf-invest .outer.start-box p.mb-0,
+  .mf-invest .the-founding .outer.start-box p.mb-0,
+  .the-founding .media-kit .media-list .outer.card-media p.mb-0,
+  .media-kit .media-list .the-founding .outer.card-media p.mb-0 {
+    display: none;
+  }
+}
+
+.new-bank {
+  background: #fafafa;
+}
+
+.new-bank .nav {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.new-bank .nav li {
+  width: 33.33%;
+}
+
+.new-bank .nav a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 24px 30px;
+  border-radius: 5px 5px 0 0;
+}
+
+.new-bank .nav a.active {
+  background: #FFFFFF;
+  box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.22);
+}
+
+.new-bank .nav a figure {
+  width: 80px;
+  height: 80px;
+  background: #f3f3f3;
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.new-bank .nav a figure img {
+  width: 36px;
+  height: 36px;
+}
+
+.new-bank .tab-content {
+  background: #FFFFFF;
+  padding: 30px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .new-bank .nav a {
+    padding: 20px;
+  }
+
+  .new-bank .nav a .hd3b {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .new-bank .nav a figure {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .new-bank .nav a {
+    padding: 12px;
+    min-height: 100px;
+  }
+
+  .new-bank .nav a .hd3b {
+    font-size: 16px;
+  }
+
+  .new-bank .tab-content {
+    padding: 20px;
+  }
+}
+
+.new-mission {
+  background: #9D1D27;
+  background-image: linear-gradient(134deg, #9D1D27 0%, #C4777D 91%);
+  color: #FFFFFF;
+}
+
+.new-mission .row {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.new-mission .f24,
+.new-mission .page-breaker-1 .card-text,
+.page-breaker-1 .new-mission .card-text {
+  margin: 30px 0 0;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+@media (max-width: 991px) {
+  .new-mission figure img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .new-mission figure {
+    margin-bottom: 50px;
+  }
+}
+
+.our-values {
+  background: #fafafa;
+}
+
+.our-values .top-row {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.our-values .top-row .card-bx {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.our-values .top-row .card-bx figure {
+  margin-bottom: 30px;
+}
+
+.our-values .top-row .card-bx figure img {
+  width: 60px;
+  height: 60px;
+}
+
+.our-values .top-row .card-bx .f24,
+.our-values .top-row .card-bx .page-breaker-1 .card-text,
+.page-breaker-1 .our-values .top-row .card-bx .card-text {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.our-values .btm-row {
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.our-values .btm-row .middle {
+  background: #C4777D;
+  background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #FFFFFF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -khtml-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0 40px;
+  text-align: center;
+}
+
+.explorer11 .our-values .btm-row .middle {
+  display: block;
+}
+
+.explorer11 .our-values .btm-row .middle .f24,
+.explorer11 .our-values .btm-row .middle .page-breaker-1 .card-text,
+.page-breaker-1 .explorer11 .our-values .btm-row .middle .card-text {
+  margin-top: 80px;
+}
+
+.our-values .btm-row .middle .f24,
+.our-values .btm-row .middle .page-breaker-1 .card-text,
+.page-breaker-1 .our-values .btm-row .middle .card-text {
+  margin-top: 20px;
+}
+
+.our-values .btm-row .middle p {
+  margin: 20px 0 0;
+}
+
+.our-values .btm-row .card-bx {
+  text-align: center;
+}
+
+.our-values .btm-row .card-bx .f16 {
+  font-weight: 700;
+  color: #9D1D27;
+  margin-bottom: 12px;
+}
+
+.our-values .btm-row .row1 {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.our-values .btm-row .row2 {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .our-values .btm-row .middle {
+    position: static;
+    transform: none;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 0 32px;
+  }
+
+  .our-values .btm-row .middle .f24,
+  .our-values .btm-row .middle .page-breaker-1 .card-text,
+  .page-breaker-1 .our-values .btm-row .middle .card-text {
+    margin-top: 0;
+  }
+
+  .our-values .btm-row .card-bx {
+    margin-top: 20px;
+  }
+}

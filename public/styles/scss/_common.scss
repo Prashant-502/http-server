@@ -1,0 +1,971 @@
+/* General padding for sections start*/
+
+.pad1 {
+    padding: 60px 0;
+    @include breakpoint($mxw768) {
+        padding: 40px 0;
+    }
+}
+
+.pad2 {
+    padding: 80px 0;
+    @include breakpoint($mxw768) {
+        padding: 40px 0;
+    }
+}
+
+
+/* General padding for sections start*/
+
+
+/* Breadcrum Start */
+
+.breadcrumb {
+    background-color: $grey-100;
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 13px;
+    text-transform: uppercase;
+    color: $brownish-grey-two;
+    a {
+        color: $brownish-grey-two;
+    }
+}
+
+.breadcrumb-wrap {
+    padding-top: 20px;
+    .explorer11 .blog-main & {
+        nav {
+            display: inline;
+        }
+    }
+    nav {
+        display: inline-block;
+        .breadcrumb {
+            background: $c-grey-6;
+            margin-bottom: 0;
+            &.op1 {
+                background: $grey-100;
+            }
+        }
+    }
+    @include breakpoint($mxw768) {
+        display: none;
+    }
+}
+
+
+/* For Banenr breadcrumb */
+
+.banner-brdcrumb {
+    &.breadcrumb-wrap {
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+
+/* Breadcrum End */
+
+
+/* common check list with right icons*/
+
+ul.check-list {
+    margin-bottom: 40px;
+    li {
+        padding: 6px 0;
+        padding-left: 24px;
+        line-height: 1.2;
+        position: relative;
+        margin-bottom: 20px;
+        &:after {
+            font-family: icomoon;
+            content: "\e91a";
+            font-size: 11px;
+            top: 10px;
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            left: 2px;
+            color: $c-red;
+        }
+    }
+}
+
+
+/* common check list with right icons end*/
+
+//Owl Carosel Normalise
+.owl-carousel {
+    z-index: 0;
+}
+
+
+/* Button type navigation like Tags in Blogpage start */
+
+.nav {
+    &.nav-list1,
+    &.tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin: 0 15px 10px 0;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        a {
+            display: inline-block;
+            border: 2px solid #D8D8D8;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 10px 25px;
+            color: $brownish-grey-two;
+            &:hover,
+            &.active {
+                border-color: $c-red;
+                color: $c-red;
+            }
+        }
+    }
+    &.nav-list1 {
+        justify-content: space-around;
+        &.op1 {
+            justify-content: flex-start;
+        }
+        a {
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: $font-bold;
+            padding: 15px 46px;
+            border-color: transparent;
+        }
+    }
+}
+
+
+/*  End  */
+
+// Common button style start */
+.btn-box {
+    a.MR15 {
+        margin-right: 15px;
+    }
+    &.btn-small {
+        .btn-red,
+        .btn-white {
+            width: auto;
+            padding: 0 30px;
+            height: 40px;
+            line-height: 36px;
+            font-size: 14px;
+        }
+    }
+    .btn-link {
+        color: $c-red;
+        font-weight: $font-bold;
+        font-size: 14px;
+    }
+    .btn-red,
+    .btn-white,
+    .btn-red1 {
+        display: inline-block;
+        height: 50px;
+        min-width: 160px;
+        padding: 10px 30px;
+        border-radius: 25px;
+        background: $c-red;
+        color: $c-white;
+        text-align: center;
+        line-height: 30px;
+        white-space: nowrap;
+        @include breakpoint($mxw992) {
+            min-width: auto;
+            padding: 0 30px;
+            line-height: 3;
+        }
+    }
+    button.btn-red {
+        border: 0;
+    }
+    .btn-red {
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.32);
+        &.disabled {
+            background-color: $grey-200;
+            box-shadow: none;
+            color: $brownish-grey-two;
+            cursor: not-allowed;
+        }
+    }
+    .btn-white {
+        background: transparent;
+        border: solid 2px $grey-200;
+        color: $maroon;
+        // line-height: 46px;
+        font-weight: $font-bold;
+        &:hover {}
+        &.disabled {
+            box-shadow: none;
+            color: $brownish-grey-two;
+            cursor: not-allowed;
+        }
+        &.op1 {
+            background: $c-white;
+            color: $c-black;
+            border: 0;
+        }
+    }
+    .btn-red1 {
+        background: transparent;
+        border: solid 2px $maroon;
+        color: $maroon;
+        font-weight: $font-bold;
+        line-height: 26px;
+        font-size: 14px;
+        @include breakpoint($mxw992) {
+            padding: 10px 30px;
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/* list type with image like LEARN & DO MORE right side start */
+
+.list-img {
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        img {
+            width: 65px;
+        }
+        @include breakpoint($mxw1000) {
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        .img-box {
+            margin-right: 24px;
+            margin-bottom: 0;
+        }
+        .img-cont {
+            width: 155px;
+            font-size: 14px;
+            line-height: 18px;
+            color: $grey-400;
+            a {
+                color: $grey-400;
+            }
+        }
+        .icon-star {
+            align-self: flex-start;
+            margin: 5px 0 0 30px;
+            @include breakpoint($mxw768) {
+                margin: 5px 0 0 10px;
+            }
+        }
+    }
+}
+
+
+/*  End  */
+
+.mt-sm-15 {
+    @include breakpoint($mxw992) {
+        margin-top: 15px;
+    }
+}
+
+.mt-sm-20 {
+    @include breakpoint($mxw992) {
+        margin-top: 20px;
+    }
+}
+
+
+/* Scroll right-left on mobile start */
+
+.mob-scroll,
+.mob-scroll1 {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+/*  End  */
+
+
+/* Common White box start */
+
+.white-box {
+    background: $c-white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+}
+
+
+/*  End  */
+
+
+/* SOC Detail page - table inside accordian Start */
+
+.acrd-data {
+    table {
+        color: $c-black;
+        margin-bottom: 0;
+        width: 100%;
+        th,
+        td {
+            padding: 20px 0;
+            vertical-align: top;
+            border-top: 1px solid rgba(0, 0, 0, .11);
+        }
+        td small {
+            font-size: 12px;
+            color: #737373;
+        }
+        th {
+            padding: 10px 0;
+            font-size: 12px;
+            color: #737373;
+            font-weight: 400;
+            border-top: 0;
+        }
+        @include breakpoint($mxw768) {
+            &.f14 {
+                font-size: 14px;
+            }
+            th,
+            td {
+                padding-right: 20px;
+            }
+        }
+    }
+    .rupee-txt {
+        font-weight: $font-bold;
+        .icon-rs {
+            font-size: 13px;
+        }
+    }
+    /* form center page listing data*/
+    ul.opt1 {
+        li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0, 0, 0, .11);
+            padding: 28px 0;
+            align-items: center;
+            &:last-child {
+                border-bottom: 0;
+            }
+            @include breakpoint($mxw768) {
+                display: block;
+                padding: 20px 0;
+            }
+            .action-box {
+                width: 15%;
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                @include breakpoint($mxw992) {
+                    margin-left: 20px;
+                }
+                @include breakpoint($mxw768) {
+                    width: auto;
+                    margin-top: 20px;
+                    justify-content: space-between;
+                }
+                .download-icon {
+                    margin-left: 30px;
+                }
+            }
+            @include breakpoint($mxw768) {
+                &.audio-bx {
+                    flex-direction: column;
+                    audio {
+                        width: 100%;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    /* form center page listing data end*/
+    /*Financial Reports tabs data*/
+    .tabs-data {
+        padding: 0 30px;
+        &.op1 {
+            padding: 0;
+        }
+        @include breakpoint($mxw768) {
+            padding: 0;
+            ul.opt1 li {
+                display: flex;
+                align-items: flex-start;
+                div {
+                    &:first-child {
+                        padding-top: 10px;
+                    }
+                }
+                .action-box {
+                    margin-top: 0;
+                    margin-left: 20px;
+                    .download-icon {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* form center page download icon bg*/
+
+.download-icon {
+    background: $grey-50;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 40px;
+}
+
+
+/* form center page download icon bg end*/
+
+
+/*  End  */
+
+
+/* common Owl carosel Nav arrows start  */
+
+.owl-nav {
+    button:focus {
+        outline: 0;
+    }
+    span {
+        font-size: 30px;
+    }
+    .owl-prev {
+        position: absolute;
+        left: 0;
+        top: 40%;
+        &.disabled {
+            opacity: 0.3;
+        }
+    }
+    .owl-next {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        &.disabled {
+            opacity: 0.3;
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/*  Common Owl dots start */
+
+.owl-dots {
+    text-align: center;
+    margin-top: 15px;
+    .owl-dot {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 4px;
+        cursor: pointer;
+        transition: all 0.5s linear;
+        span {
+            display: block;
+            width: 6px;
+            height: 6px;
+            border: 0;
+            background-color: $brownish-grey;
+            border-radius: 3px;
+        }
+        &.active {
+            span {
+                background: $brownish-grey;
+                width: 24px;
+            }
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/* Share bubble on Blog page start  */
+
+.my-links {
+    display: flex;
+    a {
+        font-size: 12px;
+        text-align: center;
+        display: inline-block;
+        span {
+            width: 56px;
+            height: 56px;
+            @extend .ctr-vh;
+            border-radius: 50%;
+            background: $grey-100;
+            margin-bottom: 6px;
+            &.icon-star,
+            &.icon-share {
+                font-size: 22px;
+            }
+        }
+        &:hover,
+        &.act {
+            span {
+                background: $grey-200;
+            }
+        }
+    }
+}
+
+.share-box {
+    position: relative;
+    display: inline-block;
+    margin-left: 36px;
+    .share-positon-box {
+        position: absolute;
+        right: -4px;
+        top: -48px;
+        display: none;
+        min-width: 200px;
+    }
+    &.open {
+        .share-positon-box {
+            display: block;
+        }
+    }
+    .share-bubble {
+        position: relative;
+        background: $c-yellow;
+        padding: 10px 24px;
+        border-radius: 21px;
+        &:after {
+            top: 100%;
+            right: 25px;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-top-color: $c-yellow;
+            border-width: 7px;
+            margin-left: -7px;
+        }
+        .social {
+            display: flex;
+            li {
+                margin-right: 20px;
+                a {
+                    display: block;
+                    i {
+                        font-size: 15px;
+                        vertical-align: middle;
+                    }
+                    img {
+                        height: 15px;
+                        width: auto;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    @include breakpoint($mxw992) {
+        .share-positon-box {
+            right: auto;
+            left: 0;
+        }
+        .share-bubble:after {
+            right: auto;
+            left: 30px;
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/* Ask Peszo element start*/
+
+.ask-peszo {
+    position: fixed;
+    z-index: 1;
+    bottom: 50px;
+    right: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    &.z3 {
+        z-index: 3;
+    }
+    figure {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: $c-red;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .32), 0 5px 8px 0 rgba(0, 0, 0, .22);
+        margin-bottom: 10px;
+        @extend .ctr-vh;
+    }
+    @include breakpoint($mxw1000) {
+        bottom: 6px;
+        right: 10px;
+    }
+    @include breakpoint($mxw768) {
+        bottom: 10px;
+        &.op1 {
+            bottom: 60px;
+        }
+        figure {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 0;
+        }
+        span {
+            display: none;
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/* Know More link with arrow start*/
+
+.know-more {
+    color: $c-white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    &:hover {
+        color: $c-white;
+    }
+    .icon-Right {
+        margin-left: 3px;
+        &::before {
+            color: $c-white;
+        }
+    }
+}
+
+
+/*  End  */
+
+
+/* common dropdwon */
+
+.dropdown {
+    .btn-secondary {
+        background-color: transparent;
+        font-weight: $font-bold;
+        color: $c-black;
+        border-color: $grey-200;
+        padding: 14px 55px 14px 20px;
+        min-width: 300px;
+        text-align: left;
+        position: relative;
+    }
+    .dropdown-toggle {
+        &:after {
+            font-family: icomoon;
+            content: "\e900";
+            border: 0;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+    }
+    .dropdown-menu {
+        min-width: 300px;
+        background-color: $grey-50;
+        height: 200px;
+        overflow-y: auto;
+        z-index: 1;
+        .dropdown-item {
+            padding: 12px 20px;
+            font-weight: $font-bold;
+            color: $c-black;
+            &:hover {
+                background-color: $grey-100;
+            }
+        }
+    }
+}
+
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark {
+    top: 15px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+    color: $c-black;
+    border-color: $grey-200;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+
+/* common dropdwon end */
+
+
+/*form list*/
+
+.form-list {
+    margin-top: 30px;
+    li {
+        margin-bottom: 20px;
+        .dropdown .dropdown-menu {
+            min-width: 100%;
+            li {
+                margin-bottom: 0;
+            }
+        }
+        &.last {
+            margin-bottom: 0;
+        }
+        @include breakpoint($mxw768) {
+            margin-bottom: 28px;
+        }
+    }
+    &.address-box {
+        margin-top: 0;
+        padding-left: 40px;
+    }
+}
+
+
+/*form list end*/
+
+
+/* search box */
+
+.search-box {
+    position: relative;
+    width: 235px;
+    &.white {
+        .form-control,
+        .form-label-group input:not(:placeholder-shown)~label {
+            background: $c-white;
+        }
+    }
+    .form-control {
+        background-color: $grey-50;
+        padding: 8px 40px 8px 12px;
+    }
+    .form-label-group>label {
+        padding-top: 10px;
+    }
+    .form-label-group input:not(:placeholder-shown)~label {
+        background-color: $grey-50;
+    }
+    button {
+        background: none;
+        border: 0;
+        padding: 0;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        &:focus {
+            outline: 0;
+        }
+        span {
+            font-size: 22px;
+        }
+    }
+    @include breakpoint($mxw992) {
+        width: 100%;
+    }
+}
+
+
+/* common notes */
+
+.notes {
+    margin-top: 35px;
+    &.MT0 {
+        margin-top: 0;
+    }
+    &.op2 {
+        li {
+            margin: 3px 0 20px 14px;
+        }
+    }
+    li {
+        margin: 3px 0 0 14px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 7px;
+            width: 4px;
+            height: 4px;
+            border-radius: 2px;
+            background: #54565B
+        }
+    }
+}
+
+
+/* common notes end*/
+
+.hide {
+    display: none;
+}
+
+.link-txt {
+    .icon-Right {
+        display: inline-block;
+        font-weight: 900;
+        vertical-align: middle;
+    }
+}
+
+.popup-close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    z-index: 1;
+}
+
+.check-book-box {
+    background: $grey-50;
+    padding: 15px 0 30px 0;
+}
+
+.otp-sent {
+    font-size: 14px;
+    margin-left: 10px;
+    @include breakpoint($mxw992) {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.video-modal .modal-dialog {
+    max-width: 800px;
+    .vid-cls {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        font-size: 20px;
+        z-index: 1;
+        background: none;
+        border: 0;
+    }
+}
+
+.min-ht {
+    min-height: 60px;
+}
+
+.ulink {
+    font-weight: 700;
+    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.home-loan-table {
+    border-left: 1px solid $c-grey-6;
+    white-space: nowrap;
+    @include breakpoint($mxw992) {
+        overflow-y: auto;
+    }
+    .table-box {
+        min-width: 930px;
+    }
+    @include breakpoint($mxw1000) {
+        font-size: 12px;
+    }
+    span.plus-minus {
+        cursor: pointer;
+        padding-left: 15px;
+        position: relative;
+        &::before {
+            content: "-";
+            position: absolute;
+            left: 0;
+            font-weight: $font-bold;
+        }
+        &.collapsed {
+            &::before {
+                content: "+";
+            }
+        }
+    }
+    .heading {
+        background: $c-grey-6;
+        .row {
+            margin: 0;
+        }
+        .col {
+            padding: 10px 15px;
+            font-weight: $font-bold;
+        }
+    }
+    .common-collapse {
+        .row {
+            margin: 0;
+        }
+        .col {
+            padding: 10px 15px;
+            border-right: 1px solid $c-grey-6;
+            border-bottom: 1px solid $c-grey-6;
+        }
+    }
+    .collapse-data {
+        .row {
+            margin: 0;
+        }
+        .col {
+            padding: 10px 15px;
+            background: $c-grey-6;
+        }
+    }
+}
+
+.modal {
+    .hd3b {
+        @include breakpoint($mxw768) {
+            padding-right: 30px;
+        }
+    }
+}

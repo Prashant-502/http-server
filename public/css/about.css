@@ -1,0 +1,1009 @@
+/* About Intro start */
+.about-intro p {
+  margin: 16px 0 0;
+  line-height: 22px;
+}
+
+/* About Intro End  */
+/* About Vision section start  */
+.our-vision {
+  background: #fafafa;
+}
+
+.our-vision .nav-list1 a {
+  letter-spacing: 1px;
+}
+
+.our-vision .hd7 {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.our-vision .hd7 strong {
+  font-weight: 400;
+}
+
+/* About Vision section End  */
+/* Board of Directors Carousel start*/
+.our-bod {
+  overflow: hidden;
+}
+
+.our-bod .bod-carousel {
+  margin: 50px 0;
+}
+
+.our-bod .bod-carousel.owl-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+
+.our-bod .bod-carousel.owl-carousel .owl-item {
+  opacity: .2;
+}
+
+.our-bod .bod-carousel.owl-carousel .owl-item.active {
+  opacity: 1;
+}
+
+.our-bod .bod-carousel.owl-carousel .owl-item img {
+  width: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .our-bod .bod-carousel.owl-carousel .owl-item {
+    opacity: 1;
+  }
+}
+
+/* Board of Directors Carousel end*/
+/* BOD Card start*/
+.card-bx.bod {
+  text-align: center;
+}
+
+.card-bx.bod figure {
+  margin: 0 auto 30px;
+  position: relative;
+  width: 192px;
+}
+
+.card-bx.bod figure img {
+  width: 100%;
+}
+
+.card-bx.bod figure .arrow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -khtml-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  margin: 50px 0 0 80px;
+}
+
+.card-bx.bod .clr-grey,
+.card-bx.bod .hero-from .form-list .notes,
+.hero-from .form-list .card-bx.bod .notes {
+  margin: 8px 0 0;
+}
+
+/* BOD Card end*/
+/* Corporate Governance Start*/
+.corp-govns .copgov-carousel {
+  margin: 30px 0;
+}
+
+.corp-govns .copgov-carousel.owl-carousel .owl-item img {
+  width: auto;
+}
+
+.corp-govns .card-bx {
+  text-align: center;
+  margin: 0 30px;
+}
+
+.corp-govns .card-bx figure {
+  width: 70px;
+  height: 70px;
+  background: #E8E8E8;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.corp-govns .card-bx .clr-grey,
+.corp-govns .card-bx .hero-from .form-list .notes,
+.hero-from .form-list .corp-govns .card-bx .notes {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .corp-govns .col-xl-10 {
+    padding: 0;
+  }
+
+  .corp-govns .card-bx {
+    margin: 0 10px;
+  }
+}
+
+/* Corporate Governance End*/
+/* Our Values start */
+.corp-govns.op1 {
+  padding: 0;
+}
+
+.corp-govns.op1 .card-bx {
+  margin: 0;
+}
+
+.corp-govns.op1 .card-bx figure {
+  background: #9D1D27;
+  margin-top: 20px;
+}
+
+/* Our Values end */
+/* ANNUAL REPORT  Start*/
+.annual-report {
+  background: #f3f3f3;
+  background: linear-gradient(90deg, #f3f3f3 0%, #f3f3f3 75%, #c4777d 75%, #9d1d27 100%);
+}
+
+.annual-report .row {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.annual-report .hd1 {
+  color: #616161;
+  margin-bottom: 20px;
+}
+
+.annual-report .list li {
+  border-bottom: 1px solid #d8d8d8;
+  text-align: center;
+  padding: 36px 0;
+}
+
+.annual-report .list li.op1 {
+  padding: 24px 0 0;
+  border-bottom: 0;
+}
+
+.annual-report .list li.op1 .hd7 {
+  margin-bottom: -20px;
+}
+
+.annual-report .list li.last {
+  border-bottom: 0;
+}
+
+.annual-report .list li.last+li {
+  padding: 0 0 30px;
+}
+
+.annual-report .list li.last+li .btn-box {
+  margin-top: -16px;
+}
+
+.annual-report .list li:last-child {
+  border-bottom: 0;
+}
+
+.annual-report .list li p {
+  margin-bottom: 0;
+}
+
+.annual-report .list li p.hdr {
+  margin-top: 4px;
+}
+
+.annual-report .list li p.hdr small {
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .annual-report {
+    background: #f3f3f3;
+    background: linear-gradient(180deg, #f3f3f3 0%, #f3f3f3 70%, #c4777d 70%, #9d1d27 100%);
+  }
+
+  .annual-report .list {
+    margin-top: 40px;
+  }
+
+  .annual-report .list li {
+    padding: 26px 0;
+  }
+
+  .annual-report .list li .hdr {
+    font-size: 36px;
+  }
+}
+
+/* ANNUAL REPORT  End*/
+/* Always You First Start*/
+.always-you {
+  background: #f3f3f3;
+  padding: 80px 0 4px;
+}
+
+.always-you .hdr {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.always-you .white-box,
+.always-you .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .always-you .ad-card,
+.always-you .accordian .trgr,
+.accordian .always-you .trgr,
+.always-you .accordian .tog_cont,
+.accordian .always-you .tog_cont,
+.always-you .card-look,
+.always-you .media-card,
+.always-you .pr-list>li .card-bx,
+.pr-list>li .always-you .card-bx,
+.always-you .trgr1,
+.always-you .trgr2,
+.always-you .trgr3,
+.always-you .tog_cont1,
+.always-you .tog_cont2,
+.always-you .tog_cont3,
+.always-you .mf-invest .start-box,
+.mf-invest .always-you .start-box,
+.always-you .media-kit .media-list .card-media,
+.media-kit .media-list .always-you .card-media {
+  padding: 64px 0 96px;
+  margin: 4px;
+}
+
+.always-you .white-box figure,
+.always-you .search-bxIn .search-ad .ad-card figure,
+.search-bxIn .search-ad .always-you .ad-card figure,
+.always-you .accordian .trgr figure,
+.accordian .always-you .trgr figure,
+.always-you .accordian .tog_cont figure,
+.accordian .always-you .tog_cont figure,
+.always-you .card-look figure,
+.always-you .media-card figure,
+.always-you .pr-list>li .card-bx figure,
+.pr-list>li .always-you .card-bx figure,
+.always-you .trgr1 figure,
+.always-you .trgr2 figure,
+.always-you .trgr3 figure,
+.always-you .tog_cont1 figure,
+.always-you .tog_cont2 figure,
+.always-you .tog_cont3 figure,
+.always-you .mf-invest .start-box figure,
+.mf-invest .always-you .start-box figure,
+.always-you .media-kit .media-list .card-media figure,
+.media-kit .media-list .always-you .card-media figure {
+  margin-left: -92px;
+  margin-bottom: 0;
+}
+
+.always-you .white-box .col-xl-4,
+.always-you .search-bxIn .search-ad .ad-card .col-xl-4,
+.search-bxIn .search-ad .always-you .ad-card .col-xl-4,
+.always-you .accordian .trgr .col-xl-4,
+.accordian .always-you .trgr .col-xl-4,
+.always-you .accordian .tog_cont .col-xl-4,
+.accordian .always-you .tog_cont .col-xl-4,
+.always-you .card-look .col-xl-4,
+.always-you .media-card .col-xl-4,
+.always-you .pr-list>li .card-bx .col-xl-4,
+.pr-list>li .always-you .card-bx .col-xl-4,
+.always-you .trgr1 .col-xl-4,
+.always-you .trgr2 .col-xl-4,
+.always-you .trgr3 .col-xl-4,
+.always-you .tog_cont1 .col-xl-4,
+.always-you .tog_cont2 .col-xl-4,
+.always-you .tog_cont3 .col-xl-4,
+.always-you .mf-invest .start-box .col-xl-4,
+.mf-invest .always-you .start-box .col-xl-4,
+.always-you .media-kit .media-list .card-media .col-xl-4,
+.media-kit .media-list .always-you .card-media .col-xl-4 {
+  margin-left: 50px;
+}
+
+.always-you .white-box p,
+.always-you .search-bxIn .search-ad .ad-card p,
+.search-bxIn .search-ad .always-you .ad-card p,
+.always-you .accordian .trgr p,
+.accordian .always-you .trgr p,
+.always-you .accordian .tog_cont p,
+.accordian .always-you .tog_cont p,
+.always-you .card-look p,
+.always-you .media-card p,
+.always-you .pr-list>li .card-bx p,
+.pr-list>li .always-you .card-bx p,
+.always-you .trgr1 p,
+.always-you .trgr2 p,
+.always-you .trgr3 p,
+.always-you .tog_cont1 p,
+.always-you .tog_cont2 p,
+.always-you .tog_cont3 p,
+.always-you .mf-invest .start-box p,
+.mf-invest .always-you .start-box p,
+.always-you .media-kit .media-list .card-media p,
+.media-kit .media-list .always-you .card-media p {
+  margin-bottom: 0;
+}
+
+.always-you .white-box p.hd2v,
+.always-you .search-bxIn .search-ad .ad-card p.hd2v,
+.search-bxIn .search-ad .always-you .ad-card p.hd2v,
+.always-you .accordian .trgr p.hd2v,
+.accordian .always-you .trgr p.hd2v,
+.always-you .accordian .tog_cont p.hd2v,
+.accordian .always-you .tog_cont p.hd2v,
+.always-you .card-look p.hd2v,
+.always-you .media-card p.hd2v,
+.always-you .pr-list>li .card-bx p.hd2v,
+.pr-list>li .always-you .card-bx p.hd2v,
+.always-you .trgr1 p.hd2v,
+.always-you .trgr2 p.hd2v,
+.always-you .trgr3 p.hd2v,
+.always-you .tog_cont1 p.hd2v,
+.always-you .tog_cont2 p.hd2v,
+.always-you .tog_cont3 p.hd2v,
+.always-you .mf-invest .start-box p.hd2v,
+.mf-invest .always-you .start-box p.hd2v,
+.always-you .media-kit .media-list .card-media p.hd2v,
+.media-kit .media-list .always-you .card-media p.hd2v {
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.always-you .white-box p.clr-grey,
+.always-you .search-bxIn .search-ad .ad-card p.clr-grey,
+.search-bxIn .search-ad .always-you .ad-card p.clr-grey,
+.always-you .accordian .trgr p.clr-grey,
+.accordian .always-you .trgr p.clr-grey,
+.always-you .accordian .tog_cont p.clr-grey,
+.accordian .always-you .tog_cont p.clr-grey,
+.always-you .card-look p.clr-grey,
+.always-you .media-card p.clr-grey,
+.always-you .pr-list>li .card-bx p.clr-grey,
+.pr-list>li .always-you .card-bx p.clr-grey,
+.always-you .trgr1 p.clr-grey,
+.always-you .trgr2 p.clr-grey,
+.always-you .trgr3 p.clr-grey,
+.always-you .tog_cont1 p.clr-grey,
+.always-you .tog_cont2 p.clr-grey,
+.always-you .tog_cont3 p.clr-grey,
+.always-you .mf-invest .start-box p.clr-grey,
+.mf-invest .always-you .start-box p.clr-grey,
+.always-you .media-kit .media-list .card-media p.clr-grey,
+.media-kit .media-list .always-you .card-media p.clr-grey,
+.always-you .white-box .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .white-box p.notes,
+.always-you .search-bxIn .search-ad .ad-card .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .search-bxIn .search-ad .ad-card p.notes,
+.search-bxIn .search-ad .always-you .ad-card .hero-from .form-list p.notes,
+.hero-from .form-list .search-bxIn .search-ad .always-you .ad-card p.notes,
+.always-you .accordian .trgr .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .accordian .trgr p.notes,
+.accordian .always-you .trgr .hero-from .form-list p.notes,
+.hero-from .form-list .accordian .always-you .trgr p.notes,
+.always-you .accordian .tog_cont .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .accordian .tog_cont p.notes,
+.accordian .always-you .tog_cont .hero-from .form-list p.notes,
+.hero-from .form-list .accordian .always-you .tog_cont p.notes,
+.always-you .card-look .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .card-look p.notes,
+.always-you .media-card .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .media-card p.notes,
+.always-you .pr-list>li .card-bx .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .pr-list>li .card-bx p.notes,
+.pr-list>li .always-you .card-bx .hero-from .form-list p.notes,
+.hero-from .form-list .pr-list>li .always-you .card-bx p.notes,
+.always-you .trgr1 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .trgr1 p.notes,
+.always-you .trgr2 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .trgr2 p.notes,
+.always-you .trgr3 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .trgr3 p.notes,
+.always-you .tog_cont1 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .tog_cont1 p.notes,
+.always-you .tog_cont2 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .tog_cont2 p.notes,
+.always-you .tog_cont3 .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .tog_cont3 p.notes,
+.always-you .mf-invest .start-box .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .mf-invest .start-box p.notes,
+.mf-invest .always-you .start-box .hero-from .form-list p.notes,
+.hero-from .form-list .mf-invest .always-you .start-box p.notes,
+.always-you .media-kit .media-list .card-media .hero-from .form-list p.notes,
+.hero-from .form-list .always-you .media-kit .media-list .card-media p.notes,
+.media-kit .media-list .always-you .card-media .hero-from .form-list p.notes,
+.hero-from .form-list .media-kit .media-list .always-you .card-media p.notes {
+  margin-top: 30px;
+}
+
+.always-you .white-box p.clr-grey strong,
+.always-you .search-bxIn .search-ad .ad-card p.clr-grey strong,
+.search-bxIn .search-ad .always-you .ad-card p.clr-grey strong,
+.always-you .accordian .trgr p.clr-grey strong,
+.accordian .always-you .trgr p.clr-grey strong,
+.always-you .accordian .tog_cont p.clr-grey strong,
+.accordian .always-you .tog_cont p.clr-grey strong,
+.always-you .card-look p.clr-grey strong,
+.always-you .media-card p.clr-grey strong,
+.always-you .pr-list>li .card-bx p.clr-grey strong,
+.pr-list>li .always-you .card-bx p.clr-grey strong,
+.always-you .trgr1 p.clr-grey strong,
+.always-you .trgr2 p.clr-grey strong,
+.always-you .trgr3 p.clr-grey strong,
+.always-you .tog_cont1 p.clr-grey strong,
+.always-you .tog_cont2 p.clr-grey strong,
+.always-you .tog_cont3 p.clr-grey strong,
+.always-you .mf-invest .start-box p.clr-grey strong,
+.mf-invest .always-you .start-box p.clr-grey strong,
+.always-you .media-kit .media-list .card-media p.clr-grey strong,
+.media-kit .media-list .always-you .card-media p.clr-grey strong,
+.always-you .white-box .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .white-box p.notes strong,
+.always-you .search-bxIn .search-ad .ad-card .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .search-bxIn .search-ad .ad-card p.notes strong,
+.search-bxIn .search-ad .always-you .ad-card .hero-from .form-list p.notes strong,
+.hero-from .form-list .search-bxIn .search-ad .always-you .ad-card p.notes strong,
+.always-you .accordian .trgr .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .accordian .trgr p.notes strong,
+.accordian .always-you .trgr .hero-from .form-list p.notes strong,
+.hero-from .form-list .accordian .always-you .trgr p.notes strong,
+.always-you .accordian .tog_cont .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .accordian .tog_cont p.notes strong,
+.accordian .always-you .tog_cont .hero-from .form-list p.notes strong,
+.hero-from .form-list .accordian .always-you .tog_cont p.notes strong,
+.always-you .card-look .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .card-look p.notes strong,
+.always-you .media-card .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .media-card p.notes strong,
+.always-you .pr-list>li .card-bx .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .pr-list>li .card-bx p.notes strong,
+.pr-list>li .always-you .card-bx .hero-from .form-list p.notes strong,
+.hero-from .form-list .pr-list>li .always-you .card-bx p.notes strong,
+.always-you .trgr1 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .trgr1 p.notes strong,
+.always-you .trgr2 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .trgr2 p.notes strong,
+.always-you .trgr3 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .trgr3 p.notes strong,
+.always-you .tog_cont1 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .tog_cont1 p.notes strong,
+.always-you .tog_cont2 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .tog_cont2 p.notes strong,
+.always-you .tog_cont3 .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .tog_cont3 p.notes strong,
+.always-you .mf-invest .start-box .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .mf-invest .start-box p.notes strong,
+.mf-invest .always-you .start-box .hero-from .form-list p.notes strong,
+.hero-from .form-list .mf-invest .always-you .start-box p.notes strong,
+.always-you .media-kit .media-list .card-media .hero-from .form-list p.notes strong,
+.hero-from .form-list .always-you .media-kit .media-list .card-media p.notes strong,
+.media-kit .media-list .always-you .card-media .hero-from .form-list p.notes strong,
+.hero-from .form-list .media-kit .media-list .always-you .card-media p.notes strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #54565B;
+}
+
+.always-you .owl-dots {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+
+  .always-you .white-box .col-xl-4,
+  .always-you .search-bxIn .search-ad .ad-card .col-xl-4,
+  .search-bxIn .search-ad .always-you .ad-card .col-xl-4,
+  .always-you .accordian .trgr .col-xl-4,
+  .accordian .always-you .trgr .col-xl-4,
+  .always-you .accordian .tog_cont .col-xl-4,
+  .accordian .always-you .tog_cont .col-xl-4,
+  .always-you .card-look .col-xl-4,
+  .always-you .media-card .col-xl-4,
+  .always-you .pr-list>li .card-bx .col-xl-4,
+  .pr-list>li .always-you .card-bx .col-xl-4,
+  .always-you .trgr1 .col-xl-4,
+  .always-you .trgr2 .col-xl-4,
+  .always-you .trgr3 .col-xl-4,
+  .always-you .tog_cont1 .col-xl-4,
+  .always-you .tog_cont2 .col-xl-4,
+  .always-you .tog_cont3 .col-xl-4,
+  .always-you .mf-invest .start-box .col-xl-4,
+  .mf-invest .always-you .start-box .col-xl-4,
+  .always-you .media-kit .media-list .card-media .col-xl-4,
+  .media-kit .media-list .always-you .card-media .col-xl-4 {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .always-you {
+    padding-top: 50px;
+  }
+
+  .always-you .white-box,
+  .always-you .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .always-you .ad-card,
+  .always-you .accordian .trgr,
+  .accordian .always-you .trgr,
+  .always-you .accordian .tog_cont,
+  .accordian .always-you .tog_cont,
+  .always-you .card-look,
+  .always-you .media-card,
+  .always-you .pr-list>li .card-bx,
+  .pr-list>li .always-you .card-bx,
+  .always-you .trgr1,
+  .always-you .trgr2,
+  .always-you .trgr3,
+  .always-you .tog_cont1,
+  .always-you .tog_cont2,
+  .always-you .tog_cont3,
+  .always-you .mf-invest .start-box,
+  .mf-invest .always-you .start-box,
+  .always-you .media-kit .media-list .card-media,
+  .media-kit .media-list .always-you .card-media {
+    margin-top: 80px;
+    padding: 0 0 70px;
+  }
+
+  .always-you .white-box figure,
+  .always-you .search-bxIn .search-ad .ad-card figure,
+  .search-bxIn .search-ad .always-you .ad-card figure,
+  .always-you .accordian .trgr figure,
+  .accordian .always-you .trgr figure,
+  .always-you .accordian .tog_cont figure,
+  .accordian .always-you .tog_cont figure,
+  .always-you .card-look figure,
+  .always-you .media-card figure,
+  .always-you .pr-list>li .card-bx figure,
+  .pr-list>li .always-you .card-bx figure,
+  .always-you .trgr1 figure,
+  .always-you .trgr2 figure,
+  .always-you .trgr3 figure,
+  .always-you .tog_cont1 figure,
+  .always-you .tog_cont2 figure,
+  .always-you .tog_cont3 figure,
+  .always-you .mf-invest .start-box figure,
+  .mf-invest .always-you .start-box figure,
+  .always-you .media-kit .media-list .card-media figure,
+  .media-kit .media-list .always-you .card-media figure {
+    margin: -80px 3% 0;
+  }
+
+  .always-you .white-box .col-xl-4,
+  .always-you .search-bxIn .search-ad .ad-card .col-xl-4,
+  .search-bxIn .search-ad .always-you .ad-card .col-xl-4,
+  .always-you .accordian .trgr .col-xl-4,
+  .accordian .always-you .trgr .col-xl-4,
+  .always-you .accordian .tog_cont .col-xl-4,
+  .accordian .always-you .tog_cont .col-xl-4,
+  .always-you .card-look .col-xl-4,
+  .always-you .media-card .col-xl-4,
+  .always-you .pr-list>li .card-bx .col-xl-4,
+  .pr-list>li .always-you .card-bx .col-xl-4,
+  .always-you .trgr1 .col-xl-4,
+  .always-you .trgr2 .col-xl-4,
+  .always-you .trgr3 .col-xl-4,
+  .always-you .tog_cont1 .col-xl-4,
+  .always-you .tog_cont2 .col-xl-4,
+  .always-you .tog_cont3 .col-xl-4,
+  .always-you .mf-invest .start-box .col-xl-4,
+  .mf-invest .always-you .start-box .col-xl-4,
+  .always-you .media-kit .media-list .card-media .col-xl-4,
+  .media-kit .media-list .always-you .card-media .col-xl-4 {
+    margin-left: 0px;
+    padding: 30px 40px 0;
+  }
+
+  .always-you .owl-dots {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .always-you .container {
+    padding: 0 10px;
+  }
+}
+
+/* Always You First End*/
+/* BOD Listing & Detail page Start*/
+.bod-page {
+  padding-bottom: 4px;
+}
+
+.bod-page .hd {
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+
+.bod-page .bod-cntr {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.bod-page .bod-cntr .bod {
+  width: 33%;
+  margin-bottom: 80px;
+}
+
+.bod-page .back-btn {
+  padding: 44px 0 12px;
+}
+
+.bod-page .back-btn span {
+  vertical-align: middle;
+}
+
+.bod-page .white-box,
+.bod-page .search-bxIn .search-ad .ad-card,
+.search-bxIn .search-ad .bod-page .ad-card,
+.bod-page .accordian .trgr,
+.accordian .bod-page .trgr,
+.bod-page .accordian .tog_cont,
+.accordian .bod-page .tog_cont,
+.bod-page .card-look,
+.bod-page .media-card,
+.bod-page .pr-list>li .card-bx,
+.pr-list>li .bod-page .card-bx,
+.bod-page .trgr1,
+.bod-page .trgr2,
+.bod-page .trgr3,
+.bod-page .tog_cont1,
+.bod-page .tog_cont2,
+.bod-page .tog_cont3,
+.bod-page .mf-invest .start-box,
+.mf-invest .bod-page .start-box,
+.bod-page .media-kit .media-list .card-media,
+.media-kit .media-list .bod-page .card-media {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bod-page .white-box .col-l,
+.bod-page .search-bxIn .search-ad .ad-card .col-l,
+.search-bxIn .search-ad .bod-page .ad-card .col-l,
+.bod-page .accordian .trgr .col-l,
+.accordian .bod-page .trgr .col-l,
+.bod-page .accordian .tog_cont .col-l,
+.accordian .bod-page .tog_cont .col-l,
+.bod-page .card-look .col-l,
+.bod-page .media-card .col-l,
+.bod-page .pr-list>li .card-bx .col-l,
+.pr-list>li .bod-page .card-bx .col-l,
+.bod-page .trgr1 .col-l,
+.bod-page .trgr2 .col-l,
+.bod-page .trgr3 .col-l,
+.bod-page .tog_cont1 .col-l,
+.bod-page .tog_cont2 .col-l,
+.bod-page .tog_cont3 .col-l,
+.bod-page .mf-invest .start-box .col-l,
+.mf-invest .bod-page .start-box .col-l,
+.bod-page .media-kit .media-list .card-media .col-l,
+.media-kit .media-list .bod-page .card-media .col-l {
+  width: 35%;
+  border-right: 1px solid #d8d8d8;
+  padding: 64px 20px 0;
+}
+
+.bod-page .white-box .col-l figure,
+.bod-page .search-bxIn .search-ad .ad-card .col-l figure,
+.search-bxIn .search-ad .bod-page .ad-card .col-l figure,
+.bod-page .accordian .trgr .col-l figure,
+.accordian .bod-page .trgr .col-l figure,
+.bod-page .accordian .tog_cont .col-l figure,
+.accordian .bod-page .tog_cont .col-l figure,
+.bod-page .card-look .col-l figure,
+.bod-page .media-card .col-l figure,
+.bod-page .pr-list>li .card-bx .col-l figure,
+.pr-list>li .bod-page .card-bx .col-l figure,
+.bod-page .trgr1 .col-l figure,
+.bod-page .trgr2 .col-l figure,
+.bod-page .trgr3 .col-l figure,
+.bod-page .tog_cont1 .col-l figure,
+.bod-page .tog_cont2 .col-l figure,
+.bod-page .tog_cont3 .col-l figure,
+.bod-page .mf-invest .start-box .col-l figure,
+.mf-invest .bod-page .start-box .col-l figure,
+.bod-page .media-kit .media-list .card-media .col-l figure,
+.media-kit .media-list .bod-page .card-media .col-l figure {
+  width: 236px;
+}
+
+.bod-page .white-box .col-l .social,
+.bod-page .search-bxIn .search-ad .ad-card .col-l .social,
+.search-bxIn .search-ad .bod-page .ad-card .col-l .social,
+.bod-page .accordian .trgr .col-l .social,
+.accordian .bod-page .trgr .col-l .social,
+.bod-page .accordian .tog_cont .col-l .social,
+.accordian .bod-page .tog_cont .col-l .social,
+.bod-page .card-look .col-l .social,
+.bod-page .media-card .col-l .social,
+.bod-page .pr-list>li .card-bx .col-l .social,
+.pr-list>li .bod-page .card-bx .col-l .social,
+.bod-page .trgr1 .col-l .social,
+.bod-page .trgr2 .col-l .social,
+.bod-page .trgr3 .col-l .social,
+.bod-page .tog_cont1 .col-l .social,
+.bod-page .tog_cont2 .col-l .social,
+.bod-page .tog_cont3 .col-l .social,
+.bod-page .mf-invest .start-box .col-l .social,
+.mf-invest .bod-page .start-box .col-l .social,
+.bod-page .media-kit .media-list .card-media .col-l .social,
+.media-kit .media-list .bod-page .card-media .col-l .social {
+  margin-top: 24px;
+}
+
+.bod-page .white-box .col-r,
+.bod-page .search-bxIn .search-ad .ad-card .col-r,
+.search-bxIn .search-ad .bod-page .ad-card .col-r,
+.bod-page .accordian .trgr .col-r,
+.accordian .bod-page .trgr .col-r,
+.bod-page .accordian .tog_cont .col-r,
+.accordian .bod-page .tog_cont .col-r,
+.bod-page .card-look .col-r,
+.bod-page .media-card .col-r,
+.bod-page .pr-list>li .card-bx .col-r,
+.pr-list>li .bod-page .card-bx .col-r,
+.bod-page .trgr1 .col-r,
+.bod-page .trgr2 .col-r,
+.bod-page .trgr3 .col-r,
+.bod-page .tog_cont1 .col-r,
+.bod-page .tog_cont2 .col-r,
+.bod-page .tog_cont3 .col-r,
+.bod-page .mf-invest .start-box .col-r,
+.mf-invest .bod-page .start-box .col-r,
+.bod-page .media-kit .media-list .card-media .col-r,
+.media-kit .media-list .bod-page .card-media .col-r {
+  width: 65%;
+  padding: 64px 100px 64px 50px;
+}
+
+.bod-page .white-box .col-r p,
+.bod-page .search-bxIn .search-ad .ad-card .col-r p,
+.search-bxIn .search-ad .bod-page .ad-card .col-r p,
+.bod-page .accordian .trgr .col-r p,
+.accordian .bod-page .trgr .col-r p,
+.bod-page .accordian .tog_cont .col-r p,
+.accordian .bod-page .tog_cont .col-r p,
+.bod-page .card-look .col-r p,
+.bod-page .media-card .col-r p,
+.bod-page .pr-list>li .card-bx .col-r p,
+.pr-list>li .bod-page .card-bx .col-r p,
+.bod-page .trgr1 .col-r p,
+.bod-page .trgr2 .col-r p,
+.bod-page .trgr3 .col-r p,
+.bod-page .tog_cont1 .col-r p,
+.bod-page .tog_cont2 .col-r p,
+.bod-page .tog_cont3 .col-r p,
+.bod-page .mf-invest .start-box .col-r p,
+.mf-invest .bod-page .start-box .col-r p,
+.bod-page .media-kit .media-list .card-media .col-r p,
+.media-kit .media-list .bod-page .card-media .col-r p {
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .bod-page .bod-cntr .bod {
+    width: 50%;
+  }
+
+  .bod-page .white-box .col-l,
+  .bod-page .search-bxIn .search-ad .ad-card .col-l,
+  .search-bxIn .search-ad .bod-page .ad-card .col-l,
+  .bod-page .accordian .trgr .col-l,
+  .accordian .bod-page .trgr .col-l,
+  .bod-page .accordian .tog_cont .col-l,
+  .accordian .bod-page .tog_cont .col-l,
+  .bod-page .card-look .col-l,
+  .bod-page .media-card .col-l,
+  .bod-page .pr-list>li .card-bx .col-l,
+  .pr-list>li .bod-page .card-bx .col-l,
+  .bod-page .trgr1 .col-l,
+  .bod-page .trgr2 .col-l,
+  .bod-page .trgr3 .col-l,
+  .bod-page .tog_cont1 .col-l,
+  .bod-page .tog_cont2 .col-l,
+  .bod-page .tog_cont3 .col-l,
+  .bod-page .mf-invest .start-box .col-l,
+  .mf-invest .bod-page .start-box .col-l,
+  .bod-page .media-kit .media-list .card-media .col-l,
+  .media-kit .media-list .bod-page .card-media .col-l {
+    width: 40%;
+  }
+
+  .bod-page .white-box .col-l figure,
+  .bod-page .search-bxIn .search-ad .ad-card .col-l figure,
+  .search-bxIn .search-ad .bod-page .ad-card .col-l figure,
+  .bod-page .accordian .trgr .col-l figure,
+  .accordian .bod-page .trgr .col-l figure,
+  .bod-page .accordian .tog_cont .col-l figure,
+  .accordian .bod-page .tog_cont .col-l figure,
+  .bod-page .card-look .col-l figure,
+  .bod-page .media-card .col-l figure,
+  .bod-page .pr-list>li .card-bx .col-l figure,
+  .pr-list>li .bod-page .card-bx .col-l figure,
+  .bod-page .trgr1 .col-l figure,
+  .bod-page .trgr2 .col-l figure,
+  .bod-page .trgr3 .col-l figure,
+  .bod-page .tog_cont1 .col-l figure,
+  .bod-page .tog_cont2 .col-l figure,
+  .bod-page .tog_cont3 .col-l figure,
+  .bod-page .mf-invest .start-box .col-l figure,
+  .mf-invest .bod-page .start-box .col-l figure,
+  .bod-page .media-kit .media-list .card-media .col-l figure,
+  .media-kit .media-list .bod-page .card-media .col-l figure {
+    width: 192px;
+  }
+
+  .bod-page .white-box .col-r,
+  .bod-page .search-bxIn .search-ad .ad-card .col-r,
+  .search-bxIn .search-ad .bod-page .ad-card .col-r,
+  .bod-page .accordian .trgr .col-r,
+  .accordian .bod-page .trgr .col-r,
+  .bod-page .accordian .tog_cont .col-r,
+  .accordian .bod-page .tog_cont .col-r,
+  .bod-page .card-look .col-r,
+  .bod-page .media-card .col-r,
+  .bod-page .pr-list>li .card-bx .col-r,
+  .pr-list>li .bod-page .card-bx .col-r,
+  .bod-page .trgr1 .col-r,
+  .bod-page .trgr2 .col-r,
+  .bod-page .trgr3 .col-r,
+  .bod-page .tog_cont1 .col-r,
+  .bod-page .tog_cont2 .col-r,
+  .bod-page .tog_cont3 .col-r,
+  .bod-page .mf-invest .start-box .col-r,
+  .mf-invest .bod-page .start-box .col-r,
+  .bod-page .media-kit .media-list .card-media .col-r,
+  .media-kit .media-list .bod-page .card-media .col-r {
+    width: 60%;
+    padding: 64px 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bod-page .bod-cntr .bod {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  .bod-page .white-box,
+  .bod-page .search-bxIn .search-ad .ad-card,
+  .search-bxIn .search-ad .bod-page .ad-card,
+  .bod-page .accordian .trgr,
+  .accordian .bod-page .trgr,
+  .bod-page .accordian .tog_cont,
+  .accordian .bod-page .tog_cont,
+  .bod-page .card-look,
+  .bod-page .media-card,
+  .bod-page .pr-list>li .card-bx,
+  .pr-list>li .bod-page .card-bx,
+  .bod-page .trgr1,
+  .bod-page .trgr2,
+  .bod-page .trgr3,
+  .bod-page .tog_cont1,
+  .bod-page .tog_cont2,
+  .bod-page .tog_cont3,
+  .bod-page .mf-invest .start-box,
+  .mf-invest .bod-page .start-box,
+  .bod-page .media-kit .media-list .card-media,
+  .media-kit .media-list .bod-page .card-media {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .bod-page .white-box .col-l,
+  .bod-page .search-bxIn .search-ad .ad-card .col-l,
+  .search-bxIn .search-ad .bod-page .ad-card .col-l,
+  .bod-page .accordian .trgr .col-l,
+  .accordian .bod-page .trgr .col-l,
+  .bod-page .accordian .tog_cont .col-l,
+  .accordian .bod-page .tog_cont .col-l,
+  .bod-page .card-look .col-l,
+  .bod-page .media-card .col-l,
+  .bod-page .pr-list>li .card-bx .col-l,
+  .pr-list>li .bod-page .card-bx .col-l,
+  .bod-page .trgr1 .col-l,
+  .bod-page .trgr2 .col-l,
+  .bod-page .trgr3 .col-l,
+  .bod-page .tog_cont1 .col-l,
+  .bod-page .tog_cont2 .col-l,
+  .bod-page .tog_cont3 .col-l,
+  .bod-page .mf-invest .start-box .col-l,
+  .mf-invest .bod-page .start-box .col-l,
+  .bod-page .media-kit .media-list .card-media .col-l,
+  .media-kit .media-list .bod-page .card-media .col-l,
+  .bod-page .white-box .col-r,
+  .bod-page .search-bxIn .search-ad .ad-card .col-r,
+  .search-bxIn .search-ad .bod-page .ad-card .col-r,
+  .bod-page .accordian .trgr .col-r,
+  .accordian .bod-page .trgr .col-r,
+  .bod-page .accordian .tog_cont .col-r,
+  .accordian .bod-page .tog_cont .col-r,
+  .bod-page .card-look .col-r,
+  .bod-page .media-card .col-r,
+  .bod-page .pr-list>li .card-bx .col-r,
+  .pr-list>li .bod-page .card-bx .col-r,
+  .bod-page .trgr1 .col-r,
+  .bod-page .trgr2 .col-r,
+  .bod-page .trgr3 .col-r,
+  .bod-page .tog_cont1 .col-r,
+  .bod-page .tog_cont2 .col-r,
+  .bod-page .tog_cont3 .col-r,
+  .bod-page .mf-invest .start-box .col-r,
+  .mf-invest .bod-page .start-box .col-r,
+  .bod-page .media-kit .media-list .card-media .col-r,
+  .media-kit .media-list .bod-page .card-media .col-r {
+    width: 100%;
+  }
+
+  .bod-page .white-box .col-l,
+  .bod-page .search-bxIn .search-ad .ad-card .col-l,
+  .search-bxIn .search-ad .bod-page .ad-card .col-l,
+  .bod-page .accordian .trgr .col-l,
+  .accordian .bod-page .trgr .col-l,
+  .bod-page .accordian .tog_cont .col-l,
+  .accordian .bod-page .tog_cont .col-l,
+  .bod-page .card-look .col-l,
+  .bod-page .media-card .col-l,
+  .bod-page .pr-list>li .card-bx .col-l,
+  .pr-list>li .bod-page .card-bx .col-l,
+  .bod-page .trgr1 .col-l,
+  .bod-page .trgr2 .col-l,
+  .bod-page .trgr3 .col-l,
+  .bod-page .tog_cont1 .col-l,
+  .bod-page .tog_cont2 .col-l,
+  .bod-page .tog_cont3 .col-l,
+  .bod-page .mf-invest .start-box .col-l,
+  .mf-invest .bod-page .start-box .col-l,
+  .bod-page .media-kit .media-list .card-media .col-l,
+  .media-kit .media-list .bod-page .card-media .col-l {
+    padding-bottom: 36px;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+  }
+}
+
+/* BOD Listing & Detail page End*/
+/* BOD page Social Icons Start*/
+.social.op1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.social.op1 li a {
+  width: 48px;
+  height: 48px;
+  background: #d8d8d8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+
+/* BOD page Social Icons End*/

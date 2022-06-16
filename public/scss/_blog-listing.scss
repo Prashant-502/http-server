@@ -1,0 +1,56 @@
+/*Blog listing page list card*/
+.card {
+    &.opt1 {
+      overflow: hidden;
+  
+      &:hover img {
+        transform: scale(1.1);
+      }
+  
+      img {
+        width: 100%;
+        transition: 0.3s;
+      }
+  
+      .star-box {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+  
+        .icon-star {
+          &::before {
+            color: $c-white;
+          }
+        }
+      }
+  
+      .card-img-overlay {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 4%, rgba(0, 0, 0, 1) 93%);
+        top: 50%;
+  
+        .card-title {
+          font-size: 16px;
+          font-weight: $font-normal;
+          margin-bottom: 5px;
+          /*links color added 10 sep 2020 */
+          min-height: 40px;
+          a{
+            color: $c-white;
+          }
+          /*links color added 10 sep 2020 end*/
+        }
+  
+        .card-text {
+          color: $very-light-pink;
+          font-size: 12px;
+        }
+      }
+  
+      @include breakpoint($mxw992) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+/*Blog listing page list card end*/

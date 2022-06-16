@@ -1,0 +1,255 @@
+.ctr-vh,
+.my-links a span,
+.ask-peszo figure {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.card-box {
+  background: #FFFFFF;
+  box-shadow: rgba(84, 86, 91, 0.1) 12px 27px 38px;
+  height: 100%;
+}
+
+.card-box.op1 {
+  padding: 30px;
+}
+
+.card-box.op1 figure {
+  background: #F3F3F3;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card-box.op1 figure img {
+  width: auto;
+}
+
+.owl-carousel .card-box {
+  margin: 15px;
+}
+
+.arrow {
+  background: #9d1d27;
+  width: 36px;
+  height: 36px;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 18px;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.32);
+}
+
+.arrow span {
+  font-size: 12px;
+}
+
+.arrow span::before {
+  color: #ffffff;
+}
+
+.arrow.big {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.arrow.big span {
+  font-size: 18px;
+}
+
+.arrow.white {
+  background: #ffffff;
+}
+
+.arrow.white span::before {
+  color: #9d1d27;
+}
+
+.arrow.yellow {
+  background: #FFCB05;
+}
+
+.arrow.yellow span::before {
+  color: #9d1d27;
+}
+
+.arrow.green {
+  background: #ffffff;
+}
+
+.arrow.green span::before {
+  color: #00a07a;
+}
+
+.arrow.gray {
+  background: #ffffff;
+}
+
+.arrow.gray span::before {
+  color: #737373;
+}
+
+.progress {
+  height: .5rem;
+  background-color: #d8d8d8;
+  border-radius: .5rem;
+}
+
+.progress .progress-bar {
+  background-color: #9d1d27;
+  border-radius: .5rem;
+  font-size: 0;
+  text-indent: -999999px;
+}
+
+.card-img-overlay.ctnt-btm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #FFFFFF;
+}
+
+.managing-box {
+  padding: 10px 0 0 60px;
+}
+
+@media (max-width: 991px) {
+  .managing-box {
+    padding: 10px 0 0 30px;
+  }
+}
+
+.managing-box strong,
+.managing-box span {
+  display: block;
+}
+
+.acrd-data.result table {
+  background: rgba(243, 243, 243, 0.5);
+}
+
+.acrd-data.result table th,
+.acrd-data.result table td {
+  font-size: 20px;
+  border-right: 1px solid #979797;
+  border-bottom: 0;
+  border-top: 0;
+  padding: 15px 30px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+
+  .acrd-data.result table th,
+  .acrd-data.result table td {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+
+.acrd-data.result table th:first-child,
+.acrd-data.result table td:first-child {
+  text-align: left;
+}
+
+.acrd-data.result table th:last-child,
+.acrd-data.result table td:last-child {
+  border-right: 0;
+}
+
+.acrd-data.result table th {
+  background: #f3f3f3;
+}
+
+.view-all {
+  font-weight: 700;
+  font-size: 14px;
+  color: #9D1D27;
+}
+
+.view-all .icon-Right::before {
+  color: #9D1D27;
+}
+
+.view-all:hover {
+  color: #9D1D27;
+}
+
+.PA30 {
+  padding: 30px;
+}
+
+.our-founding {
+  background: linear-gradient(134.88deg, #c4777d 14.34%, #9d1d27 79.04%);
+  color: #FFFFFF;
+  position: relative;
+}
+
+.our-founding::after {
+  content: "";
+  background: url("../images/svg/comma-karma.svg") no-repeat;
+  height: 270px;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+
+.our-founding .inner-box {
+  padding: 90px 140px;
+}
+
+@media (max-width: 1024px) {
+  .our-founding .inner-box {
+    padding: 40px 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .our-founding .inner-box {
+    padding: 30px;
+  }
+}
+
+.our-founding .founding-info {
+  padding: 0 40px;
+}
+
+@media (max-width: 767px) {
+  .our-founding .founding-info {
+    padding: 0;
+  }
+
+  .our-founding .founding-info .MT50-M {
+    margin-top: 50px;
+  }
+}
+
+.our-founding hr {
+  border-color: rgba(255, 255, 255, 0.23);
+  margin: 30px 0;
+  margin-top: 0px;
+}
+
+.m-auto {
+  margin: 0 auto;
+}

@@ -1,0 +1,148 @@
+.valuefy {
+    display: none;
+    color: $c-black;
+    min-height: 520px;
+
+    &.active {
+        display: block;
+    }
+
+    .new & {
+        .btn-box .btn-red {
+            line-height: 2;
+
+            @include breakpoint($mxw992) {
+                padding: 10px 30px;
+            }
+        }
+    }
+}
+
+#terms .btn-box {
+    @include breakpoint($mxw992) {
+        text-align: right;
+
+        .btn-red {
+            padding: 10px 30px;
+        }
+    }
+}
+
+.sbold {
+    font-weight: 500;
+}
+
+.fund-box {
+    background: #E4E5E6;
+    color: $c-black1;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint($mxw768) {
+        padding: 10px;
+
+        .sbold {
+            font-size: 14px;
+
+            + .f12 {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+hr.op3 {
+    margin: 0;
+}
+
+.f21r {
+    font-size: 21px;
+}
+
+.PA30a {
+    padding: 20px 30px;
+}
+
+.vbox1 {
+    padding: 80px 0 30px;
+
+    @include breakpoint($mxw768) {
+        padding-top: 40px;
+    }
+}
+
+.vbox2 {
+    padding: 50px 0 80px;
+    background: $grey-50;
+    font-size: 16px;
+
+    .w50 {
+        width: 50%;
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 30px 0 40px;
+
+        .w50 {
+            width: 100%;
+        }
+    }
+}
+
+.valuefy-success {
+    @extend .pad2;
+    text-align: center;
+
+    .hd3b {
+        font-weight: 600;
+    }
+}
+
+.fund-list {
+    padding: 20px 0;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    text-align: left;
+
+    .int {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+        border-radius: 50%;
+        background: $grey-200;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .f12 {
+        font-weight: 500;
+        margin-bottom: 0;
+
+        span {
+            font-size: 10px;
+            font-weight: 400;
+            display: block;
+            margin-top: 4px;
+        }
+    }
+
+    .f10 {
+        margin-left: auto;
+        margin-bottom: 0;
+
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .f10 {
+            width: 25%;
+        }
+    }
+}

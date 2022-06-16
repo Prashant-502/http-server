@@ -1,0 +1,326 @@
+.history-banner {
+    background: $grey-100;
+    background-image: linear-gradient(90deg, #9D1D27 0%, #C4777D 40%, #f3f3f3 40%, #f3f3f3 100%);
+    padding: 100px 0;
+
+    .row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    figure {
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    .hdr {
+        color: $c-white;
+
+        + p {
+            color: $c-white;
+            margin: 16px 0 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        background-image: linear-gradient(90deg, #9D1D27 0%, #C4777D 28%, #f3f3f3 28%, #f3f3f3 100%);
+    }
+
+    @include breakpoint($mxw992) {
+        background-image: linear-gradient(180deg, #9D1D27 0%, #C4777D 58%, #f3f3f3 58%, #f3f3f3 100%);
+        padding: 0;
+
+        .col-lg-3 {
+            padding: 40px 0;
+        }
+
+        .col-lg-9 {
+            padding: 20px 0;
+
+            figure {
+                text-align: center;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 0 20px;
+        background-image: linear-gradient(180deg, #9D1D27 0%, #C4777D 64%, #f3f3f3 64%, #f3f3f3 100%);
+
+        figure img {
+            width: 100%;
+        }
+    }
+}
+
+.the-founding {
+    @extend .pad2;
+
+    .white-box.outer {
+        padding: 80px 40px 40px;
+        margin-top: 80px;
+
+        .white-box.inner {
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            border-radius: 50%;
+            @include center(x);
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hd3b {
+            margin-bottom: 24px;
+
+            + p {
+                line-height: 22px;
+                height: 285px;
+                overflow: hidden;
+
+                &.auto {
+                    overflow-y: auto;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .hdr {
+            margin-bottom: 20px;
+        }
+
+        .white-box.outer {
+            padding: 80px 20px 30px;
+            margin-top: 80px;
+            margin-bottom: 30px;
+
+            .hd3b + p {
+                height: auto;
+            }
+
+            p.mb-0 {
+                display: none;
+            }
+
+
+        }
+    }
+}
+
+.new-bank {
+    @extend .pad2;
+    background: $grey-50;
+
+    .nav {
+        justify-content: space-between;
+
+        li {
+            width: 33.33%;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            padding: 24px 30px;
+            border-radius: 5px 5px 0 0;
+
+            &.active {
+                background: $c-white;
+                box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.22);
+            }
+
+            figure {
+                width: 80px;
+                height: 80px;
+                background: $grey-100;
+                border-radius: 50%;
+                margin: 0 20px 0 0;
+                flex: 0 0 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        background: $c-white;
+        padding: 30px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+        line-height: 1.4;
+    }
+
+    @include breakpoint($mxw1000) {
+        .nav a {
+            padding: 20px;
+
+            .hd3b {
+                font-size: 20px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .nav a figure {
+            display: none;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .nav a {
+            padding: 12px;
+            min-height: 100px;
+
+            .hd3b {
+                font-size: 16px;
+            }
+        }
+
+        .tab-content {
+            padding: 20px;
+        }
+    }
+}
+
+.new-mission {
+    @extend .pad1;
+    background: #9D1D27;
+    background-image: linear-gradient(134deg, #9D1D27 0%, #C4777D 91%);
+    color: $c-white;
+
+    .row {
+        align-items: center;
+    }
+
+    .f24 {
+        margin: 30px 0 0;
+        opacity: 0.9;
+        line-height: 1.4;
+    }
+
+    @include breakpoint($mxw992) {
+        figure img {
+            width: 100%;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        figure {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.our-values {
+    @extend .pad2;
+    background: $grey-50;
+
+
+    .top-row {
+        justify-content: center;
+
+        .card-bx {
+            text-align: center;
+            padding: 0 40px;
+
+            figure {
+                margin-bottom: 30px;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            .f24 {
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .btm-row {
+        justify-content: center;
+        position: relative;
+
+        .middle {
+            background: #C4777D;
+            background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: $c-white;
+            position: absolute;
+            @include center(xy);
+            padding: 0 40px;
+            text-align: center;
+
+            .explorer11 & {
+                display: block;
+
+                .f24 {
+                    margin-top: 80px;
+                }
+            }
+
+            .f24 {
+                margin-top: 20px;
+            }
+
+            p {
+                margin: 20px 0 0;
+            }
+        }
+
+        .card-bx {
+            text-align: center;
+
+            .f16 {
+                font-weight: 700;
+                color: $c-red;
+                margin-bottom: 12px;
+            }
+        }
+
+        .row1 {
+            justify-content: center;
+        }
+
+        .row2 {
+            justify-content: space-between;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .btm-row {
+            .middle {
+                position: static;
+                transform: none;
+                width: 200px;
+                height: 200px;
+                margin-bottom: 30px;
+                padding: 0 32px;
+
+                .f24 {
+                    margin-top: 0;
+                }
+            }
+
+            .card-bx {
+                margin-top: 20px;
+            }
+        }
+    }
+}

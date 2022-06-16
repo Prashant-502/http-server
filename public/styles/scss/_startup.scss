@@ -1,0 +1,327 @@
+/*startup banner*/
+.startup {
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1240px;
+        }
+    }
+}
+
+.product-banner {
+    &.startup {
+        .list-item {
+            li {
+                font-size: 14px;
+                //color: $c-white;
+                color: $c-black;
+
+                span {
+                    //background: #6E0A0F;
+                    width: 64px;
+                    height: 64px;
+                    flex: 0 0 64px;
+                }
+            }
+        }
+
+        .startup-banner-middle {
+            position: absolute;
+            left: 50%;
+            margin-left: -295px;
+            bottom: 0;
+            width: 340px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .btn-box {
+            .btn-white.op1 {
+                color: $c-red;
+            }
+        }
+
+        .hd1 {
+            //color: $c-white;
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: -1.31px;
+        }
+
+        .banner-btm2 {
+            display: none
+        }
+
+        .banner-wrapper .banner-ctnt .row {
+            align-items: flex-start;
+        }
+
+
+        @include breakpoint($mxw1000) {
+            .startup-banner-middle {
+                display: none;
+            }
+
+            .list-item li {
+                font-size: 12px;
+                margin-bottom: 16px;
+            }
+        }
+
+        @include breakpoint($mxw992) {
+            .banner-ctnt {
+                top: 20%;
+
+                .row {
+                    justify-content: flex-end;
+                }
+
+                .col {
+                    display: none;
+                }
+
+                .hd1 {
+                    margin-top: 10px;
+                }
+            }
+
+            .banner-btm2 {
+                display: block;
+                padding-top: 20px;
+
+                .list-item li {
+                    flex: 0 0 100%;
+                    font-size: 14px;
+
+                    span {
+                        box-shadow: 0 0 4px 0 rgba(84, 86, 91, 0.16);
+                        width: 48px;
+                        height: 48px;
+                        flex: 0 0 48px;
+                    }
+                }
+
+                .f16br {
+                    strong {
+                        font-weight: 600;
+                        color: $c-red;
+                    }
+
+                    &.act .icon-Down:before {
+                        content: "\e903";
+                    }
+
+                    .icon-Down:before {
+                        color: $c-red;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .list-item.f3 li:nth-of-type(1n+4) {
+                display: none;
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            .banner-ctnt {
+                top: 24px;
+
+                .logo-n1 {
+                    width: 74px;
+                    height: auto;
+                }
+
+                .presenting {
+                    font-size: 12px;
+                }
+
+                .hd1 {
+                    font-size: 20px;
+                    letter-spacing: -.5px;
+                    margin-top: 0;
+                }
+
+                .btn-box.MT20 {
+                    margin-top: 12px;
+                }
+            }
+
+            .banner-btm2 {
+                display: block;
+                padding-top: 20px;
+
+                .list-item li {
+                    font-size: 14px;
+
+                    span {
+                        box-shadow: 0 0 4px 0 rgba(84, 86, 91, 0.16);
+                        width: 48px;
+                        height: 48px;
+                        flex: 0 0 48px;
+                    }
+                }
+
+                .f16br {
+                    strong {
+                        font-weight: 600;
+                        color: $c-red;
+                    }
+
+                    &.act .icon-Down:before {
+                        content: "\e903";
+                    }
+
+                    .icon-Down:before {
+                        color: $c-red;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .list-item.f3 li:nth-of-type(1n+4) {
+                display: none;
+            }
+        }
+    }
+}
+
+.presenting {
+    color: $c-black;
+    padding: 5px 0;
+}
+
+/*startup banner end*/
+
+.startup-overview {
+    @extend .pad2;
+    background: $grey-100;
+    font-size: 16px;
+    line-height: 22px;
+
+    .hd2 {
+        color: $c-blackn;
+        font-weight: 400;
+    }
+}
+
+.startup-acctount {
+    background: rgb(171, 97, 95);
+    background-image: linear-gradient(-42deg, #AB615F 0%, #F4D8CF 87%);
+    //background: linear-gradient(180deg, rgba(171, 97, 95, 1) 0%, rgba(244, 216, 207, 1) 80%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    padding: 50px 0;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: 20%;
+        background: $c-white;
+    }
+
+    .new-comp {
+        background: none;
+        padding: 0;
+
+        .whiteBx .ltCol .nav a {
+            padding: 20px 30px;
+        }
+
+        .whiteBx .ltCol .nav li {
+            font-size: 16px;
+        }
+
+        .sec-ctnt .seclt {
+            width: 465px;
+            padding-right: 20px;
+        }
+
+        .whiteBx .rtCol {
+            min-height: 790px;
+        }
+
+        .sec-ctnt {
+            align-items: flex-start;
+
+            figure {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .hd5 {
+        color: #000;
+        font-weight: 500;
+    }
+
+    .hdr {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+
+    ul.with-circle.op1 {
+        padding: 5px 0;
+    }
+
+    ul.with-circle.op1 li {
+        font-size: 16px;
+
+    }
+
+    @include breakpoint($mxw768) {
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.faqs-bx {
+    &.bg-none {
+        background: none;
+    }
+}
+
+.startup-blog {
+    background: $grey-100;
+    padding: 60px 0;
+}
+
+.service-block.op1 .sr-block {
+    padding: 0;
+
+    a {
+        padding: 50px;
+        display: block;
+    }
+
+    .f14br {
+        font-weight: 600;
+        font-size: 17px;
+        color: #FFFFFF;
+        letter-spacing: -0.5px;
+    }
+
+    @include breakpoint($mxw768) {
+        min-height: inherit;
+        background: url(../images/startup/fees-mob.png) no-repeat 0 0 / cover !important;
+
+        a {
+            padding: 20px;
+        }
+
+        .hd {
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: -.5px;
+        }
+
+        .f14br {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,295 @@
+.csr-banner.webm {
+
+    figure img {
+        width: 100%;
+    }
+
+    .f14 {
+        color: $c-white;
+        margin-top: 20px;
+        line-height: 20px;
+
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    .btn-box .btn-white {
+        background: $c-white;
+        border-color: $c-white;
+    }
+
+    @include breakpoint($mxw992) {
+        .banner-wrapper .banner-ctnt {
+            top: 45px;
+
+            .hd48 {
+                font-size: 36px;
+
+                + .f14 br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .banner-wrapper .banner-ctnt {
+            top: 30px;
+        }
+    }
+}
+
+.f16 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.hd48l {
+    font-weight: 200;
+    font-size: 48px;
+    color: $c-black;
+    letter-spacing: -0.75px;
+}
+
+.media-kit.webm {
+    .media-list .card-media {
+        padding: 14px 10px 0;
+
+        figure {
+            margin-bottom: 0;
+
+            + p {
+                font-size: 16px;
+                letter-spacing: -0.33px;
+
+                strong {
+                    font-size: 21px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .media-right {
+        margin: 30px 0 0 30px;
+
+        figure {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+            display: inline-block;
+            margin: 30px 0 0;
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .media-right {
+            margin-left: 0;
+
+            .hd48l {
+                font-size: 36px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .media-list .card-media figure {
+            img.svg {
+                height: auto;
+            }
+
+            + p {
+                font-size: 14px;
+
+                strong {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .media-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+
+            .hd48l {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .media-right {
+            flex-direction: column;
+
+            .hd48l {
+                margin-right: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.app-usps {
+    padding-bottom: 50px;
+
+    .uspsIn {
+        background: url(../images/webm/key-uspBg.jpg) no-repeat center center / cover;
+        box-shadow: 0 4px 8px 0 rgba(37, 36, 59, 0.10);
+        border-radius: 20px;
+        padding: 30px 120px;
+
+        .hdr {
+            color: $c-white;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: -1.5px;
+        }
+
+        .usp-bx {
+            display: flex;
+            align-items: flex-start;
+            color: $c-white;
+
+            img {
+                margin-top: 4px;
+            }
+
+            .hd5 {
+                letter-spacing: -1px;
+                color: $c-white;
+                font-weight: 400;
+                line-height: 1;
+
+                + p {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .btn-box .btn-white {
+            background: $c-white;
+            border-color: $c-white;
+            color: $c-blackn;
+        }
+
+        @include breakpoint($mxw1000) {
+            padding: 30px 40px;
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 30px;
+
+            .usp-bx span {
+                flex: 0 0 48px;
+            }
+        }
+    }
+}
+
+.new-comp.webm {
+    padding: 50px 0;
+
+    .hd5 {
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .whiteBx .ltCol .nav li a {
+        font-weight: 600;
+
+        &.active {
+            //font-weight: 500;
+            letter-spacing: -0.5px;
+        }
+    }
+
+    .sec-ctnt .seclt {
+        color: $c-black;
+
+        .hdr {
+            letter-spacing: -0.6px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .sec-ctnt .seclt .btn-box .btn-white {
+            line-height: 1.5;
+        }
+
+        .btn-box .btn-red {
+            height: 50px;
+        }
+    }
+}
+
+.earn-points.webm {
+    background: $c-white;
+
+    .media-card .mcard-body h3 + p {
+        margin-top: 12px;
+        min-height: 60px;
+    }
+
+    @include breakpoint($mxw992) {
+        .media-card .mcard-body h3 {
+            font-size: 18px;
+        }
+    }
+}
+
+.customer-speak.webm {
+    .container.shape {
+        background: url(../images/webm/comma.svg) no-repeat 10px 0;
+
+        .hd {
+            color: $c-black;
+        }
+    }
+
+    .white-box {
+        min-height: inherit;
+
+        .f16 {
+            color: $c-black;
+            margin-bottom: 4px;
+            line-height: 1;
+        }
+
+        .f12 {
+            margin-bottom: 0;
+        }
+    }
+
+    .customer-speak-carousel .owl-nav {
+        top: 120px;
+    }
+}
+
+.faqs-bx {
+    background: $grey-100;
+    padding-top: 50px;
+    color: $c-black;
+}
+
+.accordian.opn1 {
+    font-size: 16px;
+
+    .trgr {
+        &.act::before {
+            content: "\e905";
+            color: $brownish-grey;
+        }
+
+        &::before {
+            content: "\e906";
+            font-size: 20px;
+        }
+    }
+
+    .tog_cont {
+        background: $c-grey-1;
+        border-top-width: 2px;
+    }
+}

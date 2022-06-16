@@ -1,0 +1,328 @@
+/* Ways to bank landing page*/
+.wtb-landing-section {
+  padding: 40px 0;
+  background: #f3f3f3;
+}
+
+.wtb-landing-section .card.op2 .card-body .hd3b {
+  margin-bottom: 12px;
+  min-height: 56px;
+  line-height: 1.2;
+}
+
+.wtb-landing-section .card.op2 .card-body .card-text {
+  margin-top: 10px;
+}
+
+.PB0 {
+  padding-bottom: 0;
+}
+
+/*net banking Ways to Transfer Funds*/
+.net-banking-section {
+  padding: 50px 0;
+  background: #f3f3f3;
+}
+
+.net-banking-section .hd2v {
+  font-weight: 300;
+}
+
+.net-banking-section.op2 {
+  background: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .net-banking-section.op2 {
+    padding-bottom: 0;
+  }
+
+  .net-banking-section.op2 .tabs-img {
+    width: 70%;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*net banking Ways to Transfer Funds end*/
+/* Ways to bank key Features*/
+.key-features {
+  padding: 60px 0 100px 0;
+  background: #f3f3f3;
+}
+
+.key-features .hd2v {
+  font-weight: 300;
+}
+
+.key-features .list-item.op2 li .img-ctr {
+  width: 60%;
+}
+
+@media (max-width: 991px) {
+  .key-features {
+    padding: 60px 0 0 0;
+  }
+
+  .key-features .tabs-img {
+    width: 70%;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* Ways to bank key Features end*/
+/* Ways to bank Mobile Banking APP*/
+.mobile-app {
+  padding: 60px 0 100px 0;
+  background: #f3f3f3;
+}
+
+.mobile-app .download-btn img {
+  width: 145px;
+}
+
+@media (max-width: 991px) {
+  .mobile-app {
+    padding-bottom: 0;
+  }
+}
+
+.mobile-app .hd2v {
+  font-weight: 300;
+}
+
+.mobile-app .list-item.op2 li .img-ctr {
+  width: 60%;
+}
+
+@media (max-width: 1024px) {
+  .mobile-app .download-btn img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-app .download-btn {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .mobile-app .download-btn img {
+    width: 150px;
+  }
+
+  .mobile-app .download-btn a {
+    margin-bottom: 20px;
+  }
+}
+
+/* Ways to bank Mobile Banking APP end*/
+/* Ways to bank sticky element*/
+.start-sticky {
+  position: relative;
+}
+
+.sticky-element {
+  width: 670px;
+  height: 460px;
+  overflow: hidden;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sticky-element ul {
+  position: relative;
+}
+
+.sticky-element.active {
+  position: fixed;
+  top: 250px;
+}
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+  .sticky-element {
+    width: 570px;
+  }
+
+  .sticky-element img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sticky-element {
+    width: 450px;
+  }
+
+  .sticky-element img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .sticky-element {
+    display: none;
+  }
+}
+
+.sticky-element .laptop-img {
+  display: none;
+}
+
+.sticky-element li {
+  display: none;
+}
+
+.sticky-element li.active,
+.sticky-element li.activem {
+  display: block;
+}
+
+.sticky-element li.active .laptop-img,
+.sticky-element li.activem .laptop-img {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sticky-element li.active .laptop-img.op1 .mobile,
+.sticky-element li.activem .laptop-img.op1 .mobile {
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+  .sticky-element li.active .laptop-img.op1 .mobile img,
+  .sticky-element li.activem .laptop-img.op1 .mobile img {
+    width: 70%;
+  }
+}
+
+.laptop-inner {
+  position: absolute;
+  left: 75px;
+  top: 25px;
+  width: 515px;
+  background: #ffffff;
+  height: 320px;
+  overflow: hidden;
+}
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+  .laptop-inner {
+    left: 65px;
+    top: 20px;
+    width: 440px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .laptop-inner {
+    left: 50px;
+    top: 18px;
+    width: 350px;
+    height: 220px;
+  }
+}
+
+.laptop-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.mobile-inner {
+  position: absolute;
+  left: 240px;
+  top: 10px;
+  width: 195px;
+  height: 417px;
+  overflow: hidden;
+}
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+  .mobile-inner {
+    left: 190px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mobile-inner {
+    left: 114px;
+    top: 5px;
+  }
+}
+
+.mobile-inner img {
+  width: 195px;
+  height: 417px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .mobile-inner img {
+    height: auto;
+  }
+}
+
+/* Ways to bank sticky element end*/
+.explorer11 .sms-section {
+  padding: 140px 0 140px 0;
+}
+
+/* mobile banking SMS Banking */
+.sms-section {
+  padding: 120px 0 140px 0;
+}
+
+@media (max-width: 991px) {
+  .sms-section {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .sms-section {
+    padding: 70px 0 0 0;
+  }
+}
+
+.sms-section .sms-ctr {
+  margin-top: 20px;
+}
+
+.sms-section .hd2v {
+  font-weight: 300;
+}
+
+/* mobile banking SMS Banking end*/
+/* whatsapp banking input and button */
+.mobile-input {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+}
+
+@media (max-width: 767px) {
+  .mobile-input {
+    display: block;
+  }
+}
+
+.mobile-input .form-label-group .form-control {
+  width: 320px;
+}
+
+@media (max-width: 767px) {
+  .mobile-input .form-label-group .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* whatsapp banking input and button end */
+/* Ways to bank landing page end*/

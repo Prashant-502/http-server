@@ -1,0 +1,193 @@
+.modal-dialog {
+    max-width: 600px;
+
+    .modal-body {
+        &.op1 {
+            padding: 70px 100px;
+
+            @include breakpoint($mxw768) {
+                padding: 50px 30px;
+            }
+        }
+    }
+}
+
+/*pl joureny banner*/
+.pl-banner {
+    background: rgb(255, 236, 238);
+    background: linear-gradient(90deg,
+            rgba(255, 236, 238, 1) 0%,
+            rgba(194, 181, 181, 1) 64%,
+            rgba(255, 255, 255, 1) 64%,
+            rgba(255, 255, 255, 1) 100%);
+
+    &.op1 {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 60%,
+                rgba(255, 255, 255, 1) 60%,
+                rgba(255, 255, 255, 1) 100%);
+
+        .hero-from {
+            padding-left: 40px;
+
+            @include breakpoint($mxw768) {
+                padding: 0 15px;
+            }
+
+            .go-back {
+                font-size: 14px;
+            }
+
+            .btn-box .btn-red,
+            .btn-box .btn-white {
+                padding: 10px 20px;
+                font-size: 14px;
+
+                @include breakpoint($mxw768) {
+                    line-height: 2;
+                }
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            background: rgb(255, 236, 238);
+            background: linear-gradient(90deg,
+                    rgba(255, 236, 238, 1) 0%,
+                    rgba(194, 181, 181, 1) 64%,
+                    rgba(255, 255, 255, 1) 64%,
+                    rgba(255, 255, 255, 1) 100%);
+            padding-top: 30px;
+        }
+
+        @include breakpoint($mxw992) {
+            background: rgb(255, 236, 238);
+            background: linear-gradient(90deg,
+                    rgba(255, 236, 238, 1) 0%,
+                    rgba(194, 181, 181, 1) 50%,
+                    rgba(255, 255, 255, 1) 50%,
+                    rgba(255, 255, 255, 1) 100%);
+            padding-top: 30px;
+        }
+
+        @include breakpoint($mxw768) {
+            background: none;
+        }
+    }
+
+
+
+    @media only screen and (min-device-width: 1820px) and (max-device-width: 2048px) {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 60%,
+                rgba(255, 255, 255, 1) 60%,
+                rgba(255, 255, 255, 1) 100%);
+    }
+
+    @include breakpoint($mxw992) {
+        background: rgb(255, 236, 238);
+        background: linear-gradient(90deg,
+                rgba(255, 236, 238, 1) 0%,
+                rgba(194, 181, 181, 1) 50%,
+                rgba(255, 255, 255, 1) 50%,
+                rgba(255, 255, 255, 1) 100%);
+        padding-top: 30px;
+    }
+
+    @include breakpoint($mxw768) {
+        background: none;
+        padding: 50px 0;
+    }
+
+    .hero-img {
+        margin-left: -30px;
+
+        @include breakpoint($mxw1000) {
+            margin-left: -60px;
+        }
+
+        @include breakpoint($mxw992) {
+            margin: 0;
+        }
+    }
+
+    figure {
+        margin: 0;
+
+        img {
+            display: block;
+
+            @include breakpoint($mxw1000) {
+                width: 360px;
+            }
+
+            @include breakpoint($mxw992) {
+                width: 250px;
+            }
+
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+        }
+    }
+
+    .hd {
+        margin-bottom: 10px;
+        color: $c-white;
+        font-weight: $font-normal;
+    }
+
+    .hero-from {
+        padding-left: 70px;
+
+        @include breakpoint($mxw1000) {
+            padding: 0;
+        }
+
+        @include breakpoint($mxw992) {
+            padding-left: 30px;
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 0 15px;
+        }
+
+        .hd6 {
+            color: $c-black;
+
+            strong {
+                display: block;
+                margin-bottom: 3px;
+            }
+        }
+
+        .skip {
+            margin-left: 45px;
+
+            @include breakpoint($mxw1000) {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.preLoanamt {
+    display: flex;
+    margin: 12px 0 0;
+
+    a {
+        border: 2px solid $grey-200;
+        border-radius: 5px;
+        padding: 10px;
+        flex-grow: 1;
+        margin-right: 10px;
+        text-align: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

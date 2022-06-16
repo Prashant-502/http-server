@@ -1,0 +1,884 @@
+/* Banner common start */
+.banner-wrapper {
+    position: relative;
+
+    nav {
+        top: 1.25rem;
+        position: absolute;
+    }
+
+    .banner-ctnt {
+        position: absolute;
+        @include center(y);
+        width: 100%;
+
+        .row {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /*mobile banking page input and submit button*/
+        .needs-validation {
+            display: flex;
+
+            .form-control {
+                width: 250px;
+
+                @include breakpoint($mxw992) {
+                    width: auto;
+                }
+
+                @include breakpoint($mxw768) {
+                    width: 100%;
+                }
+            }
+
+            @include breakpoint($mxw768) {
+                display: block;
+                width: 100%;
+
+                .form-label-group {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        /*mobile banking page input and submit button end*/
+        /*personal loan*/
+        .col-md-7 {
+            @include breakpoint($mxw1000) {
+                .hd {
+                    font-size: 24px;
+                    line-height: 1.1;
+                    margin-bottom: .50rem;
+                }
+
+                .list-item.op2 {
+                    margin-top: 15px;
+                }
+
+                .desc.f12.PT15 {
+                    padding-top: 0;
+                }
+            }
+
+        }
+    }
+
+    .banner-btm {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        color: $c-white;
+
+        .list-item {
+            display: flex;
+
+            li {
+                width: 25%;
+            }
+        }
+    }
+
+    figure {
+        margin-bottom: 0;
+    }
+
+    .desc {
+        margin-top: 15px;
+        color: $c-white;
+
+        span {
+            color: $c-yellow;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .banner-ctnt {
+            transform: none;
+            left: 0;
+            top: 24px;
+        }
+
+        .banner-btm {
+            position: static;
+            background: $c-white;
+            border-bottom: 3px solid $c-grey-1;
+            overflow-x: auto;
+
+            .list-item.op1 {
+                padding-top: 0;
+
+                li {
+                    color: $c-black;
+                    flex-direction: column;
+                    white-space: nowrap;
+                    align-items: flex-start;
+                    width: auto;
+                    margin: 24px 32px 30px 0;
+
+                    span {
+                        background: $grey-100;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*  End  */
+
+/* circle type list start */
+.list-item {
+    border-top: 1px solid rgba($c-white, 0.5);
+    padding-top: 16px;
+
+    &.with-arw {
+        li {
+            position: relative;
+            padding-right: 20px;
+
+            a {
+                width: 100%;
+            }
+
+            &::before {
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                font-family: icomoon;
+                content: "\e902";
+                right: 0;
+                top: 24px;
+                color: $brownish-grey;
+            }
+        }
+    }
+
+    &.op1 {
+        li {
+            a {
+                color: $c-white;
+            }
+
+            span {
+                background: $c-white;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            @include breakpoint($mxw992) {
+                a {
+                    color: $c-black;
+                }
+            }
+        }
+    }
+
+    &.op2 {
+        display: flex;
+        flex-wrap: wrap;
+        border: 0;
+
+        li {
+            flex: 0 0 50%;
+
+            @include breakpoint($mxw768) {
+                flex: 0 0 100%;
+            }
+
+            span {
+                background: $c-white;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            .img-ctr {
+                width: 80%;
+
+                /*whatsapp banking*/
+                &.w60 {
+                    width: 60%;
+                }
+
+                /*whatsapp banking end*/
+            }
+        }
+    }
+
+    &.opt1 {
+        li {
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                //flex-wrap: wrap;
+            }
+
+            span {
+                background: $grey-100;
+            }
+        }
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 36px;
+
+
+        a {
+            display: flex;
+            align-items: center;
+        }
+
+        span {
+            //display: inline-block;
+            width: 70px;
+            height: 70px;
+            background: #ffcb05;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 70px;
+            margin-right: 15px;
+
+            &.opt1 {
+                background: $c-white;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        li {
+            margin-bottom: 24px;
+
+            span {
+                width: 60px;
+                height: 60px;
+                flex: 0 0 60px;
+            }
+        }
+    }
+}
+
+/*  End  */
+
+/* Home banner start */
+.hero-banner {
+    background: #d8d8d8;
+    position: relative;
+
+    &.owl-carousel .owl-item .list-item img {
+        width: auto;
+    }
+
+    .banner-ctnt {
+        margin-top: -50px;
+
+        &.m1 {
+            margin-top: 10px;
+        }
+
+        .hd1 {
+            line-height: 1;
+        }
+
+        @include breakpoint($mxw992) {
+            &.m1 {
+                margin-top: 50px;
+
+                .hd2 {
+                    font-size: 16px;
+                }
+
+                .btn-box.MT30 {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        @include breakpoint($mxw768) {
+            margin-top: 0;
+
+            &.m1 {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .owl-dots {
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        right: 10%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .owl-dot {
+            margin: 2px;
+
+            span {
+                height: 8px;
+                width: 6px;
+                border: 0;
+                background-color: $brownish-grey;
+                border-radius: 3px;
+            }
+
+            &.active span {
+                height: 24px;
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            right: 5%;
+        }
+
+        @include breakpoint($mxw768) {
+            height: 6px;
+            flex-direction: row;
+            top: auto;
+            bottom: 40px;
+            right: 0;
+            width: 100%;
+
+            .owl-dot {
+                margin: 0 4px;
+
+                span {
+                    height: 6px;
+                    background: $c-white;
+                }
+
+                &.active span {
+                    width: 24px;
+                    height: 6px;
+                }
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .banner-ctnt .hd1 {
+            font-size: 48px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .banner-ctnt {
+            margin-top: 0;
+
+            .hd2 {
+                font-weight: $font-normal;
+                margin-bottom: 8px;
+            }
+
+            .hd1 {
+                font-size: 36px;
+            }
+
+            .btn-box.MT30 {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+/* Home banner End  */
+
+/* Product listing banner start */
+.hero-banner {
+    &.inner-page {
+        .banner-ctnt {
+            margin-top: 0px;
+
+            &.text-grey {
+                .hd1 {
+                    color: $c-grey-5;
+                }
+
+                .desc {
+                    color: $c-grey-5;
+                }
+            }
+
+            @include breakpoint($mxw769) {
+                margin-top: 50px;
+            }
+
+            @include breakpoint($mxw768) {
+                margin-top: 0;
+            }
+
+            .hd1 {
+                @include breakpoint($mxw769) {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+/*  End  */
+
+/* Banner bounce layer start */
+.banner-top,
+.product-banner {
+    position: relative;
+
+    &.text-grey {
+        .hd1 {
+            color: $c-grey-5;
+
+            @include breakpoint($mxw1000) {
+                font-size: 24px;
+            }
+        }
+
+        .desc {
+            color: $c-grey-5;
+
+            @include breakpoint($mxw992) {
+                display: none;
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            .btn-red {
+                min-width: inherit;
+
+                @include breakpoint($mxw768) {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+
+    .banner-btm {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        color: $c-white;
+
+        .list-item {
+            display: flex;
+
+            li {
+                width: 25%;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        .banner-btm {
+            position: static;
+            background: $c-white;
+            border-bottom: 3px solid $c-grey-1;
+            overflow-x: auto;
+
+            .list-item.op1 {
+                padding-top: 0;
+                align-items: flex-start;
+
+                li {
+                    margin-bottom: 0;
+                    width: auto;
+
+                    a {
+                        color: $c-black;
+                        flex-direction: column;
+                        white-space: nowrap;
+                        align-items: flex-start;
+                        width: 120px;
+                        white-space: inherit;
+                        margin: 24px 32px 24px 0;
+
+                        span {
+                            background: $grey-100;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+
+            .list-item.op2 {
+                padding-top: 0;
+
+                li {
+                    margin-bottom: 0;
+                    width: auto;
+                    color: $c-black;
+                    flex-direction: column;
+                    //white-space: nowrap;
+                    align-items: flex-start;
+                    width: auto;
+                    margin: 24px 32px 24px 0;
+                    flex: 0 0 130px;
+
+                    span {
+                        background: $grey-100;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &.op3 {
+                    li {
+                        @include breakpoint($mxw992) {
+                            flex-direction: row;
+                            flex: 0 0 180px;
+                            align-items: center;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.banner-top {
+    @include breakpoint($mxw1000) {
+        .btn-box.MT30 {
+            margin-top: 0;
+        }
+    }
+}
+
+.product-banner {
+    figure img {
+        width: 100%;
+    }
+
+    .list-item.op1 li:last-child {
+        margin-bottom: 0;
+    }
+
+    .btn-box {
+        display: flex;
+    }
+
+    .hero-know-more {
+        @extend .f14br;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+
+        .icon-play {
+            font-size: 24px;
+            margin-right: 10px;
+
+            &::before {
+                color: $c-red;
+            }
+        }
+    }
+
+    .list-item {
+        border-top: 0;
+        padding-top: 0;
+    }
+
+    .banner-btm {
+        display: none;
+    }
+
+    @include breakpoint($mxw768) {
+        &.text-grey {
+            .banner-ctnt {
+                .hd1 {
+                    margin-top: 15px;
+                }
+
+            }
+
+        }
+    }
+
+
+    @include breakpoint($mxw992) {
+        .banner-wrapper .list-item {
+            display: none;
+        }
+
+        .banner-ctnt {
+            top: 50px;
+
+            .hd1 {
+                font-size: 24px;
+                margin-top: 30px;
+            }
+
+            .desc.noTab {
+                display: none;
+            }
+        }
+
+        .hero-know-more {
+            margin-left: 16px;
+            white-space: nowrap;
+            height: 50px;
+        }
+
+        .banner-btm {
+            display: block;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .banner-ctnt {
+            top: 24px;
+
+            .hd1 {
+                margin-top: 0;
+            }
+
+            .desc {
+                display: block;
+
+                &.noTab {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+/*  End  */
+
+/*  Play Icon on Banner Start  */
+.product-banner {
+    .play-box {
+        z-index: 1;
+
+        @include breakpoint($mxw768) {
+            top: 180px;
+        }
+    }
+}
+
+/*  Play Icon on Banner End  */
+
+/* CALCULATORS Comp on homepage start */
+.banner2 {
+    figure {
+        margin-top: -30px;
+
+        img {
+            margin-left: 60px;
+            max-width: 455px;
+        }
+    }
+
+    .banner-wrapper {
+        &.grey-btm {
+            @extend .grey-bg;
+
+            figure {
+                margin-top: 0;
+                padding-top: 60px;
+            }
+
+            .list-item.opt1 {
+                border-top: 0;
+
+                li span {
+                    background: $c-white;
+                }
+            }
+        }
+
+        @include breakpoint($mxw769) {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0 16px;
+        }
+
+        .banner-ctnt {
+            @include breakpoint($mxw768) {
+                .list-item {
+                    margin-top: 20px;
+
+                    li {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                position: inherit;
+            }
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        figure img {
+            width: 50%;
+            margin-left: -20px;
+        }
+
+        .banner-wrapper .banner-ctnt {
+            top: 50px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        figure {
+            margin: 20px 10px 0;
+
+            img {
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*  End  */
+
+/*Sa joureny banner*/
+.sa-banner {
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg,
+            rgba(238, 238, 238, 1) 0%,
+            rgba(216, 216, 216, 1) 63%,
+            rgba(255, 255, 255, 1) 63%,
+            rgba(255, 255, 255, 1) 100%);
+    padding-top: 30px;
+
+    @include breakpoint($mxw992) {
+        background: linear-gradient(90deg,
+                rgba(238, 238, 238, 1) 0%,
+                rgba(216, 216, 216, 1) 65%,
+                rgba(255, 255, 255, 1) 65%,
+                rgba(255, 255, 255, 1) 100%);
+    }
+
+    @include breakpoint($mxw768) {
+        background: linear-gradient(90deg,
+                rgba(238, 238, 238, 1) 0%,
+                rgba(216, 216, 216, 1) 100%,
+                rgba(255, 255, 255, 1) 100%,
+                rgba(255, 255, 255, 1) 100%);
+    }
+
+    .hero-img {
+        margin-left: -30px;
+
+        @include breakpoint($mxw1000) {
+            margin-left: -60px;
+        }
+
+        @include breakpoint($mxw992) {
+            margin: 0;
+        }
+    }
+
+    figure {
+        margin: 0;
+
+        img {
+            display: block;
+
+            @include breakpoint($mxw1000) {
+                width: 360px;
+            }
+
+            @include breakpoint($mxw992) {
+                width: 250px;
+            }
+
+            @include breakpoint($mxw768) {
+                width: 100%;
+            }
+        }
+    }
+
+    .list-item {
+        border-top: 0;
+
+        @include breakpoint($mxw992) {
+            display: flex;
+            flex-wrap: nowrap;
+
+            li {
+                flex: 0 0 305px;
+                margin-right: 15px;
+
+                @include breakpoint($mxw992) {
+                    flex: 0 0 285px;
+                }
+            }
+        }
+    }
+
+    .hd2v {
+        margin-bottom: 10px;
+        font-weight: $font-bold;
+    }
+}
+
+.list-cont {
+    width: 80%;
+
+    strong {
+        display: block;
+    }
+}
+
+/*Sa joureny banner end*/
+
+/* common font colors*/
+.grey-c-400 {
+    color: $grey-400;
+}
+
+.grey-c-3 {
+    color: $c-grey-3;
+}
+
+/* common font colors end*/
+
+/* Fixed Deposit banner*/
+.product-banner .banner-ctnt .desc {
+    &.f24 {
+        @include breakpoint($mxw769) {
+            font-size: inherit;
+        }
+    }
+}
+
+/*end*/
+
+/* Investors Page Banner start*/
+.banner-top .investor-banner {
+    .banner-ctnt {
+        margin-top: -50px;
+
+        @include breakpoint($mxw992) {
+            margin-top: 0;
+        }
+
+        @include breakpoint($mxw768) {
+            .hd1 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+/* Investors Page Banner end*/

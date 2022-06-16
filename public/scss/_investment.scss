@@ -1,0 +1,421 @@
+.looking-for.inv {
+    background: $grey-50;
+    padding-bottom: 0;
+
+    .sub-title {
+        margin-bottom: 30px;
+    }
+
+    .card-look {
+        > a {
+            padding: 25px 20px;
+            min-height: 90px;
+        }
+
+        .title {
+            margin-bottom: 0;
+        }
+    }
+
+    .product-banner {
+        margin-top: 60px;
+
+        .play-box {
+            background: $c-white;
+            left: auto;
+            right: 20%;
+        }
+    }
+
+    .inv1 {
+        background: $grey-100;
+        padding: 70px 0 50px;
+
+        .hd {
+            margin-bottom: 24px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .sub-title {
+            margin: 0 0 20px 5px;
+            line-height: 1.1;
+        }
+
+        .card-look {
+            > a {
+                min-height: 160px;
+            }
+
+            .title {
+                font-size: 14px;
+            }
+        }
+
+        .product-banner .play-box {
+            right: 30%;
+            top: auto;
+            bottom: 10%;
+        }
+    }
+}
+
+.our-products {
+    @extend .pad2;
+
+    .my-links {
+        position: absolute;
+        @include center(x);
+        bottom: 4px;
+        margin-left: 60px;
+
+        .share-box {
+            margin-left: 0;
+        }
+
+        a span {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 0;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+            font-weight: 700;
+        }
+
+        @include breakpoint($mxw992) {
+            .share-box {
+                .share-positon-box {
+                    right: -4px;
+                    left: auto;
+                }
+
+                .share-bubble:after {
+                    right: 20px;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+
+.banner2.why-bank {
+    background: #F5E7E8;
+    @extend .pad1;
+
+    figure {
+        margin-top: 0;
+    }
+
+    .list-item.opt1 {
+        border-top: 0;
+
+        li span {
+            background: $c-white;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .banner-wrapper .banner-ctnt {
+            top: 0;
+        }
+    }
+}
+
+.customer-speak {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 40%, rgba(196, 119, 125, 1) 40%, rgba(157, 29, 29, 1) 100%);
+
+    @include breakpoint($mxw768) {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg,
+                rgba(255, 255, 255, 1) 48%,
+                rgba(196, 119, 125, 1) 48%,
+                rgba(157, 29, 39, 1) 100%);
+    }
+
+    .container {
+        &.shape {
+            background: url(../images/shape.svg) no-repeat 0 -2px;
+            padding: 120px 15px 120px 15px;
+
+            @include breakpoint($mxw768) {
+                padding: 80px 15px 0 15px;
+                background: url(../images/shape.svg) no-repeat center -2px;
+            }
+        }
+    }
+
+    .white-box {
+        padding: 24px 28px;
+        margin: 2px;
+        min-height: 215px;
+
+        .f12 {
+            color: $brownish-grey-two;
+            margin-bottom: 8px;
+        }
+    }
+
+    .cs-title-box {
+        padding: 30px 0 0 20px;
+
+        @include breakpoint($mxw992) {
+            padding: 30px 0 0 0;
+        }
+
+        @include breakpoint($mxw768) {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.customer-speak-carousel {
+    .owl-nav {
+        position: absolute;
+        left: -270px;
+        top: 150px;
+
+        @include breakpoint($mxw992) {
+            left: -190px;
+        }
+
+        @include breakpoint($mxw768) {
+            position: static;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .owl-prev,
+        .owl-next {
+            width: 48px;
+            height: 48px;
+            background: $c-white;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+            margin: 0 10px;
+
+            @include breakpoint($mxw768) {
+                background: $c-white !important;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        .owl-prev {
+            position: static;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e901";
+                color: $c-red;
+            }
+        }
+
+        .owl-next {
+            position: static;
+
+            &::before {
+                font-family: icomoon;
+                content: "\e902";
+                color: $c-red;
+            }
+        }
+    }
+}
+
+.learn-inv {
+    background: $grey-100;
+    padding: 80px 0 30px;
+
+    .owl-dots {
+        margin-top: 30px;
+    }
+
+    @include breakpoint($mxw992) {
+        .owl-dots {
+            margin-top: 0px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        padding: 50px 0 0;
+    }
+}
+
+//Mutual Fund CSS
+.mf-banner {
+    figure img {
+        //margin: 0 auto;
+        width: 100%;
+        height: 550px;
+    }
+
+    .banner-form {
+        margin-bottom: -100px;
+        margin-left: 30px;
+
+        .hd3b {
+            border-bottom: 1px solid $c-grey-6;
+            padding: 20px 36px;
+            line-height: 1;
+        }
+
+        .form-body {
+            padding: 32px 36px;
+
+            .radio-option {
+                margin-top: 0;
+            }
+
+            .loan-cal {
+                margin-right: 0;
+            }
+        }
+
+        .loan-cal {
+            > .row.MT10 {
+                margin-top: 40px;
+            }
+
+            .slider-wraper {
+                margin-right: 0;
+            }
+
+            .ui-slider {
+                width: 100% !important;
+                margin-right: 30px;
+            }
+        }
+    }
+
+    @include breakpoint($mxw1000) {
+        .banner-form {
+            margin-left: 0;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        figure img {
+            height: auto;
+        }
+
+        .banner-wrapper {
+            margin-bottom: 70%;
+
+            .banner-ctnt {
+                top: 64px;
+            }
+        }
+
+        .banner-form {
+            margin-top: 60px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .banner-wrapper {
+            margin-bottom: 510px;
+
+            .banner-ctnt {
+                top: 24px;
+            }
+        }
+
+        .banner-form {
+            margin-top: 30px;
+
+            .hd3b {
+                padding: 20px;
+            }
+
+            .form-body {
+                padding: 20px;
+
+                .form-label-group.MT20 {
+                    margin-top: 30px;
+                }
+            }
+
+            .custom-control.custom-radio.green .custom-control-label {
+                padding-left: 0;
+            }
+
+            .custom-control-inline:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.our-vision.mf {
+    padding-top: 140px;
+
+    .nav-list1 a {
+        color: $c-black;
+        letter-spacing: .5px;
+
+        &.active,
+        &:hover {
+            color: $c-red;
+        }
+    }
+
+    .corp-govns {
+        padding: 20px 0 0;
+
+        .copgov-carousel {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.plan-breaker {
+    background: $grey-200;
+
+    .card-bx {
+        display: flex;
+        align-items: center;
+
+        figure {
+            margin-bottom: 0;
+        }
+
+        .card-text {
+            margin-left: 20px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        overflow: hidden;
+
+        .card-bx {
+            flex-direction: column-reverse;
+
+            .card-text {
+                margin: 30px 20px;
+            }
+        }
+    }
+}
+
+.expt-sugg {
+    background: $grey-100;
+    padding: 80px 0 0;
+
+    .card-look {
+        > a {
+            padding: 25px 20px;
+            min-height: 90px;
+        }
+
+        .title {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.blog-home.helpful {
+    padding-bottom: 30px;
+}

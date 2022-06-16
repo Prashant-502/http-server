@@ -1,0 +1,1186 @@
+.flex-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-title .btn-box {
+    margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+    .flex-title {
+        text-align: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .flex-title .btn-box {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .flex-title .btn-box a {
+        min-width: 170px;
+    }
+}
+
+@media (max-width: 991px) {
+    .reverse-mob {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+}
+
+.short-info-bx {
+    background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .short-info-bx {
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+}
+
+.short-info-bx figure {
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+
+@media (max-width: 1024px) {
+    .short-info-bx figure {
+        padding: 0 30px;
+    }
+
+    .short-info-bx figure img {
+        height: 120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .short-info-bx figure {
+        padding: 0 8px;
+    }
+}
+
+.short-info-bx ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+@media (max-width: 991px) {
+    .short-info-bx ul {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 24px 0 24px 24px;
+        margin-right: -40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .short-info-bx ul {
+        margin-right: -55px;
+    }
+}
+
+.short-info-bx ul li {
+    font-size: 24px;
+    font-weight: 300;
+    padding-right: 38px;
+    border-left: solid 2px #ffcb05;
+    padding-left: 8px;
+    line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+    .short-info-bx ul li {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .short-info-bx ul li {
+        font-size: 16px;
+        padding-right: 24px;
+        margin-bottom: 15px;
+    }
+}
+
+.tooltips {
+    margin-left: 5px;
+}
+
+.tooltip-box {
+    position: absolute;
+    right: -40px;
+    top: 10px;
+}
+
+@media (max-width: 767px) {
+    .tooltip-box {
+        right: -30px;
+    }
+}
+
+.tooltip {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.tooltip.pt1 {
+    opacity: 1;
+}
+
+.tooltip .arrow {
+    background: none;
+}
+
+.tooltip .arrow::before {
+    border-style: solid;
+    border-color: transparent #F5F5F5;
+}
+
+.tooltip .tooltip-inner {
+    background: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    color: #54565B;
+    padding: 5px;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .tooltip .tooltip-inner {
+        width: 140px;
+    }
+}
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #F5F5F5;
+    border-bottom: 10px solid transparent;
+    margin-right: -3px;
+}
+
+.form-label-group.with-search {
+    height: 53px;
+}
+
+@media (max-width: 991px) {
+    .form-label-group.with-search {
+        height: 34px;
+    }
+}
+
+.form-label-group.with-search .form-control {
+    padding-right: 40px;
+}
+
+.form-label-group.with-search button {
+    background: none;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+@media (max-width: 991px) {
+    .form-label-group.with-search button {
+        top: 8px;
+        right: 6px;
+    }
+}
+
+.form-label-group.with-search button:focus {
+    outline: 0;
+}
+
+.form-label-group.with-search button span {
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .form-label-group.with-search button span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes {
+    margin-top: 32px;
+    padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes {
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum2 {
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum2 {
+        background: #FFFFFF;
+        display: block;
+        padding-top: 20px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum2 h3 {
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    display: inline-block;
+    margin: 0 5px;
+    color: #54565B;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum2 h4 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 18px;
+    border-radius: 16px;
+    background: #25243B url(../images/svg/cc-edit-icon-wht.svg) no-repeat 97% center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 155px;
+    display: inline-block;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 8px;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum {
+    width: 338px;
+    float: left;
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum {
+        width: 265px;
+    }
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum {
+        width: 100%;
+    }
+}
+
+@media (min-width: 990px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .modal-dialog {
+        margin-top: 0;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .modal-content {
+    border: 0;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner {
+    position: relative;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 40px 24px;
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner {
+        padding: 30px 10px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .form2 {
+    padding: 0 8px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 26px;
+    padding: 0 20px 0 8px;
+    color: #54565B;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner h3 {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner h3 {
+        font-size: 20px;
+        line-height: 1.1;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .cc-edit {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: url(../images/svg/cc-edit-icon.svg);
+    z-index: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .cc-edit {
+        display: none;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .cc-close {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    background: url(../images/svg/close-red2.svg);
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+    background-size: 100%;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .cc-close {
+        display: block;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-forum.personalizePup .cc-forumInner .btn-box button.btn-red {
+    min-width: 170px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain {
+    width: calc(100% - 338px);
+    float: left;
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain {
+        width: calc(100% - 265px);
+    }
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable {
+    width: 100%;
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable {
+    display: table;
+    width: 100%;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRow {
+    display: table-row;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRow.rowGry {
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableHeading {
+    display: table-header-group;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableBody {
+    display: table-row-group;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableFoot {
+    display: table-footer-group;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableCell {
+    display: table-cell;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    vertical-align: middle;
+    padding-left: 20px;
+    color: #54565B;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableCell strong {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableCell .colorRed {
+    color: #9B1E26;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableCell .colorRedBolder {
+    font-weight: bold;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableCell .btn-box {
+    margin: 20px 0;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: table-caption;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead {
+    display: table-cell;
+    width: 30%;
+    padding: 20px 0;
+    padding-right: 16px;
+    vertical-align: middle;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead {
+        width: 28%;
+        padding: 8px 0 12px 3px;
+        padding-right: 4px;
+        max-width: 60px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead:first-child {
+    border-radius: 4px 0 0 4px;
+    padding-left: 20px;
+    font-size: 24px;
+    width: 25%;
+    vertical-align: middle;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead:first-child {
+        font-size: 20px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead:last-child {
+    border-radius: 0 4px 4px 0;
+    width: 12%;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableHead:last-child {
+        width: 6%;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .rTableRowMob.rowGry {
+    background: #F6F6F6;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead {
+        margin-bottom: 0px;
+        padding: 10px 10px 7px;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group .bootstrap-select>.btn,
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group .bootstrap-select>.btn-light {
+        padding: 0px 10px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 2.6;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group>label {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group>label.form-control-placeholder.changefloat,
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group>label.form-control-placeholder.float {
+        padding: 1px 4px;
+        font-size: 75%;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group input {
+        font-size: 13px;
+        padding: 3px 10px;
+        padding-right: 20px;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group input:not(:placeholder-shown)~label {
+        font-size: 12px;
+        padding: 1px 4px;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTable .rTableRowHead .form-label-group .dropdown .dropdown-toggle:after {
+        top: 2px;
+        right: 7px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell:first-child {
+    padding-left: 24px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell,
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .rTableHead {
+    width: 21.33%;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell:last-child {
+    vertical-align: bottom;
+    width: 15%;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell:last-child {
+    padding-right: 40px;
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell:last-child {
+        padding-right: 20px;
+    }
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox .form-control {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: #9B1E26;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox .form-label-group22,
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox .form-label-group {
+    position: relative;
+    border-bottom: solid 1px #9B1E26;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox .form-label-group22 input {
+    height: auto;
+    padding-right: 45px;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .cc-ComBox .form-label-group22 input:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableHead .cc-ComBox .form-label-group22 input:-ms-input-placeholder {
+    color: #9B1E26;
+    opacity: 1;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableHead .cc-ComBox .form-label-group22 input::placeholder {
+    color: #9B1E26;
+    opacity: 1;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableHead .cc-ComBox .form-label-group22 input:-ms-input-placeholder {
+    color: #9B1E26;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableHead .cc-ComBox .form-label-group22 input::-ms-input-placeholder {
+    color: #9B1E26;
+}
+
+.comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .cc-ComBox {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable {
+        overflow: auto;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .rTableHead:first-child,
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell:first-child {
+        display: none;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableCell,
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableCell .colorRed {
+        font-size: 14px !important;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow.rTableRowShow.rTableRowShowBox {
+        background: #fff;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow .rTableCell,
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .rTableHead {
+        width: 26.5%;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRowHead .rTableHead {
+        border-radius: 8px;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow.rTableRowShow {
+        display: none;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow.rTableRowShow.rTableRowShowBox {
+        display: table-row;
+    }
+
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow.rowGry .rTableRowMob {
+        border-bottom: 4px solid #fff;
+    }
+}
+
+@media (max-width: 991px) and (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rTableRow.rowGry .rTableRowMob {
+        width: 100%;
+        border-bottom: 1px solid #FFFFFF;
+        background: #F6F6F6;
+    }
+}
+
+@media (max-width: 991px) {
+    .comapreBoxMain .cc-compareBoxes .cc-BoxesContain .cc-compareTable .rtableShowScroll {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+.rTableRowMob {
+    padding-left: 40px;
+    color: #54565B;
+}
+
+.rTableRowMob::before {
+    content: '';
+    background: url(../images/cc-plus.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.rTableRow2Minus .rTableRowMob::before {
+    background: url(../images/cc-mins.png) no-repeat;
+}
+
+.cc-closeBtn {
+    background: url(../images/cc-product/close-btn.png) no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.cc-Saving {
+    position: relative;
+    padding-right: 0;
+    color: #54565B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cc-Saving a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/svg/toolIcon.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 3px;
+    margin-left: 0px;
+}
+
+@media (max-width: 425px) {
+    .cc-Saving a {
+        display: none;
+    }
+}
+
+.cc-totalAmount {
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+}
+
+.cc-totalAmount strong {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #9B1E26;
+}
+
+.cc-totalAmountTxt {
+    float: right;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    padding-right: 20px;
+}
+
+@media (max-width: 1024px) {
+    .cc-totalAmountTxt {
+        padding-right: 0px;
+    }
+}
+
+.cc-totalAmountTxt strong {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #9B1E26;
+}
+
+.rTableRowTotal {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 23px 20px 13px;
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    .rTableRowTotal {
+        background: #F6F6F6;
+    }
+}
+
+.rTableRowTotal .btn-box {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.cc-ComBoxMob {
+    display: none;
+}
+
+.rTableRowMob {
+    display: none;
+}
+
+.cc-boxes4MainMob.form-details {
+    display: none;
+}
+
+.rTableCell22 {
+    float: right;
+    margin-right: 40px;
+}
+
+.rTableRow2Minus .rTableCell22 {
+    display: none;
+}
+
+.personalizePup .btn-box {
+    display: none;
+}
+
+.cc-note {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #686873;
+    line-height: 16px;
+    margin-top: 15px;
+    padding-left: 12px;
+}
+
+@media (max-width: 991px) {
+    .cc-note {
+        font-size: 12px;
+        padding: 24px 15px;
+        background: #FFFFFF;
+        margin-top: 0px;
+    }
+}
+
+.cc-note1 {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .cc-boxes4Txt p {
+        position: relative;
+        width: 100%;
+    }
+
+    .cc-sectionTxt {
+        width: 100%;
+    }
+
+    .cc-sectionimg {
+        float: none;
+        margin: auto;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .cc-sectionimg .atmcard img {
+        width: 38px;
+        height: auto;
+    }
+
+    .cc-sectionimg .imgContainer>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cc-product-landing .accordian .tog_cont ul li:nth-child(2) .accTxtBox {
+        border-right: 0;
+    }
+
+    .cc-proBanner .banner-ctnt .btn-box.MT30 {
+        margin-top: 20px;
+    }
+
+    .cc-forum {
+        display: none;
+        width: 100%;
+    }
+
+    .cc-forumLayer {
+        display: none;
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999998;
+    }
+
+    .rTableRow2 {
+        position: relative;
+        height: 40px;
+    }
+
+    .rTableRowMob {
+        height: 40px;
+        display: block;
+        font-size: 14px;
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .rTableRow.rowGry {
+        background: #fff;
+    }
+
+    .comapreBoxMain .container {
+        padding: 0;
+    }
+
+    .rTableRowHead .rTableHead {
+        padding: 0 0 5px;
+    }
+
+    .section-wrapper2 {
+        height: auto;
+    }
+
+    .section-wrapper2 .cc-sectionBox {
+        position: static;
+        height: auto;
+    }
+
+    .section-wrapper2 .cc-sectionBox:not(:first-child) {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .cc-sectionBox .container {
+        display: block;
+    }
+
+    .cc-sectionTxt {
+        float: none;
+    }
+
+    .cc-sectionimg {
+        bottom: auto;
+        float: none;
+    }
+
+    .cc-sectionimg .imgContainer {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .cc-sectionBox {
+        height: auto;
+    }
+
+    .perImg1 {
+        top: 20%;
+    }
+
+    .cc-sectionBox {
+        padding-top: 50px;
+    }
+
+    .atmcash {
+        bottom: auto;
+        top: 207px;
+    }
+
+    .atmcard {
+        top: 136px;
+        bottom: auto;
+    }
+
+    .cc-product-landing #faqs .container {
+        padding: 0;
+    }
+
+    .cc-product-landing .accordian .tog_cont {
+        padding: 20px 10px;
+    }
+
+    .cc-product-landing .accordian .tog_cont .accTxtBox {
+        padding-left: 10px;
+    }
+
+    .cc-boxes4Txt {
+        width: 100%;
+    }
+
+    .cc-boxes4 {
+        height: 220px;
+        padding-top: 10px;
+    }
+
+    .cc-boxes4Txt p {
+        line-height: normal;
+        padding-top: 10px;
+    }
+
+    .stickyTopClas .cc-boxes4 {
+        padding: 5px 10px;
+    }
+
+    .unclockBox {
+        background-size: 200%;
+    }
+
+    .personalizePup .btn-box {
+        display: block;
+    }
+
+    .cc-product-landing .cc-proBanner .container,
+    .cc-sectionBox .container {
+        padding: 0 20px;
+    }
+
+    .rTableCell22 {
+        margin-right: 20px;
+    }
+
+    .stickyTopClasComp .cc-compareTable .rTableRowHead {
+        position: fixed;
+        width: calc(100% - 24px);
+        z-index: 9999;
+        top: 61px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .stickyTopClasComp .cc-compareTable .rTableRowHead .rTableHead {
+        padding: 0 5px;
+    }
+
+    .stickyTopClasComp .cc-compareTable .rTableRowHead .rTableHead:last-child {
+        padding-right: 20px;
+    }
+
+    .stickyTopClas .cc-boxes4 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .accTxtBox {
+        padding-right: 20px;
+    }
+
+    .cc-product-landing .accordian .tog_cont ul li:nth-child(2) .accTxtBox {
+        border-right: solid 1px #DBDBDE;
+    }
+
+    .cc-product-landing .accordian .tog_cont .accTxtBox {
+        padding-left: 0;
+    }
+
+    .cc-sectionimg .stars {
+        width: 180px;
+        margin-left: -90px;
+        top: 200px;
+    }
+
+    .atmcash {
+        right: 214px;
+        top: 173px;
+    }
+
+    .atmcard {
+        top: 105px;
+        right: 164px;
+    }
+}
+
+.interest-benefits-bx {
+    background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+    border-radius: 9px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.interest-benefits-bx ul {
+    padding: 60px 0 60px 30px;
+    margin-right: -60px;
+}
+
+.interest-benefits-bx ul li {
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+    .interest-benefits-bx ul li {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}
+
+.interest-benefits-bx ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.interest-benefits-bx ul li span {
+    width: 54px;
+    height: 54px;
+    -ms-flex: 0 0 54px;
+    flex: 0 0 54px;
+}
+
+@media (max-width: 767px) {
+    .interest-benefits-bx ul li span {
+        width: 40px;
+        height: 40px;
+        -ms-flex: 0 0 40px;
+        flex: 0 0 40px;
+    }
+}
+
+.interest-benefits-bx figure {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .interest-benefits-bx figure img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .interest-benefits-bx {
+        margin: 40px 0;
+    }
+}
+
+.ab-interst-sec .loan-cal {
+    margin-right: 0;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .ab-interst-sec .loan-cal {
+        margin-left: 0px;
+    }
+
+    .ab-interst-sec .loan-cal .txt-center-mob {
+        text-align: center;
+    }
+}
+
+.ab-interst-sec .cal-notes {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ab-interst-sec .cal-notes span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9D1D27;
+}

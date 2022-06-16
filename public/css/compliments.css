@@ -1,0 +1,366 @@
+/* compliments banner*/
+.compliments-banner {
+  background: #d1b4ac;
+  background: linear-gradient(45deg, #d1b4ac 30%, #faebe7 100%);
+  padding-top: 50px;
+  color: #FFFFFF;
+}
+
+.compliments-banner .banner-wrapper figure {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -40px;
+  margin-left: 100px;
+}
+
+.compliments-banner .banner-wrapper figure img {
+  margin: 0 auto;
+}
+
+.compliments-banner .banner-wrapper .banner-ctnt {
+  margin-top: -40px;
+  z-index: 1;
+}
+
+.compliments-banner .banner-form {
+  padding: 45px 50px 40px;
+  margin-bottom: -70px;
+  min-height: 540px;
+  color: #54565B;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.compliments-banner .banner-form .form-list {
+  margin-top: 0;
+}
+
+.compliments-banner .banner-form .form-list li:last-child {
+  margin-bottom: 0;
+}
+
+.compliments-banner .banner-form textarea.form-control {
+  resize: none;
+}
+
+.compliments-banner .banner-form .custom-checkbox {
+  color: #54565B;
+}
+
+.compliments-banner .banner-form .comp-form2 {
+  display: none;
+}
+
+.explorer11 .compliments-banner .banner-form .comp-form2 .needs-validation {
+  display: block;
+  margin-top: 80px;
+}
+
+@media (max-width: 1024px) {
+  .compliments-banner .banner-form {
+    margin-left: 40px;
+    padding: 40px;
+  }
+
+  .compliments-banner .banner-wrapper figure {
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .compliments-banner .banner-form {
+    margin-left: 75px;
+    padding: 30px;
+  }
+
+  .compliments-banner .banner-form .needs-validation .form-control {
+    width: 200px;
+  }
+
+  .compliments-banner .banner-wrapper figure {
+    margin-left: -90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .compliments-banner {
+    background: linear-gradient(150deg, #d1b4ac 10%, #faebe7 100%);
+    padding-top: 36px;
+  }
+
+  .compliments-banner .banner-wrapper figure {
+    display: none;
+  }
+
+  .compliments-banner .banner-wrapper .banner-ctnt {
+    position: static;
+    margin-top: 0;
+  }
+
+  .compliments-banner .banner-form {
+    margin: 30px 0 -60px;
+    padding: 40px 25px;
+    display: block;
+    min-height: inherit;
+  }
+
+  .compliments-banner .banner-form .form-list li {
+    margin-bottom: 20px;
+  }
+
+  .compliments-banner .banner-form .needs-validation .form-control {
+    width: 100%;
+  }
+}
+
+.star-ratting {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.star-ratting span {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.star-ratting span.icon-star-filled:before {
+  color: #FFCB05;
+}
+
+.all-compliments {
+  background: #FFF;
+  padding-bottom: 100px;
+}
+
+.all-compliments .allCompTop {
+  height: 100px;
+}
+
+.all-compliments .list-compliment {
+  margin-top: 40px;
+}
+
+.all-compliments .list-compliment li {
+  border-top: 1px solid #d8d8d8;
+  padding: 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.all-compliments .list-compliment li figure {
+  width: 12%;
+  margin-right: 4%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.all-compliments .list-compliment li figure img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.all-compliments .list-compliment li figure figcaption {
+  margin-top: 8px;
+}
+
+.all-compliments .list-compliment li .desc {
+  width: 70%;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.all-compliments .list-compliment li .f16b {
+  width: 14%;
+  text-align: right;
+  color: #b8b8b8;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .all-compliments {
+    padding-bottom: 60px;
+  }
+
+  .all-compliments .list-compliment {
+    margin-top: 30px;
+  }
+
+  .all-compliments .list-compliment li {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 30px 0;
+  }
+
+  .all-compliments .list-compliment li figure,
+  .all-compliments .list-compliment li .desc,
+  .all-compliments .list-compliment li .f16b {
+    width: 100%;
+  }
+
+  .all-compliments .list-compliment li figure {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .all-compliments .list-compliment li figure figcaption {
+    margin: 0 0 0 15px;
+  }
+
+  .all-compliments .list-compliment li .f16b {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .all-compliments .pag.MT50 {
+    margin-top: 20px;
+  }
+}
+
+.pag {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-weight: 700;
+}
+
+.pag li {
+  line-height: 22px;
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
+.pag li.act {
+  background: #EEE;
+  padding: 0 6px;
+  margin-right: 3px;
+}
+
+.pag .prev,
+.pag .next {
+  font-weight: 300;
+  color: #b8b8b8;
+}
+
+.pag .prev .icon-Left,
+.pag .next .icon-Left {
+  font-weight: bold;
+}
+
+.pag .prev .icon-Right,
+.pag .next .icon-Right {
+  font-weight: bold;
+}
+
+.pag .prev span:before,
+.pag .next span:before {
+  color: #b8b8b8;
+  vertical-align: middle;
+}
+
+.pag .prev {
+  margin-right: 10px;
+}
+
+.pag .next {
+  margin-left: 10px;
+}
+
+.compliments-banner-1 {
+  background: #c4777d;
+  background: linear-gradient(86deg, #c4777d 0%, #9d1d27 100%);
+  height: 335px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .compliments-banner-1 {
+    height: 290px;
+  }
+
+  .compliments-banner-1 .btn-box.TAR {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .compliments-banner-1 .btn-box.TAR a {
+    width: 100%;
+    background: #9D1D27;
+    color: #FFFFFF;
+    border-radius: 0;
+  }
+}
+
+.compliments-banner-1 .compli-info {
+  padding-top: 85px;
+}
+
+@media (max-width: 767px) {
+  .compliments-banner-1 .compli-info {
+    padding-top: 30px;
+  }
+}
+
+.compliments-banner-1 .star-ratting span {
+  font-size: 24px;
+}
+
+@media (min-width: 992px) {
+  .card-columns.compliments-card {
+    column-count: 4;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+}
+
+.card-columns.compliments-card {
+  margin-top: -150px;
+}
+
+.card-columns .card {
+  margin-bottom: 1.25rem;
+}
+
+.card-columns .card-body {
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  border: 0;
+  padding: 30px 30px 20px 30px;
+}
+
+.card-columns .card-body .fs14 {
+  font-size: 14px;
+  color: #525252;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.card-columns .card-body .fs12 {
+  font-size: 12px;
+  color: #b8b8b8;
+}
+
+.comp-form2 {
+  display: none;
+}
+
+.explorer11 .comp-form2 .needs-validation {
+  display: block;
+  margin-top: 80px;
+}

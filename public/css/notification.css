@@ -1,0 +1,123 @@
+.notification-dropdown {
+  position: absolute;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 2px;
+  width: 350px;
+  right: 0;
+  padding: 10px 0 0;
+}
+
+.notification-dropdown ul {
+  min-height: 110px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.notification-dropdown li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  line-height: normal;
+  border-bottom: solid 1px rgba(151, 151, 151, 0.4);
+  padding: 15px 20px;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.notification-dropdown h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.notification-dropdown h4 {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.notification-dropdown p {
+  font-size: 12px;
+}
+
+.notification-dropdown .bdy {
+  padding-right: 15px;
+}
+
+@media (max-width: 991px) {
+  .notification-dropdown {
+    position: static;
+  }
+}
+
+.drop-down-notification {
+  padding: 0 6px;
+}
+
+@media (max-width: 768px) {
+  .drop-down-notification {
+    margin-right: 15px;
+  }
+}
+
+.drop-down-notification:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 767px) {
+  .drop-down-notification:hover {
+    box-shadow: none;
+  }
+}
+
+.drop-down-notification:hover .notification-dropdown {
+  display: block;
+}
+
+.notification-bx {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  right: auto;
+  -khtml-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 5;
+  background: #FFFFFF;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+  max-height: 360px;
+}
+
+.notification-bx .search-bxIn {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+  background: #FFFFFF;
+  border-bottom: 1px solid #d8d8d8;
+  height: 60px;
+}
+
+.notification-bx .search-bxIn h3 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.notification-bx .notification-dropdown {
+  display: block;
+  width: 100%;
+  box-shadow: none;
+  padding-top: 60px;
+  overflow-y: scroll;
+  height: 100%;
+}

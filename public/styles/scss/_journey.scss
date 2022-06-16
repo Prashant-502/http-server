@@ -1,0 +1,1438 @@
+.form-details {
+    display: flex;
+
+    @include breakpoint($mxw768) {
+        display: block;
+
+        .ctr-xs {
+            text-align: center;
+        }
+    }
+
+    .col-left {
+        width: 250px;
+        padding-top: 50px;
+        flex: 0 0 200px;
+
+        .mob-scroll {
+            overflow: inherit;
+        }
+
+        .progress1 {
+            display: none;
+        }
+
+        @include breakpoint($mxw992) {
+            width: 300px;
+        }
+
+        @include breakpoint($mxw768) {
+            width: 100%;
+            overflow-x: auto;
+            padding-top: 35px;
+
+            .progress1 {
+                display: block;
+            }
+
+            .mob-scroll {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                -ms-overflow-style: none;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .col-right {
+        width: 100%;
+        border-left: 1px solid rgba($c-grey-2, 0.3);
+        padding: 50px 220px 60px 120px;
+
+        &.op2 {
+            padding: 60px 100px;
+
+            @include breakpoint($mxw1000) {
+                padding: 50px;
+            }
+
+            @include breakpoint($mxw768) {
+                padding: 40px 0;
+
+                .get-quote .f20 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &.op1 {
+            padding: 50px 0 60px 120px;
+
+            @include breakpoint($mxw768) {
+                padding: 30px 0;
+            }
+
+            .needs-validation {
+                padding-right: 220px;
+
+                @include breakpoint($mxw1000) {
+                    padding-right: 30px;
+                }
+
+                @include breakpoint($mxw992) {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        &.op3 {
+            border-left: 0;
+            padding: 60px 20%;
+
+            @include breakpoint($mxw1000) {
+                padding: 50px;
+            }
+
+            @include breakpoint($mxw768) {
+                padding: 40px 0;
+            }
+        }
+
+        @include breakpoint($mxw1000) {
+            padding: 50px 80px 60px 70px;
+        }
+
+        @include breakpoint($mxw992) {
+            padding: 50px;
+        }
+
+        @include breakpoint($mxw768) {
+            padding: 30px 0;
+            border: 0;
+        }
+
+        .form-list {
+            margin-top: 0;
+        }
+    }
+
+    select {
+        height: 53px;
+        margin-right: 20px;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-size: 15px 5px;
+        background: $white url("../images/down.svg") no-repeat right center;
+        background-position: 98% center;
+        padding: 0.85rem 0.75rem;
+        border: 0;
+        border-bottom: 1px solid $c-grey-2;
+        border-radius: 0.25rem;
+        color: $brownish-grey;
+
+        //height: 40px;
+        &::-ms-expand {
+            display: none;
+        }
+
+        &:focus::-ms-value {
+            background: none;
+        }
+    }
+}
+
+.normSel select {
+    height: 53px;
+    margin-right: 20px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 15px 5px;
+    background: $white url("../images/down.svg") no-repeat right center;
+    background-position: 98% center;
+    padding: 0.85rem 0.75rem;
+    border: 0;
+    border-bottom: 1px solid $c-grey-2;
+    border-radius: 0.25rem;
+    color: $brownish-grey;
+
+    //height: 40px;
+    &::-ms-expand {
+        display: none;
+    }
+}
+
+.progress-list {
+    position: relative;
+    width: 200px;
+
+    .sub-list-m {
+        display: none;
+    }
+
+    @include breakpoint($mxw768) {
+        width: 100%;
+
+        .sub-list-m {
+            display: block;
+            margin-top: 10px;
+
+            ul {
+                background: url(../images/line.gif) repeat-x center left;
+
+                li {
+                    width: auto;
+                    padding: 0;
+                    font-weight: $font-normal;
+                    flex: none;
+
+                    a {
+                        display: none;
+                    }
+
+                    &.act {
+                        background: white;
+
+                        span {
+                            background: $c-black;
+                            margin: 0 10px 0 0;
+                        }
+
+                        a {
+                            color: $c-black;
+                            display: flex;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    span {
+                        width: 20px;
+                        height: 20px;
+                        background: $c-grey-3;
+                        font-size: 10px;
+                        border-radius: 50%;
+                        color: $c-white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+
+        &.op1 {
+            display: flex;
+
+            ul {
+                margin: 5px 0;
+
+                li {
+                    display: none;
+
+                    .top {
+                        display: none;
+                    }
+
+                    &.active {
+                        display: block;
+                        flex: none;
+                        width: auto;
+                        padding: 12px 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.sticky {
+        position: fixed;
+        top: 70px;
+
+        ul {
+            margin-left: 2px;
+        }
+
+        @include breakpoint($mxw768) {
+            left: 0;
+            background: $c-white;
+            z-index: 3;
+            top: 10px;
+            width: 100%;
+            overflow-x: auto;
+        }
+    }
+
+    ul {
+        @include breakpoint($mxw768) {
+            display: flex;
+            overflow: auto;
+        }
+
+        li {
+            min-height: 50px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px 20px;
+            border-radius: 25px 0 0 25px;
+            position: relative;
+            z-index: 1;
+            line-height: 1.6;
+            font-weight: $font-bold;
+
+            strong {
+                position: absolute;
+                right: -10px;
+                top: 15px;
+                width: 20px;
+                height: 20px;
+                background: $c-red url(../images/right.svg) no-repeat center center;
+                border-radius: 10px;
+
+                @include breakpoint($mxw768) {
+                    right: 10px;
+                }
+            }
+
+            @include breakpoint($mxw768) {
+                width: 250px;
+                flex: 0 0 220px;
+                margin: 0;
+                border-radius: 25px;
+                justify-content: flex-start;
+                padding-left: 30px;
+                overflow: hidden;
+            }
+
+            &.active {
+                background: #f9eaec;
+                overflow: hidden;
+
+                span {
+                    z-index: 3;
+                    font-weight: $font-bold;
+                }
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            .top {
+                background: #eed8db;
+                border-radius: 25px 0 0 25px;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                height: 100%;
+                transition: all 1s;
+                width: 0;
+                overflow: hidden;
+            }
+
+            .colors {
+                width: 100%;
+                height: 4px;
+            }
+
+            &.sub-list {
+                padding: 0;
+                margin: 0;
+
+                @include breakpoint($mxw768) {
+                    display: none;
+                }
+
+                ul {
+                    color: $c-grey-3;
+
+                    li {
+                        margin: 0;
+                        font-weight: $font-normal;
+                        min-height: 45px;
+                        position: relative;
+
+                        span {
+                            width: 20px;
+                            height: 20px;
+                            background: $c-grey-3;
+                            font-size: 10px;
+                            border-radius: 50%;
+                            color: $c-white;
+                            display: flex;
+                            position: absolute;
+                            right: -10px;
+                            top: 13px;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        a {
+                            color: $c-grey-3;
+                        }
+
+                        &.act {
+                            span {
+                                background: $c-black;
+                            }
+
+                            a {
+                                color: $c-black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.journey-section {
+    background: $c-white;
+
+    @include breakpoint($mxw768) {
+        padding: 8px 0 12px;
+    }
+}
+
+.or {
+    background: url(../images/line.gif) repeat-x left center;
+    color: $c-grey-3;
+
+    span {
+        background: #fff;
+        padding-right: 5px;
+    }
+}
+
+/* cusome upload button*/
+.upload-file {
+    position: relative;
+
+    .error {
+        position: absolute;
+        margin: 0;
+        padding: 5px 0;
+        color: $red;
+        font-size: 14px;
+        background: none;
+        top: 35px;
+        left: 20px;
+    }
+
+    .f-input {
+        border: 2px solid $c-grey-3;
+        padding: 10px 25px 10px 15px;
+        border-radius: 4px;
+        font-size: 15px;
+        color: $c-grey-3;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .file-list {
+        display: flex;
+
+        li {
+            border: 2px solid $c-grey-3;
+            padding: 10px 25px 10px 15px;
+            border-radius: 4px;
+            font-size: 15px;
+            color: $c-grey-3;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-top: 8px;
+            margin-right: 5px;
+            display: flex;
+            width: 145px;
+            position: relative;
+
+            div {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .remove-list {
+                background: url(../images/close.svg) no-repeat 0 5px;
+                width: 14px;
+                height: 20px;
+                position: absolute;
+                right: 10px;
+                top: 8px;
+            }
+
+        }
+    }
+
+    .filename {
+        position: relative;
+        display: none;
+        width: 145px;
+
+        .remove {
+            color: $c-grey-3;
+            font-size: 15px;
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+    }
+
+    &.active {
+        .filename {
+            display: block;
+        }
+    }
+
+    .filetext {
+        border: 2px dashed $c-grey-3;
+        padding: 20px;
+        font-weight: $font-bold;
+        color: $maroon;
+        background: url(../images/upload.svg) no-repeat 96% center;
+
+        span {
+            color: $c-black;
+
+            @include breakpoint($mxw768) {
+                display: none;
+            }
+        }
+    }
+
+    .upload {
+        left: 0;
+        top: 0;
+    }
+
+    .fileUpload {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+
+        input.upload {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            width: 100%;
+            min-height: 62px;
+        }
+    }
+}
+
+.from-screen {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+/* cusome upload button end*/
+
+.jvalidation {
+    .btn-box .btn-red:focus {
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1);
+    }
+
+    .form-control.is-invalid {
+        border-color: $red !important;
+        box-shadow: none;
+    }
+
+    .was-validated .form-control:valid,
+    .was-validated .form-control:valid:focus {
+        //background-image: none;
+        border-color: $grey-200;
+        box-shadow: none;
+    }
+
+    .was-validated input.form-control:valid,
+    .was-validated input.form-control:valid:focus {
+        background-image: none;
+        //border-color: $grey-200;
+    }
+
+    .form-label-group > label,
+    .form-label-group input:not(:placeholder-shown) ~ label {
+        &.error {
+            position: static;
+            margin: 0;
+            padding: 5px 0;
+            color: $red;
+            font-size: 14px;
+            background: none;
+        }
+    }
+
+    .custom-control-input.is-valid ~ .custom-control-label,
+    .was-validated .custom-control-input:valid ~ .custom-control-label {
+        color: inherit;
+    }
+
+    .form-control.is-valid,
+    .was-validated .form-control:valid {
+        border-color: inherit;
+    }
+}
+
+.edit-box {
+    background: $c-white;
+    box-shadow: rgba($c-black, 0.3) 0 1px 4px;
+    padding: 30px 40px;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .info {
+        overflow: hidden;
+    }
+
+    figure {
+        margin-left: 15px;
+    }
+}
+
+.pd-section {
+    padding: 70px 0;
+    background: $grey-50;
+
+    @include breakpoint($mxw768) {
+        padding: 30px 0;
+    }
+}
+
+.pd-list {
+    display: none;
+
+    &.active {
+        display: block;
+        display: flex;
+    }
+
+    li {
+        margin-right: 50px;
+    }
+
+    &.op1 {
+        @include breakpoint($mxw768) {
+            flex-wrap: wrap;
+
+            li {
+                margin: 0 5% 25px 0;
+                width: 45%;
+
+                &:last-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.ui-widget {
+    &.ui-datepicker {
+        background: $c-white;
+        width: 320px !important;
+        z-index: 4 !important;
+    }
+}
+
+/**/
+.trgr1,
+.trgr2,
+.trgr3 {
+    @extend .white-box;
+    padding: 20px 50px 20px 30px;
+    margin-top: 1rem;
+    position: relative;
+    cursor: pointer;
+
+    &::before {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        font-family: icomoon;
+        content: "\e900";
+        right: 30px;
+        top: 20px;
+        color: $maroon;
+    }
+
+    &.act {
+        border-radius: 5px 5px 0 0;
+
+        &::before {
+            content: "\e903";
+        }
+    }
+}
+
+.tog_cont1,
+.tog_cont2,
+.tog_cont3 {
+    @extend .white-box;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid $maroon;
+    padding: 20px 30px;
+    margin-bottom: 1rem;
+
+    .block {
+        display: block;
+    }
+}
+
+.otp-bx {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loading-box {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 0 auto;
+
+    figure {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #f1c4c3;
+    width: 160px;
+    height: 160px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.toggle-password {
+    background: url(../images/icons/eye_cross.svg) no-repeat center center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 26px;
+    height: 26px;
+
+    &.active {
+        background: url(../images/icons/eye.svg) no-repeat center center;
+    }
+}
+
+.m-center {
+    @include breakpoint($mxw768) {
+        text-align: center;
+    }
+}
+
+.emi-roi-list {
+    display: flex;
+
+    li {
+        margin-right: 70px;
+        font-weight: $font-bold;
+        font-size: 24px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        span {
+            font-weight: $font-normal;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 4px;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        flex-wrap: wrap;
+
+        li {
+            margin-right: 12px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/**/
+
+span.star {
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+
+    @include breakpoint($mxw992) {
+        top: -7px;
+    }
+}
+
+.go-back,
+.skip-btn {
+    color: $brownish-grey-two;
+}
+
+.app-list-1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid $grey-200;
+    padding: 30px 40px;
+    align-items: center;
+
+    @include breakpoint($mxw992) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        li {
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    li {
+        strong {
+            font-weight: $font-bold;
+            font-size: 24px;
+        }
+
+        .share-box-yellow {
+            display: flex;
+            align-items: center;
+
+            .my-links a span {
+                background: $c-yellow;
+            }
+
+            @include breakpoint($mxw992) {
+                .share-box {
+                    .share-bubble {
+                        .social {
+                            li {
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        &::after {
+                            @include breakpoint($mxw768) {
+                                right: auto;
+                                left: 170px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .share-positon-box {
+                @include breakpoint($mxw768) {
+                    right: auto;
+                    left: -140px;
+                }
+            }
+        }
+    }
+}
+
+.track-app {
+    padding: 50px 0 60px 50px;
+
+    @include breakpoint($mxw768) {
+        padding: 15px;
+    }
+}
+
+.app-help-box {
+    background: $grey-100;
+    padding: 35px 0;
+
+    &.PT0 {
+        padding-top: 0;
+    }
+}
+
+.circle-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: $c-yellow;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint($mxw992) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @include breakpoint($mxw992) {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+.circle-list {
+    display: flex;
+
+    @include breakpoint($mxw768) {
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-right: 60px;
+        text-align: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @include breakpoint($mxw992) {
+            margin-right: 30px;
+        }
+
+        @include breakpoint($mxw768) {
+            margin-right: 0;
+            justify-content: center;
+            width: 100px;
+        }
+    }
+}
+
+.status-of-step {
+    background: url(../images/line.gif) repeat-x left center;
+    display: flex;
+    width: 83%;
+    margin-left: 7%;
+    align-items: center;
+
+    li {
+        width: 25%;
+        display: flex;
+
+        &:nth-child(2) {
+            justify-content: center;
+        }
+
+        &:nth-child(3) {
+            justify-content: flex-end;
+            margin-right: 60px;
+
+            @include breakpoint($mxw768) {
+                margin-right: 0;
+            }
+        }
+
+        &:last-child {
+            justify-content: flex-end;
+        }
+
+        span {
+            width: 24px;
+            height: 24px;
+            background: $grey-200;
+            display: flex;
+            border-radius: 50%;
+        }
+
+        &.active {
+            span {
+                background: $c-green url(../images/right.svg) no-repeat center center;
+                background-size: 20px;
+                width: 36px;
+                height: 36px;
+            }
+        }
+    }
+}
+
+.status-cont {
+    display: flex;
+    margin-top: 15px;
+
+    li {
+        width: 25%;
+        display: flex;
+
+        &:nth-child(2),
+        &:nth-child(3) {
+            justify-content: center;
+            text-align: center;
+
+            @include breakpoint($mxw768) {
+                text-align: left;
+            }
+        }
+
+        &:last-child {
+            justify-content: center;
+        }
+    }
+}
+
+.mobile-status {
+    @include breakpoint($mxw768) {
+        display: flex;
+        background: url(../images/line.gif) repeat-y 35px 0;
+
+        .status-of-step {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background: none;
+            width: 40px;
+
+            margin-left: 0;
+
+            li {
+                width: auto;
+                height: 36px;
+                margin-bottom: 10px;
+                align-items: flex-end;
+
+                &:nth-child(2),
+                &:last-child {
+                    justify-content: flex-start;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .status-cont {
+            flex-direction: column;
+            margin: 0;
+            padding-left: 10px;
+
+            li {
+                width: auto;
+                height: 36px;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 10px;
+                padding-top: 7px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.MR30 {
+    &.m-mr-ml-30 {
+        @include breakpoint($mxw768) {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+    }
+}
+
+// Consumer durable loan
+.form-details .col-right.op1 {
+    padding-top: 60px;
+    padding-right: 0;
+
+    .needs-validation {
+        padding-right: 0;
+    }
+
+    @include breakpoint($mxw992) {
+        padding-left: 50px;
+    }
+
+    @include breakpoint($mxw768) {
+        padding-left: 20px;
+    }
+}
+
+.choose-product {
+    display: flex;
+    flex-wrap: wrap;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px 0 0;
+        text-align: center;
+        width: 120px;
+        cursor: pointer;
+
+        img {
+            height: 100px;
+            margin: 10px;
+        }
+
+        input {
+            opacity: 0;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        input:checked + .design {
+            background: url(../images/prod/hover.svg) no-repeat right center;
+        }
+
+        .text {
+            display: block;
+            margin-top: 12px;
+        }
+
+        @include breakpoint($mxw992) {
+            margin-right: 20px;
+        }
+
+        @include breakpoint($mxw768) {
+            margin-right: 10%;
+        }
+    }
+}
+
+@include breakpoint($mxw768) {
+    .mob-scrollm {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        ul {
+            min-width: 840px;
+        }
+    }
+
+    .car-journey .mob-scrollm ul {
+        min-width: 630px;
+    }
+}
+
+// Progress Bar Circular
+
+$borderWidth: 4px;
+$animationTime: .5s;
+$border-color-default: #E8E8E8;
+$border-color-fill: #9D1D27;
+$size: 60px;
+$howManySteps: 100; //this needs to be even. 
+
+.progress1 {
+    width: $size;
+    height: $size;
+    line-height: $size;
+    background: none;
+    margin-left: auto;
+    box-shadow: none;
+    position: relative;
+
+    &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: $borderWidth solid $border-color-default;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    > span {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    .progress-left {
+        left: 0;
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-width: $borderWidth;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+        border-color: $border-color-fill;
+    }
+
+    .progress-left .progress-bar {
+        left: 100%;
+        border-top-right-radius: ($size/2);
+        ;
+        border-bottom-right-radius: ($size/2);
+        ;
+        border-left: 0;
+        -webkit-transform-origin: center left;
+        transform-origin: center left;
+        //animation: loading-2 1.5s linear forwards 1.8s;
+    }
+
+    .progress-right {
+        right: 0;
+
+        .progress-bar {
+            left: -100%;
+            border-top-left-radius: ($size/2);
+            ;
+            border-bottom-left-radius: ($size/2);
+            ;
+            border-right: 0;
+            -webkit-transform-origin: center right;
+            transform-origin: center right;
+            //animation: loading-1 1.8s linear forwards;
+        }
+    }
+
+    .progress-value {
+        display: flex;
+        border-radius: 50%;
+        font-size: 13px;
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        //font-weight: 400;
+
+        div {
+            //margin-top: 10px;
+        }
+
+        span {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+/* This for loop creates the necessary css animation names 
+Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+*/
+@for $i from 1 through $howManySteps {
+    $stepName: ($i*(100 / $howManySteps));
+
+    //animation only the left side if below 50%
+    @if $i <=($howManySteps/2) {
+        .progress1[data-percentage="#{$stepName}"] {
+            .progress-right .progress-bar {
+                animation: loading-#{$i} $animationTime linear forwards;
+            }
+
+            .progress-left .progress-bar {
+                animation: 0;
+            }
+        }
+    }
+
+    //animation only the right side if above 50%
+    @if $i > ($howManySteps/2) {
+        .progress1[data-percentage="#{$stepName}"] {
+            .progress-right .progress-bar {
+                animation: loading-#{($howManySteps/2)} $animationTime linear forwards; //set the animation to longest animation
+            }
+
+            .progress-left .progress-bar {
+                animation: loading-#{$i - ($howManySteps/2)} $animationTime linear forwards $animationTime;
+            }
+        }
+    }
+}
+
+//animation
+@for $i from 1 through ($howManySteps/2) {
+    $degrees: (180/($howManySteps/2));
+    $degrees: ($degrees*$i);
+
+    @keyframes loading-#{$i} {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate($degrees);
+            transform: rotate(#{$degrees}deg);
+        }
+    }
+}
+
+// Progress Bar Circular end
+
+.upload-box {
+    background: $c-white;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+
+    a {
+        display: block;
+        background: url(../images/icons/arw-red.svg) no-repeat 96% 12%;
+    }
+
+    .upTop {
+        padding: 16px 24px;
+        min-height: 150px;
+
+        .hd3b {
+            margin-bottom: 20px;
+
+            img {
+                vertical-align: middle;
+                margin-right: 6px;
+            }
+        }
+
+        .f12 {
+            color: #737373;
+        }
+    }
+
+    .upBtm {
+        background: $grey-100;
+        padding: 4px 24px 2px;
+        font-size: 11px;
+        border-radius: 0 0 5px 5px;
+        display: flex;
+
+        &.recd {
+            background: $c-yellow;
+        }
+
+        .rt {
+            margin-left: auto;
+        }
+    }
+
+    @include breakpoint($mxw768) {
+        .upTop .hd3b {
+            font-size: 20px;
+            margin-bottom: 12px;
+
+            img {
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+
+        .upTop .f12 {
+            display: flex;
+            align-items: center;
+            line-height: 1;
+
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.congo-box {
+    background-image: linear-gradient(134deg, #9D1D27 0%, #C4777D 91%);
+    border-radius: 4px;
+    padding: 24px 48px;
+    position: relative;
+    margin: 20px 0 32px;
+
+    .hd2 {
+        font-weight: 400;
+        line-height: 1.2;
+        color: $c-white;
+
+    }
+
+    figure {
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+
+        img {
+            height: 140px;
+        }
+    }
+
+    @include breakpoint($mxw992) {
+        padding: 24px 120px 24px 24px;
+
+        figure {
+            right: 20px;
+
+            img {
+                height: 100px;
+            }
+        }
+    }
+}
+
+.check-list.op1 {
+    margin-bottom: 0;
+
+    li {
+        margin-bottom: 0;
+    }
+}
+
+.brd50p {
+    border-radius: 50%;
+}

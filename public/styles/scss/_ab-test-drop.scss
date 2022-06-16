@@ -1,0 +1,951 @@
+.flex-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btn-box {
+        margin-left: 15px;
+    }
+    @include breakpoint($mxw992) {
+        text-align: center;
+        flex-direction: column;
+        .btn-box {
+            margin-left: 0px;
+            margin-top: 15px;
+            a {
+                min-width: 170px;
+            }
+        }
+    }
+}
+
+.reverse-mob {
+    @include breakpoint($mxw992) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.short-info-bx {
+    background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+    border-radius: 10px;
+    color: $c-white;
+    display: flex;
+    align-items: center;
+    @include breakpoint($mxw992) {
+        flex-direction: row-reverse;
+        align-items: flex-end;
+    }
+    // padding-right: 40px;
+    figure {
+        margin-bottom: 0px;
+        padding: 0 40px;
+        @include breakpoint($mxw1000) {
+            padding: 0 30px;
+            img {
+                height: 120px;
+            }
+        }
+        @include breakpoint($mxw992) {
+            padding: 0 8px;
+        }
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        @include breakpoint($mxw992) {
+            flex-wrap: wrap;
+            padding: 24px 0 24px 24px;
+            margin-right: -40px;
+        }
+        @include breakpoint($mxw320) {
+            margin-right: -55px;
+        }
+        li {
+            font-size: 24px;
+            font-weight: $font-light;
+            padding-right: 38px;
+            border-left: solid 2px $marigold;
+            padding-left: 8px;
+            line-height: 1.2;
+            // &:last-child {
+            //     padding-right: 0px;
+            // }
+            @include breakpoint($mxw1000) {
+                font-size: 20px;
+                padding-right: 30px;
+            }
+            @include breakpoint($mxw992) {
+                font-size: 16px;
+                padding-right: 24px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.tooltips {
+    margin-left: 5px;
+}
+
+.tooltip-box {
+    position: absolute;
+    right: -40px;
+    top: 10px;
+    @include breakpoint($mxw768) {
+        right: -30px;
+    }
+}
+
+.tooltip {
+    margin-left: 10px;
+    font-size: 13px;
+    &.pt1 {
+        opacity: 1;
+    }
+    .arrow {
+        //display: none;
+        background: none;
+        &::before {
+            border-style: solid;
+            // border-width: 5px 5px 5px 0;
+            border-color: transparent $c-grey-1;
+        }
+    }
+    .tooltip-inner {
+        background: $c-grey-1;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .22);
+        color: $c-black;
+        padding: 5px;
+        text-align: left;
+        @include breakpoint($mxw768) {
+            width: 140px;
+        }
+    }
+}
+
+.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid $c-grey-1;
+    border-bottom: 10px solid transparent;
+    margin-right: -3px;
+}
+
+.form-label-group {
+    &.with-search {
+        height: 53px;
+        @include breakpoint($mxw992) {
+            height: 34px;
+        }
+        .form-control {
+            padding-right: 40px;
+        }
+        button {
+            background: none;
+            border: 0;
+            padding: 0;
+            position: absolute;
+            top: 20px;
+            right: 15px;
+            @include breakpoint($mxw992) {
+                top: 8px;
+                right: 6px;
+            }
+            &:focus {
+                outline: 0;
+            }
+            span {
+                font-size: 18px;
+                @include breakpoint($mxw992) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+.comapreBoxMain {
+    @include breakpoint($mxw992) {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .cc-compareBoxes {
+        margin-top: 32px;
+        padding-bottom: 0;
+        @include breakpoint($mxw992) {
+            margin-top: 0px;
+            padding-bottom: 30px;
+        }
+        // @include breakpoint($mxw768) {
+        //     padding-bottom: 30px;
+        // }
+        .cc-forum2 {
+            display: none;
+            text-align: center;
+            @include breakpoint($mxw992) {
+                background: $c-white;
+                display: block;
+                padding-top: 20px;
+            }
+            h3 {
+                padding-top: 2px;
+                font-size: 16px;
+                font-weight: 300;
+                // letter-spacing: -0.6px;
+                line-height: 24px;
+                display: inline-block;
+                margin: 0 5px;
+                color: #54565B;
+            }
+            h4 {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.5px;
+                line-height: 18px;
+                border-radius: 16px;
+                background: #25243B url(../images/svg/cc-edit-icon-wht.svg) no-repeat 97% center;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+                width: 155px;
+                display: inline-block;
+                color: #fff;
+                height: 32px;
+                line-height: 32px;
+                padding-left: 8px;
+                text-align: left;
+                margin: 0 5px;
+            }
+            // @include breakpoint($mxw992) {
+            //     display: block;
+            // }
+        }
+        .cc-forum {
+            width: 338px;
+            @include breakpoint($mxw1000) {
+                width: 265px;
+            }
+            @include breakpoint($mxw992) {
+                width: 100%;
+            }
+            float: left;
+            &.personalizePup {
+                .modal-dialog {
+                    @media (min-width: 990px) {
+                        margin-top: 0;
+                    }
+                }
+                .modal-content {
+                    border: 0;
+                }
+                .cc-forumInner {
+                    position: relative;
+                    border-radius: 4px;
+                    background-color: #FFFFFF;
+                    // box-shadow: 0 0 32px 0 rgba(155, 30, 38, 0.1);
+                    padding: 40px 24px;
+                    @include breakpoint($mxw1000) {
+                        padding: 30px 10px;
+                    }
+                    .form2 {
+                        padding: 0 8px;
+                    }
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        letter-spacing: -0.5px;
+                        line-height: 26px;
+                        padding: 0 20px 0 8px;
+                        color: #54565B;
+                        @include breakpoint($mxw992) {
+                            padding-right: 40px;
+                        }
+                        @include breakpoint($mxw1000) {
+                            font-size: 20px;
+                            line-height: 1.1;
+                        }
+                    }
+                    .cc-edit {
+                        width: 24px;
+                        height: 24px;
+                        position: absolute;
+                        right: 16px;
+                        top: 16px;
+                        background: url(../images/svg/cc-edit-icon.svg);
+                        z-index: 1;
+                        cursor: pointer;
+                        @include breakpoint($mxw992) {
+                            display: none;
+                        }
+                    }
+                    .cc-close {
+                        width: 14px;
+                        height: 14px;
+                        position: absolute;
+                        right: 16px;
+                        top: 20px;
+                        background: url(../images/svg/close-red2.svg);
+                        z-index: 1;
+                        cursor: pointer;
+                        display: none;
+                        background-size: 100%;
+                        @include breakpoint($mxw992) {
+                            display: block;
+                        }
+                    }
+                    .btn-box button.btn-red {
+                        min-width: 170px;
+                    }
+                }
+            }
+        }
+        .cc-BoxesContain {
+            width: calc(100% - 338px);
+            float: left;
+            @include breakpoint($mxw1000) {
+                width: calc(100% - 265px);
+            }
+            @include breakpoint($mxw992) {
+                width: 100%;
+                padding: 0;
+            }
+            .cc-compareTable {
+                width: 100%;
+                padding-left: 12px;
+                padding-top: 3px;
+                @include breakpoint($mxw992) {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    padding-top: 0px;
+                }
+                .rTable {
+                    display: table;
+                    width: 100%;
+                    .rTableRow {
+                        display: table-row;
+                        &.rowGry {
+                            background: $c-white;
+                            width: 100%;
+                        }
+                    }
+                    .rTableHeading {
+                        display: table-header-group;
+                    }
+                    .rTableBody {
+                        display: table-row-group;
+                    }
+                    .rTableFoot {
+                        display: table-footer-group;
+                    }
+                    .rTableCell {
+                        display: table-cell;
+                        padding-top: 16px;
+                        padding-bottom: 16px;
+                        vertical-align: middle;
+                        padding-left: 20px;
+                        color: #54565B;
+                        strong {
+                            font-weight: 600;
+                            letter-spacing: -0.5px;
+                        }
+                        .colorRed {
+                            color: #9B1E26;
+                            font-size: 17px;
+                            font-weight: 600;
+                        }
+                        .colorRedBolder {
+                            font-weight: bold;
+                        }
+                        .btn-box {
+                            margin: 20px 0;
+                        }
+                    }
+                    .rTableRowHead {
+                        background-color: #FFFFFF;
+                        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+                        border-radius: 4px;
+                        margin-bottom: 15px;
+                        display: table-caption;
+                        .rTableHead {
+                            display: table-cell;
+                            width: 30%;
+                            padding: 20px 0;
+                            padding-right: 16px;
+                            vertical-align: middle;
+                            @include breakpoint($mxw992) {
+                                width: 28%;
+                                padding: 8px 0 12px 3px;
+                                padding-right: 4px;
+                                max-width: 60px;
+                            }
+                        }
+                        .rTableHead {
+                            &:first-child {
+                                border-radius: 4px 0 0 4px;
+                                padding-left: 20px;
+                                font-size: 24px;
+                                width: 25%;
+                                vertical-align: middle;
+                                font-weight: 300;
+                                line-height: 1.2;
+                                @include breakpoint($mxw1000) {
+                                    font-size: 20px;
+                                }
+                            }
+                            &:last-child {
+                                border-radius: 0 4px 4px 0;
+                                width: 12%;
+                                @include breakpoint($mxw992) {
+                                    width: 6%;
+                                }
+                            }
+                        }
+                        .rTableRowMob.rowGry {
+                            background: #F6F6F6;
+                            width: 100%;
+                        }
+                        @include breakpoint($mxw992) {
+                            margin-bottom: 0px;
+                            padding: 10px 10px 7px;
+                            .form-label-group .bootstrap-select>.btn,
+                            .form-label-group .bootstrap-select>.btn-light {
+                                padding: 0px 10px;
+                                height: 30px;
+                                font-size: 12px;
+                                line-height: 2.6;
+                            }
+                            .form-label-group>label {
+                                padding: 6px 10px;
+                                font-size: 13px;
+                                &.form-control-placeholder.changefloat,
+                                &.form-control-placeholder.float {
+                                    padding: 1px 4px;
+                                    font-size: 75%;
+                                }
+                            }
+                            .form-label-group {
+                                input {
+                                    font-size: 13px;
+                                    padding: 3px 10px;
+                                    padding-right: 20px;
+                                }
+                                input:not(:placeholder-shown)~label {
+                                    font-size: 12px;
+                                    // color: #777;
+                                    // background: #fff;
+                                    // border-radius: 0px;
+                                    // display: inline-block;
+                                    // width: auto;
+                                    padding: 1px 4px;
+                                    // margin-left: 7px;
+                                    // margin-top: -10px;
+                                    // border-radius: 5px;
+                                }
+                            }
+                            .form-label-group .dropdown .dropdown-toggle:after {
+                                top: 2px;
+                                right: 7px;
+                            }
+                        }
+                    }
+                }
+                .rTableRow .rTableCell:first-child {
+                    padding-left: 24px;
+                }
+                .rTableRow .rTableCell,
+                .rTableRowHead .rTableHead {
+                    width: 21.33%;
+                }
+                .rTableRow .rTableCell:last-child {
+                    vertical-align: bottom;
+                    width: 15%;
+                }
+                .rTableRow .rTableCell:last-child {
+                    padding-right: 40px;
+                    text-align: right;
+                    @include breakpoint($mxw1000) {
+                        padding-right: 20px;
+                    }
+                }
+                .rTableRowHead .cc-ComBox {
+                    padding-bottom: 0;
+                    padding-top: 0;
+                }
+                .rTableRowHead .cc-ComBox .form-control {
+                    padding: 0;
+                    border: 0;
+                    border-radius: 0;
+                    color: #9B1E26;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                .rTableRowHead .cc-ComBox .form-label-group22,
+                .rTableRowHead .cc-ComBox .form-label-group {
+                    position: relative;
+                    border-bottom: solid 1px #9B1E26;
+                    padding-bottom: 12px;
+                    position: relative;
+                }
+                .rTableRowHead .cc-ComBox .form-label-group22 input {
+                    height: auto;
+                    padding-right: 45px;
+                }
+                .rTableRowHead .cc-ComBox .form-label-group22 input:focus {
+                    outline: none;
+                    box-shadow: none !important;
+                }
+                .rTableHead .cc-ComBox .form-label-group22 input::placeholder {
+                    color: #9B1E26;
+                    opacity: 1;
+                }
+                .rTableHead .cc-ComBox .form-label-group22 input:-ms-input-placeholder {
+                    color: #9B1E26;
+                }
+                .rTableHead .cc-ComBox .form-label-group22 input::-ms-input-placeholder {
+                    color: #9B1E26;
+                }
+                .cc-ComBox {
+                    box-shadow: none;
+                }
+                @include breakpoint($mxw992) {
+                    overflow: auto;
+                    // padding-right: 12px;
+                    .rTableRowHead .rTableHead:first-child,
+                    .rTableRow .rTableCell:first-child {
+                        display: none;
+                    }
+                    .rTableCell,
+                    .rTableCell .colorRed {
+                        font-size: 14px !important;
+                    }
+                    .rTableRow.rTableRowShow.rTableRowShowBox {
+                        background: #fff;
+                    }
+                    .rTableRow .rTableCell,
+                    .rTableRowHead .rTableHead {
+                        width: 26.5%;
+                    }
+                    .rTableRowHead .rTableHead {
+                        border-radius: 8px;
+                    }
+                    .rTableRow.rTableRowShow {
+                        display: none;
+                    }
+                    .rTableRow.rTableRowShow.rTableRowShowBox {
+                        display: table-row;
+                    }
+                    .rTableRow.rowGry .rTableRowMob {
+                        border-bottom: 4px solid #fff;
+                        @include breakpoint($mxw992) {
+                            width: 100%;
+                            border-bottom: 1px solid $c-white;
+                            background: #F6F6F6;
+                        }
+                    }
+                    .rtableShowScroll {
+                        height: 85px;
+                        width: 100%;
+                    }
+                    // .rTableRowHead {
+                    //     // position: absolute;
+                    //     // width: calc(100% - 24px);
+                    // }
+                }
+            }
+        }
+    }
+}
+
+.rTableRowMob {
+    padding-left: 40px;
+    color: #54565B;
+}
+
+.rTableRowMob::before {
+    content: '';
+    background: url(../images/cc-plus.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.rTableRow2Minus .rTableRowMob::before {
+    background: url(../images/cc-mins.png) no-repeat;
+}
+
+.cc-closeBtn {
+    background: url(../images/cc-product/close-btn.png) no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.cc-Saving {
+    position: relative;
+    padding-right: 0;
+    color: #54565B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cc-Saving a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/svg/toolIcon.svg) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 3px;
+    margin-left: 0px;
+    @include breakpoint($mxw425) {
+        display: none;
+    }
+}
+
+.cc-totalAmount {
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+}
+
+.cc-totalAmount strong {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #9B1E26;
+}
+
+.cc-totalAmountTxt {
+    float: right;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    padding-right: 20px;
+    @include breakpoint($mxw1000) {
+        padding-right: 0px;
+    }
+}
+
+.cc-totalAmountTxt strong {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #9B1E26;
+}
+
+.rTableRowTotal {
+    width: 100%;
+    background: $c-white;
+    padding: 23px 20px 13px;
+    border-radius: 4px;
+    @include breakpoint($mxw992) {
+        background: #F6F6F6;
+    }
+}
+
+.rTableRowTotal .btn-box {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.cc-ComBoxMob {
+    display: none;
+}
+
+.rTableRowMob {
+    display: none;
+}
+
+.cc-boxes4MainMob.form-details {
+    display: none;
+}
+
+.rTableCell22 {
+    float: right;
+    margin-right: 40px;
+}
+
+.rTableRow2Minus .rTableCell22 {
+    display: none;
+}
+
+.personalizePup .btn-box {
+    display: none;
+}
+
+.cc-note {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #686873;
+    line-height: 16px;
+    margin-top: 15px;
+    padding-left: 12px;
+    @include breakpoint($mxw992) {
+        font-size: 12px;
+        padding: 24px 15px;
+        background: $c-white;
+        margin-top: 0px;
+    }
+}
+
+.cc-note1 {
+    display: none;
+}
+
+@include breakpoint($mxw992) {
+    .cc-boxes4Txt p {
+        position: relative;
+        width: 100%;
+    }
+    .cc-sectionTxt {
+        width: 100%;
+    }
+    .cc-sectionimg {
+        float: none;
+        margin: auto;
+        max-width: 400px;
+        width: 100%;
+    }
+    .cc-sectionimg .atmcard img {
+        width: 38px;
+        height: auto;
+    }
+    .cc-sectionimg .imgContainer>img {
+        width: 100%;
+        height: auto;
+    }
+    .cc-product-landing .accordian .tog_cont ul li:nth-child(2) .accTxtBox {
+        border-right: 0;
+    }
+    .cc-proBanner .banner-ctnt .btn-box.MT30 {
+        margin-top: 20px;
+    }
+    .cc-forum {
+        display: none;
+        width: 100%;
+    }
+    .cc-forumLayer {
+        display: none;
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999998;
+    }
+    .rTableRow2 {
+        position: relative;
+        height: 40px;
+    }
+    .rTableRowMob {
+        height: 40px;
+        display: block;
+        font-size: 14px;
+        position: absolute;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+    .rTableRow.rowGry {
+        background: #fff;
+    }
+    .comapreBoxMain .container {
+        padding: 0;
+    }
+    .rTableRowHead .rTableHead {
+        padding: 0 0 5px;
+    }
+    .section-wrapper2 {
+        height: auto;
+    }
+    .section-wrapper2 .cc-sectionBox {
+        position: static;
+        height: auto;
+    }
+    .section-wrapper2 .cc-sectionBox:not(:first-child) {
+        display: flex;
+    }
+    .cc-sectionBox .container {
+        display: block;
+    }
+    .cc-sectionTxt {
+        float: none;
+    }
+    .cc-sectionimg {
+        bottom: auto;
+        float: none;
+    }
+    .cc-sectionimg .imgContainer {
+        margin-top: 0;
+        height: auto;
+    }
+    .cc-sectionBox {
+        height: auto;
+    }
+    .perImg1 {
+        top: 20%;
+    }
+    .cc-sectionBox {
+        padding-top: 50px;
+    }
+    .atmcash {
+        bottom: auto;
+        top: 207px;
+    }
+    .atmcard {
+        top: 136px;
+        bottom: auto;
+    }
+    .cc-product-landing #faqs .container {
+        padding: 0;
+    }
+    .cc-product-landing .accordian .tog_cont {
+        padding: 20px 10px;
+    }
+    .cc-product-landing .accordian .tog_cont .accTxtBox {
+        padding-left: 10px;
+    }
+    .cc-boxes4Txt {
+        width: 100%;
+    }
+    .cc-boxes4 {
+        height: 220px;
+        padding-top: 10px;
+    }
+    .cc-boxes4Txt p {
+        line-height: normal;
+        padding-top: 10px;
+    }
+    .stickyTopClas .cc-boxes4 {
+        padding: 5px 10px;
+    }
+    .unclockBox {
+        background-size: 200%;
+    }
+    .personalizePup .btn-box {
+        display: block;
+    }
+    .cc-product-landing .cc-proBanner .container,
+    .cc-sectionBox .container {
+        padding: 0 20px;
+    }
+    .rTableCell22 {
+        margin-right: 20px;
+    }
+    .stickyTopClasComp .cc-compareTable .rTableRowHead {
+        position: fixed;
+        width: calc(100% - 24px);
+        z-index: 9999;
+        top: 61px;
+        border-radius: 0 0 8px 8px;
+    }
+    .stickyTopClasComp .cc-compareTable .rTableRowHead .rTableHead {
+        padding: 0 5px;
+    }
+    .stickyTopClasComp .cc-compareTable .rTableRowHead .rTableHead:last-child {
+        padding-right: 20px;
+    }
+    .stickyTopClas .cc-boxes4 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .accTxtBox {
+        padding-right: 20px;
+    }
+    .cc-product-landing .accordian .tog_cont ul li:nth-child(2) .accTxtBox {
+        border-right: solid 1px #DBDBDE;
+    }
+    .cc-product-landing .accordian .tog_cont .accTxtBox {
+        padding-left: 0;
+    }
+    .cc-sectionimg .stars {
+        width: 180px;
+        margin-left: -90px;
+        top: 200px;
+    }
+    .atmcash {
+        right: 214px;
+        top: 173px;
+    }
+    .atmcard {
+        top: 105px;
+        right: 164px;
+    }
+}
+
+.interest-benefits-bx {
+    background-image: linear-gradient(134deg, #C4777D 0%, #9D1D27 91%);
+    border-radius: 9px;
+    display: flex;
+    ul {
+        padding: 60px 0 60px 30px;
+        margin-right: -60px;
+        li {
+            font-size: 24px;
+            font-weight: 300;
+            color: $c-white;
+            line-height: 1.2;
+            margin-bottom: 60px;
+            @include breakpoint($mxw768) {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            span {
+                width: 54px;
+                height: 54px;
+                flex: 0 0 54px;
+                @include breakpoint($mxw768) {
+                    width: 40px;
+                    height: 40px;
+                    flex: 0 0 40px;
+                }
+            }
+        }
+    }
+    figure {
+        margin-bottom: 0px;
+        @include breakpoint($mxw768) {
+            img {
+                width: 100px;
+            }
+        }
+    }
+    @include breakpoint($mxw992) {
+        margin: 40px 0;
+    }
+}
+
+.ab-interst-sec {
+    .loan-cal {
+        margin-right: 0;
+        margin-left: 70px;
+        margin-bottom: 40px;
+        @include breakpoint($mxw992) {
+            margin-left: 0px;
+            .txt-center-mob {
+                text-align: center;
+            }
+        }
+    }
+    .cal-notes {
+        font-size: 16px;
+        font-weight: 400;
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            color: $c-red;
+        }
+    }
+}

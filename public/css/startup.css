@@ -1,0 +1,288 @@
+/*startup banner*/
+@media (min-width: 1200px) {
+    .startup .container {
+      max-width: 1240px;
+    }
+  }
+  
+  .product-banner.startup .list-item li {
+    font-size: 14px;
+    color: #54565B;
+  }
+  
+  .product-banner.startup .list-item li span {
+    width: 64px;
+    height: 64px;
+    -ms-flex: 0 0 64px;
+        flex: 0 0 64px;
+  }
+  
+  .product-banner.startup .startup-banner-middle {
+    position: absolute;
+    left: 50%;
+    margin-left: -295px;
+    bottom: 0;
+    width: 340px;
+  }
+  
+  .product-banner.startup .startup-banner-middle img {
+    width: 100%;
+  }
+  
+  .product-banner.startup .btn-box .btn-white.op1 {
+    color: #9D1D27;
+  }
+  
+  .product-banner.startup .hd1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.31px;
+  }
+  
+  .product-banner.startup .banner-btm2 {
+    display: none;
+  }
+  
+  .product-banner.startup .banner-wrapper .banner-ctnt .row {
+    -ms-flex-align: start;
+        align-items: flex-start;
+  }
+  
+  @media (max-width: 1024px) {
+    .product-banner.startup .startup-banner-middle {
+      display: none;
+    }
+    .product-banner.startup .list-item li {
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .product-banner.startup .banner-ctnt {
+      top: 20%;
+    }
+    .product-banner.startup .banner-ctnt .row {
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+    }
+    .product-banner.startup .banner-ctnt .col {
+      display: none;
+    }
+    .product-banner.startup .banner-ctnt .hd1 {
+      margin-top: 10px;
+    }
+    .product-banner.startup .banner-btm2 {
+      display: block;
+      padding-top: 20px;
+    }
+    .product-banner.startup .banner-btm2 .list-item li {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+      font-size: 14px;
+    }
+    .product-banner.startup .banner-btm2 .list-item li span {
+      box-shadow: 0 0 4px 0 rgba(84, 86, 91, 0.16);
+      width: 48px;
+      height: 48px;
+      -ms-flex: 0 0 48px;
+          flex: 0 0 48px;
+    }
+    .product-banner.startup .banner-btm2 .f16br strong, .product-banner.startup .banner-btm2 .fastag-tandc .read-more strong, .fastag-tandc .product-banner.startup .banner-btm2 .read-more strong, .product-banner.startup .banner-btm2 .payment-card .more-txt a strong, .payment-card .more-txt .product-banner.startup .banner-btm2 a strong {
+      font-weight: 600;
+      color: #9D1D27;
+    }
+    .product-banner.startup .banner-btm2 .f16br.act .icon-Down:before, .product-banner.startup .banner-btm2 .fastag-tandc .act.read-more .icon-Down:before, .fastag-tandc .product-banner.startup .banner-btm2 .act.read-more .icon-Down:before, .product-banner.startup .banner-btm2 .payment-card .more-txt a.act .icon-Down:before, .payment-card .more-txt .product-banner.startup .banner-btm2 a.act .icon-Down:before {
+      content: "\e903";
+    }
+    .product-banner.startup .banner-btm2 .f16br .icon-Down:before, .product-banner.startup .banner-btm2 .fastag-tandc .read-more .icon-Down:before, .fastag-tandc .product-banner.startup .banner-btm2 .read-more .icon-Down:before, .product-banner.startup .banner-btm2 .payment-card .more-txt a .icon-Down:before, .payment-card .more-txt .product-banner.startup .banner-btm2 a .icon-Down:before {
+      color: #9D1D27;
+      font-weight: 700;
+    }
+    .product-banner.startup .list-item.f3 li:nth-of-type(1n+4) {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .product-banner.startup .banner-ctnt {
+      top: 24px;
+    }
+    .product-banner.startup .banner-ctnt .logo-n1 {
+      width: 74px;
+      height: auto;
+    }
+    .product-banner.startup .banner-ctnt .presenting {
+      font-size: 12px;
+    }
+    .product-banner.startup .banner-ctnt .hd1 {
+      font-size: 20px;
+      letter-spacing: -.5px;
+      margin-top: 0;
+    }
+    .product-banner.startup .banner-ctnt .btn-box.MT20 {
+      margin-top: 12px;
+    }
+    .product-banner.startup .banner-btm2 {
+      display: block;
+      padding-top: 20px;
+    }
+    .product-banner.startup .banner-btm2 .list-item li {
+      font-size: 14px;
+    }
+    .product-banner.startup .banner-btm2 .list-item li span {
+      box-shadow: 0 0 4px 0 rgba(84, 86, 91, 0.16);
+      width: 48px;
+      height: 48px;
+      -ms-flex: 0 0 48px;
+          flex: 0 0 48px;
+    }
+    .product-banner.startup .banner-btm2 .f16br strong, .product-banner.startup .banner-btm2 .fastag-tandc .read-more strong, .fastag-tandc .product-banner.startup .banner-btm2 .read-more strong, .product-banner.startup .banner-btm2 .payment-card .more-txt a strong, .payment-card .more-txt .product-banner.startup .banner-btm2 a strong {
+      font-weight: 600;
+      color: #9D1D27;
+    }
+    .product-banner.startup .banner-btm2 .f16br.act .icon-Down:before, .product-banner.startup .banner-btm2 .fastag-tandc .act.read-more .icon-Down:before, .fastag-tandc .product-banner.startup .banner-btm2 .act.read-more .icon-Down:before, .product-banner.startup .banner-btm2 .payment-card .more-txt a.act .icon-Down:before, .payment-card .more-txt .product-banner.startup .banner-btm2 a.act .icon-Down:before {
+      content: "\e903";
+    }
+    .product-banner.startup .banner-btm2 .f16br .icon-Down:before, .product-banner.startup .banner-btm2 .fastag-tandc .read-more .icon-Down:before, .fastag-tandc .product-banner.startup .banner-btm2 .read-more .icon-Down:before, .product-banner.startup .banner-btm2 .payment-card .more-txt a .icon-Down:before, .payment-card .more-txt .product-banner.startup .banner-btm2 a .icon-Down:before {
+      color: #9D1D27;
+      font-weight: 700;
+    }
+    .product-banner.startup .list-item.f3 li:nth-of-type(1n+4) {
+      display: none;
+    }
+  }
+  
+  .presenting {
+    color: #54565B;
+    padding: 5px 0;
+  }
+  
+  /*startup banner end*/
+  .startup-overview {
+    background: #f3f3f3;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .startup-overview .hd2 {
+    color: #25243B;
+    font-weight: 400;
+  }
+  
+  .startup-acctount {
+    background: #ab615f;
+    background-image: linear-gradient(-42deg, #AB615F 0%, #F4D8CF 87%);
+    padding: 50px 0;
+    position: relative;
+  }
+  
+  .startup-acctount::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 20%;
+    background: #FFFFFF;
+  }
+  
+  .startup-acctount .new-comp {
+    background: none;
+    padding: 0;
+  }
+  
+  .startup-acctount .new-comp .whiteBx .ltCol .nav a {
+    padding: 20px 30px;
+  }
+  
+  .startup-acctount .new-comp .whiteBx .ltCol .nav li {
+    font-size: 16px;
+  }
+  
+  .startup-acctount .new-comp .sec-ctnt .seclt {
+    width: 465px;
+    padding-right: 20px;
+  }
+  
+  .startup-acctount .new-comp .whiteBx .rtCol {
+    min-height: 790px;
+  }
+  
+  .startup-acctount .new-comp .sec-ctnt {
+    -ms-flex-align: start;
+        align-items: flex-start;
+  }
+  
+  .startup-acctount .new-comp .sec-ctnt figure {
+    margin-top: 50px;
+  }
+  
+  .startup-acctount .hd5 {
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .startup-acctount .hdr {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .startup-acctount ul.with-circle.op1 {
+    padding: 5px 0;
+  }
+  
+  .startup-acctount ul.with-circle.op1 li {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 767px) {
+    .startup-acctount::before {
+      content: none;
+    }
+  }
+  
+  .faqs-bx.bg-none {
+    background: none;
+  }
+  
+  .startup-blog {
+    background: #f3f3f3;
+    padding: 60px 0;
+  }
+  
+  .service-block.op1 .sr-block {
+    padding: 0;
+  }
+  
+  .service-block.op1 .sr-block a {
+    padding: 50px;
+    display: block;
+  }
+  
+  .service-block.op1 .sr-block .f14br, .service-block.op1 .sr-block .product-banner .hero-know-more, .product-banner .service-block.op1 .sr-block .hero-know-more {
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+  }
+  
+  @media (max-width: 767px) {
+    .service-block.op1 .sr-block {
+      min-height: inherit;
+      background: url(../images/startup/fees-mob.png) no-repeat 0 0/cover !important;
+    }
+    .service-block.op1 .sr-block a {
+      padding: 20px;
+    }
+    .service-block.op1 .sr-block .hd {
+      font-size: 20px;
+      line-height: 26px;
+      letter-spacing: -.5px;
+    }
+    .service-block.op1 .sr-block .f14br, .service-block.op1 .sr-block .product-banner .hero-know-more, .product-banner .service-block.op1 .sr-block .hero-know-more {
+      font-size: 14px;
+    }
+  }
+  

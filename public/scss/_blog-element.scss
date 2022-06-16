@@ -1,0 +1,101 @@
+/*Blog Learn. Plan. Save. element*/
+.card-box {
+  &.op2 {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    color: $very-light-pink;
+    border-radius: 3px;
+  }
+}
+
+.blog-card {
+  display: flex;
+  position: relative;
+
+  @include breakpoint($mxw992) {
+    flex-direction: column;
+  }
+
+  .blog-img {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    margin: -160px 0 0 -90px;
+    width: 240px;
+    img{
+      width: 100%;
+    }
+
+    @include breakpoint($mxw992) {
+      position: inherit;
+      left: auto;
+      top: auto;
+      margin: -190px 0 0 30px;
+    }
+
+    @include breakpoint($mxw768) {
+      margin: 0 auto;
+      margin-top: -190px;
+    }
+  }
+
+  .card-left {
+    padding: 55px 45px 35px 190px;
+    border-right: 1px solid rgba($c-black, .2);
+
+    @include breakpoint($mxw1000) {
+      padding: 35px 45px 35px 190px;
+    }
+
+    @include breakpoint($mxw992) {
+      padding: 30px;
+      border-right: 0;
+    }
+
+    .hd {
+      @include breakpoint($mxw1000) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .card-right {
+    padding: 50px 24px 0 50px;
+
+    @include breakpoint($mxw1000) {
+      padding: 35px 24px 0 50px;
+      display: flex;
+      align-items: center;
+    }
+
+    @include breakpoint($mxw992) {
+      padding: 30px 30px 0 30px;
+      border-top: 1px solid $grey-200;
+    }
+  }
+}
+
+
+.blog-card-wrapper {
+  padding-bottom: 4px;
+
+  @include breakpoint($mxw992) {
+    margin-top: 200px;
+  }
+
+  .list-img {
+    @include breakpoint($mxw992) {
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        width: 50%;
+
+        @include breakpoint($mxw768) {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+/*Blog element end*/
