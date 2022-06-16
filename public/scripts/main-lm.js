@@ -156,6 +156,7 @@ $(document).ready(function() {
         dots: true,
         loop: false,
         margin: 15,
+        lazyLoad: true,
         navText: ["<span class='icon-Left'></span>", "<span class='icon-Right'></span>"],
         responsive: {
             0: {
