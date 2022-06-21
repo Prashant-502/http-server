@@ -82,6 +82,7 @@
         smartSpeed: 2000,
         dots: true,
         loop: true,
+        lazyLoad: true,
         responsive: {
             0:{
                 items:1
