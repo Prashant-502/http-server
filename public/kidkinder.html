@@ -47,7 +47,21 @@
     </script>
     <!-- End Google Tag Manager -->
     <!-- Meta Pixel Code -->
-    <script>
+    <script type="text/partytown">
+      resolveUrl = {
+        function(url) {
+          if (url.hostname === "connect.facebook.net") {
+            var proxyUrl = new URL("https://my-reverse-proxy.com/");
+            proxyUrl.searchParams.append("url", url.href);
+            return proxyUrl;
+          }
+          return;
+          url;
+        },
+        forward: ["fbq"],
+      };
+    </script>
+    <script type="text/partytown">
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function () {
