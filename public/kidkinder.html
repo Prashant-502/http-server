@@ -47,6 +47,30 @@
     </script>
     <!-- End Google Tag Manager -->
     <!-- Meta Pixel Code -->
+    <script>
+      var partytown = {
+        lib: "/ui/build/partytown/",
+        forward: ["dataLayer.push", "fbq"],
+        resolveUrl(url, location) {
+          if (
+            url.hostname.includes("google-analytics") ||
+            url.hostname.includes("connect.facebook.net")
+          ) {
+            const proxyUrl = new URL(
+              self.location.origin + "/api/proxy-api/getexternal"
+            );
+            console.log("proxyUrl", proxyUrl);
+            console.log("url.href", url.href);
+            console.log("url", url);
+
+            proxyUrl.searchParams.append("url", url.href);
+            return proxyUrl;
+          }
+          return url;
+        },
+        debug: true,
+      };
+    </script>
     <script type="text/partytown">
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
