@@ -46,6 +46,19 @@
       })(window, document, "script", "dataLayer", "GTM-5JWT37C");
     </script>
     <!-- End Google Tag Manager -->
+    <script>
+      partytown = {
+        resolveUrl(url) {
+          if (url.hostname === "connect.facebook.net") {
+            var proxyUrl = new URL("https://cdn.builder.io/api/v1/proxy-api");
+            proxyUrl.searchParams.append("url", url.href);
+            return proxyUrl;
+          }
+          return url;
+        },
+        forward: ["dataLayer.push", "fbq"],
+      };
+    </script>
 
     <script type="text/partytown">
       partytown = {
