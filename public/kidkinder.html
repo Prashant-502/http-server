@@ -49,7 +49,7 @@
     <script>
       partytown = {
         resolveUrl(url) {
-          if (url.hostname === " connect.facebook.net/en_US/fbevents.js") {
+          if (url.hostname === " connect.facebook.net") {
             var proxyUrl = new URL("https://cdn.builder.io/api/v1/proxy-api");
             proxyUrl.searchParams.append("url", url.href);
             return proxyUrl;
