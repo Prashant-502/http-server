@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/video-html/image 7.png" rel="icon" />
     <title>Video</title>
     <style>
         @font-face {
@@ -317,15 +318,9 @@
     <script src="js/video-html/slick.min.js" defer></script>
     <script src="js/video-html/lazysizes.min.js" defer></script>
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62499bc8bf1ff50019da8de6&product=inline-share-buttons" defer></script>
-    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
     <script>
         (function($) {
-            $(document).ready(function() {
-                // Lazzy LOad initiate
-                // const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-                // observer.observe();
-                //End Lazzy load initiate
-                
+            $(document).ready(function() {                
                 if ($(window).width() < 768) {
                     $('.carousel').slick({
                         infinite: true,
@@ -345,8 +340,8 @@
                         slidesToShow: 4,
                         slidesToScroll: 1,
                         arrows: true,
-                        prevArrow: "<button type='button' class='slick-prev '><img src='img/video-html/prev.svg'></button>",
-                        nextArrow: "<button type='button' class='slick-next '><img src='img/video-html/next.svg'></button>"
+                        prevArrow: "<button type='button' class='slick-prev'><img src='img/video-html/prev.svg'></button>",
+                        nextArrow: "<button type='button' class='slick-next'><img src='img/video-html/next.svg'></button>"
                     });
                 }
             });
