@@ -2886,11 +2886,21 @@
 
     <!-- bower:js -->
 
-    <script src="scripts/jquery-3.6.0.js"></script>
+    <script src="scripts/jquery-3.6.0.js" defer></script>
 
-    <script src="scripts/vendor.js"></script>
+    <script src="scripts/vendor.js" defer></script>
 
-    <script src="scripts/main-lm.js"></script>
+    <script src="scripts/main-lm.js" defer></script>
+
+    <script>
+      //   Testimonial START
+      var initInterval = setInterval(function () {
+        if (window.jQuery) {
+          clearInterval(initInterval);
+         // where init is the entry point for your code execution
+        }
+      }, 20);
+    </script>
 
     <!-- <script src="./~partytown/partytown.js"></script> -->
 
